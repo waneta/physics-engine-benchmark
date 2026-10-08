@@ -1,0 +1,10 @@
+version: 1
+modules:
+  - id: example-module
+    path: src/example
+    owner_role: app-agent
+    responsibility:
+      - replace-with-real-responsibility
+    editable: true
+    notes:
+      - replace-with-real-notes

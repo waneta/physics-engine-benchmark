@@ -1,0 +1,4 @@
+﻿# Local external repository clones (do not commit)
+references/*
+!references/README.md
+

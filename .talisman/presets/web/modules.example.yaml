@@ -1,0 +1,26 @@
+version: 1
+modules:
+  - id: web-ui
+    path: src/components
+    owner_role: frontend-agent
+    responsibility:
+      - 组件
+      - 页面局部交互
+  - id: web-pages
+    path: src/pages
+    owner_role: frontend-agent
+    responsibility:
+      - 路由页面
+      - 页面装配
+  - id: data-access
+    path: src/api
+    owner_role: frontend-agent
+    responsibility:
+      - API client
+      - 数据请求与错误处理
+  - id: web-tests
+    path: tests
+    owner_role: test-agent
+    responsibility:
+      - 单元测试
+      - e2e 测试

@@ -1,0 +1,27 @@
+version: 1
+modules:
+  - id: api-layer
+    path: src/main/java/com/example/api
+    owner_role: backend-agent
+    responsibility:
+      - controller
+      - dto
+      - request validation
+  - id: domain-layer
+    path: src/main/java/com/example/domain
+    owner_role: backend-agent
+    responsibility:
+      - domain model
+      - business rule
+  - id: infra-layer
+    path: src/main/java/com/example/infra
+    owner_role: backend-agent
+    responsibility:
+      - repository
+      - external client
+  - id: tests
+    path: src/test/java
+    owner_role: test-agent
+    responsibility:
+      - unit tests
+      - integration tests

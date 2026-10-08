@@ -1,0 +1,6 @@
+version: 1
+dependencies:
+  - from: example.task.bootstrap
+    to: example-module
+    type: hard
+    note: 模板初始化后才能开始具体模块任务

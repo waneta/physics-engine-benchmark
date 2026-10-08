@@ -1,0 +1,7 @@
+version: 1
+ready_queue:
+  - task_id: example.task.bootstrap
+    priority: high
+    retry_count: 0
+approval_required: []
+blocked_queue: []

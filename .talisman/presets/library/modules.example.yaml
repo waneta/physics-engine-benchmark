@@ -1,0 +1,26 @@
+version: 1
+modules:
+  - id: public-api
+    path: src/public
+    owner_role: library-agent
+    responsibility:
+      - 公共 API
+      - 向后兼容边界
+  - id: core-implementation
+    path: src/core
+    owner_role: library-agent
+    responsibility:
+      - 核心实现
+      - 性能与正确性
+  - id: adapters
+    path: src/adapters
+    owner_role: library-agent
+    responsibility:
+      - 平台适配
+      - 第三方集成
+  - id: tests-and-samples
+    path: tests
+    owner_role: test-agent
+    responsibility:
+      - 回归测试
+      - 示例验证

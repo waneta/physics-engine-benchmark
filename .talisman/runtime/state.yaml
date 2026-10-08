@@ -1,0 +1,13 @@
+version: 1
+project_status: discovery
+focus:
+  - 明确允许修改目录
+  - 补齐首批任务
+active_tasks: []
+blocked_tasks: []
+next_actions:
+  - 填写 docs/PRD.md
+  - 填写 docs/RULES.md
+  - 选择首个 ready 任务
+last_updated_by: human
+last_updated_at: YYYY-MM-DDTHH:MM:SSZ

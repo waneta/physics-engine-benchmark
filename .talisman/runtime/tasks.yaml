@@ -1,0 +1,8 @@
+version: 1
+background_tasks:
+  - task_run_id: sample-run-001
+    source_task_id: example.task.bootstrap
+    status: queued
+    summary: 示例后台任务账本
+    started_at: null
+    finished_at: null

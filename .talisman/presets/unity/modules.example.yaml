@@ -1,0 +1,26 @@
+version: 1
+modules:
+  - id: unity-client
+    path: Assets/Scripts
+    owner_role: unity-agent
+    responsibility:
+      - 客户端逻辑
+      - UI 与交互接线
+  - id: unity-editor-tooling
+    path: Assets/Editor
+    owner_role: unity-agent
+    responsibility:
+      - 编辑器工具
+      - 导入导出工具
+  - id: native-bridge
+    path: Assets/Plugins
+    owner_role: engine-agent
+    responsibility:
+      - 原生插件桥接
+      - 平台差异处理
+  - id: unity-tests
+    path: Assets/Tests
+    owner_role: test-agent
+    responsibility:
+      - EditMode 测试
+      - PlayMode 测试

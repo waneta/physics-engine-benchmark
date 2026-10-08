@@ -1,0 +1,22 @@
+version: 1
+project:
+  id: replace-with-project-id
+  name: replace-with-project-name
+tasks:
+  - id: example.task.bootstrap
+    title: 初始化项目控制面
+    kind: docs
+    owner_role: architect-agent
+    status: ready
+    risk: low
+    depends_on: []
+    inputs:
+      - .talisman/docs/PRD.md
+      - .talisman/docs/ARCH.md
+    outputs:
+      - .talisman/spec/tasks.yaml
+      - .talisman/runtime/state.yaml
+    acceptance:
+      - 最小模板已填充
+      - 允许修改目录已定义
+      - 首批任务可进入执行
