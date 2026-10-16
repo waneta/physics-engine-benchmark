@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "physics-engine-benchmark"
+version = "0.1.0"
+description = "Reproducible rigid-body physics baselines"
+requires-python = ">=3.11"
+dependencies = ["mujoco>=3.3,<4", "numpy>=2,<3", "matplotlib>=3.9,<4"]
+
+[project.scripts]
+physics-bench = "physics_benchmark.cli:main"
+physics-bench-extended = "physics_benchmark.extended.suite:main"
+
+[dependency-groups]
+dev = ["pytest>=8,<10", "ruff>=0.11"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/physics_benchmark"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100

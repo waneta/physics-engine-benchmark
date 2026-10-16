@@ -1,22 +1,190 @@
 version: 1
 project:
-  id: replace-with-project-id
-  name: replace-with-project-name
+  id: physics-engine-benchmark
+  name: 机器人仿真物理引擎对比
 tasks:
-  - id: example.task.bootstrap
-    title: 初始化项目控制面
-    kind: docs
-    owner_role: architect-agent
-    status: ready
-    risk: low
-    depends_on: []
-    inputs:
-      - .talisman/docs/PRD.md
-      - .talisman/docs/ARCH.md
-    outputs:
-      - .talisman/spec/tasks.yaml
-      - .talisman/runtime/state.yaml
-    acceptance:
-      - 最小模板已填充
-      - 允许修改目录已定义
-      - 首批任务可进入执行
+- id: benchmark.single_drop
+  title: task04 四引擎立方体下落碰撞静置、有界面与无界面及双语汇总
+  kind: code
+  owner_role: developer
+  status: done
+  risk: medium
+  depends_on:
+  - benchmark.single_slide_rerun_20261010
+  inputs:
+  - 用户第4条请求：继续立方体下落碰撞静置
+  - configs/baseline.json
+  outputs:
+  - docs/single-drop.md
+  - docs/validation-task04-drop.md
+  - results/task04-drop-20261010/comparison/report.md
+  - results/task04-drop-20261010/audit.json
+  acceptance:
+  - 四引擎逐个运行，支持有界面和无界面，保存真实采样及失败
+  - 两步长各三重复24组；界面两步长各一次8组及状态核对
+  - 碰撞、回弹、刚体静置、自由落体参考、双语指标统计与曲线
+  - 相关测试、CPU默认18组回归及历史结果保留
+- id: benchmark.single_slide_rerun_20261010
+  title: 重新运行四引擎滑动方块实验
+  kind: experiment
+  owner_role: developer
+  status: done
+  risk: medium
+  depends_on:
+  - benchmark.single_slide_bilingual
+  inputs:
+  - 用户要求重新来一遍单物体滑动方块实验
+  - configs/baseline.json
+  outputs:
+  - docs/validation-task04-rerun-20261010.md
+  - results/task04-slide-rerun-20261010-1818/comparison/report.md
+  - results/task04-slide-rerun-20261010-1818/audit.json
+  acceptance:
+  - 四引擎两步长各三重复真实重新计算，保留旧结果
+  - 界面两步长各一次并与本轮无界面采样核对
+  - 生成中英文汇总、保存命令配置环境和失败记录
+- id: benchmark.single_slide_bilingual
+  title: task04补充：中英文指标、单位与结果汇总
+  kind: code
+  owner_role: developer
+  status: done
+  risk: low
+  depends_on:
+  - benchmark.single_slide
+  inputs:
+  - .talisman/dev_docs/2026-10/task04_单物体实验.md补充信息
+  outputs:
+  - src/physics_benchmark/reporting.py
+  - docs/validation-task04.md
+  - results/task04-slide-20261010/bilingual/
+  acceptance:
+  - 报告、CSV、指标字典、曲线中的指标名称与单位中英文并列
+  - 数值保留原始精度，布尔值和缺失值提供双语说明
+  - 用原24组实测生成新汇总目录，来源数据与历史结果不覆盖
+- id: benchmark.single_slide
+  title: task04 四引擎滑动方块、有界面与无界面及中文对比
+  kind: code
+  owner_role: developer
+  status: done
+  risk: medium
+  depends_on:
+  - benchmark.remaining_engines
+  inputs:
+  - .talisman/dev_docs/2026-10/task04_单物体实验.md
+  outputs:
+  - docs/single-slide.md
+  - src/physics_benchmark/viewer.py
+  - results/task04-slide-20261010/
+  acceptance:
+  - 四引擎可独立选择有界面或无界面且保存真实采样
+  - 两步长各三重复、摩擦与轨迹中文名称及单位、汇总对比
+  - 界面不改变物理计算，保留失败及中断；记录实际环境与限制
+- id: benchmark.deployment_docs
+  title: 四种物理引擎部署文档
+  kind: docs
+  owner_role: developer
+  status: done
+  risk: low
+  depends_on:
+  - benchmark.remaining_engines
+  inputs:
+  - .talisman/dev_docs/2026-10/task03_这四种物理引擎环境部署.md
+  outputs:
+  - docs/deploy-mujoco.md
+  - docs/deploy-mujoco-warp.md
+  - docs/deploy-genesis.md
+  - docs/deploy-physx.md
+  acceptance:
+  - 四份独立文档保存于docs目录
+  - 记录固定依赖、安装及运行命令、已有实测与环境限制
+- id: benchmark.full_experiments
+  title: 完成原文剩余机器人、软体、调参与吞吐实验
+  kind: code
+  owner_role: developer
+  status: ready
+  risk: medium
+  depends_on:
+  - benchmark.remaining_engines
+  inputs:
+  - 用户要求完成全部剩余实验
+  - 原文与公开实验协议
+  outputs:
+  - src/physics_benchmark/extended/
+  - configs/
+  - docs/full-experiments.md
+  acceptance:
+  - 原文各实验类别均有可运行实现和真实运行记录
+  - 统一 Panda 资产、控制器、参数回读和测量验证
+  - 完成软体材料、网格和步长敏感性与失效审计
+  - 调参与预留布局分离，GPU 吞吐预热同步并校验轨迹
+  - 完整报告明确已验证、数值失败和实现差异
+- id: benchmark.remaining_engines
+  title: task02 MuJoCo-Warp、Genesis、PhysX 适配与实测
+  kind: code
+  owner_role: developer
+  status: done
+  risk: medium
+  depends_on:
+  - benchmark.cpu_baseline
+  inputs:
+  - .talisman/dev_docs/2026-10/task02_继续剩余物理引擎.md
+  outputs:
+  - src/physics_benchmark/backends/
+  - requirements/
+  - scripts/isaac_worker.py
+  - docs/multi-engine.md
+  acceptance:
+  - 三个新引擎运行相同场景、两种步长与独立重复
+  - 回读物理参数并验证接触力/冲量方向与动量一致性
+  - 保存真实失败、依赖版本、实现差异及跨引擎对比报告
+- id: benchmark.graceful_interrupt
+  title: Ctrl+C 保存部分结果并友好退出
+  kind: code
+  owner_role: developer
+  status: done
+  risk: low
+  depends_on:
+  - benchmark.cpu_baseline
+  inputs:
+  - src/physics_benchmark/cli.py
+  outputs:
+  - src/physics_benchmark/cli.py
+  - tests/test_baseline.py
+  acceptance:
+  - 中断保存原始采样和 interrupted 状态，停止后续实验
+  - 生成部分报告，返回 130，不输出 KeyboardInterrupt 堆栈
+- id: benchmark.cpu_baseline
+  title: task01 三个 MuJoCo CPU 基础实验
+  kind: code
+  owner_role: developer
+  status: done
+  risk: low
+  depends_on: []
+  inputs:
+  - .talisman/dev_docs/2026-10/task01_我做这个实验对比.md
+  outputs:
+  - src/physics_benchmark/
+  - configs/baseline.json
+  - docs/benchmark.md
+  acceptance:
+  - 三个场景各两种步长且每组独立重复三次
+  - 导出原始状态、力、冲量、导入参数和软硬件版本
+  - 动量平衡和铰链独立 ODE 参考校验通过
+  - 曲线、指标、失败记录和使用说明可用
+- id: example.task.bootstrap
+  title: 初始化项目控制面
+  kind: docs
+  owner_role: architect-agent
+  status: done
+  risk: low
+  depends_on: []
+  inputs:
+  - .talisman/docs/PRD.md
+  - .talisman/docs/ARCH.md
+  outputs:
+  - .talisman/spec/tasks.yaml
+  - .talisman/runtime/state.yaml
+  acceptance:
+  - 最小模板已填充
+  - 允许修改目录已定义
+  - 首批任务可进入执行

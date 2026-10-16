@@ -1,10 +1,27 @@
 version: 1
 modules:
-  - id: example-module
-    path: src/example
-    owner_role: app-agent
+  - id: extended-experiments
+    path: src/physics_benchmark/extended
+    owner_role: developer
     responsibility:
-      - replace-with-real-responsibility
+      - 统一 Panda 资产、冻结参考、机器人接触任务和四引擎校验
+      - 五条软体路径、网格与步长敏感性、控制器训练及交叉迁移
+      - GPU 吞吐独立计时、恢复记录和完整覆盖报告
+    editable: true
+  - id: multi-engine
+    path: src/physics_benchmark/backends
+    owner_role: developer
+    responsibility:
+      - Warp CUDA、Genesis CUDA、Isaac Sim/PhysX 适配与原生测量
+      - 共享采样语义、参数回读及跨引擎对比
     editable: true
     notes:
-      - replace-with-real-notes
+      - PhysX 工作进程为 scripts/isaac_worker.py；版本锁定在 requirements/
+  - id: cpu-baseline
+    path: src/physics_benchmark
+    owner_role: developer
+    responsibility:
+      - MuJoCo CPU 基础场景、导入校验、逐步采样、指标和报告
+    editable: true
+    notes:
+      - 配置在 configs/baseline.json，原始结果输出到新的 results 子目录

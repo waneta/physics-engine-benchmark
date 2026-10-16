@@ -1,8 +1,63 @@
 version: 1
 background_tasks:
-  - task_run_id: sample-run-001
-    source_task_id: example.task.bootstrap
-    status: queued
-    summary: 示例后台任务账本
-    started_at: null
-    finished_at: null
+- task_run_id: task04-drop-20261010
+  source_task_id: benchmark.single_drop
+  status: done
+  started_at: '2026-10-10T11:04:53.368798+00:00'
+  summary: 24/24无界面、8/8最终界面通过且数据完全一致；显示退出码0，77测试及CPU18组回归通过；1130历史文件保留；双语768明细/256统计，界面诊断保留
+  artifact: results/task04-drop-20261010/comparison/report.md
+  finished_at: '2026-10-10T11:45:08.543018+00:00'
+- task_run_id: task04-slide-rerun-20261010-1818
+  source_task_id: benchmark.single_slide_rerun_20261010
+  status: done
+  started_at: '2026-10-10T10:19:09.736900+00:00'
+  summary: 真实重新计算24/24无界面、8/8界面；534历史文件保留、界面核对通过；PhysX首轮超时与初始化中断已保存；65测试及Ruff通过
+  artifact: results/task04-slide-rerun-20261010-1818/comparison/report.md
+  finished_at: '2026-10-10T10:41:08.895163+00:00'
+- task_run_id: task04-bilingual-20261010
+  source_task_id: benchmark.single_slide_bilingual
+  status: done
+  finished_at: 2026-10-10 09:58:27.573739+00:00
+  summary: 双语报告、指标与单位字典、792条明细及264条统计完成；原始文件与数值校验一致，65项测试及Ruff通过
+  artifact: results/task04-slide-20261010/bilingual/comparison/report.md
+- task_run_id: task04-slide-20261010
+  source_task_id: benchmark.single_slide
+  status: done
+  finished_at: 2026-10-10 07:36:33.307574+00:00
+  summary: 四引擎滑块24/24正式实测、8/8界面核对；65项测试与Ruff通过，中文指标及对比报告完成
+  artifact: docs/validation-task04.md
+- task_run_id: full-recovery-20261009
+  source_task_id: benchmark.full_experiments
+  status: paused
+  started_at: 2026-10-09 10:18:14+00:00
+  summary: 用户要求停止以修改实验；服务inactive/dead，Warp细网格1.5秒部分轨迹保存，剩余任务暂停
+  service: physics-bench-recovery-20261009.service
+  artifact: results/full-recovery-20261009/status.json
+- task_run_id: deployment-docs-20261009
+  source_task_id: benchmark.deployment_docs
+  status: done
+  finished_at: 2026-10-09 10:18:14+00:00
+  summary: 四份部署文档已写入docs，含固定依赖、命令、现有实测与限制；Genesis隔离补跑依赖闭包校验通过
+  artifact: docs/deploy-genesis.md
+- task_run_id: full-experiments-20261008
+  source_task_id: benchmark.full_experiments
+  status: interrupted
+  summary: 2026-10-09 已确认旧进程退出；刚体四引擎各111条记录，PhysX70条运行错误，Genesis3条扫掠错误，调参与软体未补齐；启动新批次修复与验证
+  artifact: results/full-comparison/report.md
+- task_run_id: task02-multi-engine-20261008
+  source_task_id: benchmark.remaining_engines
+  status: done
+  summary: 四引擎 72/72 组、64800 物理步、22 项测试和 Ruff 通过；叠图与参数回读已核查
+  finished_at: 2026-10-08 10:24:39.862377+00:00
+  artifact: docs/validation-task02.md
+- task_run_id: task01-graceful-interrupt-20261008
+  source_task_id: benchmark.graceful_interrupt
+  status: done
+  summary: 17 项测试、18 组正常运行与真实 SIGINT 验证通过
+  finished_at: 2026-10-08 07:34:41.505150+00:00
+- task_run_id: task01-cpu-baseline-20261008
+  source_task_id: benchmark.cpu_baseline
+  status: done
+  summary: 18/18 实验运行、14 项测试和静态检查通过
+  finished_at: 2026-10-08 06:30:51.213112+00:00
+  artifact: docs/validation-2026-10-08.md

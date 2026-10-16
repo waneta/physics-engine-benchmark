@@ -1,0 +1,8 @@
+{
+  "repository": "https://github.com/google-deepmind/mujoco_menagerie",
+  "revision": "822c2d8f877dd166c5b7d3c9f7e3c3b6589473b7",
+  "source_url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/822c2d8f877dd166c5b7d3c9f7e3c3b6589473b7/franka_emika_panda/panda.xml",
+  "sha256": "96ad67da03710f17f798c9478fd9e9efdf24a3bf8359f05e456dd9fb158ea273",
+  "license": "Apache-2.0",
+  "adaptation": "Preserve body inertials; use analytic finger pads and fixtures. Disable native drives, arm limits and non-pad robot collision."
+}

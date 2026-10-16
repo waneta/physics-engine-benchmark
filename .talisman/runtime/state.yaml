@@ -1,13 +1,44 @@
 version: 1
-project_status: discovery
+project_status: task04_drop_complete_full_experiments_paused
 focus:
-  - 明确允许修改目录
-  - 补齐首批任务
+- 四引擎单物体下落碰撞静置完成，24/24无界面及8/8界面通过
+- 双语指标、独立运行命令、显示清理检查与验收报告已保存
+- 完整扩展补跑继续暂停
 active_tasks: []
+paused_tasks:
+- benchmark.full_experiments
+completed_tasks:
+- benchmark.single_drop
+- benchmark.single_slide_rerun_20261010
+- benchmark.single_slide_bilingual
+- benchmark.single_slide
+- benchmark.deployment_docs
+- benchmark.remaining_engines
+- benchmark.graceful_interrupt
+- example.task.bootstrap
+- benchmark.cpu_baseline
 blocked_tasks: []
 next_actions:
-  - 填写 docs/PRD.md
-  - 填写 docs/RULES.md
-  - 选择首个 ready 任务
-last_updated_by: human
-last_updated_at: YYYY-MM-DDTHH:MM:SSZ
+- 等待用户下一项实验请求；完整扩展补跑保持暂停
+artifacts:
+- results/task04-drop-20261010/comparison/report.md
+- results/task04-drop-20261010/report.md
+- results/task04-drop-20261010/audit.json
+- docs/single-drop.md
+- docs/validation-task04-drop.md
+- results/task04-slide-rerun-20261010-1818/comparison/report.md
+- results/task04-slide-rerun-20261010-1818/audit.json
+- docs/validation-task04-rerun-20261010.md
+- results/task04-slide-20261010/bilingual/comparison/report.md
+- results/task04-slide-20261010/bilingual/export_manifest.json
+- docs/single-slide.md
+- docs/validation-task04.md
+- results/task04-slide-20261010/final/comparison/report.md
+- results/task04-slide-20261010/final/viewer_equivalence.json
+- results/full-recovery-20261009/status.json
+- docs/validation-2026-10-09.md
+- docs/validation-task02.md
+- docs/multi-engine.md
+- results/task02-comparison/report.md
+last_updated_by: codex
+last_updated_at: '2026-10-10T11:45:08.543018+00:00'

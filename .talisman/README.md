@@ -12,7 +12,7 @@
 示例命令：
 
 ```bash
-git clone git@gitlab.datamesh.com:AiCode/talisman_project_LaoTzu.git .talisman
+git clone git@github.com:waneta/talisman_project_LaoTzu.git .talisman
 ```
 
 注意：不要使用原仓库名作为本地目录名，统一使用 `.talisman`，这样可以明确标识 talisman 类型项目，便于长期维护。

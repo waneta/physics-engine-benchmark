@@ -1,4 +1,19 @@
-﻿# Local external repository clones (do not commit)
+# Local external repository clones (do not commit)
 references/*
 !references/README.md
 
+
+.venv*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+results/
+dist/
+*.egg-info/
+
+.cache/
+build/
+
+# Native MuJoCo diagnostic log
+MUJOCO_LOG.TXT

@@ -1,6 +1,10 @@
 version: 1
 dependencies:
-  - from: example.task.bootstrap
-    to: example-module
+  - from: benchmark.remaining_engines
+    to: multi-engine
     type: hard
-    note: 模板初始化后才能开始具体模块任务
+    note: 依赖统一 CPU 场景及独立后端环境，PhysX 复用本地 Isaac Sim 镜像
+  - from: benchmark.cpu_baseline
+    to: cpu-baseline
+    type: hard
+    note: task01 首阶段依赖统一场景与采样实现
