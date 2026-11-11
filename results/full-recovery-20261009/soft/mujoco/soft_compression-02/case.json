@@ -1,0 +1,8 @@
+{
+  "family": "soft_compression",
+  "dt": 5e-05,
+  "refined": false,
+  "duration": 1.5,
+  "repeat": 2,
+  "id": "soft_compression-02"
+}

@@ -1,0 +1,94 @@
+{
+  "engine": "genesis",
+  "engine_version": "1.4.3",
+  "precision": "float64",
+  "device": "cuda:0",
+  "solver": "Newton",
+  "cone": "elliptic",
+  "integrator": "Euler",
+  "substeps": 1,
+  "iterations": 100,
+  "tolerance": 1e-10,
+  "timestep_s": 0.002,
+  "mass_kg": 0.1,
+  "com_local_m": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "inertia_body_kg_m2": [
+    [
+      2.666666666666667e-05,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      2.666666666666667e-05,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      2.666666666666667e-05
+    ]
+  ],
+  "armature": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "damping": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "frictionloss": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "geom_friction": [
+    0.4
+  ],
+  "geom_sol_params": [
+    [
+      0.01,
+      1.0,
+      0.9,
+      0.95,
+      0.001,
+      0.5,
+      2.0
+    ]
+  ],
+  "force_source": "RigidEntity.get_contacts force_a/force_b in world frame after scene.step",
+  "implementation_difference": "Genesis 1.4.3 CUDA float64; explicit zero armature overrides importer default",
+  "initial_qpos": [
+    0.0,
+    0.0,
+    0.02,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "initial_qvel": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "validation": "passed"
+}

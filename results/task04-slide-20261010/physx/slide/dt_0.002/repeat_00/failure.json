@@ -1,0 +1,11 @@
+{
+  "engine": "physx",
+  "scene": "slide",
+  "dt_s": 0.002,
+  "repeat": 0,
+  "status": "failed",
+  "directory": "slide/dt_0.002/repeat_00",
+  "error": "RuntimeError: Isaac worker exited; see /home/datamesh/github_waneta/physics-engine-benchmark/.cache/logs/physics-bench-9065dae8827e.log",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/datamesh/github_waneta/physics-engine-benchmark/src/physics_benchmark/cli.py\", line 249, in run_suite\n    run = simulate_fn(scene, cfg, dt, rows)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/datamesh/github_waneta/physics-engine-benchmark/src/physics_benchmark/backends/physx.py\", line 163, in simulate\n    message = _worker.receive()\n              ^^^^^^^^^^^^^^^^^\n  File \"/home/datamesh/github_waneta/physics-engine-benchmark/src/physics_benchmark/backends/physx.py\", line 94, in receive\n    raise RuntimeError(message[\"error\"])\nRuntimeError: Isaac worker exited; see /home/datamesh/github_waneta/physics-engine-benchmark/.cache/logs/physics-bench-9065dae8827e.log\n",
+  "samples": 300
+}

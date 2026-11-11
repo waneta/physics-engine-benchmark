@@ -1,0 +1,104 @@
+{
+  "numerically_valid": true,
+  "task_success": true,
+  "simulated_seconds": 6.0,
+  "max_fk_error_m": 2.67332380509901e-07,
+  "peak_contact_force_n": 6.775107335334547,
+  "joint_rmse_rad": 0.0028696296006867584,
+  "normalized_squared_arm_effort": 0.018068474857244738,
+  "joint_limit_excess_rad": 0.0,
+  "max_momentum_residual_ns": {
+    "cube": 1.8153586872125665e-05,
+    "lower_cube": 1.0657364346730603e-05
+  },
+  "contact_force_validated": false,
+  "maximum_lift_m": 0.0770607590675354,
+  "minimum_hold_lift_m": 0.07340890169143677,
+  "final_relative_position_m": [
+    0.019230633974075317,
+    1.7534770449856296e-05,
+    0.039988160133361816
+  ],
+  "settled": true,
+  "engine": "mujoco-warp",
+  "case": {
+    "family": "stack",
+    "dt": 0.001,
+    "repeat": 1,
+    "offset": 0.02,
+    "id": "stack-6e24332feb2e",
+    "duration": 6.0
+  },
+  "status": "completed",
+  "error": null,
+  "wall_seconds": 28.047403950000444,
+  "reference_sha256": "3e7151c836dd7ea941f9ea1e733ff2c525c626b63ec293cd2997938bd2aa0030",
+  "samples": 6001,
+  "audit": {
+    "engine": "mujoco-warp",
+    "version": "3.15.0",
+    "precision": "float32",
+    "device": "cuda:0",
+    "contact_capacity": 256,
+    "constraint_capacity": 2048,
+    "five_pose_fk_checks": [
+      {
+        "position_error_m": 1.145596484342093e-07,
+        "rotation_frobenius_error": 3.22866160918913e-07,
+        "joint_error": 4.371139006309477e-08
+      },
+      {
+        "position_error_m": 8.611715818229726e-08,
+        "rotation_frobenius_error": 4.399757310329934e-07,
+        "joint_error": 4.276864373764511e-08
+      },
+      {
+        "position_error_m": 6.50594085271905e-08,
+        "rotation_frobenius_error": 4.539262377427832e-07,
+        "joint_error": 4.465413638854443e-08
+      },
+      {
+        "position_error_m": 8.760864611545571e-08,
+        "rotation_frobenius_error": 4.120823338028509e-07,
+        "joint_error": 1.0714883202922465e-07
+      },
+      {
+        "position_error_m": 1.3246683772116796e-07,
+        "rotation_frobenius_error": 4.4188058711138075e-07,
+        "joint_error": 1.190737126677277e-07
+      }
+    ],
+    "initial_fk_error_m": 1.145596484342093e-07
+  },
+  "provenance": {
+    "source_result": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-rigid-tuning-v3/rigid/mujoco-warp/stack-6e24332feb2e/result.json",
+    "source_sha256": "27ff6eba03973115f997411b8f628a9e13cf3bdf78f6b241d284e6b3d3a87e74",
+    "source_case": {
+      "family": "stack",
+      "dt": 0.001,
+      "repeat": 1,
+      "offset": 0.02,
+      "id": "stack-6e24332feb2e",
+      "duration": 6.0
+    },
+    "source_hashes": {
+      "src/physics_benchmark/extended/model.py": "f1047833f5fbd0f66a3cb0bc2cb29b0485775e11c02a1ce2516ccd5aacfdbdcf",
+      "src/physics_benchmark/extended/suite.py": "6ce5a45b9e2072a63a730ac604012d80dcf184352282cd633b724519539aa73f",
+      "src/physics_benchmark/extended/throughput_kernels.py": "0b938668b085361bfaf3c7e8ca33f2a7f2f9e79dffc58a5f77b4414182fe7ec7",
+      "src/physics_benchmark/extended/metrics.py": "945e0f268458f79d34e971dd434dafdfd32b4f12813e8754cc7b5e87e76d6586",
+      "src/physics_benchmark/extended/report.py": "71528cc65e56dbe3a6d1a337f0048bc51d08eb7b88e46606959b4608c8b7ac18",
+      "src/physics_benchmark/extended/soft_genesis.py": "800de456ee548798293a9d476250cc931d963691393c3dd124336d06b77f6d1c",
+      "src/physics_benchmark/extended/soft_physx.py": "7da92d4a5e2aa60d2329b7f0fa06da3144bf3f15bc77fd91b1619745d5b144c7",
+      "src/physics_benchmark/extended/rigid.py": "a9d3b427d12c6b4dc90a473b77ef692100824bee6b717731dbed689d645ae45a",
+      "src/physics_benchmark/extended/soft_newton_vbd.py": "7074cb51b96d8490dc74d18ccf7b3bce11fc744c23e220a1fb4b74f0d9872b20",
+      "src/physics_benchmark/extended/__init__.py": "a9b86c204193bec5d331a7427b758295f6ab8403cfb92f7f911894ce88b52c92",
+      "src/physics_benchmark/extended/physx.py": "a61884bb3503d7d08c6bb1c834a262b36f9a2eb58f0f5f2c39b881599cabae48",
+      "src/physics_benchmark/extended/soft.py": "5a325787ca738464baa5c684b727bb545266a7b4477dc1c6923157a984cace89",
+      "src/physics_benchmark/extended/throughput.py": "34a4b00e8aaa13d73c7ae3795607ea247bd09d3b946251a56b33dc4d7f2e88a2",
+      "scripts/isaac_extended_worker.py": "9021bdb3908c8da9ca9059b241627216a5477032b9021c1dd8142eb3e6012359",
+      "configs/assets/panda/source.xml": "96ad67da03710f17f798c9478fd9e9efdf24a3bf8359f05e456dd9fb158ea273"
+    },
+    "source_environment": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-rigid-tuning-v3/rigid/mujoco-warp/environment.json",
+    "reuse_note": "Identical physical inputs; retained observation, not an independent rerun."
+  }
+}

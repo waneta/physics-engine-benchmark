@@ -1,0 +1,91 @@
+{
+  "numerically_valid": true,
+  "task_success": true,
+  "simulated_seconds": 5.0,
+  "max_fk_error_m": 6.372916147032632e-07,
+  "peak_contact_force_n": 15.391925110537066,
+  "joint_rmse_rad": 0.010947567061934413,
+  "normalized_squared_arm_effort": 0.024961736338886445,
+  "joint_limit_excess_rad": 0.0,
+  "max_momentum_residual_ns": {
+    "cube0": 7.685786384964655e-08,
+    "cube1": 4.7130396990758325e-08,
+    "cube2": 7.024815746375686e-08
+  },
+  "contact_force_validated": true,
+  "passed_objects": 3,
+  "minimum_progress_m": 0.1780230700969696,
+  "minimum_capped_goal_progress_m": 0.09600001097274746,
+  "engine": "physx",
+  "case": {
+    "id": "train-p1-d1.4-t3-0",
+    "family": "push",
+    "dt": 0.001,
+    "repeat": 0,
+    "phase": "train",
+    "candidate": "p1-d1.4-t3",
+    "kp_scale": 1,
+    "kd_scale": 1.4,
+    "push_duration": 3,
+    "width": 0.09,
+    "rear_y": -0.002,
+    "duration": 5.0
+  },
+  "status": "completed",
+  "error": null,
+  "wall_seconds": 36.14931332299602,
+  "reference_sha256": "7dc2662a0f2b81879bf23f39fb4d192075a42cc1d9f1b87761e0502ac5e6b6bf",
+  "samples": 5001,
+  "audit": {
+    "engine": "physx",
+    "precision": "float32",
+    "solver": "CPU TGS",
+    "import_errors": {
+      "link0": 1.7812252020577013e-09,
+      "link1": 3.46946704699036e-08,
+      "link2": 2.1725296953795104e-08,
+      "link3": 2.384185791015625e-07,
+      "link4": 9.610176050778296e-09,
+      "link5": 3.630876543869732e-09,
+      "link6": 9.050369273455594e-10,
+      "link7": 8.075237284410619e-10,
+      "hand": 6.705522526129215e-10,
+      "left_finger": 9.313225746154785e-10,
+      "right_finger": 9.313225746154785e-10,
+      "cube0": 6.7326864434036e-14,
+      "cube1": 6.7326864434036e-14,
+      "cube2": 6.7326864434036e-14
+    },
+    "contact_force_source": "normal report + friction tensor impulses",
+    "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+    "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+    "five_pose_fk_checks": [
+      {
+        "position_error_m": 2.686734180690209e-07,
+        "rotation_frobenius_error": 1.0633208823910982e-06,
+        "joint_error": 4.371139006309477e-08
+      },
+      {
+        "position_error_m": 1.7397411440113475e-07,
+        "rotation_frobenius_error": 1.419296256208406e-06,
+        "joint_error": 4.276864373764511e-08
+      },
+      {
+        "position_error_m": 3.465519964329644e-07,
+        "rotation_frobenius_error": 1.3428310770648775e-06,
+        "joint_error": 4.465413638854443e-08
+      },
+      {
+        "position_error_m": 2.664225804416276e-07,
+        "rotation_frobenius_error": 1.1782020850202812e-06,
+        "joint_error": 1.0714883202922465e-07
+      },
+      {
+        "position_error_m": 1.196276908088656e-07,
+        "rotation_frobenius_error": 1.2614675506152887e-06,
+        "joint_error": 1.190737126677277e-07
+      }
+    ],
+    "initial_fk_error_m": 2.686734180690209e-07
+  }
+}

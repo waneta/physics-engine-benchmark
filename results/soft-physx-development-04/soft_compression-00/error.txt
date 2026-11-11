@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/src/physics_benchmark/extended/soft.py", line 392, in run
+    verts = sim.step(i)
+            ^^^^^^^^^^^
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/src/physics_benchmark/extended/soft_physx.py", line 71, in step
+    reply = self.worker.receive()
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/src/physics_benchmark/backends/physx.py", line 93, in receive
+    raise RuntimeError(message["error"])
+RuntimeError: Traceback (most recent call last):
+  File "/workspace/scripts/isaac_extended_worker.py", line 433, in <module>
+    view.set_kinematic_targets(
+  File "/workspace/scripts/isaac_extended_worker.py", line 68, in call
+    result = method(
+             ^^^^^^^
+  File "/isaac-sim/extscache/omni.physics.tensors-110.1.13+110.1.2.lx64.r.cp312.u7f4/omni/physics/tensors/api.py", line 3393, in set_kinematic_targets
+    raise Exception("Failed to set rigid body kinematic targets in backend")
+Exception: Failed to set rigid body kinematic targets in backend
+

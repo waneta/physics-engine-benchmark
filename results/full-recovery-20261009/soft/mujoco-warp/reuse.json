@@ -1,0 +1,42 @@
+[
+  {
+    "id": "soft_compression-00",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-soft-v1/soft/mujoco-warp/soft_compression-00/result.json"
+  },
+  {
+    "id": "soft_compression-01",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-soft-v1/soft/mujoco-warp/soft_compression-01/result.json"
+  },
+  {
+    "id": "soft_compression-02",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-soft-v1/soft/mujoco-warp/soft_compression-02/result.json"
+  },
+  {
+    "id": "soft_compression-03",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-soft-v1/soft/mujoco-warp/soft_compression-03/result.json"
+  },
+  {
+    "id": "soft_grasp-04",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-soft-v1/soft/mujoco-warp/soft_grasp-04/result.json"
+  },
+  {
+    "id": "soft_grasp-05",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-soft-v1/soft/mujoco-warp/soft_grasp-05/result.json"
+  },
+  {
+    "id": "soft_grasp-06",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-soft-v1/soft/mujoco-warp/soft_grasp-06/result.json"
+  },
+  {
+    "id": "soft_grasp-07",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-soft-v1/soft/mujoco-warp/soft_grasp-07/result.json"
+  },
+  {
+    "id": "soft_grasp-08",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-soft-v1/soft/mujoco-warp/soft_grasp-08/result.json"
+  },
+  {
+    "id": "soft_grasp-09",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-soft-v1/soft/mujoco-warp/soft_grasp-09/result.json"
+  }
+]

@@ -1,0 +1,33 @@
+Traceback (most recent call last):
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/.venv-genesis/lib/python3.11/site-packages/genesis/utils/misc.py", line 801, in qd_to_torch
+    tensor = value._T_tc if transpose else value._tc
+             ^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute '_T_tc'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/src/physics_benchmark/extended/soft.py", line 161, in run
+    sim=import_module('.soft_'+engine.replace('-','_'),__package__).Simulation(case)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/src/physics_benchmark/extended/soft_genesis.py", line 31, in __init__
+    self.sim.build()
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/.venv-genesis/lib/python3.11/site-packages/genesis/utils/misc.py", line 136, in wrapper
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/.venv-genesis/lib/python3.11/site-packages/genesis/engine/scene.py", line 889, in build
+    self._visualizer.build()
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/.venv-genesis/lib/python3.11/site-packages/genesis/vis/visualizer.py", line 189, in build
+    self._context.build(self._scene)
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/.venv-genesis/lib/python3.11/site-packages/genesis/vis/rasterizer_context.py", line 190, in build
+    self.on_fem()
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/.venv-genesis/lib/python3.11/site-packages/genesis/vis/rasterizer_context.py", line 929, in on_fem
+    vverts_all = qd_to_numpy(vverts_pos, self.rendered_envs_idx, transpose=True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/.venv-genesis/lib/python3.11/site-packages/genesis/utils/misc.py", line 865, in qd_to_numpy
+    array = tensor_to_array(qd_to_torch(value, transpose=transpose))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/.venv-genesis/lib/python3.11/site-packages/genesis/utils/misc.py", line 805, in qd_to_torch
+    tc = value.to_torch(copy=False)
+         ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'to_torch'

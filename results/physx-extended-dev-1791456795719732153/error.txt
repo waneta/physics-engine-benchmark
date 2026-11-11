@@ -1,0 +1,27 @@
+Traceback (most recent call last):
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/src/physics_benchmark/extended/rigid.py", line 173, in run
+    sim={'mujoco':CPU,'mujoco-warp':Warp,'genesis':Genesis,'physx':PhysX}[engine](scene)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/src/physics_benchmark/extended/physx.py", line 34, in __init__
+    reply=self.worker.receive();self.audit=reply['audit'];self.audit.update(container_image=self.worker.image,container_image_id=self.worker.image_id)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/src/physics_benchmark/backends/physx.py", line 93, in receive
+    raise RuntimeError(message["error"])
+RuntimeError: Traceback (most recent call last):
+  File "/workspace/scripts/isaac_extended_worker.py", line 132, in <module>
+    experiment=Experiment(request['spec']);emit('built',audit=experiment.audit,state=experiment.state())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scripts/isaac_extended_worker.py", line 45, in __init__
+    jpos=np.array(j['pos'] if j else [0,0,0]);joint.CreateLocalPos0Attr(Gf.Vec3f(*(np.array(b['pos'])+rot(b['quat'])@jpos)));joint.CreateLocalPos1Attr(Gf.Vec3f(*jpos));joint.CreateLocalRot0Attr(quat(b['quat']));joint.CreateLocalRot1Attr(Gf.Quatf(1.))
+                                                                                                                                                       ^^^^^^^^^^^^^^^
+Boost.Python.ArgumentError: Python argument types in
+    Vec3f.__init__(Vec3f, numpy.int64, numpy.int64, numpy.int64)
+did not match C++ signature:
+    __init__(_object*, float, float, float)
+    __init__(_object*, float)
+    __init__(_object*, pxrInternal_v0_25_11__pxrReserved__::GfVec3f)
+    __init__(_object*, pxrInternal_v0_25_11__pxrReserved__::GfVec3i)
+    __init__(_object*, pxrInternal_v0_25_11__pxrReserved__::GfVec3h)
+    __init__(_object*, pxrInternal_v0_25_11__pxrReserved__::GfVec3d)
+    __init__(pxrInternal_v0_25_11__pxrReserved__::pxr_boost::python::api::object)
+

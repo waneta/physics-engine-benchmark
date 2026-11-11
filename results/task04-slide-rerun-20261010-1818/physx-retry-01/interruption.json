@@ -1,0 +1,10 @@
+{
+  "label": "physx-retry-01",
+  "command": ".venv/bin/physics-bench run --engine physx --scene slide --headless --repeats 3 --output results/task04-slide-rerun-20261010-1818/physx-retry-01",
+  "started_at": "2026-10-10T10:31:14.884997+00:00",
+  "log": "physx-retry-01.log",
+  "status": "interrupted",
+  "finished_at": "2026-10-10T10:34:18.202953+00:00",
+  "reason": "Previous turn interrupted during Isaac Sim initialization; process and container no longer running",
+  "exit_code": null
+}

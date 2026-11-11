@@ -1,0 +1,11 @@
+{
+  "id": "heldout-baseline-4",
+  "family": "push",
+  "dt": 0.001,
+  "repeat": 0,
+  "phase": "heldout",
+  "controller": "baseline",
+  "width": 0.08,
+  "rear_y": -0.001,
+  "duration": 5.0
+}

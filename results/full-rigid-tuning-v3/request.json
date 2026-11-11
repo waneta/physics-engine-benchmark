@@ -1,0 +1,13 @@
+{
+  "scopes": [
+    "rigid",
+    "tuning"
+  ],
+  "engines": [
+    "mujoco",
+    "physx",
+    "mujoco-warp",
+    "genesis",
+    "newton-vbd"
+  ]
+}

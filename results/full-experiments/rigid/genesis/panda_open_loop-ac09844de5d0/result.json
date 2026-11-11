@@ -1,0 +1,45 @@
+{
+  "numerically_valid": true,
+  "task_success": true,
+  "simulated_seconds": 0.5,
+  "max_fk_error_m": 8.52547968688274e-16,
+  "peak_contact_force_n": 0.0,
+  "joint_rmse_rad": 0.021433660121622403,
+  "normalized_squared_arm_effort": 0.014770730383238347,
+  "joint_limit_excess_rad": 0.0,
+  "max_momentum_residual_ns": {},
+  "contact_force_validated": null,
+  "engine": "genesis",
+  "case": {
+    "family": "panda_open_loop",
+    "dt": 0.001,
+    "repeat": 0,
+    "id": "panda_open_loop-ac09844de5d0",
+    "duration": 0.5
+  },
+  "status": "completed",
+  "error": null,
+  "wall_seconds": 15.677980100999775,
+  "reference_sha256": "30e02a7e1151ea6fdca3f585a95a9e7e1f60554a0ad91191fdd8122b570d9837",
+  "samples": 501,
+  "audit": {
+    "engine": "genesis",
+    "version": "1.4.3",
+    "precision": "float64",
+    "device": "cuda:0",
+    "import_errors": {
+      "link0": 0.0,
+      "link1": 0.0,
+      "link2": 0.0,
+      "link3": 0.0,
+      "link4": 0.0,
+      "link5": 0.0,
+      "link6": 0.0,
+      "link7": 0.0,
+      "hand": 0.0,
+      "left_finger": 0.0,
+      "right_finger": 0.0
+    },
+    "initial_fk_error_m": 2.220446049250313e-16
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "numerically_valid": false,
+  "task_success": false,
+  "engine": "physx",
+  "case": {
+    "family": "insertion",
+    "dt": 0.001,
+    "repeat": 1,
+    "clearance": 0.0005,
+    "offset": 0,
+    "tilt_deg": 0,
+    "id": "insertion-37175dec0b01",
+    "duration": 4.0
+  },
+  "status": "error",
+  "error": "I/O operation on closed file.",
+  "wall_seconds": 0.004515591001108987,
+  "reference_sha256": "d1530ba0f1a67003ff28399158ba3a6f70d64c9a66858807db03b1237c7f0df8",
+  "samples": 0,
+  "audit": {}
+}

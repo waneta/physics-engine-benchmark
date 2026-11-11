@@ -1,0 +1,193 @@
+﻿引擎 / Engine,场景 / Scene,步长 / Timestep (ms),重复编号 / Repeat,状态 / Status,指标名称（中文） / Metric name (Chinese),指标名称（英文） / Metric name (English),指标字段 / Metric key,单位符号 / Unit symbol,单位说明 / Unit description,数值 / Value,数值显示 / Display value
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,1,通过 / Passed,仿真步长,Simulation timestep,dt_s,s,秒 / second,0.002,0.002
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,1,通过 / Passed,物理步数,Physics steps,steps,步,步 / step,500,500
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,1,通过 / Passed,峰值接触合力,Peak resultant contact force,peak_contact_force_n,N,牛顿 / newton,58.25753021240235,58.2575302
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,1,通过 / Passed,峰值法向接触力,Peak normal contact force,peak_contact_fz_n,N,牛顿 / newton,58.257530212402344,58.2575302
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,1,通过 / Passed,最大穿透深度,Maximum penetration depth,max_penetration_m,m,米 / metre,0.008740863560992018,0.00874086356
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,1,通过 / Passed,首次接触时间,First contact time,first_contact_s,s,秒 / second,0.26,0.26
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,1,通过 / Passed,质心静置时间,COM settling time,settled_time_s,s,秒 / second,0.36,0.36
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,1,通过 / Passed,最大动量平衡残差,Maximum momentum balance residual,max_momentum_residual_ns,N·s,牛顿秒 / newton second,1.0508279052661414e-07,1.05082791e-07
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,1,通过 / Passed,最大接触力核算误差,Maximum contact force accounting error,max_constraint_force_error_n,N,牛顿 / newton,2.3841857910242986e-07,2.38418579e-07
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,1,通过 / Passed,窗口接触冲量X,Window contact impulse X,window_contact_jx_ns,N·s,牛顿秒 / newton second,-8.132220062861968e-08,-8.13222006e-08
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,1,通过 / Passed,窗口接触冲量Y,Window contact impulse Y,window_contact_jy_ns,N·s,牛顿秒 / newton second,-8.132220034440259e-08,-8.13222003e-08
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,1,通过 / Passed,窗口接触冲量Z,Window contact impulse Z,window_contact_jz_ns,N·s,牛顿秒 / newton second,0.30554814456030754,0.305548145
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,1,通过 / Passed,接触冲量窗口完整,Contact impulse window complete,impulse_window_complete,布尔,布尔值 / boolean,True,是 / Yes
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,1,通过 / Passed,最低质心高度,Minimum COM height,minimum_com_height_m,m,米 / metre,0.011259136721491814,0.0112591367
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,1,通过 / Passed,理想首次接触时间,Ideal first contact time,ideal_first_contact_s,s,秒 / second,0.2593805842035477,0.259380584
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,1,通过 / Passed,首次接触时间相对理想值偏差,First contact time deviation from ideal,first_contact_time_error_s,s,秒 / second,0.000619415796452305,0.000619415796
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,1,通过 / Passed,首次接触步初竖直速度,Vertical velocity at start of first contact step,preimpact_vertical_velocity_m_s,m/s,米每秒 / metre per second,-2.5506014823913574,-2.55060148
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,1,通过 / Passed,理想碰撞前竖直速度,Ideal preimpact vertical velocity,ideal_impact_vertical_velocity_m_s,m/s,米每秒 / metre per second,-2.5445235310368033,-2.54452353
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,1,通过 / Passed,接触后最大向上速度,Peak upward velocity after contact,peak_rebound_vertical_velocity_m_s,m/s,米每秒 / metre per second,0.337274968624115,0.337274969
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,1,通过 / Passed,自由落体段最大高度误差,Maximum free-fall height error,max_free_fall_height_error_m,m,米 / metre,0.0025509073228835444,0.00255090732
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,1,通过 / Passed,自由落体段最大竖直速度误差,Maximum free-fall vertical velocity error,max_free_fall_velocity_error_m_s,m/s,米每秒 / metre per second,3.1727600096065345e-06,3.17276001e-06
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,1,通过 / Passed,最终质心高度,Final COM height,final_com_height_m,m,米 / metre,0.01997269317507744,0.0199726932
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,1,通过 / Passed,最终质心线速度模长,Final COM linear speed,final_linear_speed_m_s,m/s,米每秒 / metre per second,2.643060672035159e-07,2.64306067e-07
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,1,通过 / Passed,最终角速度模长,Final angular speed,final_angular_speed_rad_s,rad/s,弧度每秒 / radian per second,7.275592487146565e-10,7.27559249e-10
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,1,通过 / Passed,刚体静置时间,Rigid-body settling time,rigid_settled_time_s,s,秒 / second,0.36,0.36
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,1,通过 / Passed,静置后观察时长,Observation duration after settling,rest_observation_duration_s,s,秒 / second,0.64,0.64
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,1,通过 / Passed,记录时长内刚体已静置,Rigid body settled within recorded duration,settled_within_duration,布尔,布尔值 / boolean,True,是 / Yes
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,1,通过 / Passed,静置角速度阈值,Settling angular speed threshold,settling_angular_speed_threshold_rad_s,rad/s,弧度每秒 / radian per second,0.028867513459481287,0.0288675135
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,1,通过 / Passed,末段平均法向接触力,Mean normal contact force in final window,mean_tail_normal_force_n,N,牛顿 / newton,0.9810000948607931,0.981000095
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,1,通过 / Passed,末段平均支撑力与重力比,Final-window mean support force to weight ratio,tail_support_weight_ratio,1,无量纲 / dimensionless,1.000000096698056,1.0000001
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,1,通过 / Passed,最大水平偏移,Maximum horizontal displacement,max_horizontal_displacement_m,m,米 / metre,2.032232687926528e-09,2.03223269e-09
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,1,通过 / Passed,全程Z接触冲量,Total contact impulse Z,total_contact_jz_ns,N·s,牛顿秒 / newton second,0.9810000791214407,0.981000079
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,2,通过 / Passed,仿真步长,Simulation timestep,dt_s,s,秒 / second,0.002,0.002
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,2,通过 / Passed,物理步数,Physics steps,steps,步,步 / step,500,500
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,2,通过 / Passed,峰值接触合力,Peak resultant contact force,peak_contact_force_n,N,牛顿 / newton,58.25753021240235,58.2575302
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,2,通过 / Passed,峰值法向接触力,Peak normal contact force,peak_contact_fz_n,N,牛顿 / newton,58.257530212402344,58.2575302
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,2,通过 / Passed,最大穿透深度,Maximum penetration depth,max_penetration_m,m,米 / metre,0.008740863560992018,0.00874086356
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,2,通过 / Passed,首次接触时间,First contact time,first_contact_s,s,秒 / second,0.26,0.26
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,2,通过 / Passed,质心静置时间,COM settling time,settled_time_s,s,秒 / second,0.36,0.36
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,2,通过 / Passed,最大动量平衡残差,Maximum momentum balance residual,max_momentum_residual_ns,N·s,牛顿秒 / newton second,1.0508279052661414e-07,1.05082791e-07
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,2,通过 / Passed,最大接触力核算误差,Maximum contact force accounting error,max_constraint_force_error_n,N,牛顿 / newton,2.3841857910242986e-07,2.38418579e-07
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,2,通过 / Passed,窗口接触冲量X,Window contact impulse X,window_contact_jx_ns,N·s,牛顿秒 / newton second,-8.132220062861968e-08,-8.13222006e-08
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,2,通过 / Passed,窗口接触冲量Y,Window contact impulse Y,window_contact_jy_ns,N·s,牛顿秒 / newton second,-8.132220034440259e-08,-8.13222003e-08
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,2,通过 / Passed,窗口接触冲量Z,Window contact impulse Z,window_contact_jz_ns,N·s,牛顿秒 / newton second,0.30554814456030754,0.305548145
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,2,通过 / Passed,接触冲量窗口完整,Contact impulse window complete,impulse_window_complete,布尔,布尔值 / boolean,True,是 / Yes
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,2,通过 / Passed,最低质心高度,Minimum COM height,minimum_com_height_m,m,米 / metre,0.011259136721491814,0.0112591367
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,2,通过 / Passed,理想首次接触时间,Ideal first contact time,ideal_first_contact_s,s,秒 / second,0.2593805842035477,0.259380584
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,2,通过 / Passed,首次接触时间相对理想值偏差,First contact time deviation from ideal,first_contact_time_error_s,s,秒 / second,0.000619415796452305,0.000619415796
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,2,通过 / Passed,首次接触步初竖直速度,Vertical velocity at start of first contact step,preimpact_vertical_velocity_m_s,m/s,米每秒 / metre per second,-2.5506014823913574,-2.55060148
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,2,通过 / Passed,理想碰撞前竖直速度,Ideal preimpact vertical velocity,ideal_impact_vertical_velocity_m_s,m/s,米每秒 / metre per second,-2.5445235310368033,-2.54452353
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,2,通过 / Passed,接触后最大向上速度,Peak upward velocity after contact,peak_rebound_vertical_velocity_m_s,m/s,米每秒 / metre per second,0.337274968624115,0.337274969
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,2,通过 / Passed,自由落体段最大高度误差,Maximum free-fall height error,max_free_fall_height_error_m,m,米 / metre,0.0025509073228835444,0.00255090732
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,2,通过 / Passed,自由落体段最大竖直速度误差,Maximum free-fall vertical velocity error,max_free_fall_velocity_error_m_s,m/s,米每秒 / metre per second,3.1727600096065345e-06,3.17276001e-06
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,2,通过 / Passed,最终质心高度,Final COM height,final_com_height_m,m,米 / metre,0.01997269317507744,0.0199726932
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,2,通过 / Passed,最终质心线速度模长,Final COM linear speed,final_linear_speed_m_s,m/s,米每秒 / metre per second,2.643060672035159e-07,2.64306067e-07
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,2,通过 / Passed,最终角速度模长,Final angular speed,final_angular_speed_rad_s,rad/s,弧度每秒 / radian per second,7.275592487146565e-10,7.27559249e-10
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,2,通过 / Passed,刚体静置时间,Rigid-body settling time,rigid_settled_time_s,s,秒 / second,0.36,0.36
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,2,通过 / Passed,静置后观察时长,Observation duration after settling,rest_observation_duration_s,s,秒 / second,0.64,0.64
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,2,通过 / Passed,记录时长内刚体已静置,Rigid body settled within recorded duration,settled_within_duration,布尔,布尔值 / boolean,True,是 / Yes
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,2,通过 / Passed,静置角速度阈值,Settling angular speed threshold,settling_angular_speed_threshold_rad_s,rad/s,弧度每秒 / radian per second,0.028867513459481287,0.0288675135
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,2,通过 / Passed,末段平均法向接触力,Mean normal contact force in final window,mean_tail_normal_force_n,N,牛顿 / newton,0.9810000948607931,0.981000095
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,2,通过 / Passed,末段平均支撑力与重力比,Final-window mean support force to weight ratio,tail_support_weight_ratio,1,无量纲 / dimensionless,1.000000096698056,1.0000001
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,2,通过 / Passed,最大水平偏移,Maximum horizontal displacement,max_horizontal_displacement_m,m,米 / metre,2.032232687926528e-09,2.03223269e-09
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,2,通过 / Passed,全程Z接触冲量,Total contact impulse Z,total_contact_jz_ns,N·s,牛顿秒 / newton second,0.9810000791214407,0.981000079
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,3,通过 / Passed,仿真步长,Simulation timestep,dt_s,s,秒 / second,0.002,0.002
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,3,通过 / Passed,物理步数,Physics steps,steps,步,步 / step,500,500
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,3,通过 / Passed,峰值接触合力,Peak resultant contact force,peak_contact_force_n,N,牛顿 / newton,58.25753021240235,58.2575302
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,3,通过 / Passed,峰值法向接触力,Peak normal contact force,peak_contact_fz_n,N,牛顿 / newton,58.257530212402344,58.2575302
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,3,通过 / Passed,最大穿透深度,Maximum penetration depth,max_penetration_m,m,米 / metre,0.008740863560992018,0.00874086356
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,3,通过 / Passed,首次接触时间,First contact time,first_contact_s,s,秒 / second,0.26,0.26
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,3,通过 / Passed,质心静置时间,COM settling time,settled_time_s,s,秒 / second,0.36,0.36
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,3,通过 / Passed,最大动量平衡残差,Maximum momentum balance residual,max_momentum_residual_ns,N·s,牛顿秒 / newton second,1.0508279052661414e-07,1.05082791e-07
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,3,通过 / Passed,最大接触力核算误差,Maximum contact force accounting error,max_constraint_force_error_n,N,牛顿 / newton,2.3841857910242986e-07,2.38418579e-07
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,3,通过 / Passed,窗口接触冲量X,Window contact impulse X,window_contact_jx_ns,N·s,牛顿秒 / newton second,-8.132220062861968e-08,-8.13222006e-08
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,3,通过 / Passed,窗口接触冲量Y,Window contact impulse Y,window_contact_jy_ns,N·s,牛顿秒 / newton second,-8.132220034440259e-08,-8.13222003e-08
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,3,通过 / Passed,窗口接触冲量Z,Window contact impulse Z,window_contact_jz_ns,N·s,牛顿秒 / newton second,0.30554814456030754,0.305548145
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,3,通过 / Passed,接触冲量窗口完整,Contact impulse window complete,impulse_window_complete,布尔,布尔值 / boolean,True,是 / Yes
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,3,通过 / Passed,最低质心高度,Minimum COM height,minimum_com_height_m,m,米 / metre,0.011259136721491814,0.0112591367
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,3,通过 / Passed,理想首次接触时间,Ideal first contact time,ideal_first_contact_s,s,秒 / second,0.2593805842035477,0.259380584
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,3,通过 / Passed,首次接触时间相对理想值偏差,First contact time deviation from ideal,first_contact_time_error_s,s,秒 / second,0.000619415796452305,0.000619415796
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,3,通过 / Passed,首次接触步初竖直速度,Vertical velocity at start of first contact step,preimpact_vertical_velocity_m_s,m/s,米每秒 / metre per second,-2.5506014823913574,-2.55060148
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,3,通过 / Passed,理想碰撞前竖直速度,Ideal preimpact vertical velocity,ideal_impact_vertical_velocity_m_s,m/s,米每秒 / metre per second,-2.5445235310368033,-2.54452353
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,3,通过 / Passed,接触后最大向上速度,Peak upward velocity after contact,peak_rebound_vertical_velocity_m_s,m/s,米每秒 / metre per second,0.337274968624115,0.337274969
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,3,通过 / Passed,自由落体段最大高度误差,Maximum free-fall height error,max_free_fall_height_error_m,m,米 / metre,0.0025509073228835444,0.00255090732
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,3,通过 / Passed,自由落体段最大竖直速度误差,Maximum free-fall vertical velocity error,max_free_fall_velocity_error_m_s,m/s,米每秒 / metre per second,3.1727600096065345e-06,3.17276001e-06
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,3,通过 / Passed,最终质心高度,Final COM height,final_com_height_m,m,米 / metre,0.01997269317507744,0.0199726932
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,3,通过 / Passed,最终质心线速度模长,Final COM linear speed,final_linear_speed_m_s,m/s,米每秒 / metre per second,2.643060672035159e-07,2.64306067e-07
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,3,通过 / Passed,最终角速度模长,Final angular speed,final_angular_speed_rad_s,rad/s,弧度每秒 / radian per second,7.275592487146565e-10,7.27559249e-10
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,3,通过 / Passed,刚体静置时间,Rigid-body settling time,rigid_settled_time_s,s,秒 / second,0.36,0.36
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,3,通过 / Passed,静置后观察时长,Observation duration after settling,rest_observation_duration_s,s,秒 / second,0.64,0.64
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,3,通过 / Passed,记录时长内刚体已静置,Rigid body settled within recorded duration,settled_within_duration,布尔,布尔值 / boolean,True,是 / Yes
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,3,通过 / Passed,静置角速度阈值,Settling angular speed threshold,settling_angular_speed_threshold_rad_s,rad/s,弧度每秒 / radian per second,0.028867513459481287,0.0288675135
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,3,通过 / Passed,末段平均法向接触力,Mean normal contact force in final window,mean_tail_normal_force_n,N,牛顿 / newton,0.9810000948607931,0.981000095
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,3,通过 / Passed,末段平均支撑力与重力比,Final-window mean support force to weight ratio,tail_support_weight_ratio,1,无量纲 / dimensionless,1.000000096698056,1.0000001
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,3,通过 / Passed,最大水平偏移,Maximum horizontal displacement,max_horizontal_displacement_m,m,米 / metre,2.032232687926528e-09,2.03223269e-09
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,3,通过 / Passed,全程Z接触冲量,Total contact impulse Z,total_contact_jz_ns,N·s,牛顿秒 / newton second,0.9810000791214407,0.981000079
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,1,通过 / Passed,仿真步长,Simulation timestep,dt_s,s,秒 / second,0.001,0.001
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,1,通过 / Passed,物理步数,Physics steps,steps,步,步 / step,1000,1000
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,1,通过 / Passed,峰值接触合力,Peak resultant contact force,peak_contact_force_n,N,牛顿 / newton,53.4409294128418,53.4409294
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,1,通过 / Passed,峰值法向接触力,Peak normal contact force,peak_contact_fz_n,N,牛顿 / newton,53.4409294128418,53.4409294
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,1,通过 / Passed,最大穿透深度,Maximum penetration depth,max_penetration_m,m,米 / metre,0.0075672870368663075,0.00756728704
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,1,通过 / Passed,首次接触时间,First contact time,first_contact_s,s,秒 / second,0.259,0.259
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,1,通过 / Passed,质心静置时间,COM settling time,settled_time_s,s,秒 / second,0.364,0.364
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,1,通过 / Passed,最大动量平衡残差,Maximum momentum balance residual,max_momentum_residual_ns,N·s,牛顿秒 / newton second,2.1579241752268247e-07,2.15792418e-07
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,1,通过 / Passed,最大接触力核算误差,Maximum contact force accounting error,max_constraint_force_error_n,N,牛顿 / newton,2.384185791015625e-07,2.38418579e-07
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,1,通过 / Passed,窗口接触冲量X,Window contact impulse X,window_contact_jx_ns,N·s,牛顿秒 / newton second,4.080610987955428e-08,4.08061099e-08
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,1,通过 / Passed,窗口接触冲量Y,Window contact impulse Y,window_contact_jy_ns,N·s,牛顿秒 / newton second,4.0808952769255705e-08,4.08089528e-08
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,1,通过 / Passed,窗口接触冲量Z,Window contact impulse Z,window_contact_jz_ns,N·s,牛顿秒 / newton second,0.3034098171233202,0.303409817
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,1,通过 / Passed,接触冲量窗口完整,Contact impulse window complete,impulse_window_complete,布尔,布尔值 / boolean,True,是 / Yes
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,1,通过 / Passed,最低质心高度,Minimum COM height,minimum_com_height_m,m,米 / metre,0.012432713061571121,0.0124327131
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,1,通过 / Passed,理想首次接触时间,Ideal first contact time,ideal_first_contact_s,s,秒 / second,0.2593805842035477,0.259380584
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,1,通过 / Passed,首次接触时间相对理想值偏差,First contact time deviation from ideal,first_contact_time_error_s,s,秒 / second,-0.00038058420354769584,-0.000380584204
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,1,通过 / Passed,首次接触步初竖直速度,Vertical velocity at start of first contact step,preimpact_vertical_velocity_m_s,m/s,米每秒 / metre per second,-2.5407869815826416,-2.54078698
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,1,通过 / Passed,理想碰撞前竖直速度,Ideal preimpact vertical velocity,ideal_impact_vertical_velocity_m_s,m/s,米每秒 / metre per second,-2.5445235310368033,-2.54452353
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,1,通过 / Passed,接触后最大向上速度,Peak upward velocity after contact,peak_rebound_vertical_velocity_m_s,m/s,米每秒 / metre per second,0.28465089201927185,0.284650892
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,1,通过 / Passed,自由落体段最大高度误差,Maximum free-fall height error,max_free_fall_height_error_m,m,米 / metre,0.0012702951900434023,0.00127029519
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,1,通过 / Passed,自由落体段最大竖直速度误差,Maximum free-fall vertical velocity error,max_free_fall_velocity_error_m_s,m/s,米每秒 / metre per second,3.0184173587244345e-06,3.01841736e-06
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,1,通过 / Passed,最终质心高度,Final COM height,final_com_height_m,m,米 / metre,0.01997268758714199,0.0199726876
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,1,通过 / Passed,最终质心线速度模长,Final COM linear speed,final_linear_speed_m_s,m/s,米每秒 / metre per second,5.289895739376873e-07,5.28989574e-07
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,1,通过 / Passed,最终角速度模长,Final angular speed,final_angular_speed_rad_s,rad/s,弧度每秒 / radian per second,1.9448842120915862e-10,1.94488421e-10
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,1,通过 / Passed,刚体静置时间,Rigid-body settling time,rigid_settled_time_s,s,秒 / second,0.364,0.364
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,1,通过 / Passed,静置后观察时长,Observation duration after settling,rest_observation_duration_s,s,秒 / second,0.636,0.636
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,1,通过 / Passed,记录时长内刚体已静置,Rigid body settled within recorded duration,settled_within_duration,布尔,布尔值 / boolean,True,是 / Yes
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,1,通过 / Passed,静置角速度阈值,Settling angular speed threshold,settling_angular_speed_threshold_rad_s,rad/s,弧度每秒 / radian per second,0.028867513459481287,0.0288675135
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,1,通过 / Passed,末段平均法向接触力,Mean normal contact force in final window,mean_tail_normal_force_n,N,牛顿 / newton,0.9810000907629738,0.981000091
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,1,通过 / Passed,末段平均支撑力与重力比,Final-window mean support force to weight ratio,tail_support_weight_ratio,1,无量纲 / dimensionless,1.0000000925208703,1.00000009
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,1,通过 / Passed,最大水平偏移,Maximum horizontal displacement,max_horizontal_displacement_m,m,米 / metre,4.962377140720434e-10,4.96237714e-10
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,1,通过 / Passed,全程Z接触冲量,Total contact impulse Z,total_contact_jz_ns,N·s,牛顿秒 / newton second,0.9809995609014297,0.980999561
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,2,通过 / Passed,仿真步长,Simulation timestep,dt_s,s,秒 / second,0.001,0.001
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,2,通过 / Passed,物理步数,Physics steps,steps,步,步 / step,1000,1000
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,2,通过 / Passed,峰值接触合力,Peak resultant contact force,peak_contact_force_n,N,牛顿 / newton,53.4409294128418,53.4409294
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,2,通过 / Passed,峰值法向接触力,Peak normal contact force,peak_contact_fz_n,N,牛顿 / newton,53.4409294128418,53.4409294
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,2,通过 / Passed,最大穿透深度,Maximum penetration depth,max_penetration_m,m,米 / metre,0.0075672870368663075,0.00756728704
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,2,通过 / Passed,首次接触时间,First contact time,first_contact_s,s,秒 / second,0.259,0.259
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,2,通过 / Passed,质心静置时间,COM settling time,settled_time_s,s,秒 / second,0.364,0.364
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,2,通过 / Passed,最大动量平衡残差,Maximum momentum balance residual,max_momentum_residual_ns,N·s,牛顿秒 / newton second,2.1579241752268247e-07,2.15792418e-07
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,2,通过 / Passed,最大接触力核算误差,Maximum contact force accounting error,max_constraint_force_error_n,N,牛顿 / newton,2.384185791015625e-07,2.38418579e-07
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,2,通过 / Passed,窗口接触冲量X,Window contact impulse X,window_contact_jx_ns,N·s,牛顿秒 / newton second,4.080610987955428e-08,4.08061099e-08
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,2,通过 / Passed,窗口接触冲量Y,Window contact impulse Y,window_contact_jy_ns,N·s,牛顿秒 / newton second,4.0808952769255705e-08,4.08089528e-08
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,2,通过 / Passed,窗口接触冲量Z,Window contact impulse Z,window_contact_jz_ns,N·s,牛顿秒 / newton second,0.3034098171233202,0.303409817
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,2,通过 / Passed,接触冲量窗口完整,Contact impulse window complete,impulse_window_complete,布尔,布尔值 / boolean,True,是 / Yes
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,2,通过 / Passed,最低质心高度,Minimum COM height,minimum_com_height_m,m,米 / metre,0.012432713061571121,0.0124327131
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,2,通过 / Passed,理想首次接触时间,Ideal first contact time,ideal_first_contact_s,s,秒 / second,0.2593805842035477,0.259380584
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,2,通过 / Passed,首次接触时间相对理想值偏差,First contact time deviation from ideal,first_contact_time_error_s,s,秒 / second,-0.00038058420354769584,-0.000380584204
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,2,通过 / Passed,首次接触步初竖直速度,Vertical velocity at start of first contact step,preimpact_vertical_velocity_m_s,m/s,米每秒 / metre per second,-2.5407869815826416,-2.54078698
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,2,通过 / Passed,理想碰撞前竖直速度,Ideal preimpact vertical velocity,ideal_impact_vertical_velocity_m_s,m/s,米每秒 / metre per second,-2.5445235310368033,-2.54452353
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,2,通过 / Passed,接触后最大向上速度,Peak upward velocity after contact,peak_rebound_vertical_velocity_m_s,m/s,米每秒 / metre per second,0.28465089201927185,0.284650892
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,2,通过 / Passed,自由落体段最大高度误差,Maximum free-fall height error,max_free_fall_height_error_m,m,米 / metre,0.0012702951900434023,0.00127029519
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,2,通过 / Passed,自由落体段最大竖直速度误差,Maximum free-fall vertical velocity error,max_free_fall_velocity_error_m_s,m/s,米每秒 / metre per second,3.0184173587244345e-06,3.01841736e-06
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,2,通过 / Passed,最终质心高度,Final COM height,final_com_height_m,m,米 / metre,0.01997268758714199,0.0199726876
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,2,通过 / Passed,最终质心线速度模长,Final COM linear speed,final_linear_speed_m_s,m/s,米每秒 / metre per second,5.289895739376873e-07,5.28989574e-07
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,2,通过 / Passed,最终角速度模长,Final angular speed,final_angular_speed_rad_s,rad/s,弧度每秒 / radian per second,1.9448842120915862e-10,1.94488421e-10
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,2,通过 / Passed,刚体静置时间,Rigid-body settling time,rigid_settled_time_s,s,秒 / second,0.364,0.364
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,2,通过 / Passed,静置后观察时长,Observation duration after settling,rest_observation_duration_s,s,秒 / second,0.636,0.636
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,2,通过 / Passed,记录时长内刚体已静置,Rigid body settled within recorded duration,settled_within_duration,布尔,布尔值 / boolean,True,是 / Yes
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,2,通过 / Passed,静置角速度阈值,Settling angular speed threshold,settling_angular_speed_threshold_rad_s,rad/s,弧度每秒 / radian per second,0.028867513459481287,0.0288675135
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,2,通过 / Passed,末段平均法向接触力,Mean normal contact force in final window,mean_tail_normal_force_n,N,牛顿 / newton,0.9810000907629738,0.981000091
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,2,通过 / Passed,末段平均支撑力与重力比,Final-window mean support force to weight ratio,tail_support_weight_ratio,1,无量纲 / dimensionless,1.0000000925208703,1.00000009
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,2,通过 / Passed,最大水平偏移,Maximum horizontal displacement,max_horizontal_displacement_m,m,米 / metre,4.962377140720434e-10,4.96237714e-10
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,2,通过 / Passed,全程Z接触冲量,Total contact impulse Z,total_contact_jz_ns,N·s,牛顿秒 / newton second,0.9809995609014297,0.980999561
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,3,通过 / Passed,仿真步长,Simulation timestep,dt_s,s,秒 / second,0.001,0.001
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,3,通过 / Passed,物理步数,Physics steps,steps,步,步 / step,1000,1000
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,3,通过 / Passed,峰值接触合力,Peak resultant contact force,peak_contact_force_n,N,牛顿 / newton,53.4409294128418,53.4409294
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,3,通过 / Passed,峰值法向接触力,Peak normal contact force,peak_contact_fz_n,N,牛顿 / newton,53.4409294128418,53.4409294
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,3,通过 / Passed,最大穿透深度,Maximum penetration depth,max_penetration_m,m,米 / metre,0.0075672870368663075,0.00756728704
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,3,通过 / Passed,首次接触时间,First contact time,first_contact_s,s,秒 / second,0.259,0.259
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,3,通过 / Passed,质心静置时间,COM settling time,settled_time_s,s,秒 / second,0.364,0.364
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,3,通过 / Passed,最大动量平衡残差,Maximum momentum balance residual,max_momentum_residual_ns,N·s,牛顿秒 / newton second,2.1579241752268247e-07,2.15792418e-07
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,3,通过 / Passed,最大接触力核算误差,Maximum contact force accounting error,max_constraint_force_error_n,N,牛顿 / newton,2.384185791015625e-07,2.38418579e-07
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,3,通过 / Passed,窗口接触冲量X,Window contact impulse X,window_contact_jx_ns,N·s,牛顿秒 / newton second,4.080610987955428e-08,4.08061099e-08
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,3,通过 / Passed,窗口接触冲量Y,Window contact impulse Y,window_contact_jy_ns,N·s,牛顿秒 / newton second,4.0808952769255705e-08,4.08089528e-08
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,3,通过 / Passed,窗口接触冲量Z,Window contact impulse Z,window_contact_jz_ns,N·s,牛顿秒 / newton second,0.3034098171233202,0.303409817
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,3,通过 / Passed,接触冲量窗口完整,Contact impulse window complete,impulse_window_complete,布尔,布尔值 / boolean,True,是 / Yes
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,3,通过 / Passed,最低质心高度,Minimum COM height,minimum_com_height_m,m,米 / metre,0.012432713061571121,0.0124327131
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,3,通过 / Passed,理想首次接触时间,Ideal first contact time,ideal_first_contact_s,s,秒 / second,0.2593805842035477,0.259380584
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,3,通过 / Passed,首次接触时间相对理想值偏差,First contact time deviation from ideal,first_contact_time_error_s,s,秒 / second,-0.00038058420354769584,-0.000380584204
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,3,通过 / Passed,首次接触步初竖直速度,Vertical velocity at start of first contact step,preimpact_vertical_velocity_m_s,m/s,米每秒 / metre per second,-2.5407869815826416,-2.54078698
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,3,通过 / Passed,理想碰撞前竖直速度,Ideal preimpact vertical velocity,ideal_impact_vertical_velocity_m_s,m/s,米每秒 / metre per second,-2.5445235310368033,-2.54452353
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,3,通过 / Passed,接触后最大向上速度,Peak upward velocity after contact,peak_rebound_vertical_velocity_m_s,m/s,米每秒 / metre per second,0.28465089201927185,0.284650892
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,3,通过 / Passed,自由落体段最大高度误差,Maximum free-fall height error,max_free_fall_height_error_m,m,米 / metre,0.0012702951900434023,0.00127029519
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,3,通过 / Passed,自由落体段最大竖直速度误差,Maximum free-fall vertical velocity error,max_free_fall_velocity_error_m_s,m/s,米每秒 / metre per second,3.0184173587244345e-06,3.01841736e-06
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,3,通过 / Passed,最终质心高度,Final COM height,final_com_height_m,m,米 / metre,0.01997268758714199,0.0199726876
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,3,通过 / Passed,最终质心线速度模长,Final COM linear speed,final_linear_speed_m_s,m/s,米每秒 / metre per second,5.289895739376873e-07,5.28989574e-07
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,3,通过 / Passed,最终角速度模长,Final angular speed,final_angular_speed_rad_s,rad/s,弧度每秒 / radian per second,1.9448842120915862e-10,1.94488421e-10
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,3,通过 / Passed,刚体静置时间,Rigid-body settling time,rigid_settled_time_s,s,秒 / second,0.364,0.364
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,3,通过 / Passed,静置后观察时长,Observation duration after settling,rest_observation_duration_s,s,秒 / second,0.636,0.636
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,3,通过 / Passed,记录时长内刚体已静置,Rigid body settled within recorded duration,settled_within_duration,布尔,布尔值 / boolean,True,是 / Yes
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,3,通过 / Passed,静置角速度阈值,Settling angular speed threshold,settling_angular_speed_threshold_rad_s,rad/s,弧度每秒 / radian per second,0.028867513459481287,0.0288675135
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,3,通过 / Passed,末段平均法向接触力,Mean normal contact force in final window,mean_tail_normal_force_n,N,牛顿 / newton,0.9810000907629738,0.981000091
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,3,通过 / Passed,末段平均支撑力与重力比,Final-window mean support force to weight ratio,tail_support_weight_ratio,1,无量纲 / dimensionless,1.0000000925208703,1.00000009
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,3,通过 / Passed,最大水平偏移,Maximum horizontal displacement,max_horizontal_displacement_m,m,米 / metre,4.962377140720434e-10,4.96237714e-10
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,1.0,3,通过 / Passed,全程Z接触冲量,Total contact impulse Z,total_contact_jz_ns,N·s,牛顿秒 / newton second,0.9809995609014297,0.980999561

@@ -1,0 +1,11 @@
+{
+  "engine": "physx",
+  "scene": "slide",
+  "dt_s": 0.001,
+  "repeat": 2,
+  "status": "failed",
+  "directory": "slide/dt_0.001/repeat_02",
+  "error": "RuntimeError: Isaac worker timed out; see /home/datamesh/github_waneta/physics-engine-benchmark/.cache/logs/physics-bench-d50105d42262.log",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/datamesh/github_waneta/physics-engine-benchmark/src/physics_benchmark/backends/physx.py\", line 88, in receive\n    message = self.messages.get(timeout=180)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.11/queue.py\", line 179, in get\n    raise Empty\n_queue.Empty\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/home/datamesh/github_waneta/physics-engine-benchmark/src/physics_benchmark/cli.py\", line 259, in run_suite\n    run = simulate_fn(scene, cfg, dt, rows)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/datamesh/github_waneta/physics-engine-benchmark/src/physics_benchmark/backends/physx.py\", line 163, in simulate\n    message = _worker.receive()\n              ^^^^^^^^^^^^^^^^^\n  File \"/home/datamesh/github_waneta/physics-engine-benchmark/src/physics_benchmark/backends/physx.py\", line 91, in receive\n    raise RuntimeError(\"Isaac worker timed out; see \" + self.log.name) from exc\nRuntimeError: Isaac worker timed out; see /home/datamesh/github_waneta/physics-engine-benchmark/.cache/logs/physics-bench-d50105d42262.log\n",
+  "samples": 0
+}

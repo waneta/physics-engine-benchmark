@@ -1,0 +1,25 @@
+[
+  {
+    "engine": "physx",
+    "case": {
+      "family": "soft_compression",
+      "dt": 0.001,
+      "refined": false,
+      "duration": 1.5,
+      "repeat": 0,
+      "id": "soft_compression-00"
+    },
+    "status": "error",
+    "error": "Traceback (most recent call last):\n  File \"/workspace/scripts/isaac_extended_worker.py\", line 149, in <module>\n    experiment=Experiment(request['spec']);emit('built',audit=experiment.audit,state=experiment.state())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scripts/isaac_extended_worker.py\", line 31, in __init__\n    xf=UsdGeom.Xform.Define(stage,path);xf.AddTranslateOp().Set(Gf.Vec3d(*b['worldpos']));xf.AddOrientOp().Set(quat(b['worldquat']))\n       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npxr.Tf.ErrorException: \n\tError in 'pxrInternal_v0_25_11__pxrReserved__::UsdStage::_IsValidPathForCreatingPrim' at line 3715 in file /builds/omniverse/usd-ci/conan/src/0.25.11.kit.2/pxr/usd/usd/stage.cpp : 'Path must be an absolute path: <>'\n",
+    "numerically_valid": false,
+    "task_success": false,
+    "hold_lift_m": null,
+    "minimum_volume_ratio": null,
+    "force_n": null,
+    "force_validated": false,
+    "force_note": "Native deformable load accounting has not passed an independent momentum audit; no zero-load substitution.",
+    "audit": {},
+    "samples": 0,
+    "wall_seconds": 35.51684948000002
+  }
+]

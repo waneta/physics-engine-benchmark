@@ -1,0 +1,59 @@
+{
+  "numerically_valid": true,
+  "task_success": true,
+  "simulated_seconds": 0.5,
+  "max_fk_error_m": 0.0,
+  "peak_contact_force_n": 0.0,
+  "joint_rmse_rad": 0.021387286750762975,
+  "normalized_squared_arm_effort": 0.014785486357647176,
+  "joint_limit_excess_rad": 0.0,
+  "max_momentum_residual_ns": {},
+  "contact_force_validated": null,
+  "engine": "mujoco",
+  "case": {
+    "family": "panda_open_loop",
+    "dt": 0.0005,
+    "repeat": 0,
+    "id": "panda_open_loop-a2aaed8cdc92",
+    "duration": 0.5
+  },
+  "status": "completed",
+  "error": null,
+  "wall_seconds": 0.15839563100053056,
+  "reference_sha256": "30e02a7e1151ea6fdca3f585a95a9e7e1f60554a0ad91191fdd8122b570d9837",
+  "samples": 1001,
+  "audit": {
+    "engine": "mujoco",
+    "version": "3.15.0",
+    "precision": "float64",
+    "device": "cpu",
+    "five_pose_fk_checks": [
+      {
+        "position_error_m": 0.0,
+        "rotation_frobenius_error": 0.0,
+        "joint_error": 0.0
+      },
+      {
+        "position_error_m": 0.0,
+        "rotation_frobenius_error": 0.0,
+        "joint_error": 0.0
+      },
+      {
+        "position_error_m": 0.0,
+        "rotation_frobenius_error": 0.0,
+        "joint_error": 0.0
+      },
+      {
+        "position_error_m": 0.0,
+        "rotation_frobenius_error": 0.0,
+        "joint_error": 0.0
+      },
+      {
+        "position_error_m": 0.0,
+        "rotation_frobenius_error": 0.0,
+        "joint_error": 0.0
+      }
+    ],
+    "initial_fk_error_m": 0.0
+  }
+}

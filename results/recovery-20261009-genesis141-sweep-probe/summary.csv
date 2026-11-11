@@ -1,0 +1,2 @@
+directory,engine,family,status,numerically_valid,task_success,samples,wall_seconds,contact_force_validated,hold_lift_m,joint_rmse_rad,passed_objects,objects_in_tray,final_insertion_depth_m
+sweep-cf7399b17d6d,genesis,sweep,completed,True,False,12501,1138.199157754003,False,,0.01596773921676257,,10,

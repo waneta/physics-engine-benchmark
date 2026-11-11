@@ -1,0 +1,2 @@
+directory,engine,family,status,numerically_valid,task_success,samples,wall_seconds,contact_force_validated,hold_lift_m,joint_rmse_rad,passed_objects,objects_in_tray,final_insertion_depth_m
+push-040b6acb5ce8,physx,push,completed,True,True,5001,148.31883354299953,True,,0.006150395329410882,3,,

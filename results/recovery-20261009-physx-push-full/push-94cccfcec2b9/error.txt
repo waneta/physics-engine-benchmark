@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/src/physics_benchmark/extended/rigid.py", line 418, in run
+    "step": step,
+    ^^^^^^^^^^^
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/src/physics_benchmark/extended/physx.py", line 116, in step
+    reply = self.worker.receive()
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/src/physics_benchmark/backends/physx.py", line 94, in receive
+    raise RuntimeError(message["error"])
+RuntimeError: Isaac worker exited; see /home/datamesh/github_waneta/physics-engine-benchmark/.cache/logs/physics-bench-30830af96e86.log

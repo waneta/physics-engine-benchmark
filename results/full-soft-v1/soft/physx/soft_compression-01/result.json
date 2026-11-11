@@ -1,0 +1,42 @@
+{
+  "engine": "physx",
+  "case": {
+    "family": "soft_compression",
+    "dt": 0.001,
+    "refined": false,
+    "duration": 1.5,
+    "repeat": 1,
+    "id": "soft_compression-01"
+  },
+  "status": "completed",
+  "error": null,
+  "numerically_valid": true,
+  "task_success": true,
+  "hold_lift_m": null,
+  "hold_com_lift_m": null,
+  "hold_window_covered": false,
+  "minimum_volume_ratio": 0.8035950103969827,
+  "force_n": null,
+  "force_validated": false,
+  "force_note": "Native deformable load accounting has not passed an independent momentum audit; no zero-load substitution.",
+  "audit": {
+    "engine": "physx",
+    "precision": "float32",
+    "solver": "GPU PhysX deformable + TGS articulation",
+    "import_errors": {
+      "plate_-1": 5.208154567337697e-11,
+      "plate_1": 5.208154567337697e-11
+    },
+    "contact_force_source": "normal report + friction tensor impulses",
+    "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+    "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+    "force_validated": false,
+    "vertex_count": 125,
+    "element_count": 384,
+    "mass_kg": 0.10504912346763821,
+    "rest_mesh_validation": "passed",
+    "rigid_contact_probe_peak_n": 0.0
+  },
+  "samples": 301,
+  "wall_seconds": 195.2401371679989
+}

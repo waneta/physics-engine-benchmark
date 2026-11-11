@@ -1,0 +1,43 @@
+{
+  "numerically_valid": true,
+  "task_success": true,
+  "simulated_seconds": 2.5,
+  "max_fk_error_m": 8.270975252328749e-16,
+  "peak_contact_force_n": 0.0,
+  "joint_rmse_rad": 6.220318748833412e-05,
+  "normalized_squared_arm_effort": 0.016072046483233498,
+  "joint_limit_excess_rad": 0.0,
+  "max_momentum_residual_ns": {},
+  "contact_force_validated": null,
+  "engine": "genesis",
+  "case": {
+    "family": "panda_tracking",
+    "duration": 2.5,
+    "dt": 0.001
+  },
+  "status": "completed",
+  "error": null,
+  "wall_seconds": 8.235389057001157,
+  "reference_sha256": "63a6ed90aa9d217296fea9d96bab674425b519c4baa2e3ff05c3949306030efb",
+  "samples": 2501,
+  "audit": {
+    "engine": "genesis",
+    "version": "1.4.3",
+    "precision": "float64",
+    "device": "cuda:0",
+    "import_errors": {
+      "link0": 0.0,
+      "link1": 0.0,
+      "link2": 0.0,
+      "link3": 0.0,
+      "link4": 0.0,
+      "link5": 0.0,
+      "link6": 0.0,
+      "link7": 0.0,
+      "hand": 0.0,
+      "left_finger": 0.0,
+      "right_finger": 0.0
+    },
+    "initial_fk_error_m": 2.220446049250313e-16
+  }
+}

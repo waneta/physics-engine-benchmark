@@ -1,0 +1,16 @@
+{
+  "case": {
+    "family": "stack",
+    "dt": 0.001,
+    "repeat": 2,
+    "offset": 0.02,
+    "perturb_x": 0.001,
+    "perturb_y": -0.001,
+    "id": "stack-48203d3b5208"
+  },
+  "engine": "physx",
+  "status": "error",
+  "error": "I/O operation on closed file.",
+  "numerically_valid": false,
+  "task_success": false
+}

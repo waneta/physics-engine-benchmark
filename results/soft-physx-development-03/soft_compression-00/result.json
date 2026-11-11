@@ -1,0 +1,23 @@
+{
+  "engine": "physx",
+  "case": {
+    "family": "soft_compression",
+    "dt": 0.001,
+    "refined": false,
+    "duration": 1.5,
+    "repeat": 0,
+    "id": "soft_compression-00"
+  },
+  "status": "error",
+  "error": "Traceback (most recent call last):\n  File \"/workspace/scripts/isaac_extended_worker.py\", line 150, in <module>\n    experiment=Experiment(request['spec']);emit('built',audit=experiment.audit,state=experiment.state())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scripts/isaac_extended_worker.py\", line 112, in __init__\n    native=self.soft.get_rest_nodal_positions()[0];expected=np.array(s['soft']['vertices']);dist=np.linalg.norm(expected[:,None]-native[None,:],axis=2);self.node_order=np.argmin(dist,axis=1)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/isaac-sim/extscache/omni.physics.tensors-110.1.13+110.1.2.lx64.r.cp312.u7f4/omni/physics/tensors/api.py\", line 4526, in get_rest_nodal_positions\n    raise Exception(\"Failed to get deformable body rest nodal positions from backend\")\nException: Failed to get deformable body rest nodal positions from backend\n",
+  "numerically_valid": false,
+  "task_success": false,
+  "hold_lift_m": null,
+  "minimum_volume_ratio": null,
+  "force_n": null,
+  "force_validated": false,
+  "force_note": "Native deformable load accounting has not passed an independent momentum audit; no zero-load substitution.",
+  "audit": {},
+  "samples": 0,
+  "wall_seconds": 73.84376322699973
+}

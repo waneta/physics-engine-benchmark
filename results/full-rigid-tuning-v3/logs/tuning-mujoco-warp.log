@@ -1,0 +1,242 @@
+[1/96] mujoco-warp: train-p0.5-d0.7-t2-0
+Warp UserWarning: Kernel cache artifacts from a previous Warp version were found in '/home/datamesh/github_waneta/physics-engine-benchmark/.cache/warp'. These will be ignored. You can safely delete them.
+Warp 1.16.0 initialized:
+   CUDA Toolkit 12.9, Driver 12.8
+   Devices:
+     "cpu"      : "x86_64"
+     "cuda:0"   : "NVIDIA GeForce RTX 4090 D" (24 GiB, sm_89, mempool enabled)
+   Kernel cache:
+     /home/datamesh/github_waneta/physics-engine-benchmark/.cache/warp/1.16.0
+Module mujoco_warp._src.smooth ca013d6 load on device 'cuda:0' took 7.26 ms  (cached)
+Module _nxn_broadphase__locals__kernel_1be37570 1be3757 load on device 'cuda:0' took 3.69 ms  (cached)
+Module ccd_kernel_builder__locals__ccd_kernel_02381375 0238137 load on device 'cuda:0' took 2.24 ms  (cached)
+Module _primitive_narrowphase__locals__primitive_narrowphase_fcab5251 fcab525 load on device 'cuda:0' took 2.09 ms  (cached)
+Module mujoco_warp._src.constraint 5b5fe2d load on device 'cuda:0' took 1.92 ms  (cached)
+Module _friction_dof__locals__kernel_b1bda76d b1bda76 load on device 'cuda:0' took 2.02 ms  (cached)
+Module _limit_slide_hinge__locals__kernel_06cdb81d 06cdb81 load on device 'cuda:0' took 1.96 ms  (cached)
+Module _efc_contact_init__locals__kernel_9f8465c5 9f8465c load on device 'cuda:0' took 2.27 ms  (cached)
+Module _efc_contact_jac_dense__locals__kernel_d7c0e5ee db8e6f1 load on device 'cuda:0' took 1.86 ms  (cached)
+Module _efc_contact_update__locals__kernel_edb30c24 edb30c2 load on device 'cuda:0' took 2.07 ms  (cached)
+Module mujoco_warp._src.passive 5924789 load on device 'cuda:0' took 1.98 ms  (cached)
+Module _qfrc_passive_kernel__locals__kernel_a386b29e a386b29 load on device 'cuda:0' took 1.53 ms  (cached)
+Module _qfrc_smooth__locals__kernel_b98573a2 b98573a load on device 'cuda:0' took 1.33 ms  (cached)
+Module mujoco_warp._src.support 46f46ca load on device 'cuda:0' took 1.65 ms  (cached)
+Module _small_cholesky_factorize_solve_block__locals__kernel_2b75aeaa 964bbb9 load on device 'cuda:0' took 3.17 ms  (cached)
+Module _tile_cholesky_factorize_solve_block__locals__kernel_8d2c83d3 bb4c15e load on device 'cuda:0' took 30.34 ms  (cached)
+Module _solve_init_dof__locals__kernel_66e3dc49 66e3dc4 load on device 'cuda:0' took 1.28 ms  (cached)
+Module mujoco_warp._src.solver 9c75e2a load on device 'cuda:0' took 0.50 ms  (cached)
+Module _solve_init_jaref_kernel__locals__kernel_de231236 de23123 load on device 'cuda:0' took 3.40 ms  (cached)
+Module mul_m_kernel__locals___mul_m_8efe01a0 8efe01a load on device 'cuda:0' took 1.59 ms  (cached)
+Module _update_constraint_efc__locals__kernel_fc20741b fc20741 load on device 'cuda:0' took 0.40 ms  (cached)
+Module _update_constraint_init_qfrc_constraint_dense__locals__kernel_44c8eda8 44c8eda load on device 'cuda:0' took 1.09 ms  (cached)
+Module _update_gradient_zero_grad_dot__locals__kernel_52bae6b7 52bae6b load on device 'cuda:0' took 1.54 ms  (cached)
+Module _update_gradient_grad__locals__kernel_769b869e 769b869 load on device 'cuda:0' took 1.74 ms  (cached)
+Module _update_gradient_JTDAJ_dense_tiled__locals__kernel_22c658ec 71d9c45 load on device 'cuda:0' took 3.12 ms  (cached)
+Module _update_gradient_cholesky__locals__kernel_f046cac6 f43ff24 load on device 'cuda:0' took 28.08 ms  (cached)
+Module _linesearch_iterative_kernel__locals__kernel_2d235f8c 9d4a882 load on device 'cuda:0' took 3.50 ms  (cached)
+Module _solve_done__locals__kernel_9b35ebf5 9b35ebf load on device 'cuda:0' took 1.43 ms  (cached)
+Module mujoco_warp._src.forward 15f20a6 load on device 'cuda:0' took 1.50 ms  (cached)
+Module _next_time_builder__locals___next_time_56ba631e 56ba631 load on device 'cuda:0' took 0.94 ms  (cached)
+  completed; task_success=True; error=None
+[2/96] mujoco-warp: train-p0.5-d0.7-t2-1
+  completed; task_success=True; error=None
+[3/96] mujoco-warp: train-p0.5-d0.7-t2-2
+  completed; task_success=True; error=None
+[4/96] mujoco-warp: train-p0.5-d0.7-t3-0
+  completed; task_success=True; error=None
+[5/96] mujoco-warp: train-p0.5-d0.7-t3-1
+  completed; task_success=True; error=None
+[6/96] mujoco-warp: train-p0.5-d0.7-t3-2
+  completed; task_success=True; error=None
+[7/96] mujoco-warp: train-p0.5-d0.7-t4-0
+  completed; task_success=False; error=None
+[8/96] mujoco-warp: train-p0.5-d0.7-t4-1
+  completed; task_success=True; error=None
+[9/96] mujoco-warp: train-p0.5-d0.7-t4-2
+  completed; task_success=False; error=None
+[10/96] mujoco-warp: train-p0.5-d1-t2-0
+  completed; task_success=True; error=None
+[11/96] mujoco-warp: train-p0.5-d1-t2-1
+  completed; task_success=True; error=None
+[12/96] mujoco-warp: train-p0.5-d1-t2-2
+  completed; task_success=True; error=None
+[13/96] mujoco-warp: train-p0.5-d1-t3-0
+  completed; task_success=True; error=None
+[14/96] mujoco-warp: train-p0.5-d1-t3-1
+  completed; task_success=True; error=None
+[15/96] mujoco-warp: train-p0.5-d1-t3-2
+  completed; task_success=True; error=None
+[16/96] mujoco-warp: train-p0.5-d1-t4-0
+  completed; task_success=False; error=None
+[17/96] mujoco-warp: train-p0.5-d1-t4-1
+  completed; task_success=True; error=None
+[18/96] mujoco-warp: train-p0.5-d1-t4-2
+  completed; task_success=False; error=None
+[19/96] mujoco-warp: train-p0.5-d1.4-t2-0
+  completed; task_success=True; error=None
+[20/96] mujoco-warp: train-p0.5-d1.4-t2-1
+  completed; task_success=True; error=None
+[21/96] mujoco-warp: train-p0.5-d1.4-t2-2
+  completed; task_success=True; error=None
+[22/96] mujoco-warp: train-p0.5-d1.4-t3-0
+  completed; task_success=False; error=None
+[23/96] mujoco-warp: train-p0.5-d1.4-t3-1
+  completed; task_success=True; error=None
+[24/96] mujoco-warp: train-p0.5-d1.4-t3-2
+  completed; task_success=True; error=None
+[25/96] mujoco-warp: train-p0.5-d1.4-t4-0
+  completed; task_success=True; error=None
+[26/96] mujoco-warp: train-p0.5-d1.4-t4-1
+  completed; task_success=True; error=None
+[27/96] mujoco-warp: train-p0.5-d1.4-t4-2
+  completed; task_success=True; error=None
+[28/96] mujoco-warp: train-p1-d0.7-t2-0
+  completed; task_success=True; error=None
+[29/96] mujoco-warp: train-p1-d0.7-t2-1
+  completed; task_success=True; error=None
+[30/96] mujoco-warp: train-p1-d0.7-t2-2
+  completed; task_success=True; error=None
+[31/96] mujoco-warp: train-p1-d0.7-t3-0
+  completed; task_success=True; error=None
+[32/96] mujoco-warp: train-p1-d0.7-t3-1
+  completed; task_success=True; error=None
+[33/96] mujoco-warp: train-p1-d0.7-t3-2
+  completed; task_success=True; error=None
+[34/96] mujoco-warp: train-p1-d0.7-t4-0
+  completed; task_success=True; error=None
+[35/96] mujoco-warp: train-p1-d0.7-t4-1
+  completed; task_success=True; error=None
+[36/96] mujoco-warp: train-p1-d0.7-t4-2
+  completed; task_success=True; error=None
+[37/96] mujoco-warp: train-p1-d1-t2-0
+  completed; task_success=True; error=None
+[38/96] mujoco-warp: train-p1-d1-t2-1
+  completed; task_success=True; error=None
+[39/96] mujoco-warp: train-p1-d1-t2-2
+  completed; task_success=True; error=None
+[40/96] mujoco-warp: train-p1-d1-t3-0
+  completed; task_success=True; error=None
+[41/96] mujoco-warp: train-p1-d1-t3-1
+  completed; task_success=True; error=None
+[42/96] mujoco-warp: train-p1-d1-t3-2
+  completed; task_success=True; error=None
+[43/96] mujoco-warp: train-p1-d1-t4-0
+  completed; task_success=True; error=None
+[44/96] mujoco-warp: train-p1-d1-t4-1
+  completed; task_success=True; error=None
+[45/96] mujoco-warp: train-p1-d1-t4-2
+  completed; task_success=False; error=None
+[46/96] mujoco-warp: train-p1-d1.4-t2-0
+  completed; task_success=True; error=None
+[47/96] mujoco-warp: train-p1-d1.4-t2-1
+  completed; task_success=True; error=None
+[48/96] mujoco-warp: train-p1-d1.4-t2-2
+  completed; task_success=True; error=None
+[49/96] mujoco-warp: train-p1-d1.4-t3-0
+  completed; task_success=True; error=None
+[50/96] mujoco-warp: train-p1-d1.4-t3-1
+  completed; task_success=True; error=None
+[51/96] mujoco-warp: train-p1-d1.4-t3-2
+  completed; task_success=True; error=None
+[52/96] mujoco-warp: train-p1-d1.4-t4-0
+  completed; task_success=True; error=None
+[53/96] mujoco-warp: train-p1-d1.4-t4-1
+  completed; task_success=True; error=None
+[54/96] mujoco-warp: train-p1-d1.4-t4-2
+  completed; task_success=False; error=None
+[55/96] mujoco-warp: train-p2-d0.7-t2-0
+  completed; task_success=True; error=None
+[56/96] mujoco-warp: train-p2-d0.7-t2-1
+  completed; task_success=True; error=None
+[57/96] mujoco-warp: train-p2-d0.7-t2-2
+  completed; task_success=True; error=None
+[58/96] mujoco-warp: train-p2-d0.7-t3-0
+  completed; task_success=True; error=None
+[59/96] mujoco-warp: train-p2-d0.7-t3-1
+  completed; task_success=True; error=None
+[60/96] mujoco-warp: train-p2-d0.7-t3-2
+  completed; task_success=True; error=None
+[61/96] mujoco-warp: train-p2-d0.7-t4-0
+  completed; task_success=True; error=None
+[62/96] mujoco-warp: train-p2-d0.7-t4-1
+  completed; task_success=True; error=None
+[63/96] mujoco-warp: train-p2-d0.7-t4-2
+  completed; task_success=True; error=None
+[64/96] mujoco-warp: train-p2-d1-t2-0
+  completed; task_success=True; error=None
+[65/96] mujoco-warp: train-p2-d1-t2-1
+  completed; task_success=True; error=None
+[66/96] mujoco-warp: train-p2-d1-t2-2
+  completed; task_success=True; error=None
+[67/96] mujoco-warp: train-p2-d1-t3-0
+  completed; task_success=True; error=None
+[68/96] mujoco-warp: train-p2-d1-t3-1
+  completed; task_success=True; error=None
+[69/96] mujoco-warp: train-p2-d1-t3-2
+  completed; task_success=True; error=None
+[70/96] mujoco-warp: train-p2-d1-t4-0
+  completed; task_success=True; error=None
+[71/96] mujoco-warp: train-p2-d1-t4-1
+  completed; task_success=True; error=None
+[72/96] mujoco-warp: train-p2-d1-t4-2
+  completed; task_success=True; error=None
+[73/96] mujoco-warp: train-p2-d1.4-t2-0
+  completed; task_success=True; error=None
+[74/96] mujoco-warp: train-p2-d1.4-t2-1
+  completed; task_success=True; error=None
+[75/96] mujoco-warp: train-p2-d1.4-t2-2
+  completed; task_success=True; error=None
+[76/96] mujoco-warp: train-p2-d1.4-t3-0
+  completed; task_success=True; error=None
+[77/96] mujoco-warp: train-p2-d1.4-t3-1
+  completed; task_success=True; error=None
+[78/96] mujoco-warp: train-p2-d1.4-t3-2
+  completed; task_success=True; error=None
+[79/96] mujoco-warp: train-p2-d1.4-t4-0
+  completed; task_success=True; error=None
+[80/96] mujoco-warp: train-p2-d1.4-t4-1
+  completed; task_success=True; error=None
+[81/96] mujoco-warp: train-p2-d1.4-t4-2
+  completed; task_success=True; error=None
+[82/96] mujoco-warp: speed-3-0
+  completed; task_success=True; error=None
+[83/96] mujoco-warp: speed-3-1
+  completed; task_success=True; error=None
+[84/96] mujoco-warp: speed-3-2
+  completed; task_success=True; error=None
+[85/96] mujoco-warp: speed-2-0
+  completed; task_success=True; error=None
+[86/96] mujoco-warp: speed-2-1
+  completed; task_success=True; error=None
+[87/96] mujoco-warp: speed-2-2
+  completed; task_success=True; error=None
+[88/96] mujoco-warp: speed-1.5-0
+  completed; task_success=True; error=None
+[89/96] mujoco-warp: speed-1.5-1
+  completed; task_success=True; error=None
+[90/96] mujoco-warp: speed-1.5-2
+  completed; task_success=True; error=None
+[91/96] mujoco-warp: speed-1-0
+  completed; task_success=True; error=None
+[92/96] mujoco-warp: speed-1-1
+  completed; task_success=True; error=None
+[93/96] mujoco-warp: speed-1-2
+  completed; task_success=True; error=None
+[94/96] mujoco-warp: speed-0.75-0
+  completed; task_success=True; error=None
+[95/96] mujoco-warp: speed-0.75-1
+  completed; task_success=True; error=None
+[96/96] mujoco-warp: speed-0.75-2
+  completed; task_success=True; error=None
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-rigid-tuning-v3/source/src/physics_benchmark/extended/suite.py", line 268, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-rigid-tuning-v3/source/src/physics_benchmark/extended/suite.py", line 250, in main
+    choice = select(results)
+             ^^^^^^^^^^^^^^^
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-rigid-tuning-v3/source/src/physics_benchmark/extended/suite.py", line 114, in select
+    raise ValueError("No candidate passed all three training validity gates")
+ValueError: No candidate passed all three training validity gates

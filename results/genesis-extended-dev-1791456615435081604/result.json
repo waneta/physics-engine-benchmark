@@ -1,0 +1,16 @@
+{
+  "numerically_valid": false,
+  "task_success": false,
+  "engine": "genesis",
+  "case": {
+    "family": "panda_tracking",
+    "duration": 2.5,
+    "dt": 0.001
+  },
+  "status": "error",
+  "error": "Validation error for <gs.morphs.MJCF>: Unrecognized attribute 'merge_fixed_links'.",
+  "wall_seconds": 4.173762487000204,
+  "reference_sha256": "63a6ed90aa9d217296fea9d96bab674425b519c4baa2e3ff05c3949306030efb",
+  "samples": 0,
+  "audit": {}
+}

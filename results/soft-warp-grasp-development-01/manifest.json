@@ -1,0 +1,31 @@
+{
+  "engine": "mujoco-warp",
+  "cases": [
+    {
+      "family": "soft_grasp",
+      "dt": 5e-05,
+      "refined": false,
+      "duration": 4.5,
+      "finger_force": 1,
+      "repeat": 0,
+      "id": "soft_grasp-04"
+    }
+  ],
+  "source_hashes": {
+    "src/physics_benchmark/extended/model.py": "f1047833f5fbd0f66a3cb0bc2cb29b0485775e11c02a1ce2516ccd5aacfdbdcf",
+    "src/physics_benchmark/extended/suite.py": "e735275860887ece0936ea9d0395d531b3a4cce1919d57ee07d390bcdcc8f1f7",
+    "src/physics_benchmark/extended/throughput_kernels.py": "0b938668b085361bfaf3c7e8ca33f2a7f2f9e79dffc58a5f77b4414182fe7ec7",
+    "src/physics_benchmark/extended/metrics.py": "945e0f268458f79d34e971dd434dafdfd32b4f12813e8754cc7b5e87e76d6586",
+    "src/physics_benchmark/extended/report.py": "71528cc65e56dbe3a6d1a337f0048bc51d08eb7b88e46606959b4608c8b7ac18",
+    "src/physics_benchmark/extended/soft_genesis.py": "800de456ee548798293a9d476250cc931d963691393c3dd124336d06b77f6d1c",
+    "src/physics_benchmark/extended/soft_physx.py": "7da92d4a5e2aa60d2329b7f0fa06da3144bf3f15bc77fd91b1619745d5b144c7",
+    "src/physics_benchmark/extended/rigid.py": "fc6ef378b3539ba427b352864a0fe997df4c7bf0c073916e973c438ba5783e64",
+    "src/physics_benchmark/extended/soft_newton_vbd.py": "7074cb51b96d8490dc74d18ccf7b3bce11fc744c23e220a1fb4b74f0d9872b20",
+    "src/physics_benchmark/extended/__init__.py": "a9b86c204193bec5d331a7427b758295f6ab8403cfb92f7f911894ce88b52c92",
+    "src/physics_benchmark/extended/physx.py": "aaa8734ca88b9fca80ff71c134050503aae683e01b887a4305bfe7c706cef369",
+    "src/physics_benchmark/extended/soft.py": "1d44b38a046e6b67ba38bf421f8808effd73c592ff5af582476028355db7476a",
+    "src/physics_benchmark/extended/throughput.py": "34a4b00e8aaa13d73c7ae3795607ea247bd09d3b946251a56b33dc4d7f2e88a2",
+    "scripts/isaac_extended_worker.py": "d2abecb3e52e10dd4af01f61070a834b90d0dc331d2c40f8d3b14546d0d9fffc",
+    "configs/assets/panda/source.xml": "96ad67da03710f17f798c9478fd9e9efdf24a3bf8359f05e456dd9fb158ea273"
+  }
+}

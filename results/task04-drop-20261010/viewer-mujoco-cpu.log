@@ -1,0 +1,16 @@
+Output: /home/datamesh/github_waneta/physics-engine-benchmark/results/task04-drop-20261010/viewer-mujoco-cpu
+Running mujoco-cpu: drop dt=0.002 repeat=1
+X Error of failed request:  GLXBadContext
+  Major opcode of failed request:  152 (GLX)
+  Minor opcode of failed request:  4 (X_GLXDestroyContext)
+  Serial number of failed request:  274
+  Current serial number in output stream:  274
+X Error of failed request:  GLXBadContext
+  Major opcode of failed request:  152 (GLX)
+  Minor opcode of failed request:  4 (X_GLXDestroyContext)
+  Serial number of failed request:  274
+  Current serial number in output stream:  274
+drop  dt=0.002 repeat=1: passed
+Running mujoco-cpu: drop dt=0.001 repeat=1
+drop  dt=0.001 repeat=1: passed
+Report: /home/datamesh/github_waneta/physics-engine-benchmark/results/task04-drop-20261010/viewer-mujoco-cpu/report.md

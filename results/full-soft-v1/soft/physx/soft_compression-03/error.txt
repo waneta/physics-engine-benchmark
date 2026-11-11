@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-soft-v1/source/src/physics_benchmark/backends/physx.py", line 88, in receive
+    message = self.messages.get(timeout=180)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/queue.py", line 179, in get
+    raise Empty
+_queue.Empty
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-soft-v1/source/src/physics_benchmark/extended/soft.py", line 410, in run
+    verts = sim.step(i)
+            ^^^^^^^^^^^
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-soft-v1/source/src/physics_benchmark/extended/soft_physx.py", line 71, in step
+    reply = self.worker.receive()
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-soft-v1/source/src/physics_benchmark/backends/physx.py", line 91, in receive
+    raise RuntimeError("Isaac worker timed out; see " + self.log.name) from exc
+RuntimeError: Isaac worker timed out; see /home/datamesh/github_waneta/physics-engine-benchmark/results/full-soft-v1/source/.cache/logs/physics-bench-171e652bf5df.log

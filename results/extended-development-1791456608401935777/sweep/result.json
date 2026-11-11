@@ -1,0 +1,47 @@
+{
+  "numerically_valid": true,
+  "task_success": false,
+  "simulated_seconds": 12.5,
+  "max_fk_error_m": 0.0,
+  "peak_contact_force_n": 497.7388882899591,
+  "joint_rmse_rad": 0.003486730714615011,
+  "normalized_squared_arm_effort": 0.021942826116696117,
+  "joint_limit_excess_rad": 0.0,
+  "max_momentum_residual_ns": {
+    "object0": 3.1231758156125715e-08,
+    "object1": 8.244575344737276e-08,
+    "object2": 9.006054277802972e-08,
+    "object3": 3.17808074673056e-08,
+    "object4": 6.246449770801876e-08,
+    "object5": 2.9289939874003648e-08,
+    "object6": 2.2227797475989527e-08,
+    "object7": 4.157517947311116e-08,
+    "object8": 4.59550574520122e-08,
+    "object9": 1.7168341774980293e-08,
+    "object10": 4.544163723763328e-08,
+    "object11": 7.494556687709388e-08,
+    "object12": 2.257965863464751e-09,
+    "object13": 4.893407185808854e-08,
+    "object14": 5.462599115931535e-08
+  },
+  "contact_force_validated": true,
+  "objects_in_tray": 8,
+  "engine": "mujoco",
+  "case": {
+    "family": "sweep",
+    "duration": 12.5,
+    "dt": 0.001
+  },
+  "status": "completed",
+  "error": null,
+  "wall_seconds": 20.985961131000295,
+  "reference_sha256": "399785187556cdae9b37677b9c0162b414d149559ce243c9b3b600e60cbe31b7",
+  "samples": 12501,
+  "audit": {
+    "engine": "mujoco",
+    "version": "3.15.0",
+    "precision": "float64",
+    "device": "cpu",
+    "initial_fk_error_m": 0.0
+  }
+}

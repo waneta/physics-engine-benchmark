@@ -1,0 +1,307 @@
+{
+  "passed": true,
+  "headless_runs": 24,
+  "gui_runs": 8,
+  "headless_steps": 10800,
+  "gui_steps": 3600,
+  "overview": [
+    {
+      "engine": "physx",
+      "passed": 6,
+      "gui_passed": 2
+    },
+    {
+      "engine": "mujoco-warp",
+      "passed": 6,
+      "gui_passed": 2
+    },
+    {
+      "engine": "mujoco-cpu",
+      "passed": 6,
+      "gui_passed": 2
+    },
+    {
+      "engine": "genesis",
+      "passed": 6,
+      "gui_passed": 2
+    }
+  ],
+  "comparison_absolute_limits": {
+    "position_m": 1e-06,
+    "quaternion": 1e-06,
+    "velocity_m_s": 0.0001,
+    "angular_velocity_rad_s": 0.001,
+    "force_n": 0.001,
+    "impulse_ns": 1e-06
+  },
+  "viewer_equivalence": [
+    {
+      "max_difference": {
+        "position_m": 0.0,
+        "quaternion": 0.0,
+        "velocity_m_s": 0.0,
+        "angular_velocity_rad_s": 0.0,
+        "force_n": 0.0,
+        "impulse_ns": 0.0
+      },
+      "all_numeric_columns_identical": true,
+      "within_limits": true,
+      "engine": "physx",
+      "dt_s": 0.002,
+      "steps": 300,
+      "frames": 60,
+      "final_display_pose_error": 0.0,
+      "stop_time_difference_s": 0.0,
+      "passed": true
+    },
+    {
+      "max_difference": {
+        "position_m": 0.0,
+        "quaternion": 0.0,
+        "velocity_m_s": 0.0,
+        "angular_velocity_rad_s": 0.0,
+        "force_n": 0.0,
+        "impulse_ns": 0.0
+      },
+      "all_numeric_columns_identical": true,
+      "within_limits": true,
+      "engine": "physx",
+      "dt_s": 0.001,
+      "steps": 600,
+      "frames": 87,
+      "final_display_pose_error": 0.0,
+      "stop_time_difference_s": 0.0,
+      "passed": true
+    },
+    {
+      "max_difference": {
+        "position_m": 1.9371509552001953e-07,
+        "quaternion": 4.220522438203034e-07,
+        "velocity_m_s": 1.2516975402832031e-06,
+        "angular_velocity_rad_s": 1.9550323486328125e-05,
+        "force_n": 2.1457672119140625e-05,
+        "impulse_ns": 4.291534423835064e-08
+      },
+      "all_numeric_columns_identical": false,
+      "within_limits": true,
+      "engine": "mujoco-warp",
+      "dt_s": 0.002,
+      "steps": 300,
+      "frames": 76,
+      "final_display_pose_error": 0.0,
+      "stop_time_difference_s": 0.0,
+      "passed": true
+    },
+    {
+      "max_difference": {
+        "position_m": 2.9802322387695312e-08,
+        "quaternion": 4.034548766185253e-07,
+        "velocity_m_s": 5.364418029785156e-07,
+        "angular_velocity_rad_s": 1.5335143416450592e-05,
+        "force_n": 5.227327346801758e-05,
+        "impulse_ns": 5.2273273468475545e-08
+      },
+      "all_numeric_columns_identical": false,
+      "within_limits": true,
+      "engine": "mujoco-warp",
+      "dt_s": 0.001,
+      "steps": 600,
+      "frames": 87,
+      "final_display_pose_error": 0.0,
+      "stop_time_difference_s": 0.0,
+      "passed": true
+    },
+    {
+      "max_difference": {
+        "position_m": 0.0,
+        "quaternion": 0.0,
+        "velocity_m_s": 0.0,
+        "angular_velocity_rad_s": 0.0,
+        "force_n": 0.0,
+        "impulse_ns": 0.0
+      },
+      "all_numeric_columns_identical": true,
+      "within_limits": true,
+      "engine": "mujoco-cpu",
+      "dt_s": 0.002,
+      "steps": 300,
+      "frames": 76,
+      "final_display_pose_error": 0.0,
+      "stop_time_difference_s": 0.0,
+      "passed": true
+    },
+    {
+      "max_difference": {
+        "position_m": 0.0,
+        "quaternion": 0.0,
+        "velocity_m_s": 0.0,
+        "angular_velocity_rad_s": 0.0,
+        "force_n": 0.0,
+        "impulse_ns": 0.0
+      },
+      "all_numeric_columns_identical": true,
+      "within_limits": true,
+      "engine": "mujoco-cpu",
+      "dt_s": 0.001,
+      "steps": 600,
+      "frames": 87,
+      "final_display_pose_error": 0.0,
+      "stop_time_difference_s": 0.0,
+      "passed": true
+    },
+    {
+      "max_difference": {
+        "position_m": 0.0,
+        "quaternion": 0.0,
+        "velocity_m_s": 0.0,
+        "angular_velocity_rad_s": 0.0,
+        "force_n": 0.0,
+        "impulse_ns": 0.0
+      },
+      "all_numeric_columns_identical": true,
+      "within_limits": true,
+      "engine": "genesis",
+      "dt_s": 0.002,
+      "steps": 300,
+      "frames": 76,
+      "final_display_pose_error": 0.0,
+      "stop_time_difference_s": 0.0,
+      "passed": true
+    },
+    {
+      "max_difference": {
+        "position_m": 0.0,
+        "quaternion": 0.0,
+        "velocity_m_s": 0.0,
+        "angular_velocity_rad_s": 0.0,
+        "force_n": 0.0,
+        "impulse_ns": 0.0
+      },
+      "all_numeric_columns_identical": true,
+      "within_limits": true,
+      "engine": "genesis",
+      "dt_s": 0.001,
+      "steps": 600,
+      "frames": 87,
+      "final_display_pose_error": 0.0,
+      "stop_time_difference_s": 0.0,
+      "passed": true
+    }
+  ],
+  "previous_to_current_sample_comparison": [
+    {
+      "engine": "physx",
+      "dt_s": 0.002,
+      "max_difference": {
+        "position_m": 0.0,
+        "quaternion": 0.0,
+        "velocity_m_s": 0.0,
+        "angular_velocity_rad_s": 0.0,
+        "force_n": 0.0,
+        "impulse_ns": 0.0
+      },
+      "all_numeric_columns_identical": true,
+      "within_limits": true
+    },
+    {
+      "engine": "physx",
+      "dt_s": 0.001,
+      "max_difference": {
+        "position_m": 0.0,
+        "quaternion": 0.0,
+        "velocity_m_s": 0.0,
+        "angular_velocity_rad_s": 0.0,
+        "force_n": 0.0,
+        "impulse_ns": 0.0
+      },
+      "all_numeric_columns_identical": true,
+      "within_limits": true
+    },
+    {
+      "engine": "mujoco-warp",
+      "dt_s": 0.002,
+      "max_difference": {
+        "position_m": 1.9371509552001953e-07,
+        "quaternion": 4.220522438203034e-07,
+        "velocity_m_s": 1.2516975402832031e-06,
+        "angular_velocity_rad_s": 1.9550323486328125e-05,
+        "force_n": 2.1457672119140625e-05,
+        "impulse_ns": 4.291534423835064e-08
+      },
+      "all_numeric_columns_identical": false,
+      "within_limits": true
+    },
+    {
+      "engine": "mujoco-warp",
+      "dt_s": 0.001,
+      "max_difference": {
+        "position_m": 1.0734824584801572e-08,
+        "quaternion": 4.7585344020717457e-07,
+        "velocity_m_s": 6.556510925292969e-07,
+        "angular_velocity_rad_s": 2.09808349609375e-05,
+        "force_n": 2.4139881134033203e-05,
+        "impulse_ns": 2.4139881134180655e-08
+      },
+      "all_numeric_columns_identical": false,
+      "within_limits": true
+    },
+    {
+      "engine": "mujoco-cpu",
+      "dt_s": 0.002,
+      "max_difference": {
+        "position_m": 0.0,
+        "quaternion": 0.0,
+        "velocity_m_s": 0.0,
+        "angular_velocity_rad_s": 0.0,
+        "force_n": 0.0,
+        "impulse_ns": 0.0
+      },
+      "all_numeric_columns_identical": true,
+      "within_limits": true
+    },
+    {
+      "engine": "mujoco-cpu",
+      "dt_s": 0.001,
+      "max_difference": {
+        "position_m": 0.0,
+        "quaternion": 0.0,
+        "velocity_m_s": 0.0,
+        "angular_velocity_rad_s": 0.0,
+        "force_n": 0.0,
+        "impulse_ns": 0.0
+      },
+      "all_numeric_columns_identical": true,
+      "within_limits": true
+    },
+    {
+      "engine": "genesis",
+      "dt_s": 0.002,
+      "max_difference": {
+        "position_m": 0.0,
+        "quaternion": 0.0,
+        "velocity_m_s": 0.0,
+        "angular_velocity_rad_s": 0.0,
+        "force_n": 0.0,
+        "impulse_ns": 0.0
+      },
+      "all_numeric_columns_identical": true,
+      "within_limits": true
+    },
+    {
+      "engine": "genesis",
+      "dt_s": 0.001,
+      "max_difference": {
+        "position_m": 0.0,
+        "quaternion": 0.0,
+        "velocity_m_s": 0.0,
+        "angular_velocity_rad_s": 0.0,
+        "force_n": 0.0,
+        "impulse_ns": 0.0
+      },
+      "all_numeric_columns_identical": true,
+      "within_limits": true
+    }
+  ],
+  "preserved_historical_files": 534,
+  "source_files_unchanged": true
+}

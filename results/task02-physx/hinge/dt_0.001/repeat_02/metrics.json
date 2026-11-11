@@ -1,0 +1,9 @@
+{
+  "scene": "hinge",
+  "dt_s": 0.001,
+  "steps": 1000,
+  "max_angle_error_rad": 0.001466303815605391,
+  "rms_angle_error_rad": 0.0010209221524086136,
+  "max_velocity_error_rad_s": 0.00013574566697616142,
+  "torque_impulse_nms": 0.02
+}

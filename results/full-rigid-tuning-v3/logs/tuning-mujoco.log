@@ -1,0 +1,217 @@
+[1/96] mujoco: train-p0.5-d0.7-t2-0
+  completed; task_success=True; error=None
+[2/96] mujoco: train-p0.5-d0.7-t2-1
+  completed; task_success=True; error=None
+[3/96] mujoco: train-p0.5-d0.7-t2-2
+  completed; task_success=True; error=None
+[4/96] mujoco: train-p0.5-d0.7-t3-0
+  completed; task_success=False; error=None
+[5/96] mujoco: train-p0.5-d0.7-t3-1
+  completed; task_success=True; error=None
+[6/96] mujoco: train-p0.5-d0.7-t3-2
+  completed; task_success=False; error=None
+[7/96] mujoco: train-p0.5-d0.7-t4-0
+  completed; task_success=False; error=None
+[8/96] mujoco: train-p0.5-d0.7-t4-1
+  completed; task_success=True; error=None
+[9/96] mujoco: train-p0.5-d0.7-t4-2
+  completed; task_success=False; error=None
+[10/96] mujoco: train-p0.5-d1-t2-0
+  completed; task_success=True; error=None
+[11/96] mujoco: train-p0.5-d1-t2-1
+  completed; task_success=True; error=None
+[12/96] mujoco: train-p0.5-d1-t2-2
+  completed; task_success=True; error=None
+[13/96] mujoco: train-p0.5-d1-t3-0
+  completed; task_success=False; error=None
+[14/96] mujoco: train-p0.5-d1-t3-1
+  completed; task_success=True; error=None
+[15/96] mujoco: train-p0.5-d1-t3-2
+  completed; task_success=False; error=None
+[16/96] mujoco: train-p0.5-d1-t4-0
+  completed; task_success=False; error=None
+[17/96] mujoco: train-p0.5-d1-t4-1
+  completed; task_success=True; error=None
+[18/96] mujoco: train-p0.5-d1-t4-2
+  completed; task_success=False; error=None
+[19/96] mujoco: train-p0.5-d1.4-t2-0
+  completed; task_success=True; error=None
+[20/96] mujoco: train-p0.5-d1.4-t2-1
+  completed; task_success=True; error=None
+[21/96] mujoco: train-p0.5-d1.4-t2-2
+  completed; task_success=True; error=None
+[22/96] mujoco: train-p0.5-d1.4-t3-0
+  completed; task_success=True; error=None
+[23/96] mujoco: train-p0.5-d1.4-t3-1
+  completed; task_success=True; error=None
+[24/96] mujoco: train-p0.5-d1.4-t3-2
+  completed; task_success=True; error=None
+[25/96] mujoco: train-p0.5-d1.4-t4-0
+  completed; task_success=False; error=None
+[26/96] mujoco: train-p0.5-d1.4-t4-1
+  completed; task_success=True; error=None
+[27/96] mujoco: train-p0.5-d1.4-t4-2
+  completed; task_success=False; error=None
+[28/96] mujoco: train-p1-d0.7-t2-0
+  completed; task_success=True; error=None
+[29/96] mujoco: train-p1-d0.7-t2-1
+  completed; task_success=True; error=None
+[30/96] mujoco: train-p1-d0.7-t2-2
+  completed; task_success=True; error=None
+[31/96] mujoco: train-p1-d0.7-t3-0
+  completed; task_success=True; error=None
+[32/96] mujoco: train-p1-d0.7-t3-1
+  completed; task_success=True; error=None
+[33/96] mujoco: train-p1-d0.7-t3-2
+  completed; task_success=True; error=None
+[34/96] mujoco: train-p1-d0.7-t4-0
+  completed; task_success=True; error=None
+[35/96] mujoco: train-p1-d0.7-t4-1
+  completed; task_success=True; error=None
+[36/96] mujoco: train-p1-d0.7-t4-2
+  completed; task_success=True; error=None
+[37/96] mujoco: train-p1-d1-t2-0
+  completed; task_success=True; error=None
+[38/96] mujoco: train-p1-d1-t2-1
+  completed; task_success=True; error=None
+[39/96] mujoco: train-p1-d1-t2-2
+  completed; task_success=True; error=None
+[40/96] mujoco: train-p1-d1-t3-0
+  completed; task_success=True; error=None
+[41/96] mujoco: train-p1-d1-t3-1
+  completed; task_success=True; error=None
+[42/96] mujoco: train-p1-d1-t3-2
+  completed; task_success=True; error=None
+[43/96] mujoco: train-p1-d1-t4-0
+  completed; task_success=False; error=None
+[44/96] mujoco: train-p1-d1-t4-1
+  completed; task_success=True; error=None
+[45/96] mujoco: train-p1-d1-t4-2
+  completed; task_success=True; error=None
+[46/96] mujoco: train-p1-d1.4-t2-0
+  completed; task_success=True; error=None
+[47/96] mujoco: train-p1-d1.4-t2-1
+  completed; task_success=True; error=None
+[48/96] mujoco: train-p1-d1.4-t2-2
+  completed; task_success=True; error=None
+[49/96] mujoco: train-p1-d1.4-t3-0
+  completed; task_success=True; error=None
+[50/96] mujoco: train-p1-d1.4-t3-1
+  completed; task_success=True; error=None
+[51/96] mujoco: train-p1-d1.4-t3-2
+  completed; task_success=True; error=None
+[52/96] mujoco: train-p1-d1.4-t4-0
+  completed; task_success=True; error=None
+[53/96] mujoco: train-p1-d1.4-t4-1
+  completed; task_success=True; error=None
+[54/96] mujoco: train-p1-d1.4-t4-2
+  completed; task_success=True; error=None
+[55/96] mujoco: train-p2-d0.7-t2-0
+  completed; task_success=True; error=None
+[56/96] mujoco: train-p2-d0.7-t2-1
+  completed; task_success=True; error=None
+[57/96] mujoco: train-p2-d0.7-t2-2
+  completed; task_success=True; error=None
+[58/96] mujoco: train-p2-d0.7-t3-0
+  completed; task_success=True; error=None
+[59/96] mujoco: train-p2-d0.7-t3-1
+  completed; task_success=True; error=None
+[60/96] mujoco: train-p2-d0.7-t3-2
+  completed; task_success=True; error=None
+[61/96] mujoco: train-p2-d0.7-t4-0
+  completed; task_success=False; error=None
+[62/96] mujoco: train-p2-d0.7-t4-1
+  completed; task_success=True; error=None
+[63/96] mujoco: train-p2-d0.7-t4-2
+  completed; task_success=False; error=None
+[64/96] mujoco: train-p2-d1-t2-0
+  completed; task_success=True; error=None
+[65/96] mujoco: train-p2-d1-t2-1
+  completed; task_success=True; error=None
+[66/96] mujoco: train-p2-d1-t2-2
+  completed; task_success=True; error=None
+[67/96] mujoco: train-p2-d1-t3-0
+  completed; task_success=True; error=None
+[68/96] mujoco: train-p2-d1-t3-1
+  completed; task_success=True; error=None
+[69/96] mujoco: train-p2-d1-t3-2
+  completed; task_success=True; error=None
+[70/96] mujoco: train-p2-d1-t4-0
+  completed; task_success=True; error=None
+[71/96] mujoco: train-p2-d1-t4-1
+  completed; task_success=True; error=None
+[72/96] mujoco: train-p2-d1-t4-2
+  completed; task_success=True; error=None
+[73/96] mujoco: train-p2-d1.4-t2-0
+  completed; task_success=True; error=None
+[74/96] mujoco: train-p2-d1.4-t2-1
+  completed; task_success=True; error=None
+[75/96] mujoco: train-p2-d1.4-t2-2
+  completed; task_success=True; error=None
+[76/96] mujoco: train-p2-d1.4-t3-0
+  completed; task_success=True; error=None
+[77/96] mujoco: train-p2-d1.4-t3-1
+  completed; task_success=True; error=None
+[78/96] mujoco: train-p2-d1.4-t3-2
+  completed; task_success=False; error=None
+[79/96] mujoco: train-p2-d1.4-t4-0
+  completed; task_success=True; error=None
+[80/96] mujoco: train-p2-d1.4-t4-1
+  completed; task_success=True; error=None
+[81/96] mujoco: train-p2-d1.4-t4-2
+  completed; task_success=True; error=None
+[82/96] mujoco: speed-3-0
+  completed; task_success=True; error=None
+[83/96] mujoco: speed-3-1
+  completed; task_success=True; error=None
+[84/96] mujoco: speed-3-2
+[84/96] mujoco: speed-3-2
+  completed; task_success=True; error=None
+[85/96] mujoco: speed-2-0
+  completed; task_success=True; error=None
+[86/96] mujoco: speed-2-1
+  completed; task_success=True; error=None
+[87/96] mujoco: speed-2-2
+  completed; task_success=True; error=None
+[88/96] mujoco: speed-1.5-0
+  completed; task_success=True; error=None
+[89/96] mujoco: speed-1.5-1
+  completed; task_success=True; error=None
+[90/96] mujoco: speed-1.5-2
+  completed; task_success=True; error=None
+[91/96] mujoco: speed-1-0
+  completed; task_success=True; error=None
+[92/96] mujoco: speed-1-1
+  completed; task_success=True; error=None
+[93/96] mujoco: speed-1-2
+  completed; task_success=True; error=None
+[94/96] mujoco: speed-0.75-0
+  completed; task_success=True; error=None
+[95/96] mujoco: speed-0.75-1
+  completed; task_success=True; error=None
+[96/96] mujoco: speed-0.75-2
+  completed; task_success=True; error=None
+[1/12] mujoco: heldout-baseline-0
+  completed; task_success=False; error=None
+[2/12] mujoco: heldout-baseline-1
+  completed; task_success=True; error=None
+[3/12] mujoco: heldout-baseline-2
+  completed; task_success=True; error=None
+[4/12] mujoco: heldout-baseline-3
+  completed; task_success=True; error=None
+[5/12] mujoco: heldout-baseline-4
+  completed; task_success=False; error=None
+[6/12] mujoco: heldout-baseline-5
+  completed; task_success=False; error=None
+[7/12] mujoco: heldout-selected-0
+  completed; task_success=True; error=None
+[8/12] mujoco: heldout-selected-1
+  completed; task_success=True; error=None
+[9/12] mujoco: heldout-selected-2
+  completed; task_success=True; error=None
+[10/12] mujoco: heldout-selected-3
+  completed; task_success=True; error=None
+[11/12] mujoco: heldout-selected-4
+  completed; task_success=False; error=None
+[12/12] mujoco: heldout-selected-5
+  completed; task_success=False; error=None

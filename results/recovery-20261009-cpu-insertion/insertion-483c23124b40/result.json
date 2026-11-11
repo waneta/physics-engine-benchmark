@@ -1,0 +1,64 @@
+{
+  "numerically_valid": true,
+  "task_success": true,
+  "simulated_seconds": 4.0,
+  "max_fk_error_m": 0.0,
+  "peak_contact_force_n": 0.0,
+  "joint_rmse_rad": 0.0007426456379446738,
+  "normalized_squared_arm_effort": 0.016059713663495533,
+  "joint_limit_excess_rad": 0.0,
+  "max_momentum_residual_ns": {},
+  "contact_force_validated": null,
+  "final_insertion_depth_m": 0.02000002366285708,
+  "minimum_final_hold_depth_m": 0.01999918788114996,
+  "engine": "mujoco",
+  "case": {
+    "family": "insertion",
+    "dt": 0.001,
+    "repeat": 1,
+    "clearance": 0.0001,
+    "offset": 0,
+    "tilt_deg": 0,
+    "id": "insertion-483c23124b40",
+    "duration": 4.0
+  },
+  "status": "completed",
+  "error": null,
+  "wall_seconds": 1.9783769229998143,
+  "reference_sha256": "d1530ba0f1a67003ff28399158ba3a6f70d64c9a66858807db03b1237c7f0df8",
+  "samples": 4001,
+  "audit": {
+    "engine": "mujoco",
+    "version": "3.15.0",
+    "precision": "float64",
+    "device": "cpu",
+    "five_pose_fk_checks": [
+      {
+        "position_error_m": 0.0,
+        "rotation_frobenius_error": 0.0,
+        "joint_error": 0.0
+      },
+      {
+        "position_error_m": 0.0,
+        "rotation_frobenius_error": 0.0,
+        "joint_error": 0.0
+      },
+      {
+        "position_error_m": 0.0,
+        "rotation_frobenius_error": 0.0,
+        "joint_error": 0.0
+      },
+      {
+        "position_error_m": 0.0,
+        "rotation_frobenius_error": 0.0,
+        "joint_error": 0.0
+      },
+      {
+        "position_error_m": 0.0,
+        "rotation_frobenius_error": 0.0,
+        "joint_error": 0.0
+      }
+    ],
+    "initial_fk_error_m": 0.0
+  }
+}

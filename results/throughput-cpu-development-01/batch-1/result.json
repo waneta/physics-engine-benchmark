@@ -1,0 +1,28 @@
+{
+  "engine": "mujoco",
+  "case": {
+    "family": "throughput",
+    "batch": 1
+  },
+  "batch": 1,
+  "status": "completed",
+  "precision": "float64",
+  "dt_s": 0.001,
+  "steps_per_repeat": 2500,
+  "repeats": 3,
+  "wall_seconds": [
+    0.014194471999871894,
+    0.014246235000427987,
+    0.014154004999909375
+  ],
+  "median_seconds": 0.014194471999871894,
+  "min_seconds": 0.014154004999909375,
+  "max_seconds": 0.014246235000427987,
+  "world_steps_per_second": 176124.90271019327,
+  "max_batch_reset_error_rad": 0.0,
+  "reference_sha256": "63a6ed90aa9d217296fea9d96bab674425b519c4baa2e3ff05c3949306030efb",
+  "memory": null,
+  "timing_scope": "Controller + physics + native host launch overhead; full trajectory warmup, reset, graph capture, state readback and rendering excluded; synchronized GPU boundaries.",
+  "max_single_world_equivalence_error_rad": 0.0,
+  "trajectory_validated": true
+}

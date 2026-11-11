@@ -1,0 +1,401 @@
+[1/96] genesis: train-p0.5-d0.7-t2-0
+[38;5;226m[Genesis] [20:22:12] [WARNING] Scene.show_FPS is deprecated. Please use Scene.options.profiling.show_FPS[0m
+[38;5;226m[Genesis] [20:22:12] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [20:22:12] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=False; error=None
+[2/96] genesis: train-p0.5-d0.7-t2-1
+[38;5;226m[Genesis] [20:23:02] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [20:23:02] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[3/96] genesis: train-p0.5-d0.7-t2-2
+[38;5;226m[Genesis] [20:23:41] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [20:23:41] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[4/96] genesis: train-p0.5-d0.7-t3-0
+[38;5;226m[Genesis] [20:24:48] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [20:24:48] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=False; error=None
+[5/96] genesis: train-p0.5-d0.7-t3-1
+[38;5;226m[Genesis] [20:25:39] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [20:25:39] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[6/96] genesis: train-p0.5-d0.7-t3-2
+[38;5;226m[Genesis] [20:26:28] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [20:26:28] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=False; error=None
+[7/96] genesis: train-p0.5-d0.7-t4-0
+[38;5;226m[Genesis] [20:27:16] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [20:27:16] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=False; error=None
+[8/96] genesis: train-p0.5-d0.7-t4-1
+[38;5;226m[Genesis] [20:28:21] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [20:28:21] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[9/96] genesis: train-p0.5-d0.7-t4-2
+[38;5;226m[Genesis] [20:29:19] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [20:29:19] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=False; error=None
+[10/96] genesis: train-p0.5-d1-t2-0
+[38;5;226m[Genesis] [20:30:20] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [20:30:20] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=False; error=None
+[11/96] genesis: train-p0.5-d1-t2-1
+[38;5;226m[Genesis] [20:31:07] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [20:31:07] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[12/96] genesis: train-p0.5-d1-t2-2
+[38;5;226m[Genesis] [20:31:47] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [20:31:47] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=False; error=None
+[13/96] genesis: train-p0.5-d1-t3-0
+[38;5;226m[Genesis] [20:32:42] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [20:32:42] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[14/96] genesis: train-p0.5-d1-t3-1
+[38;5;226m[Genesis] [20:33:52] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [20:33:52] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[15/96] genesis: train-p0.5-d1-t3-2
+[38;5;226m[Genesis] [20:34:41] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [20:34:41] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=False; error=None
+[16/96] genesis: train-p0.5-d1-t4-0
+[38;5;226m[Genesis] [20:36:11] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [20:36:11] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=False; error=None
+[17/96] genesis: train-p0.5-d1-t4-1
+[38;5;226m[Genesis] [20:37:13] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [20:37:13] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[18/96] genesis: train-p0.5-d1-t4-2
+[38;5;226m[Genesis] [20:38:14] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [20:38:14] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=False; error=None
+[19/96] genesis: train-p0.5-d1.4-t2-0
+[38;5;226m[Genesis] [20:39:20] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [20:39:20] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=False; error=None
+[20/96] genesis: train-p0.5-d1.4-t2-1
+[38;5;226m[Genesis] [20:40:07] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [20:40:07] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[21/96] genesis: train-p0.5-d1.4-t2-2
+[38;5;226m[Genesis] [20:40:50] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [20:40:50] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=False; error=None
+[22/96] genesis: train-p0.5-d1.4-t3-0
+[38;5;226m[Genesis] [20:41:39] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [20:41:39] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=False; error=None
+[23/96] genesis: train-p0.5-d1.4-t3-1
+[38;5;226m[Genesis] [20:42:42] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [20:42:42] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[24/96] genesis: train-p0.5-d1.4-t3-2
+[38;5;226m[Genesis] [20:43:39] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [20:43:39] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=False; error=None
+[25/96] genesis: train-p0.5-d1.4-t4-0
+[38;5;226m[Genesis] [20:44:42] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [20:44:42] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[26/96] genesis: train-p0.5-d1.4-t4-1
+[38;5;226m[Genesis] [20:46:08] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [20:46:08] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[27/96] genesis: train-p0.5-d1.4-t4-2
+[38;5;226m[Genesis] [20:47:08] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [20:47:08] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=False; error=None
+[28/96] genesis: train-p1-d0.7-t2-0
+[38;5;226m[Genesis] [20:48:20] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [20:48:20] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=False; error=None
+[29/96] genesis: train-p1-d0.7-t2-1
+[38;5;226m[Genesis] [20:49:09] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [20:49:09] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[30/96] genesis: train-p1-d0.7-t2-2
+[38;5;226m[Genesis] [20:49:53] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [20:49:53] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=False; error=None
+[31/96] genesis: train-p1-d0.7-t3-0
+[38;5;226m[Genesis] [20:50:43] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [20:50:43] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[32/96] genesis: train-p1-d0.7-t3-1
+[38;5;226m[Genesis] [20:51:52] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [20:51:52] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[33/96] genesis: train-p1-d0.7-t3-2
+[38;5;226m[Genesis] [20:52:48] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [20:52:48] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[34/96] genesis: train-p1-d0.7-t4-0
+[38;5;226m[Genesis] [20:53:59] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [20:53:59] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[35/96] genesis: train-p1-d0.7-t4-1
+[38;5;226m[Genesis] [20:55:38] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [20:55:38] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[36/96] genesis: train-p1-d0.7-t4-2
+[38;5;226m[Genesis] [20:56:50] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [20:56:50] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[37/96] genesis: train-p1-d1-t2-0
+[38;5;226m[Genesis] [20:58:12] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [20:58:12] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=False; error=None
+[38/96] genesis: train-p1-d1-t2-1
+[38;5;226m[Genesis] [20:58:54] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [20:58:54] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[39/96] genesis: train-p1-d1-t2-2
+[38;5;226m[Genesis] [20:59:38] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [20:59:38] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[40/96] genesis: train-p1-d1-t3-0
+[38;5;226m[Genesis] [21:00:39] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:00:39] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=False; error=None
+[42/96] genesis: train-p1-d1-t3-2
+[38;5;226m[Genesis] [21:01:51] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:01:51] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[43/96] genesis: train-p1-d1-t4-0
+[38;5;226m[Genesis] [21:02:59] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:02:59] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[44/96] genesis: train-p1-d1-t4-1
+[38;5;226m[Genesis] [21:04:20] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:04:20] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[45/96] genesis: train-p1-d1-t4-2
+[38;5;226m[Genesis] [21:05:27] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:05:27] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[46/96] genesis: train-p1-d1.4-t2-0
+[38;5;226m[Genesis] [21:06:50] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:06:50] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[47/96] genesis: train-p1-d1.4-t2-1
+[38;5;226m[Genesis] [21:07:45] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:07:45] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[48/96] genesis: train-p1-d1.4-t2-2
+[38;5;226m[Genesis] [21:08:28] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:08:28] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[49/96] genesis: train-p1-d1.4-t3-0
+[38;5;226m[Genesis] [21:09:19] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:09:19] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[50/96] genesis: train-p1-d1.4-t3-1
+[38;5;226m[Genesis] [21:10:21] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:10:21] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[51/96] genesis: train-p1-d1.4-t3-2
+[38;5;226m[Genesis] [21:11:18] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:11:18] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[52/96] genesis: train-p1-d1.4-t4-0
+[38;5;226m[Genesis] [21:12:19] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:12:19] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[53/96] genesis: train-p1-d1.4-t4-1
+[38;5;226m[Genesis] [21:13:49] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:13:49] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[54/96] genesis: train-p1-d1.4-t4-2
+[38;5;226m[Genesis] [21:14:59] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:14:59] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[55/96] genesis: train-p2-d0.7-t2-0
+[38;5;226m[Genesis] [21:16:31] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:16:31] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[56/96] genesis: train-p2-d0.7-t2-1
+[38;5;226m[Genesis] [21:17:38] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:17:38] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[57/96] genesis: train-p2-d0.7-t2-2
+[38;5;226m[Genesis] [21:18:21] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:18:21] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[58/96] genesis: train-p2-d0.7-t3-0
+[38;5;226m[Genesis] [21:19:19] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:19:19] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=False; error=None
+[59/96] genesis: train-p2-d0.7-t3-1
+[38;5;226m[Genesis] [21:20:08] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:20:08] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[60/96] genesis: train-p2-d0.7-t3-2
+[38;5;226m[Genesis] [21:21:05] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:21:05] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[61/96] genesis: train-p2-d0.7-t4-0
+[38;5;226m[Genesis] [21:22:23] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:22:23] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[62/96] genesis: train-p2-d0.7-t4-1
+[38;5;226m[Genesis] [21:23:28] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:23:28] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[63/96] genesis: train-p2-d0.7-t4-2
+[38;5;226m[Genesis] [21:24:38] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:24:38] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[64/96] genesis: train-p2-d1-t2-0
+[38;5;226m[Genesis] [21:25:37] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:25:37] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[65/96] genesis: train-p2-d1-t2-1
+[38;5;226m[Genesis] [21:26:30] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:26:30] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[66/96] genesis: train-p2-d1-t2-2
+[38;5;226m[Genesis] [21:27:14] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:27:14] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[67/96] genesis: train-p2-d1-t3-0
+[38;5;226m[Genesis] [21:28:03] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:28:03] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[68/96] genesis: train-p2-d1-t3-1
+[38;5;226m[Genesis] [21:29:14] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:29:14] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[69/96] genesis: train-p2-d1-t3-2
+[38;5;226m[Genesis] [21:30:10] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:30:10] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[70/96] genesis: train-p2-d1-t4-0
+[38;5;226m[Genesis] [21:31:22] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:31:22] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[71/96] genesis: train-p2-d1-t4-1
+[38;5;226m[Genesis] [21:32:55] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:32:55] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[72/96] genesis: train-p2-d1-t4-2
+[38;5;226m[Genesis] [21:34:05] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:34:05] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[73/96] genesis: train-p2-d1.4-t2-0
+[38;5;226m[Genesis] [21:35:27] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:35:27] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[74/96] genesis: train-p2-d1.4-t2-1
+[38;5;226m[Genesis] [21:36:15] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:36:15] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[75/96] genesis: train-p2-d1.4-t2-2
+[38;5;226m[Genesis] [21:37:00] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:37:00] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[76/96] genesis: train-p2-d1.4-t3-0
+[38;5;226m[Genesis] [21:37:48] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:37:48] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[77/96] genesis: train-p2-d1.4-t3-1
+[38;5;226m[Genesis] [21:38:52] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:38:52] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[78/96] genesis: train-p2-d1.4-t3-2
+[38;5;226m[Genesis] [21:39:48] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:39:48] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[79/96] genesis: train-p2-d1.4-t4-0
+[38;5;226m[Genesis] [21:40:52] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:40:52] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[80/96] genesis: train-p2-d1.4-t4-1
+[38;5;226m[Genesis] [21:42:09] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:42:09] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[81/96] genesis: train-p2-d1.4-t4-2
+[38;5;226m[Genesis] [21:43:21] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:43:21] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[82/96] genesis: speed-3-0
+[38;5;226m[Genesis] [21:44:39] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:44:39] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=False; error=None
+[84/96] genesis: speed-3-2
+[38;5;226m[Genesis] [21:45:50] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:45:50] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[85/96] genesis: speed-2-0
+[38;5;226m[Genesis] [21:46:58] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:46:58] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=False; error=None
+[86/96] genesis: speed-2-1
+[38;5;226m[Genesis] [21:47:41] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:47:41] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[87/96] genesis: speed-2-2
+[38;5;226m[Genesis] [21:48:24] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:48:24] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[88/96] genesis: speed-1.5-0
+[38;5;226m[Genesis] [21:49:25] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:49:25] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[89/96] genesis: speed-1.5-1
+[38;5;226m[Genesis] [21:50:16] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:50:16] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[90/96] genesis: speed-1.5-2
+[38;5;226m[Genesis] [21:50:54] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:50:54] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[91/96] genesis: speed-1-0
+[38;5;226m[Genesis] [21:51:37] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:51:37] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[92/96] genesis: speed-1-1
+[38;5;226m[Genesis] [21:52:28] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:52:28] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[93/96] genesis: speed-1-2
+[38;5;226m[Genesis] [21:52:59] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:52:59] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[94/96] genesis: speed-0.75-0
+[38;5;226m[Genesis] [21:53:42] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:53:42] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[95/96] genesis: speed-0.75-1
+[38;5;226m[Genesis] [21:54:26] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:54:26] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[96/96] genesis: speed-0.75-2
+[38;5;226m[Genesis] [21:54:56] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:54:56] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[1/6] genesis: heldout-baseline-0
+[38;5;226m[Genesis] [21:55:35] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:55:35] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[2/6] genesis: heldout-baseline-1
+[38;5;226m[Genesis] [21:56:40] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:56:40] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=False; error=None
+[3/6] genesis: heldout-baseline-2
+[38;5;226m[Genesis] [21:57:34] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:57:34] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[4/6] genesis: heldout-baseline-3
+[38;5;226m[Genesis] [21:58:52] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:58:52] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=True; error=None
+[5/6] genesis: heldout-baseline-4
+[38;5;226m[Genesis] [21:59:58] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [21:59:58] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=False; error=None
+[6/6] genesis: heldout-baseline-5
+[38;5;226m[Genesis] [22:00:50] [WARNING] Link 'left_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+[38;5;226m[Genesis] [22:00:50] [WARNING] Link 'right_finger' has dubious center of mass [x=0.000, y=0.000, z=0.000] compared to the bounding box from geometry [x=(-0.012, 0.012), y=(0.000, 0.008), z=(0.028, 0.060)].[0m
+  completed; task_success=False; error=None

@@ -1,0 +1,73 @@
+{
+  "numerically_valid": true,
+  "task_success": true,
+  "simulated_seconds": 6.0,
+  "max_fk_error_m": 2.67332380509901e-07,
+  "peak_contact_force_n": 6.775107335334547,
+  "joint_rmse_rad": 0.0028696296006867584,
+  "normalized_squared_arm_effort": 0.018068474857244738,
+  "joint_limit_excess_rad": 0.0,
+  "max_momentum_residual_ns": {
+    "cube": 1.8153586872125665e-05,
+    "lower_cube": 1.0657364346730603e-05
+  },
+  "contact_force_validated": false,
+  "maximum_lift_m": 0.0770607590675354,
+  "minimum_hold_lift_m": 0.07340890169143677,
+  "final_relative_position_m": [
+    0.019230633974075317,
+    1.7534770449856296e-05,
+    0.039988160133361816
+  ],
+  "settled": true,
+  "engine": "mujoco-warp",
+  "case": {
+    "family": "stack",
+    "dt": 0.001,
+    "repeat": 1,
+    "offset": 0.02,
+    "id": "stack-6e24332feb2e",
+    "duration": 6.0
+  },
+  "status": "completed",
+  "error": null,
+  "wall_seconds": 28.047403950000444,
+  "reference_sha256": "3e7151c836dd7ea941f9ea1e733ff2c525c626b63ec293cd2997938bd2aa0030",
+  "samples": 6001,
+  "audit": {
+    "engine": "mujoco-warp",
+    "version": "3.15.0",
+    "precision": "float32",
+    "device": "cuda:0",
+    "contact_capacity": 256,
+    "constraint_capacity": 2048,
+    "five_pose_fk_checks": [
+      {
+        "position_error_m": 1.145596484342093e-07,
+        "rotation_frobenius_error": 3.22866160918913e-07,
+        "joint_error": 4.371139006309477e-08
+      },
+      {
+        "position_error_m": 8.611715818229726e-08,
+        "rotation_frobenius_error": 4.399757310329934e-07,
+        "joint_error": 4.276864373764511e-08
+      },
+      {
+        "position_error_m": 6.50594085271905e-08,
+        "rotation_frobenius_error": 4.539262377427832e-07,
+        "joint_error": 4.465413638854443e-08
+      },
+      {
+        "position_error_m": 8.760864611545571e-08,
+        "rotation_frobenius_error": 4.120823338028509e-07,
+        "joint_error": 1.0714883202922465e-07
+      },
+      {
+        "position_error_m": 1.3246683772116796e-07,
+        "rotation_frobenius_error": 4.4188058711138075e-07,
+        "joint_error": 1.190737126677277e-07
+      }
+    ],
+    "initial_fk_error_m": 1.145596484342093e-07
+  }
+}

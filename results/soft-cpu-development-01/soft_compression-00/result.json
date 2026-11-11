@@ -1,0 +1,30 @@
+{
+  "engine": "mujoco",
+  "case": {
+    "family": "soft_compression",
+    "dt": 5e-05,
+    "refined": false,
+    "duration": 1.5,
+    "repeat": 0,
+    "id": "soft_compression-00"
+  },
+  "status": "inverted",
+  "error": null,
+  "numerically_valid": false,
+  "task_success": false,
+  "hold_lift_m": null,
+  "minimum_volume_ratio": -3.5410523861877223,
+  "force_n": null,
+  "force_validated": false,
+  "force_note": "Native deformable load accounting has not passed an independent momentum audit; no zero-load substitution.",
+  "audit": {
+    "engine": "mujoco",
+    "material": "MuJoCo flex elasticity",
+    "force_validated": false,
+    "vertex_count": 125,
+    "element_count": 384,
+    "mass_kg": 0.10504912346763821
+  },
+  "samples": 42,
+  "wall_seconds": 2.2569609680012945
+}

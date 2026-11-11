@@ -1,0 +1,34 @@
+{
+  "numerically_valid": true,
+  "task_success": true,
+  "simulated_seconds": 2.5,
+  "max_fk_error_m": 2.5745469242483694e-07,
+  "peak_contact_force_n": 0.0,
+  "joint_rmse_rad": 3.5616241953623064e-05,
+  "normalized_squared_arm_effort": 0.01607559299228156,
+  "joint_limit_excess_rad": 0.0,
+  "max_momentum_residual_ns": {},
+  "contact_force_validated": null,
+  "engine": "mujoco-warp",
+  "case": {
+    "family": "panda_tracking",
+    "dt": 0.0005,
+    "repeat": 1,
+    "id": "panda_tracking-f65fd9ac6047",
+    "duration": 2.5
+  },
+  "status": "completed",
+  "error": null,
+  "wall_seconds": 4.869283498001096,
+  "reference_sha256": "63a6ed90aa9d217296fea9d96bab674425b519c4baa2e3ff05c3949306030efb",
+  "samples": 5001,
+  "audit": {
+    "engine": "mujoco-warp",
+    "version": "3.15.0",
+    "precision": "float32",
+    "device": "cuda:0",
+    "contact_capacity": 256,
+    "constraint_capacity": 2048,
+    "initial_fk_error_m": 1.145596484342093e-07
+  }
+}

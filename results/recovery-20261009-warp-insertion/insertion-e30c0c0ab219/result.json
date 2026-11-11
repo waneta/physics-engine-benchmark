@@ -1,0 +1,66 @@
+{
+  "numerically_valid": true,
+  "task_success": false,
+  "simulated_seconds": 4.0,
+  "max_fk_error_m": 2.822158413416333e-07,
+  "peak_contact_force_n": 16.982062030346434,
+  "joint_rmse_rad": 0.004679453440491843,
+  "normalized_squared_arm_effort": 0.013728532191089644,
+  "joint_limit_excess_rad": 0.0,
+  "max_momentum_residual_ns": {},
+  "contact_force_validated": null,
+  "final_insertion_depth_m": 0.013798203355480654,
+  "minimum_final_hold_depth_m": 0.013782010193626792,
+  "engine": "mujoco-warp",
+  "case": {
+    "family": "insertion",
+    "dt": 0.001,
+    "repeat": 2,
+    "clearance": 0.0001,
+    "offset": 0,
+    "tilt_deg": 1,
+    "id": "insertion-e30c0c0ab219",
+    "duration": 4.0
+  },
+  "status": "completed",
+  "error": null,
+  "wall_seconds": 5.152333134000401,
+  "reference_sha256": "f1310079046f55bb6c6607d0ad487f2d0401e35f0e9b2e66334b2bd785864241",
+  "samples": 4001,
+  "audit": {
+    "engine": "mujoco-warp",
+    "version": "3.15.0",
+    "precision": "float32",
+    "device": "cuda:0",
+    "contact_capacity": 1072,
+    "constraint_capacity": 8576,
+    "five_pose_fk_checks": [
+      {
+        "position_error_m": 6.796006690734657e-08,
+        "rotation_frobenius_error": 3.2633674860900833e-07,
+        "joint_error": 3.239108115060674e-08
+      },
+      {
+        "position_error_m": 2.1318231813172162e-07,
+        "rotation_frobenius_error": 3.787800074665127e-07,
+        "joint_error": 3.1448334825157076e-08
+      },
+      {
+        "position_error_m": 8.09064022166961e-08,
+        "rotation_frobenius_error": 3.227702154297246e-07,
+        "joint_error": 3.33338274760564e-08
+      },
+      {
+        "position_error_m": 9.147227175709816e-08,
+        "rotation_frobenius_error": 3.5515350116862154e-07,
+        "joint_error": 9.635342301805849e-08
+      },
+      {
+        "position_error_m": 1.6331087793197696e-07,
+        "rotation_frobenius_error": 2.2460751409993692e-07,
+        "joint_error": 1.0854945742266864e-07
+      }
+    ],
+    "initial_fk_error_m": 6.796006690734657e-08
+  }
+}

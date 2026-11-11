@@ -1,0 +1,4 @@
+-e .
+newton[sim]==1.5.2
+warp-lang==1.16.0
+scipy==1.17.1

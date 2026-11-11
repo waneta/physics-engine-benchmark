@@ -1,0 +1,14 @@
+Output: /home/datamesh/github_waneta/physics-engine-benchmark/results/task04-drop-20261010/physx
+Running physx: drop dt=0.002 repeat=1
+drop  dt=0.002 repeat=1: passed
+Running physx: drop dt=0.002 repeat=2
+drop  dt=0.002 repeat=2: passed
+Running physx: drop dt=0.002 repeat=3
+drop  dt=0.002 repeat=3: passed
+Running physx: drop dt=0.001 repeat=1
+drop  dt=0.001 repeat=1: passed
+Running physx: drop dt=0.001 repeat=2
+drop  dt=0.001 repeat=2: passed
+Running physx: drop dt=0.001 repeat=3
+drop  dt=0.001 repeat=3: passed
+Report: /home/datamesh/github_waneta/physics-engine-benchmark/results/task04-drop-20261010/physx/report.md

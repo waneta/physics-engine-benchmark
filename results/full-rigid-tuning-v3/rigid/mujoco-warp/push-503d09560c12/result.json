@@ -1,0 +1,70 @@
+{
+  "numerically_valid": true,
+  "task_success": true,
+  "simulated_seconds": 5.0,
+  "max_fk_error_m": 2.958119709652226e-07,
+  "peak_contact_force_n": 14.826590609099485,
+  "joint_rmse_rad": 0.006656765308084934,
+  "normalized_squared_arm_effort": 0.02396479258287916,
+  "joint_limit_excess_rad": 0.0,
+  "max_momentum_residual_ns": {
+    "cube0": 1.0255845741952868e-05,
+    "cube1": 6.59099333347053e-06,
+    "cube2": 1.0711801268784234e-05
+  },
+  "contact_force_validated": false,
+  "passed_objects": 3,
+  "minimum_progress_m": 0.2111257016658783,
+  "minimum_capped_goal_progress_m": 0.09600001097274746,
+  "engine": "mujoco-warp",
+  "case": {
+    "family": "push",
+    "dt": 0.0005,
+    "repeat": 2,
+    "width": 0.09,
+    "rear_y": 0,
+    "id": "push-503d09560c12",
+    "duration": 5.0
+  },
+  "status": "completed",
+  "error": null,
+  "wall_seconds": 25.196573214001546,
+  "reference_sha256": "7dc2662a0f2b81879bf23f39fb4d192075a42cc1d9f1b87761e0502ac5e6b6bf",
+  "samples": 10001,
+  "audit": {
+    "engine": "mujoco-warp",
+    "version": "3.15.0",
+    "precision": "float32",
+    "device": "cuda:0",
+    "contact_capacity": 256,
+    "constraint_capacity": 2048,
+    "five_pose_fk_checks": [
+      {
+        "position_error_m": 1.145596484342093e-07,
+        "rotation_frobenius_error": 3.22866160918913e-07,
+        "joint_error": 4.371139006309477e-08
+      },
+      {
+        "position_error_m": 1.0461794819338621e-07,
+        "rotation_frobenius_error": 4.399757310329934e-07,
+        "joint_error": 4.276864373764511e-08
+      },
+      {
+        "position_error_m": 6.85031878999709e-08,
+        "rotation_frobenius_error": 4.539262377427832e-07,
+        "joint_error": 4.465413638854443e-08
+      },
+      {
+        "position_error_m": 8.760864611545571e-08,
+        "rotation_frobenius_error": 4.120823338028509e-07,
+        "joint_error": 1.0714883202922465e-07
+      },
+      {
+        "position_error_m": 1.3678187726906543e-07,
+        "rotation_frobenius_error": 4.4188058711138075e-07,
+        "joint_error": 1.190737126677277e-07
+      }
+    ],
+    "initial_fk_error_m": 1.145596484342093e-07
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "pid": 274576,
+  "updated_at": "2026-10-08T17:02:46.849486+00:00",
+  "jobs": {
+    "soft/mujoco": {
+      "state": "completed",
+      "started_at": "2026-10-08T15:53:36.808211+00:00",
+      "exit_code": 0,
+      "finished_at": "2026-10-08T17:02:46.849470+00:00"
+    },
+    "soft/physx": {
+      "state": "error",
+      "started_at": "2026-10-08T15:53:36.808433+00:00",
+      "exit_code": 1,
+      "finished_at": "2026-10-08T16:53:25.727368+00:00"
+    },
+    "soft/mujoco-warp": {
+      "state": "running",
+      "started_at": "2026-10-08T16:53:25.728157+00:00"
+    }
+  }
+}

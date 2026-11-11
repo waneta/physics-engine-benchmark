@@ -1,0 +1,6 @@
+Output: /home/datamesh/github_waneta/physics-engine-benchmark/results/task04-slide-rerun-20261010-1818/viewer-mujoco-cpu
+Running mujoco-cpu: slide dt=0.002 repeat=1
+slide dt=0.002 repeat=1: passed
+Running mujoco-cpu: slide dt=0.001 repeat=1
+slide dt=0.001 repeat=1: passed
+Report: /home/datamesh/github_waneta/physics-engine-benchmark/results/task04-slide-rerun-20261010-1818/viewer-mujoco-cpu/report.md

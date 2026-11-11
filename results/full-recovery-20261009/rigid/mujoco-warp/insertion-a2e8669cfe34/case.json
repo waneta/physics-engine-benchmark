@@ -1,0 +1,10 @@
+{
+  "family": "insertion",
+  "dt": 0.001,
+  "repeat": 2,
+  "clearance": 0.00025,
+  "offset": 0,
+  "tilt_deg": 1,
+  "id": "insertion-a2e8669cfe34",
+  "duration": 4.0
+}

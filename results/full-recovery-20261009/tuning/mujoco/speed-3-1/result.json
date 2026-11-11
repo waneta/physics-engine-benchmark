@@ -1,0 +1,115 @@
+{
+  "numerically_valid": true,
+  "task_success": true,
+  "simulated_seconds": 5.0,
+  "max_fk_error_m": 0.0,
+  "peak_contact_force_n": 12.36087647248908,
+  "joint_rmse_rad": 0.00643507117096302,
+  "normalized_squared_arm_effort": 0.023932586044567515,
+  "joint_limit_excess_rad": 0.0,
+  "max_momentum_residual_ns": {
+    "cube0": 1.0813721068007001e-07,
+    "cube1": 2.036496126216653e-07,
+    "cube2": 2.27872162955671e-07
+  },
+  "contact_force_validated": true,
+  "passed_objects": 3,
+  "minimum_progress_m": 0.22173026485117414,
+  "minimum_capped_goal_progress_m": 0.09599999999999992,
+  "engine": "mujoco",
+  "case": {
+    "id": "speed-3-1",
+    "family": "push",
+    "dt": 0.001,
+    "repeat": 0,
+    "phase": "speed",
+    "push_duration": 3,
+    "width": 0.09,
+    "rear_y": 0,
+    "duration": 5.0
+  },
+  "status": "completed",
+  "error": null,
+  "wall_seconds": 6.851326504000099,
+  "reference_sha256": "7dc2662a0f2b81879bf23f39fb4d192075a42cc1d9f1b87761e0502ac5e6b6bf",
+  "samples": 5001,
+  "audit": {
+    "engine": "mujoco",
+    "version": "3.15.0",
+    "precision": "float64",
+    "device": "cpu",
+    "five_pose_fk_checks": [
+      {
+        "position_error_m": 0.0,
+        "rotation_frobenius_error": 0.0,
+        "joint_error": 0.0
+      },
+      {
+        "position_error_m": 0.0,
+        "rotation_frobenius_error": 0.0,
+        "joint_error": 0.0
+      },
+      {
+        "position_error_m": 0.0,
+        "rotation_frobenius_error": 0.0,
+        "joint_error": 0.0
+      },
+      {
+        "position_error_m": 0.0,
+        "rotation_frobenius_error": 0.0,
+        "joint_error": 0.0
+      },
+      {
+        "position_error_m": 0.0,
+        "rotation_frobenius_error": 0.0,
+        "joint_error": 0.0
+      }
+    ],
+    "initial_fk_error_m": 0.0
+  },
+  "provenance": {
+    "source_result": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-recovery-20261009/rigid/mujoco/push-040b6acb5ce8/result.json",
+    "source_sha256": "20f4146543f83daccd2af34bad94f96db2355d70fe0cf7d5a9ee32b67af021fc",
+    "source_case": {
+      "family": "push",
+      "dt": 0.001,
+      "repeat": 0,
+      "width": 0.09,
+      "rear_y": 0,
+      "id": "push-040b6acb5ce8",
+      "duration": 5.0
+    },
+    "source_hashes": {
+      "src/physics_benchmark/cli.py": "d3c557d3ac263d007740def23ac1c6db64cd9d91023e1d715ca6c33e7bd4db75",
+      "src/physics_benchmark/metrics.py": "857478acff07adc3a6dc5d178e54ce15282d919d5f93dfa70fc4a44cf13ca81f",
+      "src/physics_benchmark/comparison.py": "a7c556b1a8843085e138d00dbee6c456d953eb793156ae97ea8b33d322bee53f",
+      "src/physics_benchmark/scenes.py": "7e494ac3fb53b91d902e463d5dac176752352874480bbced5e4771efdb152f3a",
+      "src/physics_benchmark/simulation.py": "765eedc8e5c571bb45aecdb94c84297faaae9c2a2dc57a2f03321846acd41141",
+      "src/physics_benchmark/__init__.py": "311ab3d275cd9235c360312ec83b6a737c1bec627bb6aae4bbb80656d35df2cd",
+      "src/physics_benchmark/sampling.py": "627dcfa87154c78799ed3d8c498c219301e866f5960329519f10fc29c088e4d0",
+      "src/physics_benchmark/plotting.py": "0476f5844f05ae54fcdbb799ed76eab1221caff80ced2643bf84f0dbb622ffce",
+      "src/physics_benchmark/extended/model.py": "f1047833f5fbd0f66a3cb0bc2cb29b0485775e11c02a1ce2516ccd5aacfdbdcf",
+      "src/physics_benchmark/extended/suite.py": "2c40d0d4e7c940fe2d315beea64d5d9373b5cf9ae692754112aac4d29bfdc9f6",
+      "src/physics_benchmark/extended/throughput_kernels.py": "0b938668b085361bfaf3c7e8ca33f2a7f2f9e79dffc58a5f77b4414182fe7ec7",
+      "src/physics_benchmark/extended/metrics.py": "945e0f268458f79d34e971dd434dafdfd32b4f12813e8754cc7b5e87e76d6586",
+      "src/physics_benchmark/extended/report.py": "f6db7d7fefb8a42826ba41770e8ad82d1e872dbff05493583554733f95235d6f",
+      "src/physics_benchmark/extended/soft_genesis.py": "d5c110e83bbe3cc76ce3a6584d0b916bfe8caed1cf3b5364762485500b27fabd",
+      "src/physics_benchmark/extended/soft_physx.py": "7771e0e702e6645a3d608e72485e3f48be82967c75ee582a70d6602c61e90781",
+      "src/physics_benchmark/extended/rigid.py": "e071921f8a7b9a7ccd8ab76992f80fadc99e85b3c625372b92b686c681a10c62",
+      "src/physics_benchmark/extended/soft_newton_vbd.py": "004cfaffaf46a459a2d39b5a3c5cc9ac7386650b11db9edd373a1522def30d9a",
+      "src/physics_benchmark/extended/__init__.py": "a9b86c204193bec5d331a7427b758295f6ab8403cfb92f7f911894ce88b52c92",
+      "src/physics_benchmark/extended/physx.py": "7ca9044ea95e4c2277167a72714d9731af93f710fa4f1473978c0611412d4ef6",
+      "src/physics_benchmark/extended/soft.py": "2361edd65c3387e575fa57842ac44395729ab04cd04bd7f5b2b661cbe25978dc",
+      "src/physics_benchmark/extended/throughput.py": "57a6e7f1c369eb741848214642d1c9f98a44e4894d75778579851cb2f5aadb79",
+      "src/physics_benchmark/backends/genesis.py": "c944aaeb987b1e0bea971c597fa4c27812897bcdd9f60bdd79b274a5151cf33c",
+      "src/physics_benchmark/backends/__init__.py": "3d5abe22bb7b44c66d15c3e8403b268b1c8863e20c93beb0dcefb46b67236c3c",
+      "src/physics_benchmark/backends/warp.py": "29d7f3b76f22777e788fb1c66a45d2aa462761fd5c664078b8516eb5b8ba79d1",
+      "src/physics_benchmark/backends/physx.py": "b2eacbc9a38b306042194e9fa2f3c21e7e963fb538ca7289f8089c279e6dcd7d",
+      "scripts/isaac_extended_worker.py": "9021bdb3908c8da9ca9059b241627216a5477032b9021c1dd8142eb3e6012359",
+      "scripts/isaac_worker.py": "7c82b8f78284a048171921ef903f21bb7acc77a6b1b26cac35ba2558bef7aa02",
+      "configs/assets/panda/source.xml": "96ad67da03710f17f798c9478fd9e9efdf24a3bf8359f05e456dd9fb158ea273"
+    },
+    "source_environment": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-recovery-20261009/rigid/mujoco/environment.json",
+    "reuse_note": "Identical physical inputs; retained observation, not an independent rerun."
+  }
+}

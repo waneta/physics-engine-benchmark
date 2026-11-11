@@ -1,0 +1,28 @@
+[
+  {
+    "engine": "physx",
+    "case": {
+      "family": "soft_grasp",
+      "dt": 0.001,
+      "refined": false,
+      "duration": 4.5,
+      "finger_force": 1,
+      "repeat": 0,
+      "id": "soft_grasp-04"
+    },
+    "status": "error",
+    "error": "Traceback (most recent call last):\n  File \"/workspace/scripts/isaac_extended_worker.py\", line 426, in <module>\n    experiment = Experiment(request[\"spec\"])\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scripts/isaac_extended_worker.py\", line 309, in __init__\n    self.art.set_dof_armatures(np.zeros_like(q), self.index)\n  File \"/workspace/scripts/isaac_extended_worker.py\", line 68, in call\n    result = method(\n             ^^^^^^^\n  File \"/isaac-sim/extscache/omni.physics.tensors-110.1.13+110.1.2.lx64.r.cp312.u7f4/omni/physics/tensors/api.py\", line 1436, in set_dof_armatures\n    raise Exception(\"Failed to set DOF armatures in backend\")\nException: Failed to set DOF armatures in backend\n",
+    "numerically_valid": false,
+    "task_success": false,
+    "hold_lift_m": null,
+    "hold_com_lift_m": null,
+    "hold_window_covered": false,
+    "minimum_volume_ratio": null,
+    "force_n": null,
+    "force_validated": false,
+    "force_note": "Native deformable load accounting has not passed an independent momentum audit; no zero-load substitution.",
+    "audit": {},
+    "samples": 0,
+    "wall_seconds": 65.12167934399986
+  }
+]

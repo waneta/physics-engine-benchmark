@@ -1,0 +1,4536 @@
+[
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 1.0,
+    "max_fk_error_m": 0.0,
+    "peak_contact_force_n": 82.2135776962249,
+    "max_momentum_residual_ns": {
+      "sphere": 1.699570896233888e-07,
+      "cube": 1.3517098837258803e-07,
+      "prism": 9.550103959387818e-08
+    },
+    "contact_force_validated": true,
+    "engine": "physx",
+    "case": {
+      "family": "collision_chain",
+      "dt": 0.001,
+      "repeat": 0,
+      "id": "collision_chain-5e2bf9ae0a40",
+      "duration": 1.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 119.77321011899949,
+    "reference_sha256": null,
+    "samples": 1001,
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "CPU TGS",
+      "import_errors": {
+        "sphere": 3.729015597556725e-12,
+        "cube": 5.153706298798456e-12,
+        "prism": 2.614688129095981e-12
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "initial_fk_error_m": 7.152557379708213e-09
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 1.0,
+    "max_fk_error_m": 0.0,
+    "peak_contact_force_n": 82.2135776962249,
+    "max_momentum_residual_ns": {
+      "sphere": 1.699570896233888e-07,
+      "cube": 1.3517098837258803e-07,
+      "prism": 9.550103959387818e-08
+    },
+    "contact_force_validated": true,
+    "engine": "physx",
+    "case": {
+      "family": "collision_chain",
+      "dt": 0.001,
+      "repeat": 1,
+      "id": "collision_chain-230c318d0e18",
+      "duration": 1.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 33.576375998,
+    "reference_sha256": null,
+    "samples": 1001,
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "CPU TGS",
+      "import_errors": {
+        "sphere": 3.729015597556725e-12,
+        "cube": 5.153706298798456e-12,
+        "prism": 2.614688129095981e-12
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "initial_fk_error_m": 7.152557379708213e-09
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 1.0,
+    "max_fk_error_m": 0.0,
+    "peak_contact_force_n": 82.2135776962249,
+    "max_momentum_residual_ns": {
+      "sphere": 1.699570896233888e-07,
+      "cube": 1.3517098837258803e-07,
+      "prism": 9.550103959387818e-08
+    },
+    "contact_force_validated": true,
+    "engine": "physx",
+    "case": {
+      "family": "collision_chain",
+      "dt": 0.001,
+      "repeat": 2,
+      "id": "collision_chain-ee4fddc70acd",
+      "duration": 1.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 28.68999335299941,
+    "reference_sha256": null,
+    "samples": 1001,
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "CPU TGS",
+      "import_errors": {
+        "sphere": 3.729015597556725e-12,
+        "cube": 5.153706298798456e-12,
+        "prism": 2.614688129095981e-12
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "initial_fk_error_m": 7.152557379708213e-09
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 1.0,
+    "max_fk_error_m": 0.0,
+    "peak_contact_force_n": 165.5548251829165,
+    "max_momentum_residual_ns": {
+      "sphere": 2.4774173051085584e-07,
+      "cube": 1.9893610509647683e-07,
+      "prism": 1.4395215375933612e-07
+    },
+    "contact_force_validated": true,
+    "engine": "physx",
+    "case": {
+      "family": "collision_chain",
+      "dt": 0.0005,
+      "repeat": 0,
+      "id": "collision_chain-4f07ee297f6e",
+      "duration": 1.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 29.275245267000173,
+    "reference_sha256": null,
+    "samples": 2001,
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "CPU TGS",
+      "import_errors": {
+        "sphere": 3.729015597556725e-12,
+        "cube": 5.153706298798456e-12,
+        "prism": 2.614688129095981e-12
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "initial_fk_error_m": 7.152557379708213e-09
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 1.0,
+    "max_fk_error_m": 0.0,
+    "peak_contact_force_n": 165.5548251829165,
+    "max_momentum_residual_ns": {
+      "sphere": 2.4774173051085584e-07,
+      "cube": 1.9893610509647683e-07,
+      "prism": 1.4395215375933612e-07
+    },
+    "contact_force_validated": true,
+    "engine": "physx",
+    "case": {
+      "family": "collision_chain",
+      "dt": 0.0005,
+      "repeat": 1,
+      "id": "collision_chain-053dd2f40471",
+      "duration": 1.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 18.33371716199963,
+    "reference_sha256": null,
+    "samples": 2001,
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "CPU TGS",
+      "import_errors": {
+        "sphere": 3.729015597556725e-12,
+        "cube": 5.153706298798456e-12,
+        "prism": 2.614688129095981e-12
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "initial_fk_error_m": 7.152557379708213e-09
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 1.0,
+    "max_fk_error_m": 0.0,
+    "peak_contact_force_n": 165.5548251829165,
+    "max_momentum_residual_ns": {
+      "sphere": 2.4774173051085584e-07,
+      "cube": 1.9893610509647683e-07,
+      "prism": 1.4395215375933612e-07
+    },
+    "contact_force_validated": true,
+    "engine": "physx",
+    "case": {
+      "family": "collision_chain",
+      "dt": 0.0005,
+      "repeat": 2,
+      "id": "collision_chain-379038ee9ae6",
+      "duration": 1.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 9.90094241800034,
+    "reference_sha256": null,
+    "samples": 2001,
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "CPU TGS",
+      "import_errors": {
+        "sphere": 3.729015597556725e-12,
+        "cube": 5.153706298798456e-12,
+        "prism": 2.614688129095981e-12
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "initial_fk_error_m": 7.152557379708213e-09
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 0.5,
+    "max_fk_error_m": 5.35717729637259e-07,
+    "peak_contact_force_n": 0.0,
+    "joint_rmse_rad": 0.021431057394451423,
+    "normalized_squared_arm_effort": 0.014770730383238347,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {},
+    "contact_force_validated": null,
+    "engine": "physx",
+    "case": {
+      "family": "panda_open_loop",
+      "dt": 0.001,
+      "repeat": 0,
+      "id": "panda_open_loop-ac09844de5d0",
+      "duration": 0.5
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 2.3978224999991653,
+    "reference_sha256": "30e02a7e1151ea6fdca3f585a95a9e7e1f60554a0ad91191fdd8122b570d9837",
+    "samples": 501,
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "CPU TGS",
+      "import_errors": {
+        "link0": 1.7812252020577013e-09,
+        "link1": 3.46946704699036e-08,
+        "link2": 2.1725296953795104e-08,
+        "link3": 2.384185791015625e-07,
+        "link4": 9.610176050778296e-09,
+        "link5": 3.630876543869732e-09,
+        "link6": 9.050369273455594e-10,
+        "link7": 8.075237284410619e-10,
+        "hand": 6.705522526129215e-10,
+        "left_finger": 9.313225746154785e-10,
+        "right_finger": 9.313225746154785e-10
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 2.686734180690209e-07,
+          "rotation_frobenius_error": 1.0633208823910982e-06,
+          "joint_error": 4.371139006309477e-08
+        },
+        {
+          "position_error_m": 1.7397411440113475e-07,
+          "rotation_frobenius_error": 1.419296256208406e-06,
+          "joint_error": 4.276864373764511e-08
+        },
+        {
+          "position_error_m": 3.465519964329644e-07,
+          "rotation_frobenius_error": 1.3428310770648775e-06,
+          "joint_error": 4.465413638854443e-08
+        },
+        {
+          "position_error_m": 2.885406803487811e-07,
+          "rotation_frobenius_error": 1.1782020850202812e-06,
+          "joint_error": 1.0714883202922465e-07
+        },
+        {
+          "position_error_m": 1.196276908088656e-07,
+          "rotation_frobenius_error": 1.2614675506152887e-06,
+          "joint_error": 1.190737126677277e-07
+        }
+      ],
+      "initial_fk_error_m": 2.686734180690209e-07
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 0.5,
+    "max_fk_error_m": 5.35717729637259e-07,
+    "peak_contact_force_n": 0.0,
+    "joint_rmse_rad": 0.021431057394451423,
+    "normalized_squared_arm_effort": 0.014770730383238347,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {},
+    "contact_force_validated": null,
+    "engine": "physx",
+    "case": {
+      "family": "panda_open_loop",
+      "dt": 0.001,
+      "repeat": 1,
+      "id": "panda_open_loop-fe41c13a05d4",
+      "duration": 0.5
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 2.3840583449991755,
+    "reference_sha256": "30e02a7e1151ea6fdca3f585a95a9e7e1f60554a0ad91191fdd8122b570d9837",
+    "samples": 501,
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "CPU TGS",
+      "import_errors": {
+        "link0": 1.7812252020577013e-09,
+        "link1": 3.46946704699036e-08,
+        "link2": 2.1725296953795104e-08,
+        "link3": 2.384185791015625e-07,
+        "link4": 9.610176050778296e-09,
+        "link5": 3.630876543869732e-09,
+        "link6": 9.050369273455594e-10,
+        "link7": 8.075237284410619e-10,
+        "hand": 6.705522526129215e-10,
+        "left_finger": 9.313225746154785e-10,
+        "right_finger": 9.313225746154785e-10
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 2.686734180690209e-07,
+          "rotation_frobenius_error": 1.0633208823910982e-06,
+          "joint_error": 4.371139006309477e-08
+        },
+        {
+          "position_error_m": 1.7397411440113475e-07,
+          "rotation_frobenius_error": 1.419296256208406e-06,
+          "joint_error": 4.276864373764511e-08
+        },
+        {
+          "position_error_m": 3.465519964329644e-07,
+          "rotation_frobenius_error": 1.3428310770648775e-06,
+          "joint_error": 4.465413638854443e-08
+        },
+        {
+          "position_error_m": 2.885406803487811e-07,
+          "rotation_frobenius_error": 1.1782020850202812e-06,
+          "joint_error": 1.0714883202922465e-07
+        },
+        {
+          "position_error_m": 1.196276908088656e-07,
+          "rotation_frobenius_error": 1.2614675506152887e-06,
+          "joint_error": 1.190737126677277e-07
+        }
+      ],
+      "initial_fk_error_m": 2.686734180690209e-07
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 0.5,
+    "max_fk_error_m": 5.35717729637259e-07,
+    "peak_contact_force_n": 0.0,
+    "joint_rmse_rad": 0.021431057394451423,
+    "normalized_squared_arm_effort": 0.014770730383238347,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {},
+    "contact_force_validated": null,
+    "engine": "physx",
+    "case": {
+      "family": "panda_open_loop",
+      "dt": 0.001,
+      "repeat": 2,
+      "id": "panda_open_loop-3f052300a7e3",
+      "duration": 0.5
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 2.379967623999619,
+    "reference_sha256": "30e02a7e1151ea6fdca3f585a95a9e7e1f60554a0ad91191fdd8122b570d9837",
+    "samples": 501,
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "CPU TGS",
+      "import_errors": {
+        "link0": 1.7812252020577013e-09,
+        "link1": 3.46946704699036e-08,
+        "link2": 2.1725296953795104e-08,
+        "link3": 2.384185791015625e-07,
+        "link4": 9.610176050778296e-09,
+        "link5": 3.630876543869732e-09,
+        "link6": 9.050369273455594e-10,
+        "link7": 8.075237284410619e-10,
+        "hand": 6.705522526129215e-10,
+        "left_finger": 9.313225746154785e-10,
+        "right_finger": 9.313225746154785e-10
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 2.686734180690209e-07,
+          "rotation_frobenius_error": 1.0633208823910982e-06,
+          "joint_error": 4.371139006309477e-08
+        },
+        {
+          "position_error_m": 1.7397411440113475e-07,
+          "rotation_frobenius_error": 1.419296256208406e-06,
+          "joint_error": 4.276864373764511e-08
+        },
+        {
+          "position_error_m": 3.465519964329644e-07,
+          "rotation_frobenius_error": 1.3428310770648775e-06,
+          "joint_error": 4.465413638854443e-08
+        },
+        {
+          "position_error_m": 2.885406803487811e-07,
+          "rotation_frobenius_error": 1.1782020850202812e-06,
+          "joint_error": 1.0714883202922465e-07
+        },
+        {
+          "position_error_m": 1.196276908088656e-07,
+          "rotation_frobenius_error": 1.2614675506152887e-06,
+          "joint_error": 1.190737126677277e-07
+        }
+      ],
+      "initial_fk_error_m": 2.686734180690209e-07
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 0.5,
+    "max_fk_error_m": 5.604566805490245e-07,
+    "peak_contact_force_n": 0.0,
+    "joint_rmse_rad": 0.021381013375979325,
+    "normalized_squared_arm_effort": 0.014785486357647176,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {},
+    "contact_force_validated": null,
+    "engine": "physx",
+    "case": {
+      "family": "panda_open_loop",
+      "dt": 0.0005,
+      "repeat": 0,
+      "id": "panda_open_loop-a2aaed8cdc92",
+      "duration": 0.5
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 3.5591178730001047,
+    "reference_sha256": "30e02a7e1151ea6fdca3f585a95a9e7e1f60554a0ad91191fdd8122b570d9837",
+    "samples": 1001,
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "CPU TGS",
+      "import_errors": {
+        "link0": 1.7812252020577013e-09,
+        "link1": 3.46946704699036e-08,
+        "link2": 2.1725296953795104e-08,
+        "link3": 2.384185791015625e-07,
+        "link4": 9.610176050778296e-09,
+        "link5": 3.630876543869732e-09,
+        "link6": 9.050369273455594e-10,
+        "link7": 8.075237284410619e-10,
+        "hand": 6.705522526129215e-10,
+        "left_finger": 9.313225746154785e-10,
+        "right_finger": 9.313225746154785e-10
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 2.686734180690209e-07,
+          "rotation_frobenius_error": 1.0633208823910982e-06,
+          "joint_error": 4.371139006309477e-08
+        },
+        {
+          "position_error_m": 1.7397411440113475e-07,
+          "rotation_frobenius_error": 1.419296256208406e-06,
+          "joint_error": 4.276864373764511e-08
+        },
+        {
+          "position_error_m": 3.465519964329644e-07,
+          "rotation_frobenius_error": 1.3428310770648775e-06,
+          "joint_error": 4.465413638854443e-08
+        },
+        {
+          "position_error_m": 2.885406803487811e-07,
+          "rotation_frobenius_error": 1.1782020850202812e-06,
+          "joint_error": 1.0714883202922465e-07
+        },
+        {
+          "position_error_m": 1.196276908088656e-07,
+          "rotation_frobenius_error": 1.2614675506152887e-06,
+          "joint_error": 1.190737126677277e-07
+        }
+      ],
+      "initial_fk_error_m": 2.686734180690209e-07
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 0.5,
+    "max_fk_error_m": 5.604566805490245e-07,
+    "peak_contact_force_n": 0.0,
+    "joint_rmse_rad": 0.021381013375979325,
+    "normalized_squared_arm_effort": 0.014785486357647176,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {},
+    "contact_force_validated": null,
+    "engine": "physx",
+    "case": {
+      "family": "panda_open_loop",
+      "dt": 0.0005,
+      "repeat": 1,
+      "id": "panda_open_loop-2aa116cd1223",
+      "duration": 0.5
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 3.5287924340000245,
+    "reference_sha256": "30e02a7e1151ea6fdca3f585a95a9e7e1f60554a0ad91191fdd8122b570d9837",
+    "samples": 1001,
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "CPU TGS",
+      "import_errors": {
+        "link0": 1.7812252020577013e-09,
+        "link1": 3.46946704699036e-08,
+        "link2": 2.1725296953795104e-08,
+        "link3": 2.384185791015625e-07,
+        "link4": 9.610176050778296e-09,
+        "link5": 3.630876543869732e-09,
+        "link6": 9.050369273455594e-10,
+        "link7": 8.075237284410619e-10,
+        "hand": 6.705522526129215e-10,
+        "left_finger": 9.313225746154785e-10,
+        "right_finger": 9.313225746154785e-10
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 2.686734180690209e-07,
+          "rotation_frobenius_error": 1.0633208823910982e-06,
+          "joint_error": 4.371139006309477e-08
+        },
+        {
+          "position_error_m": 1.7397411440113475e-07,
+          "rotation_frobenius_error": 1.419296256208406e-06,
+          "joint_error": 4.276864373764511e-08
+        },
+        {
+          "position_error_m": 3.465519964329644e-07,
+          "rotation_frobenius_error": 1.3428310770648775e-06,
+          "joint_error": 4.465413638854443e-08
+        },
+        {
+          "position_error_m": 2.885406803487811e-07,
+          "rotation_frobenius_error": 1.1782020850202812e-06,
+          "joint_error": 1.0714883202922465e-07
+        },
+        {
+          "position_error_m": 1.196276908088656e-07,
+          "rotation_frobenius_error": 1.2614675506152887e-06,
+          "joint_error": 1.190737126677277e-07
+        }
+      ],
+      "initial_fk_error_m": 2.686734180690209e-07
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 0.5,
+    "max_fk_error_m": 5.604566805490245e-07,
+    "peak_contact_force_n": 0.0,
+    "joint_rmse_rad": 0.021381013375979325,
+    "normalized_squared_arm_effort": 0.014785486357647176,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {},
+    "contact_force_validated": null,
+    "engine": "physx",
+    "case": {
+      "family": "panda_open_loop",
+      "dt": 0.0005,
+      "repeat": 2,
+      "id": "panda_open_loop-d095db4bd44a",
+      "duration": 0.5
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 3.5284144329998526,
+    "reference_sha256": "30e02a7e1151ea6fdca3f585a95a9e7e1f60554a0ad91191fdd8122b570d9837",
+    "samples": 1001,
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "CPU TGS",
+      "import_errors": {
+        "link0": 1.7812252020577013e-09,
+        "link1": 3.46946704699036e-08,
+        "link2": 2.1725296953795104e-08,
+        "link3": 2.384185791015625e-07,
+        "link4": 9.610176050778296e-09,
+        "link5": 3.630876543869732e-09,
+        "link6": 9.050369273455594e-10,
+        "link7": 8.075237284410619e-10,
+        "hand": 6.705522526129215e-10,
+        "left_finger": 9.313225746154785e-10,
+        "right_finger": 9.313225746154785e-10
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 2.686734180690209e-07,
+          "rotation_frobenius_error": 1.0633208823910982e-06,
+          "joint_error": 4.371139006309477e-08
+        },
+        {
+          "position_error_m": 1.7397411440113475e-07,
+          "rotation_frobenius_error": 1.419296256208406e-06,
+          "joint_error": 4.276864373764511e-08
+        },
+        {
+          "position_error_m": 3.465519964329644e-07,
+          "rotation_frobenius_error": 1.3428310770648775e-06,
+          "joint_error": 4.465413638854443e-08
+        },
+        {
+          "position_error_m": 2.885406803487811e-07,
+          "rotation_frobenius_error": 1.1782020850202812e-06,
+          "joint_error": 1.0714883202922465e-07
+        },
+        {
+          "position_error_m": 1.196276908088656e-07,
+          "rotation_frobenius_error": 1.2614675506152887e-06,
+          "joint_error": 1.190737126677277e-07
+        }
+      ],
+      "initial_fk_error_m": 2.686734180690209e-07
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 2.5,
+    "max_fk_error_m": 5.522015178594967e-07,
+    "peak_contact_force_n": 0.0,
+    "joint_rmse_rad": 8.205174226518038e-05,
+    "normalized_squared_arm_effort": 0.016071832670143123,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {},
+    "contact_force_validated": null,
+    "engine": "physx",
+    "case": {
+      "family": "panda_tracking",
+      "dt": 0.001,
+      "repeat": 0,
+      "id": "panda_tracking-69d7d876490b",
+      "duration": 2.5
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 7.132000062999396,
+    "reference_sha256": "63a6ed90aa9d217296fea9d96bab674425b519c4baa2e3ff05c3949306030efb",
+    "samples": 2501,
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "CPU TGS",
+      "import_errors": {
+        "link0": 1.7812252020577013e-09,
+        "link1": 3.46946704699036e-08,
+        "link2": 2.1725296953795104e-08,
+        "link3": 2.384185791015625e-07,
+        "link4": 9.610176050778296e-09,
+        "link5": 3.630876543869732e-09,
+        "link6": 9.050369273455594e-10,
+        "link7": 8.075237284410619e-10,
+        "hand": 6.705522526129215e-10,
+        "left_finger": 9.313225746154785e-10,
+        "right_finger": 9.313225746154785e-10
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 2.686734180690209e-07,
+          "rotation_frobenius_error": 1.0633208823910982e-06,
+          "joint_error": 4.371139006309477e-08
+        },
+        {
+          "position_error_m": 1.7397411440113475e-07,
+          "rotation_frobenius_error": 1.419296256208406e-06,
+          "joint_error": 4.276864373764511e-08
+        },
+        {
+          "position_error_m": 3.465519964329644e-07,
+          "rotation_frobenius_error": 1.3428310770648775e-06,
+          "joint_error": 4.465413638854443e-08
+        },
+        {
+          "position_error_m": 2.885406803487811e-07,
+          "rotation_frobenius_error": 1.1782020850202812e-06,
+          "joint_error": 1.0714883202922465e-07
+        },
+        {
+          "position_error_m": 1.196276908088656e-07,
+          "rotation_frobenius_error": 1.2614675506152887e-06,
+          "joint_error": 1.190737126677277e-07
+        }
+      ],
+      "initial_fk_error_m": 2.686734180690209e-07
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 2.5,
+    "max_fk_error_m": 5.522015178594967e-07,
+    "peak_contact_force_n": 0.0,
+    "joint_rmse_rad": 8.205174226518038e-05,
+    "normalized_squared_arm_effort": 0.016071832670143123,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {},
+    "contact_force_validated": null,
+    "engine": "physx",
+    "case": {
+      "family": "panda_tracking",
+      "dt": 0.001,
+      "repeat": 1,
+      "id": "panda_tracking-85aeee04e952",
+      "duration": 2.5
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 7.193990579999991,
+    "reference_sha256": "63a6ed90aa9d217296fea9d96bab674425b519c4baa2e3ff05c3949306030efb",
+    "samples": 2501,
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "CPU TGS",
+      "import_errors": {
+        "link0": 1.7812252020577013e-09,
+        "link1": 3.46946704699036e-08,
+        "link2": 2.1725296953795104e-08,
+        "link3": 2.384185791015625e-07,
+        "link4": 9.610176050778296e-09,
+        "link5": 3.630876543869732e-09,
+        "link6": 9.050369273455594e-10,
+        "link7": 8.075237284410619e-10,
+        "hand": 6.705522526129215e-10,
+        "left_finger": 9.313225746154785e-10,
+        "right_finger": 9.313225746154785e-10
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 2.686734180690209e-07,
+          "rotation_frobenius_error": 1.0633208823910982e-06,
+          "joint_error": 4.371139006309477e-08
+        },
+        {
+          "position_error_m": 1.7397411440113475e-07,
+          "rotation_frobenius_error": 1.419296256208406e-06,
+          "joint_error": 4.276864373764511e-08
+        },
+        {
+          "position_error_m": 3.465519964329644e-07,
+          "rotation_frobenius_error": 1.3428310770648775e-06,
+          "joint_error": 4.465413638854443e-08
+        },
+        {
+          "position_error_m": 2.885406803487811e-07,
+          "rotation_frobenius_error": 1.1782020850202812e-06,
+          "joint_error": 1.0714883202922465e-07
+        },
+        {
+          "position_error_m": 1.196276908088656e-07,
+          "rotation_frobenius_error": 1.2614675506152887e-06,
+          "joint_error": 1.190737126677277e-07
+        }
+      ],
+      "initial_fk_error_m": 2.686734180690209e-07
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 2.5,
+    "max_fk_error_m": 5.522015178594967e-07,
+    "peak_contact_force_n": 0.0,
+    "joint_rmse_rad": 8.205174226518038e-05,
+    "normalized_squared_arm_effort": 0.016071832670143123,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {},
+    "contact_force_validated": null,
+    "engine": "physx",
+    "case": {
+      "family": "panda_tracking",
+      "dt": 0.001,
+      "repeat": 2,
+      "id": "panda_tracking-472d8ccf2172",
+      "duration": 2.5
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 7.2485842690002755,
+    "reference_sha256": "63a6ed90aa9d217296fea9d96bab674425b519c4baa2e3ff05c3949306030efb",
+    "samples": 2501,
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "CPU TGS",
+      "import_errors": {
+        "link0": 1.7812252020577013e-09,
+        "link1": 3.46946704699036e-08,
+        "link2": 2.1725296953795104e-08,
+        "link3": 2.384185791015625e-07,
+        "link4": 9.610176050778296e-09,
+        "link5": 3.630876543869732e-09,
+        "link6": 9.050369273455594e-10,
+        "link7": 8.075237284410619e-10,
+        "hand": 6.705522526129215e-10,
+        "left_finger": 9.313225746154785e-10,
+        "right_finger": 9.313225746154785e-10
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 2.686734180690209e-07,
+          "rotation_frobenius_error": 1.0633208823910982e-06,
+          "joint_error": 4.371139006309477e-08
+        },
+        {
+          "position_error_m": 1.7397411440113475e-07,
+          "rotation_frobenius_error": 1.419296256208406e-06,
+          "joint_error": 4.276864373764511e-08
+        },
+        {
+          "position_error_m": 3.465519964329644e-07,
+          "rotation_frobenius_error": 1.3428310770648775e-06,
+          "joint_error": 4.465413638854443e-08
+        },
+        {
+          "position_error_m": 2.885406803487811e-07,
+          "rotation_frobenius_error": 1.1782020850202812e-06,
+          "joint_error": 1.0714883202922465e-07
+        },
+        {
+          "position_error_m": 1.196276908088656e-07,
+          "rotation_frobenius_error": 1.2614675506152887e-06,
+          "joint_error": 1.190737126677277e-07
+        }
+      ],
+      "initial_fk_error_m": 2.686734180690209e-07
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 2.5,
+    "max_fk_error_m": 5.546789403236599e-07,
+    "peak_contact_force_n": 0.0,
+    "joint_rmse_rad": 0.0002639085653906342,
+    "normalized_squared_arm_effort": 0.016073861243593834,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {},
+    "contact_force_validated": null,
+    "engine": "physx",
+    "case": {
+      "family": "panda_tracking",
+      "dt": 0.0005,
+      "repeat": 0,
+      "id": "panda_tracking-f13cdec2cd43",
+      "duration": 2.5
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 13.212736256000426,
+    "reference_sha256": "63a6ed90aa9d217296fea9d96bab674425b519c4baa2e3ff05c3949306030efb",
+    "samples": 5001,
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "CPU TGS",
+      "import_errors": {
+        "link0": 1.7812252020577013e-09,
+        "link1": 3.46946704699036e-08,
+        "link2": 2.1725296953795104e-08,
+        "link3": 2.384185791015625e-07,
+        "link4": 9.610176050778296e-09,
+        "link5": 3.630876543869732e-09,
+        "link6": 9.050369273455594e-10,
+        "link7": 8.075237284410619e-10,
+        "hand": 6.705522526129215e-10,
+        "left_finger": 9.313225746154785e-10,
+        "right_finger": 9.313225746154785e-10
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 2.686734180690209e-07,
+          "rotation_frobenius_error": 1.0633208823910982e-06,
+          "joint_error": 4.371139006309477e-08
+        },
+        {
+          "position_error_m": 1.7397411440113475e-07,
+          "rotation_frobenius_error": 1.419296256208406e-06,
+          "joint_error": 4.276864373764511e-08
+        },
+        {
+          "position_error_m": 3.465519964329644e-07,
+          "rotation_frobenius_error": 1.3428310770648775e-06,
+          "joint_error": 4.465413638854443e-08
+        },
+        {
+          "position_error_m": 2.885406803487811e-07,
+          "rotation_frobenius_error": 1.1782020850202812e-06,
+          "joint_error": 1.0714883202922465e-07
+        },
+        {
+          "position_error_m": 1.196276908088656e-07,
+          "rotation_frobenius_error": 1.2614675506152887e-06,
+          "joint_error": 1.190737126677277e-07
+        }
+      ],
+      "initial_fk_error_m": 2.686734180690209e-07
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 2.5,
+    "max_fk_error_m": 5.546789403236599e-07,
+    "peak_contact_force_n": 0.0,
+    "joint_rmse_rad": 0.0002639085653906342,
+    "normalized_squared_arm_effort": 0.016073861243593834,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {},
+    "contact_force_validated": null,
+    "engine": "physx",
+    "case": {
+      "family": "panda_tracking",
+      "dt": 0.0005,
+      "repeat": 1,
+      "id": "panda_tracking-f65fd9ac6047",
+      "duration": 2.5
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 13.057892709999578,
+    "reference_sha256": "63a6ed90aa9d217296fea9d96bab674425b519c4baa2e3ff05c3949306030efb",
+    "samples": 5001,
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "CPU TGS",
+      "import_errors": {
+        "link0": 1.7812252020577013e-09,
+        "link1": 3.46946704699036e-08,
+        "link2": 2.1725296953795104e-08,
+        "link3": 2.384185791015625e-07,
+        "link4": 9.610176050778296e-09,
+        "link5": 3.630876543869732e-09,
+        "link6": 9.050369273455594e-10,
+        "link7": 8.075237284410619e-10,
+        "hand": 6.705522526129215e-10,
+        "left_finger": 9.313225746154785e-10,
+        "right_finger": 9.313225746154785e-10
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 2.686734180690209e-07,
+          "rotation_frobenius_error": 1.0633208823910982e-06,
+          "joint_error": 4.371139006309477e-08
+        },
+        {
+          "position_error_m": 1.7397411440113475e-07,
+          "rotation_frobenius_error": 1.419296256208406e-06,
+          "joint_error": 4.276864373764511e-08
+        },
+        {
+          "position_error_m": 3.465519964329644e-07,
+          "rotation_frobenius_error": 1.3428310770648775e-06,
+          "joint_error": 4.465413638854443e-08
+        },
+        {
+          "position_error_m": 2.885406803487811e-07,
+          "rotation_frobenius_error": 1.1782020850202812e-06,
+          "joint_error": 1.0714883202922465e-07
+        },
+        {
+          "position_error_m": 1.196276908088656e-07,
+          "rotation_frobenius_error": 1.2614675506152887e-06,
+          "joint_error": 1.190737126677277e-07
+        }
+      ],
+      "initial_fk_error_m": 2.686734180690209e-07
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 2.5,
+    "max_fk_error_m": 5.546789403236599e-07,
+    "peak_contact_force_n": 0.0,
+    "joint_rmse_rad": 0.0002639085653906342,
+    "normalized_squared_arm_effort": 0.016073861243593834,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {},
+    "contact_force_validated": null,
+    "engine": "physx",
+    "case": {
+      "family": "panda_tracking",
+      "dt": 0.0005,
+      "repeat": 2,
+      "id": "panda_tracking-1d0246daf05e",
+      "duration": 2.5
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 13.098056838000048,
+    "reference_sha256": "63a6ed90aa9d217296fea9d96bab674425b519c4baa2e3ff05c3949306030efb",
+    "samples": 5001,
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "CPU TGS",
+      "import_errors": {
+        "link0": 1.7812252020577013e-09,
+        "link1": 3.46946704699036e-08,
+        "link2": 2.1725296953795104e-08,
+        "link3": 2.384185791015625e-07,
+        "link4": 9.610176050778296e-09,
+        "link5": 3.630876543869732e-09,
+        "link6": 9.050369273455594e-10,
+        "link7": 8.075237284410619e-10,
+        "hand": 6.705522526129215e-10,
+        "left_finger": 9.313225746154785e-10,
+        "right_finger": 9.313225746154785e-10
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 2.686734180690209e-07,
+          "rotation_frobenius_error": 1.0633208823910982e-06,
+          "joint_error": 4.371139006309477e-08
+        },
+        {
+          "position_error_m": 1.7397411440113475e-07,
+          "rotation_frobenius_error": 1.419296256208406e-06,
+          "joint_error": 4.276864373764511e-08
+        },
+        {
+          "position_error_m": 3.465519964329644e-07,
+          "rotation_frobenius_error": 1.3428310770648775e-06,
+          "joint_error": 4.465413638854443e-08
+        },
+        {
+          "position_error_m": 2.885406803487811e-07,
+          "rotation_frobenius_error": 1.1782020850202812e-06,
+          "joint_error": 1.0714883202922465e-07
+        },
+        {
+          "position_error_m": 1.196276908088656e-07,
+          "rotation_frobenius_error": 1.2614675506152887e-06,
+          "joint_error": 1.190737126677277e-07
+        }
+      ],
+      "initial_fk_error_m": 2.686734180690209e-07
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 3.5,
+    "max_fk_error_m": 5.59373589250668e-07,
+    "peak_contact_force_n": 80.21111233731561,
+    "joint_rmse_rad": 0.0027399520978452683,
+    "normalized_squared_arm_effort": 0.01477268102821174,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {
+      "cube": 5.6544922159383234e-08
+    },
+    "contact_force_validated": true,
+    "maximum_lift_m": 0.07372599840164185,
+    "minimum_hold_lift_m": 0.07343840599060059,
+    "engine": "physx",
+    "case": {
+      "family": "grasp",
+      "dt": 0.001,
+      "repeat": 0,
+      "offset": 0,
+      "id": "grasp-955a4de2a3af",
+      "duration": 3.5
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 16.62662599400028,
+    "reference_sha256": "0e1f06c7d55e852eb1780bd49de5bb95728084616b78b6ac06b574817b29eae5",
+    "samples": 3501,
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "CPU TGS",
+      "import_errors": {
+        "link0": 1.7812252020577013e-09,
+        "link1": 3.46946704699036e-08,
+        "link2": 2.1725296953795104e-08,
+        "link3": 2.384185791015625e-07,
+        "link4": 9.610176050778296e-09,
+        "link5": 3.630876543869732e-09,
+        "link6": 9.050369273455594e-10,
+        "link7": 8.075237284410619e-10,
+        "hand": 6.705522526129215e-10,
+        "left_finger": 9.313225746154785e-10,
+        "right_finger": 9.313225746154785e-10,
+        "cube": 6.7326864434036e-14
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 2.686734180690209e-07,
+          "rotation_frobenius_error": 1.0633208823910982e-06,
+          "joint_error": 4.371139006309477e-08
+        },
+        {
+          "position_error_m": 1.7397411440113475e-07,
+          "rotation_frobenius_error": 1.419296256208406e-06,
+          "joint_error": 4.276864373764511e-08
+        },
+        {
+          "position_error_m": 3.465519964329644e-07,
+          "rotation_frobenius_error": 1.3428310770648775e-06,
+          "joint_error": 4.465413638854443e-08
+        },
+        {
+          "position_error_m": 2.885406803487811e-07,
+          "rotation_frobenius_error": 1.1782020850202812e-06,
+          "joint_error": 1.0714883202922465e-07
+        },
+        {
+          "position_error_m": 1.196276908088656e-07,
+          "rotation_frobenius_error": 1.2614675506152887e-06,
+          "joint_error": 1.190737126677277e-07
+        }
+      ],
+      "initial_fk_error_m": 2.686734180690209e-07
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 3.5,
+    "max_fk_error_m": 5.59373589250668e-07,
+    "peak_contact_force_n": 80.21111233731561,
+    "joint_rmse_rad": 0.0027399520978452683,
+    "normalized_squared_arm_effort": 0.01477268102821174,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {
+      "cube": 5.6544922159383234e-08
+    },
+    "contact_force_validated": true,
+    "maximum_lift_m": 0.07372599840164185,
+    "minimum_hold_lift_m": 0.07343840599060059,
+    "engine": "physx",
+    "case": {
+      "family": "grasp",
+      "dt": 0.001,
+      "repeat": 1,
+      "offset": 0,
+      "id": "grasp-2b8f6b82dc36",
+      "duration": 3.5
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 16.83352832899982,
+    "reference_sha256": "0e1f06c7d55e852eb1780bd49de5bb95728084616b78b6ac06b574817b29eae5",
+    "samples": 3501,
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "CPU TGS",
+      "import_errors": {
+        "link0": 1.7812252020577013e-09,
+        "link1": 3.46946704699036e-08,
+        "link2": 2.1725296953795104e-08,
+        "link3": 2.384185791015625e-07,
+        "link4": 9.610176050778296e-09,
+        "link5": 3.630876543869732e-09,
+        "link6": 9.050369273455594e-10,
+        "link7": 8.075237284410619e-10,
+        "hand": 6.705522526129215e-10,
+        "left_finger": 9.313225746154785e-10,
+        "right_finger": 9.313225746154785e-10,
+        "cube": 6.7326864434036e-14
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 2.686734180690209e-07,
+          "rotation_frobenius_error": 1.0633208823910982e-06,
+          "joint_error": 4.371139006309477e-08
+        },
+        {
+          "position_error_m": 1.7397411440113475e-07,
+          "rotation_frobenius_error": 1.419296256208406e-06,
+          "joint_error": 4.276864373764511e-08
+        },
+        {
+          "position_error_m": 3.465519964329644e-07,
+          "rotation_frobenius_error": 1.3428310770648775e-06,
+          "joint_error": 4.465413638854443e-08
+        },
+        {
+          "position_error_m": 2.885406803487811e-07,
+          "rotation_frobenius_error": 1.1782020850202812e-06,
+          "joint_error": 1.0714883202922465e-07
+        },
+        {
+          "position_error_m": 1.196276908088656e-07,
+          "rotation_frobenius_error": 1.2614675506152887e-06,
+          "joint_error": 1.190737126677277e-07
+        }
+      ],
+      "initial_fk_error_m": 2.686734180690209e-07
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 3.5,
+    "max_fk_error_m": 5.59373589250668e-07,
+    "peak_contact_force_n": 80.21111233731561,
+    "joint_rmse_rad": 0.0027399520978452683,
+    "normalized_squared_arm_effort": 0.01477268102821174,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {
+      "cube": 5.6544922159383234e-08
+    },
+    "contact_force_validated": true,
+    "maximum_lift_m": 0.07372599840164185,
+    "minimum_hold_lift_m": 0.07343840599060059,
+    "engine": "physx",
+    "case": {
+      "family": "grasp",
+      "dt": 0.001,
+      "repeat": 2,
+      "offset": 0,
+      "id": "grasp-c4fc0dae6408",
+      "duration": 3.5
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 16.83510816099988,
+    "reference_sha256": "0e1f06c7d55e852eb1780bd49de5bb95728084616b78b6ac06b574817b29eae5",
+    "samples": 3501,
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "CPU TGS",
+      "import_errors": {
+        "link0": 1.7812252020577013e-09,
+        "link1": 3.46946704699036e-08,
+        "link2": 2.1725296953795104e-08,
+        "link3": 2.384185791015625e-07,
+        "link4": 9.610176050778296e-09,
+        "link5": 3.630876543869732e-09,
+        "link6": 9.050369273455594e-10,
+        "link7": 8.075237284410619e-10,
+        "hand": 6.705522526129215e-10,
+        "left_finger": 9.313225746154785e-10,
+        "right_finger": 9.313225746154785e-10,
+        "cube": 6.7326864434036e-14
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 2.686734180690209e-07,
+          "rotation_frobenius_error": 1.0633208823910982e-06,
+          "joint_error": 4.371139006309477e-08
+        },
+        {
+          "position_error_m": 1.7397411440113475e-07,
+          "rotation_frobenius_error": 1.419296256208406e-06,
+          "joint_error": 4.276864373764511e-08
+        },
+        {
+          "position_error_m": 3.465519964329644e-07,
+          "rotation_frobenius_error": 1.3428310770648775e-06,
+          "joint_error": 4.465413638854443e-08
+        },
+        {
+          "position_error_m": 2.885406803487811e-07,
+          "rotation_frobenius_error": 1.1782020850202812e-06,
+          "joint_error": 1.0714883202922465e-07
+        },
+        {
+          "position_error_m": 1.196276908088656e-07,
+          "rotation_frobenius_error": 1.2614675506152887e-06,
+          "joint_error": 1.190737126677277e-07
+        }
+      ],
+      "initial_fk_error_m": 2.686734180690209e-07
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 3.5,
+    "max_fk_error_m": 5.3311123845032e-07,
+    "peak_contact_force_n": 97.99958726415169,
+    "joint_rmse_rad": 0.0028167111727157553,
+    "normalized_squared_arm_effort": 0.014792215351493429,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {
+      "cube": 5.14378652771208e-08
+    },
+    "contact_force_validated": true,
+    "maximum_lift_m": 0.07341128587722778,
+    "minimum_hold_lift_m": 0.07308125495910645,
+    "engine": "physx",
+    "case": {
+      "family": "grasp",
+      "dt": 0.001,
+      "repeat": 0,
+      "offset": 0.008,
+      "id": "grasp-617d9d80d621",
+      "duration": 3.5
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 16.760177240000303,
+    "reference_sha256": "0e1f06c7d55e852eb1780bd49de5bb95728084616b78b6ac06b574817b29eae5",
+    "samples": 3501,
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "CPU TGS",
+      "import_errors": {
+        "link0": 1.7812252020577013e-09,
+        "link1": 3.46946704699036e-08,
+        "link2": 2.1725296953795104e-08,
+        "link3": 2.384185791015625e-07,
+        "link4": 9.610176050778296e-09,
+        "link5": 3.630876543869732e-09,
+        "link6": 9.050369273455594e-10,
+        "link7": 8.075237284410619e-10,
+        "hand": 6.705522526129215e-10,
+        "left_finger": 9.313225746154785e-10,
+        "right_finger": 9.313225746154785e-10,
+        "cube": 6.7326864434036e-14
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 2.686734180690209e-07,
+          "rotation_frobenius_error": 1.0633208823910982e-06,
+          "joint_error": 4.371139006309477e-08
+        },
+        {
+          "position_error_m": 1.7397411440113475e-07,
+          "rotation_frobenius_error": 1.419296256208406e-06,
+          "joint_error": 4.276864373764511e-08
+        },
+        {
+          "position_error_m": 3.465519964329644e-07,
+          "rotation_frobenius_error": 1.3428310770648775e-06,
+          "joint_error": 4.465413638854443e-08
+        },
+        {
+          "position_error_m": 2.885406803487811e-07,
+          "rotation_frobenius_error": 1.1782020850202812e-06,
+          "joint_error": 1.0714883202922465e-07
+        },
+        {
+          "position_error_m": 1.196276908088656e-07,
+          "rotation_frobenius_error": 1.2614675506152887e-06,
+          "joint_error": 1.190737126677277e-07
+        }
+      ],
+      "initial_fk_error_m": 2.686734180690209e-07
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 3.5,
+    "max_fk_error_m": 5.3311123845032e-07,
+    "peak_contact_force_n": 97.99958726415169,
+    "joint_rmse_rad": 0.0028167111727157553,
+    "normalized_squared_arm_effort": 0.014792215351493429,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {
+      "cube": 5.14378652771208e-08
+    },
+    "contact_force_validated": true,
+    "maximum_lift_m": 0.07341128587722778,
+    "minimum_hold_lift_m": 0.07308125495910645,
+    "engine": "physx",
+    "case": {
+      "family": "grasp",
+      "dt": 0.001,
+      "repeat": 1,
+      "offset": 0.008,
+      "id": "grasp-018904402100",
+      "duration": 3.5
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 16.909610833000443,
+    "reference_sha256": "0e1f06c7d55e852eb1780bd49de5bb95728084616b78b6ac06b574817b29eae5",
+    "samples": 3501,
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "CPU TGS",
+      "import_errors": {
+        "link0": 1.7812252020577013e-09,
+        "link1": 3.46946704699036e-08,
+        "link2": 2.1725296953795104e-08,
+        "link3": 2.384185791015625e-07,
+        "link4": 9.610176050778296e-09,
+        "link5": 3.630876543869732e-09,
+        "link6": 9.050369273455594e-10,
+        "link7": 8.075237284410619e-10,
+        "hand": 6.705522526129215e-10,
+        "left_finger": 9.313225746154785e-10,
+        "right_finger": 9.313225746154785e-10,
+        "cube": 6.7326864434036e-14
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 2.686734180690209e-07,
+          "rotation_frobenius_error": 1.0633208823910982e-06,
+          "joint_error": 4.371139006309477e-08
+        },
+        {
+          "position_error_m": 1.7397411440113475e-07,
+          "rotation_frobenius_error": 1.419296256208406e-06,
+          "joint_error": 4.276864373764511e-08
+        },
+        {
+          "position_error_m": 3.465519964329644e-07,
+          "rotation_frobenius_error": 1.3428310770648775e-06,
+          "joint_error": 4.465413638854443e-08
+        },
+        {
+          "position_error_m": 2.885406803487811e-07,
+          "rotation_frobenius_error": 1.1782020850202812e-06,
+          "joint_error": 1.0714883202922465e-07
+        },
+        {
+          "position_error_m": 1.196276908088656e-07,
+          "rotation_frobenius_error": 1.2614675506152887e-06,
+          "joint_error": 1.190737126677277e-07
+        }
+      ],
+      "initial_fk_error_m": 2.686734180690209e-07
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 3.5,
+    "max_fk_error_m": 5.3311123845032e-07,
+    "peak_contact_force_n": 97.99958726415169,
+    "joint_rmse_rad": 0.0028167111727157553,
+    "normalized_squared_arm_effort": 0.014792215351493429,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {
+      "cube": 5.14378652771208e-08
+    },
+    "contact_force_validated": true,
+    "maximum_lift_m": 0.07341128587722778,
+    "minimum_hold_lift_m": 0.07308125495910645,
+    "engine": "physx",
+    "case": {
+      "family": "grasp",
+      "dt": 0.001,
+      "repeat": 2,
+      "offset": 0.008,
+      "id": "grasp-4174c8da86c5",
+      "duration": 3.5
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 16.9450783960001,
+    "reference_sha256": "0e1f06c7d55e852eb1780bd49de5bb95728084616b78b6ac06b574817b29eae5",
+    "samples": 3501,
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "CPU TGS",
+      "import_errors": {
+        "link0": 1.7812252020577013e-09,
+        "link1": 3.46946704699036e-08,
+        "link2": 2.1725296953795104e-08,
+        "link3": 2.384185791015625e-07,
+        "link4": 9.610176050778296e-09,
+        "link5": 3.630876543869732e-09,
+        "link6": 9.050369273455594e-10,
+        "link7": 8.075237284410619e-10,
+        "hand": 6.705522526129215e-10,
+        "left_finger": 9.313225746154785e-10,
+        "right_finger": 9.313225746154785e-10,
+        "cube": 6.7326864434036e-14
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 2.686734180690209e-07,
+          "rotation_frobenius_error": 1.0633208823910982e-06,
+          "joint_error": 4.371139006309477e-08
+        },
+        {
+          "position_error_m": 1.7397411440113475e-07,
+          "rotation_frobenius_error": 1.419296256208406e-06,
+          "joint_error": 4.276864373764511e-08
+        },
+        {
+          "position_error_m": 3.465519964329644e-07,
+          "rotation_frobenius_error": 1.3428310770648775e-06,
+          "joint_error": 4.465413638854443e-08
+        },
+        {
+          "position_error_m": 2.885406803487811e-07,
+          "rotation_frobenius_error": 1.1782020850202812e-06,
+          "joint_error": 1.0714883202922465e-07
+        },
+        {
+          "position_error_m": 1.196276908088656e-07,
+          "rotation_frobenius_error": 1.2614675506152887e-06,
+          "joint_error": 1.190737126677277e-07
+        }
+      ],
+      "initial_fk_error_m": 2.686734180690209e-07
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 6.0,
+    "max_fk_error_m": 5.866158166005003e-07,
+    "peak_contact_force_n": 5.022458599516373,
+    "joint_rmse_rad": 0.0028380437047113762,
+    "normalized_squared_arm_effort": 0.017288679856245968,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {
+      "cube": 5.6544922159383234e-08,
+      "lower_cube": 2.4353043580368246e-09
+    },
+    "contact_force_validated": true,
+    "maximum_lift_m": 0.07571905851364136,
+    "minimum_hold_lift_m": 0.07350552082061768,
+    "final_relative_position_m": [
+      -0.0008969902992248535,
+      3.5888893563651436e-06,
+      0.039999812841415405
+    ],
+    "settled": true,
+    "engine": "physx",
+    "case": {
+      "family": "stack",
+      "dt": 0.001,
+      "repeat": 0,
+      "offset": 0,
+      "id": "stack-3c705b8adaef",
+      "duration": 6.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 34.28338671799975,
+    "reference_sha256": "b9d1c1ecaeb1869a19db475a98e4a74b26f50dcf24ca5acf7fbb03a3aa267d70",
+    "samples": 6001,
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "CPU TGS",
+      "import_errors": {
+        "link0": 1.7812252020577013e-09,
+        "link1": 3.46946704699036e-08,
+        "link2": 2.1725296953795104e-08,
+        "link3": 2.384185791015625e-07,
+        "link4": 9.610176050778296e-09,
+        "link5": 3.630876543869732e-09,
+        "link6": 9.050369273455594e-10,
+        "link7": 8.075237284410619e-10,
+        "hand": 6.705522526129215e-10,
+        "left_finger": 9.313225746154785e-10,
+        "right_finger": 9.313225746154785e-10,
+        "cube": 6.7326864434036e-14,
+        "lower_cube": 6.7326864434036e-14
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 2.686734180690209e-07,
+          "rotation_frobenius_error": 1.0633208823910982e-06,
+          "joint_error": 4.371139006309477e-08
+        },
+        {
+          "position_error_m": 1.7397411440113475e-07,
+          "rotation_frobenius_error": 1.419296256208406e-06,
+          "joint_error": 4.276864373764511e-08
+        },
+        {
+          "position_error_m": 3.465519964329644e-07,
+          "rotation_frobenius_error": 1.3428310770648775e-06,
+          "joint_error": 4.465413638854443e-08
+        },
+        {
+          "position_error_m": 2.885406803487811e-07,
+          "rotation_frobenius_error": 1.1782020850202812e-06,
+          "joint_error": 1.0714883202922465e-07
+        },
+        {
+          "position_error_m": 1.196276908088656e-07,
+          "rotation_frobenius_error": 1.2614675506152887e-06,
+          "joint_error": 1.190737126677277e-07
+        }
+      ],
+      "initial_fk_error_m": 2.686734180690209e-07
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 6.0,
+    "max_fk_error_m": 5.866158166005003e-07,
+    "peak_contact_force_n": 5.022458599516373,
+    "joint_rmse_rad": 0.0028380437047113762,
+    "normalized_squared_arm_effort": 0.017288679856245968,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {
+      "cube": 5.6544922159383234e-08,
+      "lower_cube": 2.4353043580368246e-09
+    },
+    "contact_force_validated": true,
+    "maximum_lift_m": 0.07571905851364136,
+    "minimum_hold_lift_m": 0.07350552082061768,
+    "final_relative_position_m": [
+      -0.0008969902992248535,
+      3.5888893563651436e-06,
+      0.039999812841415405
+    ],
+    "settled": true,
+    "engine": "physx",
+    "case": {
+      "family": "stack",
+      "dt": 0.001,
+      "repeat": 1,
+      "offset": 0,
+      "id": "stack-5a6fa2926149",
+      "duration": 6.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 34.49787595900034,
+    "reference_sha256": "b9d1c1ecaeb1869a19db475a98e4a74b26f50dcf24ca5acf7fbb03a3aa267d70",
+    "samples": 6001,
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "CPU TGS",
+      "import_errors": {
+        "link0": 1.7812252020577013e-09,
+        "link1": 3.46946704699036e-08,
+        "link2": 2.1725296953795104e-08,
+        "link3": 2.384185791015625e-07,
+        "link4": 9.610176050778296e-09,
+        "link5": 3.630876543869732e-09,
+        "link6": 9.050369273455594e-10,
+        "link7": 8.075237284410619e-10,
+        "hand": 6.705522526129215e-10,
+        "left_finger": 9.313225746154785e-10,
+        "right_finger": 9.313225746154785e-10,
+        "cube": 6.7326864434036e-14,
+        "lower_cube": 6.7326864434036e-14
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 2.686734180690209e-07,
+          "rotation_frobenius_error": 1.0633208823910982e-06,
+          "joint_error": 4.371139006309477e-08
+        },
+        {
+          "position_error_m": 1.7397411440113475e-07,
+          "rotation_frobenius_error": 1.419296256208406e-06,
+          "joint_error": 4.276864373764511e-08
+        },
+        {
+          "position_error_m": 3.465519964329644e-07,
+          "rotation_frobenius_error": 1.3428310770648775e-06,
+          "joint_error": 4.465413638854443e-08
+        },
+        {
+          "position_error_m": 2.885406803487811e-07,
+          "rotation_frobenius_error": 1.1782020850202812e-06,
+          "joint_error": 1.0714883202922465e-07
+        },
+        {
+          "position_error_m": 1.196276908088656e-07,
+          "rotation_frobenius_error": 1.2614675506152887e-06,
+          "joint_error": 1.190737126677277e-07
+        }
+      ],
+      "initial_fk_error_m": 2.686734180690209e-07
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 6.0,
+    "max_fk_error_m": 5.866158166005003e-07,
+    "peak_contact_force_n": 5.022458599516373,
+    "joint_rmse_rad": 0.0028380437047113762,
+    "normalized_squared_arm_effort": 0.017288679856245968,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {
+      "cube": 5.6544922159383234e-08,
+      "lower_cube": 2.4353043580368246e-09
+    },
+    "contact_force_validated": true,
+    "maximum_lift_m": 0.07571905851364136,
+    "minimum_hold_lift_m": 0.07350552082061768,
+    "final_relative_position_m": [
+      -0.0008969902992248535,
+      3.5888893563651436e-06,
+      0.039999812841415405
+    ],
+    "settled": true,
+    "engine": "physx",
+    "case": {
+      "family": "stack",
+      "dt": 0.001,
+      "repeat": 2,
+      "offset": 0,
+      "id": "stack-ee19fab0d88e",
+      "duration": 6.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 34.524589069000285,
+    "reference_sha256": "b9d1c1ecaeb1869a19db475a98e4a74b26f50dcf24ca5acf7fbb03a3aa267d70",
+    "samples": 6001,
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "CPU TGS",
+      "import_errors": {
+        "link0": 1.7812252020577013e-09,
+        "link1": 3.46946704699036e-08,
+        "link2": 2.1725296953795104e-08,
+        "link3": 2.384185791015625e-07,
+        "link4": 9.610176050778296e-09,
+        "link5": 3.630876543869732e-09,
+        "link6": 9.050369273455594e-10,
+        "link7": 8.075237284410619e-10,
+        "hand": 6.705522526129215e-10,
+        "left_finger": 9.313225746154785e-10,
+        "right_finger": 9.313225746154785e-10,
+        "cube": 6.7326864434036e-14,
+        "lower_cube": 6.7326864434036e-14
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 2.686734180690209e-07,
+          "rotation_frobenius_error": 1.0633208823910982e-06,
+          "joint_error": 4.371139006309477e-08
+        },
+        {
+          "position_error_m": 1.7397411440113475e-07,
+          "rotation_frobenius_error": 1.419296256208406e-06,
+          "joint_error": 4.276864373764511e-08
+        },
+        {
+          "position_error_m": 3.465519964329644e-07,
+          "rotation_frobenius_error": 1.3428310770648775e-06,
+          "joint_error": 4.465413638854443e-08
+        },
+        {
+          "position_error_m": 2.885406803487811e-07,
+          "rotation_frobenius_error": 1.1782020850202812e-06,
+          "joint_error": 1.0714883202922465e-07
+        },
+        {
+          "position_error_m": 1.196276908088656e-07,
+          "rotation_frobenius_error": 1.2614675506152887e-06,
+          "joint_error": 1.190737126677277e-07
+        }
+      ],
+      "initial_fk_error_m": 2.686734180690209e-07
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 6.0,
+    "max_fk_error_m": 5.955553632604092e-07,
+    "peak_contact_force_n": 8.367760481960662,
+    "joint_rmse_rad": 0.002843016216478388,
+    "normalized_squared_arm_effort": 0.01790059089383364,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {
+      "cube": 5.6544922159383234e-08,
+      "lower_cube": 1.2617616907886661e-09
+    },
+    "contact_force_validated": true,
+    "maximum_lift_m": 0.07684165239334106,
+    "minimum_hold_lift_m": 0.07352083921432495,
+    "final_relative_position_m": [
+      0.015242725610733032,
+      -1.462661104056906e-05,
+      0.04000014066696167
+    ],
+    "settled": true,
+    "engine": "physx",
+    "case": {
+      "family": "stack",
+      "dt": 0.001,
+      "repeat": 0,
+      "offset": 0.016,
+      "id": "stack-42ac132e472b",
+      "duration": 6.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 34.294408255000235,
+    "reference_sha256": "74b1d71fbcde4f5a3848b6c01b479f60b12f3c051ee3d19055dd31c71468d854",
+    "samples": 6001,
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "CPU TGS",
+      "import_errors": {
+        "link0": 1.7812252020577013e-09,
+        "link1": 3.46946704699036e-08,
+        "link2": 2.1725296953795104e-08,
+        "link3": 2.384185791015625e-07,
+        "link4": 9.610176050778296e-09,
+        "link5": 3.630876543869732e-09,
+        "link6": 9.050369273455594e-10,
+        "link7": 8.075237284410619e-10,
+        "hand": 6.705522526129215e-10,
+        "left_finger": 9.313225746154785e-10,
+        "right_finger": 9.313225746154785e-10,
+        "cube": 6.7326864434036e-14,
+        "lower_cube": 6.7326864434036e-14
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 2.686734180690209e-07,
+          "rotation_frobenius_error": 1.0633208823910982e-06,
+          "joint_error": 4.371139006309477e-08
+        },
+        {
+          "position_error_m": 1.7397411440113475e-07,
+          "rotation_frobenius_error": 1.419296256208406e-06,
+          "joint_error": 4.276864373764511e-08
+        },
+        {
+          "position_error_m": 3.465519964329644e-07,
+          "rotation_frobenius_error": 1.3428310770648775e-06,
+          "joint_error": 4.465413638854443e-08
+        },
+        {
+          "position_error_m": 2.885406803487811e-07,
+          "rotation_frobenius_error": 1.1782020850202812e-06,
+          "joint_error": 1.0714883202922465e-07
+        },
+        {
+          "position_error_m": 1.196276908088656e-07,
+          "rotation_frobenius_error": 1.2614675506152887e-06,
+          "joint_error": 1.190737126677277e-07
+        }
+      ],
+      "initial_fk_error_m": 2.686734180690209e-07
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 6.0,
+    "max_fk_error_m": 5.955553632604092e-07,
+    "peak_contact_force_n": 8.367760481960662,
+    "joint_rmse_rad": 0.002843016216478388,
+    "normalized_squared_arm_effort": 0.01790059089383364,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {
+      "cube": 5.6544922159383234e-08,
+      "lower_cube": 1.2617616907886661e-09
+    },
+    "contact_force_validated": true,
+    "maximum_lift_m": 0.07684165239334106,
+    "minimum_hold_lift_m": 0.07352083921432495,
+    "final_relative_position_m": [
+      0.015242725610733032,
+      -1.462661104056906e-05,
+      0.04000014066696167
+    ],
+    "settled": true,
+    "engine": "physx",
+    "case": {
+      "family": "stack",
+      "dt": 0.001,
+      "repeat": 1,
+      "offset": 0.016,
+      "id": "stack-27e089c26bc1",
+      "duration": 6.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 34.299039487999835,
+    "reference_sha256": "74b1d71fbcde4f5a3848b6c01b479f60b12f3c051ee3d19055dd31c71468d854",
+    "samples": 6001,
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "CPU TGS",
+      "import_errors": {
+        "link0": 1.7812252020577013e-09,
+        "link1": 3.46946704699036e-08,
+        "link2": 2.1725296953795104e-08,
+        "link3": 2.384185791015625e-07,
+        "link4": 9.610176050778296e-09,
+        "link5": 3.630876543869732e-09,
+        "link6": 9.050369273455594e-10,
+        "link7": 8.075237284410619e-10,
+        "hand": 6.705522526129215e-10,
+        "left_finger": 9.313225746154785e-10,
+        "right_finger": 9.313225746154785e-10,
+        "cube": 6.7326864434036e-14,
+        "lower_cube": 6.7326864434036e-14
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 2.686734180690209e-07,
+          "rotation_frobenius_error": 1.0633208823910982e-06,
+          "joint_error": 4.371139006309477e-08
+        },
+        {
+          "position_error_m": 1.7397411440113475e-07,
+          "rotation_frobenius_error": 1.419296256208406e-06,
+          "joint_error": 4.276864373764511e-08
+        },
+        {
+          "position_error_m": 3.465519964329644e-07,
+          "rotation_frobenius_error": 1.3428310770648775e-06,
+          "joint_error": 4.465413638854443e-08
+        },
+        {
+          "position_error_m": 2.885406803487811e-07,
+          "rotation_frobenius_error": 1.1782020850202812e-06,
+          "joint_error": 1.0714883202922465e-07
+        },
+        {
+          "position_error_m": 1.196276908088656e-07,
+          "rotation_frobenius_error": 1.2614675506152887e-06,
+          "joint_error": 1.190737126677277e-07
+        }
+      ],
+      "initial_fk_error_m": 2.686734180690209e-07
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 6.0,
+    "max_fk_error_m": 5.955553632604092e-07,
+    "peak_contact_force_n": 8.367760481960662,
+    "joint_rmse_rad": 0.002843016216478388,
+    "normalized_squared_arm_effort": 0.01790059089383364,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {
+      "cube": 5.6544922159383234e-08,
+      "lower_cube": 1.2617616907886661e-09
+    },
+    "contact_force_validated": true,
+    "maximum_lift_m": 0.07684165239334106,
+    "minimum_hold_lift_m": 0.07352083921432495,
+    "final_relative_position_m": [
+      0.015242725610733032,
+      -1.462661104056906e-05,
+      0.04000014066696167
+    ],
+    "settled": true,
+    "engine": "physx",
+    "case": {
+      "family": "stack",
+      "dt": 0.001,
+      "repeat": 2,
+      "offset": 0.016,
+      "id": "stack-d78fcd4c4395",
+      "duration": 6.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 34.07052277799994,
+    "reference_sha256": "74b1d71fbcde4f5a3848b6c01b479f60b12f3c051ee3d19055dd31c71468d854",
+    "samples": 6001,
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "CPU TGS",
+      "import_errors": {
+        "link0": 1.7812252020577013e-09,
+        "link1": 3.46946704699036e-08,
+        "link2": 2.1725296953795104e-08,
+        "link3": 2.384185791015625e-07,
+        "link4": 9.610176050778296e-09,
+        "link5": 3.630876543869732e-09,
+        "link6": 9.050369273455594e-10,
+        "link7": 8.075237284410619e-10,
+        "hand": 6.705522526129215e-10,
+        "left_finger": 9.313225746154785e-10,
+        "right_finger": 9.313225746154785e-10,
+        "cube": 6.7326864434036e-14,
+        "lower_cube": 6.7326864434036e-14
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 2.686734180690209e-07,
+          "rotation_frobenius_error": 1.0633208823910982e-06,
+          "joint_error": 4.371139006309477e-08
+        },
+        {
+          "position_error_m": 1.7397411440113475e-07,
+          "rotation_frobenius_error": 1.419296256208406e-06,
+          "joint_error": 4.276864373764511e-08
+        },
+        {
+          "position_error_m": 3.465519964329644e-07,
+          "rotation_frobenius_error": 1.3428310770648775e-06,
+          "joint_error": 4.465413638854443e-08
+        },
+        {
+          "position_error_m": 2.885406803487811e-07,
+          "rotation_frobenius_error": 1.1782020850202812e-06,
+          "joint_error": 1.0714883202922465e-07
+        },
+        {
+          "position_error_m": 1.196276908088656e-07,
+          "rotation_frobenius_error": 1.2614675506152887e-06,
+          "joint_error": 1.190737126677277e-07
+        }
+      ],
+      "initial_fk_error_m": 2.686734180690209e-07
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 6.0,
+    "max_fk_error_m": 6.221398872585351e-07,
+    "peak_contact_force_n": 8.66759059504055,
+    "joint_rmse_rad": 0.002854895785983868,
+    "normalized_squared_arm_effort": 0.018060078662308403,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {
+      "cube": 8.295150886684874e-08,
+      "lower_cube": 1.8304621175503193e-09
+    },
+    "contact_force_validated": true,
+    "maximum_lift_m": 0.07706928253173828,
+    "minimum_hold_lift_m": 0.0735325813293457,
+    "final_relative_position_m": [
+      0.01922321319580078,
+      -1.93884924337695e-05,
+      0.04000005125999451
+    ],
+    "settled": true,
+    "engine": "physx",
+    "case": {
+      "family": "stack",
+      "dt": 0.001,
+      "repeat": 0,
+      "offset": 0.02,
+      "id": "stack-c8077b104aaa",
+      "duration": 6.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 34.58639566000056,
+    "reference_sha256": "3e7151c836dd7ea941f9ea1e733ff2c525c626b63ec293cd2997938bd2aa0030",
+    "samples": 6001,
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "CPU TGS",
+      "import_errors": {
+        "link0": 1.7812252020577013e-09,
+        "link1": 3.46946704699036e-08,
+        "link2": 2.1725296953795104e-08,
+        "link3": 2.384185791015625e-07,
+        "link4": 9.610176050778296e-09,
+        "link5": 3.630876543869732e-09,
+        "link6": 9.050369273455594e-10,
+        "link7": 8.075237284410619e-10,
+        "hand": 6.705522526129215e-10,
+        "left_finger": 9.313225746154785e-10,
+        "right_finger": 9.313225746154785e-10,
+        "cube": 6.7326864434036e-14,
+        "lower_cube": 6.7326864434036e-14
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 2.686734180690209e-07,
+          "rotation_frobenius_error": 1.0633208823910982e-06,
+          "joint_error": 4.371139006309477e-08
+        },
+        {
+          "position_error_m": 1.7397411440113475e-07,
+          "rotation_frobenius_error": 1.419296256208406e-06,
+          "joint_error": 4.276864373764511e-08
+        },
+        {
+          "position_error_m": 3.465519964329644e-07,
+          "rotation_frobenius_error": 1.3428310770648775e-06,
+          "joint_error": 4.465413638854443e-08
+        },
+        {
+          "position_error_m": 2.885406803487811e-07,
+          "rotation_frobenius_error": 1.1782020850202812e-06,
+          "joint_error": 1.0714883202922465e-07
+        },
+        {
+          "position_error_m": 1.196276908088656e-07,
+          "rotation_frobenius_error": 1.2614675506152887e-06,
+          "joint_error": 1.190737126677277e-07
+        }
+      ],
+      "initial_fk_error_m": 2.686734180690209e-07
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 6.0,
+    "max_fk_error_m": 6.221398872585351e-07,
+    "peak_contact_force_n": 8.66759059504055,
+    "joint_rmse_rad": 0.002854895785983868,
+    "normalized_squared_arm_effort": 0.018060078662308403,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {
+      "cube": 8.295150886684874e-08,
+      "lower_cube": 1.8304621175503193e-09
+    },
+    "contact_force_validated": true,
+    "maximum_lift_m": 0.07706928253173828,
+    "minimum_hold_lift_m": 0.0735325813293457,
+    "final_relative_position_m": [
+      0.01922321319580078,
+      -1.93884924337695e-05,
+      0.04000005125999451
+    ],
+    "settled": true,
+    "engine": "physx",
+    "case": {
+      "family": "stack",
+      "dt": 0.001,
+      "repeat": 1,
+      "offset": 0.02,
+      "id": "stack-6e24332feb2e",
+      "duration": 6.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 34.516749601999436,
+    "reference_sha256": "3e7151c836dd7ea941f9ea1e733ff2c525c626b63ec293cd2997938bd2aa0030",
+    "samples": 6001,
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "CPU TGS",
+      "import_errors": {
+        "link0": 1.7812252020577013e-09,
+        "link1": 3.46946704699036e-08,
+        "link2": 2.1725296953795104e-08,
+        "link3": 2.384185791015625e-07,
+        "link4": 9.610176050778296e-09,
+        "link5": 3.630876543869732e-09,
+        "link6": 9.050369273455594e-10,
+        "link7": 8.075237284410619e-10,
+        "hand": 6.705522526129215e-10,
+        "left_finger": 9.313225746154785e-10,
+        "right_finger": 9.313225746154785e-10,
+        "cube": 6.7326864434036e-14,
+        "lower_cube": 6.7326864434036e-14
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 2.686734180690209e-07,
+          "rotation_frobenius_error": 1.0633208823910982e-06,
+          "joint_error": 4.371139006309477e-08
+        },
+        {
+          "position_error_m": 1.7397411440113475e-07,
+          "rotation_frobenius_error": 1.419296256208406e-06,
+          "joint_error": 4.276864373764511e-08
+        },
+        {
+          "position_error_m": 3.465519964329644e-07,
+          "rotation_frobenius_error": 1.3428310770648775e-06,
+          "joint_error": 4.465413638854443e-08
+        },
+        {
+          "position_error_m": 2.885406803487811e-07,
+          "rotation_frobenius_error": 1.1782020850202812e-06,
+          "joint_error": 1.0714883202922465e-07
+        },
+        {
+          "position_error_m": 1.196276908088656e-07,
+          "rotation_frobenius_error": 1.2614675506152887e-06,
+          "joint_error": 1.190737126677277e-07
+        }
+      ],
+      "initial_fk_error_m": 2.686734180690209e-07
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 6.0,
+    "max_fk_error_m": 6.221398872585351e-07,
+    "peak_contact_force_n": 8.66759059504055,
+    "joint_rmse_rad": 0.002854895785983868,
+    "normalized_squared_arm_effort": 0.018060078662308403,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {
+      "cube": 8.295150886684874e-08,
+      "lower_cube": 1.8304621175503193e-09
+    },
+    "contact_force_validated": true,
+    "maximum_lift_m": 0.07706928253173828,
+    "minimum_hold_lift_m": 0.0735325813293457,
+    "final_relative_position_m": [
+      0.01922321319580078,
+      -1.93884924337695e-05,
+      0.04000005125999451
+    ],
+    "settled": true,
+    "engine": "physx",
+    "case": {
+      "family": "stack",
+      "dt": 0.001,
+      "repeat": 2,
+      "offset": 0.02,
+      "id": "stack-233ed0e80ec3",
+      "duration": 6.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 35.6029593610001,
+    "reference_sha256": "3e7151c836dd7ea941f9ea1e733ff2c525c626b63ec293cd2997938bd2aa0030",
+    "samples": 6001,
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "CPU TGS",
+      "import_errors": {
+        "link0": 1.7812252020577013e-09,
+        "link1": 3.46946704699036e-08,
+        "link2": 2.1725296953795104e-08,
+        "link3": 2.384185791015625e-07,
+        "link4": 9.610176050778296e-09,
+        "link5": 3.630876543869732e-09,
+        "link6": 9.050369273455594e-10,
+        "link7": 8.075237284410619e-10,
+        "hand": 6.705522526129215e-10,
+        "left_finger": 9.313225746154785e-10,
+        "right_finger": 9.313225746154785e-10,
+        "cube": 6.7326864434036e-14,
+        "lower_cube": 6.7326864434036e-14
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 2.686734180690209e-07,
+          "rotation_frobenius_error": 1.0633208823910982e-06,
+          "joint_error": 4.371139006309477e-08
+        },
+        {
+          "position_error_m": 1.7397411440113475e-07,
+          "rotation_frobenius_error": 1.419296256208406e-06,
+          "joint_error": 4.276864373764511e-08
+        },
+        {
+          "position_error_m": 3.465519964329644e-07,
+          "rotation_frobenius_error": 1.3428310770648775e-06,
+          "joint_error": 4.465413638854443e-08
+        },
+        {
+          "position_error_m": 2.885406803487811e-07,
+          "rotation_frobenius_error": 1.1782020850202812e-06,
+          "joint_error": 1.0714883202922465e-07
+        },
+        {
+          "position_error_m": 1.196276908088656e-07,
+          "rotation_frobenius_error": 1.2614675506152887e-06,
+          "joint_error": 1.190737126677277e-07
+        }
+      ],
+      "initial_fk_error_m": 2.686734180690209e-07
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": false,
+    "simulated_seconds": 6.0,
+    "max_fk_error_m": 6.770016684361112e-07,
+    "peak_contact_force_n": 77.48746167929731,
+    "joint_rmse_rad": 0.002856260862042748,
+    "normalized_squared_arm_effort": 0.018140427223212803,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {
+      "cube": 9.581088909083844e-08,
+      "lower_cube": 1.2007466262911894e-09
+    },
+    "contact_force_validated": true,
+    "maximum_lift_m": 0.0772748589515686,
+    "minimum_hold_lift_m": 0.07353454828262329,
+    "final_relative_position_m": [
+      0.04489907622337341,
+      -2.2813278846456342e-05,
+      0.0
+    ],
+    "settled": true,
+    "engine": "physx",
+    "case": {
+      "family": "stack",
+      "dt": 0.001,
+      "repeat": 0,
+      "offset": 0.022,
+      "id": "stack-e560817ab22a",
+      "duration": 6.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 46.41895478999959,
+    "reference_sha256": "5f391967e433712f0325ce182135892ca5c4efedfcc5f8a153e0895b80e8de36",
+    "samples": 6001,
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "CPU TGS",
+      "import_errors": {
+        "link0": 1.7812252020577013e-09,
+        "link1": 3.46946704699036e-08,
+        "link2": 2.1725296953795104e-08,
+        "link3": 2.384185791015625e-07,
+        "link4": 9.610176050778296e-09,
+        "link5": 3.630876543869732e-09,
+        "link6": 9.050369273455594e-10,
+        "link7": 8.075237284410619e-10,
+        "hand": 6.705522526129215e-10,
+        "left_finger": 9.313225746154785e-10,
+        "right_finger": 9.313225746154785e-10,
+        "cube": 6.7326864434036e-14,
+        "lower_cube": 6.7326864434036e-14
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 2.686734180690209e-07,
+          "rotation_frobenius_error": 1.0633208823910982e-06,
+          "joint_error": 4.371139006309477e-08
+        },
+        {
+          "position_error_m": 1.7397411440113475e-07,
+          "rotation_frobenius_error": 1.419296256208406e-06,
+          "joint_error": 4.276864373764511e-08
+        },
+        {
+          "position_error_m": 3.465519964329644e-07,
+          "rotation_frobenius_error": 1.3428310770648775e-06,
+          "joint_error": 4.465413638854443e-08
+        },
+        {
+          "position_error_m": 2.885406803487811e-07,
+          "rotation_frobenius_error": 1.1782020850202812e-06,
+          "joint_error": 1.0714883202922465e-07
+        },
+        {
+          "position_error_m": 1.196276908088656e-07,
+          "rotation_frobenius_error": 1.2614675506152887e-06,
+          "joint_error": 1.190737126677277e-07
+        }
+      ],
+      "initial_fk_error_m": 2.686734180690209e-07
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": false,
+    "simulated_seconds": 6.0,
+    "max_fk_error_m": 6.770016684361112e-07,
+    "peak_contact_force_n": 77.48746167929731,
+    "joint_rmse_rad": 0.002856260862042748,
+    "normalized_squared_arm_effort": 0.018140427223212803,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {
+      "cube": 9.581088909083844e-08,
+      "lower_cube": 1.2007466262911894e-09
+    },
+    "contact_force_validated": true,
+    "maximum_lift_m": 0.0772748589515686,
+    "minimum_hold_lift_m": 0.07353454828262329,
+    "final_relative_position_m": [
+      0.04489907622337341,
+      -2.2813278846456342e-05,
+      0.0
+    ],
+    "settled": true,
+    "engine": "physx",
+    "case": {
+      "family": "stack",
+      "dt": 0.001,
+      "repeat": 1,
+      "offset": 0.022,
+      "id": "stack-e67af218c667",
+      "duration": 6.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 291.8478259980002,
+    "reference_sha256": "5f391967e433712f0325ce182135892ca5c4efedfcc5f8a153e0895b80e8de36",
+    "samples": 6001,
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "CPU TGS",
+      "import_errors": {
+        "link0": 1.7812252020577013e-09,
+        "link1": 3.46946704699036e-08,
+        "link2": 2.1725296953795104e-08,
+        "link3": 2.384185791015625e-07,
+        "link4": 9.610176050778296e-09,
+        "link5": 3.630876543869732e-09,
+        "link6": 9.050369273455594e-10,
+        "link7": 8.075237284410619e-10,
+        "hand": 6.705522526129215e-10,
+        "left_finger": 9.313225746154785e-10,
+        "right_finger": 9.313225746154785e-10,
+        "cube": 6.7326864434036e-14,
+        "lower_cube": 6.7326864434036e-14
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 2.686734180690209e-07,
+          "rotation_frobenius_error": 1.0633208823910982e-06,
+          "joint_error": 4.371139006309477e-08
+        },
+        {
+          "position_error_m": 1.7397411440113475e-07,
+          "rotation_frobenius_error": 1.419296256208406e-06,
+          "joint_error": 4.276864373764511e-08
+        },
+        {
+          "position_error_m": 3.465519964329644e-07,
+          "rotation_frobenius_error": 1.3428310770648775e-06,
+          "joint_error": 4.465413638854443e-08
+        },
+        {
+          "position_error_m": 2.885406803487811e-07,
+          "rotation_frobenius_error": 1.1782020850202812e-06,
+          "joint_error": 1.0714883202922465e-07
+        },
+        {
+          "position_error_m": 1.196276908088656e-07,
+          "rotation_frobenius_error": 1.2614675506152887e-06,
+          "joint_error": 1.190737126677277e-07
+        }
+      ],
+      "initial_fk_error_m": 2.686734180690209e-07
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": false,
+    "simulated_seconds": 6.0,
+    "max_fk_error_m": 6.770016684361112e-07,
+    "peak_contact_force_n": 77.48746167929731,
+    "joint_rmse_rad": 0.002856260862042748,
+    "normalized_squared_arm_effort": 0.018140427223212803,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {
+      "cube": 9.581088909083844e-08,
+      "lower_cube": 1.2007466262911894e-09
+    },
+    "contact_force_validated": true,
+    "maximum_lift_m": 0.0772748589515686,
+    "minimum_hold_lift_m": 0.07353454828262329,
+    "final_relative_position_m": [
+      0.04489907622337341,
+      -2.2813278846456342e-05,
+      0.0
+    ],
+    "settled": true,
+    "engine": "physx",
+    "case": {
+      "family": "stack",
+      "dt": 0.001,
+      "repeat": 2,
+      "offset": 0.022,
+      "id": "stack-fc47448b3bcc",
+      "duration": 6.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 104.38763672200002,
+    "reference_sha256": "5f391967e433712f0325ce182135892ca5c4efedfcc5f8a153e0895b80e8de36",
+    "samples": 6001,
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "CPU TGS",
+      "import_errors": {
+        "link0": 1.7812252020577013e-09,
+        "link1": 3.46946704699036e-08,
+        "link2": 2.1725296953795104e-08,
+        "link3": 2.384185791015625e-07,
+        "link4": 9.610176050778296e-09,
+        "link5": 3.630876543869732e-09,
+        "link6": 9.050369273455594e-10,
+        "link7": 8.075237284410619e-10,
+        "hand": 6.705522526129215e-10,
+        "left_finger": 9.313225746154785e-10,
+        "right_finger": 9.313225746154785e-10,
+        "cube": 6.7326864434036e-14,
+        "lower_cube": 6.7326864434036e-14
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 2.686734180690209e-07,
+          "rotation_frobenius_error": 1.0633208823910982e-06,
+          "joint_error": 4.371139006309477e-08
+        },
+        {
+          "position_error_m": 1.7397411440113475e-07,
+          "rotation_frobenius_error": 1.419296256208406e-06,
+          "joint_error": 4.276864373764511e-08
+        },
+        {
+          "position_error_m": 3.465519964329644e-07,
+          "rotation_frobenius_error": 1.3428310770648775e-06,
+          "joint_error": 4.465413638854443e-08
+        },
+        {
+          "position_error_m": 2.885406803487811e-07,
+          "rotation_frobenius_error": 1.1782020850202812e-06,
+          "joint_error": 1.0714883202922465e-07
+        },
+        {
+          "position_error_m": 1.196276908088656e-07,
+          "rotation_frobenius_error": 1.2614675506152887e-06,
+          "joint_error": 1.190737126677277e-07
+        }
+      ],
+      "initial_fk_error_m": 2.686734180690209e-07
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 6.0,
+    "max_fk_error_m": 6.217805017889822e-07,
+    "peak_contact_force_n": 8.720346212904268,
+    "joint_rmse_rad": 0.00284671211428116,
+    "normalized_squared_arm_effort": 0.018059585491833983,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {
+      "cube": 6.290581233116896e-08,
+      "lower_cube": 7.856710750445096e-10
+    },
+    "contact_force_validated": true,
+    "maximum_lift_m": 0.0771259069442749,
+    "minimum_hold_lift_m": 0.07358008623123169,
+    "final_relative_position_m": [
+      0.01826617121696472,
+      -1.1088981423768018e-05,
+      0.04000011086463928
+    ],
+    "settled": true,
+    "engine": "physx",
+    "case": {
+      "family": "stack",
+      "dt": 0.001,
+      "repeat": 0,
+      "offset": 0.02,
+      "perturb_x": -0.001,
+      "perturb_y": 0.001,
+      "id": "stack-fce39091a5fb",
+      "duration": 6.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 32.853331092999724,
+    "reference_sha256": "3e7151c836dd7ea941f9ea1e733ff2c525c626b63ec293cd2997938bd2aa0030",
+    "samples": 6001,
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "CPU TGS",
+      "import_errors": {
+        "link0": 1.7812252020577013e-09,
+        "link1": 3.46946704699036e-08,
+        "link2": 2.1725296953795104e-08,
+        "link3": 2.384185791015625e-07,
+        "link4": 9.610176050778296e-09,
+        "link5": 3.630876543869732e-09,
+        "link6": 9.050369273455594e-10,
+        "link7": 8.075237284410619e-10,
+        "hand": 6.705522526129215e-10,
+        "left_finger": 9.313225746154785e-10,
+        "right_finger": 9.313225746154785e-10,
+        "cube": 6.7326864434036e-14,
+        "lower_cube": 6.7326864434036e-14
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 2.686734180690209e-07,
+          "rotation_frobenius_error": 1.0633208823910982e-06,
+          "joint_error": 4.371139006309477e-08
+        },
+        {
+          "position_error_m": 1.7397411440113475e-07,
+          "rotation_frobenius_error": 1.419296256208406e-06,
+          "joint_error": 4.276864373764511e-08
+        },
+        {
+          "position_error_m": 3.465519964329644e-07,
+          "rotation_frobenius_error": 1.3428310770648775e-06,
+          "joint_error": 4.465413638854443e-08
+        },
+        {
+          "position_error_m": 2.885406803487811e-07,
+          "rotation_frobenius_error": 1.1782020850202812e-06,
+          "joint_error": 1.0714883202922465e-07
+        },
+        {
+          "position_error_m": 1.196276908088656e-07,
+          "rotation_frobenius_error": 1.2614675506152887e-06,
+          "joint_error": 1.190737126677277e-07
+        }
+      ],
+      "initial_fk_error_m": 2.686734180690209e-07
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 6.0,
+    "max_fk_error_m": 6.217805017889822e-07,
+    "peak_contact_force_n": 8.720346212904268,
+    "joint_rmse_rad": 0.00284671211428116,
+    "normalized_squared_arm_effort": 0.018059585491833983,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {
+      "cube": 6.290581233116896e-08,
+      "lower_cube": 7.856710750445096e-10
+    },
+    "contact_force_validated": true,
+    "maximum_lift_m": 0.0771259069442749,
+    "minimum_hold_lift_m": 0.07358008623123169,
+    "final_relative_position_m": [
+      0.01826617121696472,
+      -1.1088981423768018e-05,
+      0.04000011086463928
+    ],
+    "settled": true,
+    "engine": "physx",
+    "case": {
+      "family": "stack",
+      "dt": 0.001,
+      "repeat": 1,
+      "offset": 0.02,
+      "perturb_x": -0.001,
+      "perturb_y": 0.001,
+      "id": "stack-ac5d281f8117",
+      "duration": 6.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 69.75944078700195,
+    "reference_sha256": "3e7151c836dd7ea941f9ea1e733ff2c525c626b63ec293cd2997938bd2aa0030",
+    "samples": 6001,
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "CPU TGS",
+      "import_errors": {
+        "link0": 1.7812252020577013e-09,
+        "link1": 3.46946704699036e-08,
+        "link2": 2.1725296953795104e-08,
+        "link3": 2.384185791015625e-07,
+        "link4": 9.610176050778296e-09,
+        "link5": 3.630876543869732e-09,
+        "link6": 9.050369273455594e-10,
+        "link7": 8.075237284410619e-10,
+        "hand": 6.705522526129215e-10,
+        "left_finger": 9.313225746154785e-10,
+        "right_finger": 9.313225746154785e-10,
+        "cube": 6.7326864434036e-14,
+        "lower_cube": 6.7326864434036e-14
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 2.686734180690209e-07,
+          "rotation_frobenius_error": 1.0633208823910982e-06,
+          "joint_error": 4.371139006309477e-08
+        },
+        {
+          "position_error_m": 1.7397411440113475e-07,
+          "rotation_frobenius_error": 1.419296256208406e-06,
+          "joint_error": 4.276864373764511e-08
+        },
+        {
+          "position_error_m": 3.465519964329644e-07,
+          "rotation_frobenius_error": 1.3428310770648775e-06,
+          "joint_error": 4.465413638854443e-08
+        },
+        {
+          "position_error_m": 2.885406803487811e-07,
+          "rotation_frobenius_error": 1.1782020850202812e-06,
+          "joint_error": 1.0714883202922465e-07
+        },
+        {
+          "position_error_m": 1.196276908088656e-07,
+          "rotation_frobenius_error": 1.2614675506152887e-06,
+          "joint_error": 1.190737126677277e-07
+        }
+      ],
+      "initial_fk_error_m": 2.686734180690209e-07
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 6.0,
+    "max_fk_error_m": 6.217805017889822e-07,
+    "peak_contact_force_n": 8.720346212904268,
+    "joint_rmse_rad": 0.00284671211428116,
+    "normalized_squared_arm_effort": 0.018059585491833983,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {
+      "cube": 6.290581233116896e-08,
+      "lower_cube": 7.856710750445096e-10
+    },
+    "contact_force_validated": true,
+    "maximum_lift_m": 0.0771259069442749,
+    "minimum_hold_lift_m": 0.07358008623123169,
+    "final_relative_position_m": [
+      0.01826617121696472,
+      -1.1088981423768018e-05,
+      0.04000011086463928
+    ],
+    "settled": true,
+    "engine": "physx",
+    "case": {
+      "family": "stack",
+      "dt": 0.001,
+      "repeat": 2,
+      "offset": 0.02,
+      "perturb_x": -0.001,
+      "perturb_y": 0.001,
+      "id": "stack-076f63ccb27e",
+      "duration": 6.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 48.10062944500169,
+    "reference_sha256": "3e7151c836dd7ea941f9ea1e733ff2c525c626b63ec293cd2997938bd2aa0030",
+    "samples": 6001,
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "CPU TGS",
+      "import_errors": {
+        "link0": 1.7812252020577013e-09,
+        "link1": 3.46946704699036e-08,
+        "link2": 2.1725296953795104e-08,
+        "link3": 2.384185791015625e-07,
+        "link4": 9.610176050778296e-09,
+        "link5": 3.630876543869732e-09,
+        "link6": 9.050369273455594e-10,
+        "link7": 8.075237284410619e-10,
+        "hand": 6.705522526129215e-10,
+        "left_finger": 9.313225746154785e-10,
+        "right_finger": 9.313225746154785e-10,
+        "cube": 6.7326864434036e-14,
+        "lower_cube": 6.7326864434036e-14
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 2.686734180690209e-07,
+          "rotation_frobenius_error": 1.0633208823910982e-06,
+          "joint_error": 4.371139006309477e-08
+        },
+        {
+          "position_error_m": 1.7397411440113475e-07,
+          "rotation_frobenius_error": 1.419296256208406e-06,
+          "joint_error": 4.276864373764511e-08
+        },
+        {
+          "position_error_m": 3.465519964329644e-07,
+          "rotation_frobenius_error": 1.3428310770648775e-06,
+          "joint_error": 4.465413638854443e-08
+        },
+        {
+          "position_error_m": 2.885406803487811e-07,
+          "rotation_frobenius_error": 1.1782020850202812e-06,
+          "joint_error": 1.0714883202922465e-07
+        },
+        {
+          "position_error_m": 1.196276908088656e-07,
+          "rotation_frobenius_error": 1.2614675506152887e-06,
+          "joint_error": 1.190737126677277e-07
+        }
+      ],
+      "initial_fk_error_m": 2.686734180690209e-07
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": false,
+    "simulated_seconds": 6.0,
+    "max_fk_error_m": 5.76930317518132e-07,
+    "peak_contact_force_n": 77.91158444436643,
+    "joint_rmse_rad": 0.002867336731750993,
+    "normalized_squared_arm_effort": 0.018067539381897754,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {
+      "cube": 7.019114629324971e-08,
+      "lower_cube": 1.1212862747171268e-09
+    },
+    "contact_force_validated": true,
+    "maximum_lift_m": 0.07704335451126099,
+    "minimum_hold_lift_m": 0.07351016998291016,
+    "final_relative_position_m": [
+      0.044715285301208496,
+      0.000150894672145796,
+      -5.960464477539063e-08
+    ],
+    "settled": true,
+    "engine": "physx",
+    "case": {
+      "family": "stack",
+      "dt": 0.001,
+      "repeat": 0,
+      "offset": 0.02,
+      "perturb_x": 0.001,
+      "perturb_y": -0.001,
+      "id": "stack-7527ab912540",
+      "duration": 6.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 47.72258166100073,
+    "reference_sha256": "3e7151c836dd7ea941f9ea1e733ff2c525c626b63ec293cd2997938bd2aa0030",
+    "samples": 6001,
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "CPU TGS",
+      "import_errors": {
+        "link0": 1.7812252020577013e-09,
+        "link1": 3.46946704699036e-08,
+        "link2": 2.1725296953795104e-08,
+        "link3": 2.384185791015625e-07,
+        "link4": 9.610176050778296e-09,
+        "link5": 3.630876543869732e-09,
+        "link6": 9.050369273455594e-10,
+        "link7": 8.075237284410619e-10,
+        "hand": 6.705522526129215e-10,
+        "left_finger": 9.313225746154785e-10,
+        "right_finger": 9.313225746154785e-10,
+        "cube": 6.7326864434036e-14,
+        "lower_cube": 6.7326864434036e-14
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 2.686734180690209e-07,
+          "rotation_frobenius_error": 1.0633208823910982e-06,
+          "joint_error": 4.371139006309477e-08
+        },
+        {
+          "position_error_m": 1.7397411440113475e-07,
+          "rotation_frobenius_error": 1.419296256208406e-06,
+          "joint_error": 4.276864373764511e-08
+        },
+        {
+          "position_error_m": 3.465519964329644e-07,
+          "rotation_frobenius_error": 1.3428310770648775e-06,
+          "joint_error": 4.465413638854443e-08
+        },
+        {
+          "position_error_m": 2.885406803487811e-07,
+          "rotation_frobenius_error": 1.1782020850202812e-06,
+          "joint_error": 1.0714883202922465e-07
+        },
+        {
+          "position_error_m": 1.196276908088656e-07,
+          "rotation_frobenius_error": 1.2614675506152887e-06,
+          "joint_error": 1.190737126677277e-07
+        }
+      ],
+      "initial_fk_error_m": 2.686734180690209e-07
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": false,
+    "simulated_seconds": 6.0,
+    "max_fk_error_m": 5.76930317518132e-07,
+    "peak_contact_force_n": 77.91158444436643,
+    "joint_rmse_rad": 0.002867336731750993,
+    "normalized_squared_arm_effort": 0.018067539381897754,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {
+      "cube": 7.019114629324971e-08,
+      "lower_cube": 1.1212862747171268e-09
+    },
+    "contact_force_validated": true,
+    "maximum_lift_m": 0.07704335451126099,
+    "minimum_hold_lift_m": 0.07351016998291016,
+    "final_relative_position_m": [
+      0.044715285301208496,
+      0.000150894672145796,
+      -5.960464477539063e-08
+    ],
+    "settled": true,
+    "engine": "physx",
+    "case": {
+      "family": "stack",
+      "dt": 0.001,
+      "repeat": 1,
+      "offset": 0.02,
+      "perturb_x": 0.001,
+      "perturb_y": -0.001,
+      "id": "stack-057d4aedacad",
+      "duration": 6.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 77.01965707300042,
+    "reference_sha256": "3e7151c836dd7ea941f9ea1e733ff2c525c626b63ec293cd2997938bd2aa0030",
+    "samples": 6001,
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "CPU TGS",
+      "import_errors": {
+        "link0": 1.7812252020577013e-09,
+        "link1": 3.46946704699036e-08,
+        "link2": 2.1725296953795104e-08,
+        "link3": 2.384185791015625e-07,
+        "link4": 9.610176050778296e-09,
+        "link5": 3.630876543869732e-09,
+        "link6": 9.050369273455594e-10,
+        "link7": 8.075237284410619e-10,
+        "hand": 6.705522526129215e-10,
+        "left_finger": 9.313225746154785e-10,
+        "right_finger": 9.313225746154785e-10,
+        "cube": 6.7326864434036e-14,
+        "lower_cube": 6.7326864434036e-14
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 2.686734180690209e-07,
+          "rotation_frobenius_error": 1.0633208823910982e-06,
+          "joint_error": 4.371139006309477e-08
+        },
+        {
+          "position_error_m": 1.7397411440113475e-07,
+          "rotation_frobenius_error": 1.419296256208406e-06,
+          "joint_error": 4.276864373764511e-08
+        },
+        {
+          "position_error_m": 3.465519964329644e-07,
+          "rotation_frobenius_error": 1.3428310770648775e-06,
+          "joint_error": 4.465413638854443e-08
+        },
+        {
+          "position_error_m": 2.885406803487811e-07,
+          "rotation_frobenius_error": 1.1782020850202812e-06,
+          "joint_error": 1.0714883202922465e-07
+        },
+        {
+          "position_error_m": 1.196276908088656e-07,
+          "rotation_frobenius_error": 1.2614675506152887e-06,
+          "joint_error": 1.190737126677277e-07
+        }
+      ],
+      "initial_fk_error_m": 2.686734180690209e-07
+    }
+  },
+  {
+    "case": {
+      "family": "stack",
+      "dt": 0.001,
+      "repeat": 2,
+      "offset": 0.02,
+      "perturb_x": 0.001,
+      "perturb_y": -0.001,
+      "id": "stack-48203d3b5208"
+    },
+    "engine": "physx",
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "numerically_valid": false,
+    "task_success": false
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "push",
+      "dt": 0.001,
+      "repeat": 0,
+      "width": 0.09,
+      "rear_y": 0,
+      "id": "push-040b6acb5ce8",
+      "duration": 5.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.010928370000328869,
+    "reference_sha256": "7dc2662a0f2b81879bf23f39fb4d192075a42cc1d9f1b87761e0502ac5e6b6bf",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "push",
+      "dt": 0.001,
+      "repeat": 1,
+      "width": 0.09,
+      "rear_y": 0,
+      "id": "push-bf866ada1b95",
+      "duration": 5.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.00582021700029145,
+    "reference_sha256": "7dc2662a0f2b81879bf23f39fb4d192075a42cc1d9f1b87761e0502ac5e6b6bf",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "push",
+      "dt": 0.001,
+      "repeat": 2,
+      "width": 0.09,
+      "rear_y": 0,
+      "id": "push-05b606e18966",
+      "duration": 5.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.003866718998324359,
+    "reference_sha256": "7dc2662a0f2b81879bf23f39fb4d192075a42cc1d9f1b87761e0502ac5e6b6bf",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "push",
+      "dt": 0.0005,
+      "repeat": 0,
+      "width": 0.09,
+      "rear_y": 0,
+      "id": "push-a715fd77a7d2",
+      "duration": 5.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.005033575998822926,
+    "reference_sha256": "7dc2662a0f2b81879bf23f39fb4d192075a42cc1d9f1b87761e0502ac5e6b6bf",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "push",
+      "dt": 0.0005,
+      "repeat": 1,
+      "width": 0.09,
+      "rear_y": 0,
+      "id": "push-c8a50d929a26",
+      "duration": 5.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.0056595890018797945,
+    "reference_sha256": "7dc2662a0f2b81879bf23f39fb4d192075a42cc1d9f1b87761e0502ac5e6b6bf",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "push",
+      "dt": 0.0005,
+      "repeat": 2,
+      "width": 0.09,
+      "rear_y": 0,
+      "id": "push-503d09560c12",
+      "duration": 5.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.003297201001259964,
+    "reference_sha256": "7dc2662a0f2b81879bf23f39fb4d192075a42cc1d9f1b87761e0502ac5e6b6bf",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "push",
+      "dt": 0.001,
+      "repeat": 0,
+      "width": 0.09,
+      "rear_y": -0.001,
+      "id": "push-96caf5a40261",
+      "duration": 5.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.003762843000004068,
+    "reference_sha256": "7dc2662a0f2b81879bf23f39fb4d192075a42cc1d9f1b87761e0502ac5e6b6bf",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "push",
+      "dt": 0.001,
+      "repeat": 1,
+      "width": 0.09,
+      "rear_y": -0.001,
+      "id": "push-12255620c8d0",
+      "duration": 5.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.003494376000162447,
+    "reference_sha256": "7dc2662a0f2b81879bf23f39fb4d192075a42cc1d9f1b87761e0502ac5e6b6bf",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "push",
+      "dt": 0.001,
+      "repeat": 2,
+      "width": 0.09,
+      "rear_y": -0.001,
+      "id": "push-f956b06100d6",
+      "duration": 5.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.0040279780005221255,
+    "reference_sha256": "7dc2662a0f2b81879bf23f39fb4d192075a42cc1d9f1b87761e0502ac5e6b6bf",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "push",
+      "dt": 0.0005,
+      "repeat": 0,
+      "width": 0.09,
+      "rear_y": -0.001,
+      "id": "push-94cccfcec2b9",
+      "duration": 5.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.0043970379992970265,
+    "reference_sha256": "7dc2662a0f2b81879bf23f39fb4d192075a42cc1d9f1b87761e0502ac5e6b6bf",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "push",
+      "dt": 0.0005,
+      "repeat": 1,
+      "width": 0.09,
+      "rear_y": -0.001,
+      "id": "push-d1b5075ccdeb",
+      "duration": 5.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.0034561819993541576,
+    "reference_sha256": "7dc2662a0f2b81879bf23f39fb4d192075a42cc1d9f1b87761e0502ac5e6b6bf",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "push",
+      "dt": 0.0005,
+      "repeat": 2,
+      "width": 0.09,
+      "rear_y": -0.001,
+      "id": "push-3b1bb08c77d3",
+      "duration": 5.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.003985965999163454,
+    "reference_sha256": "7dc2662a0f2b81879bf23f39fb4d192075a42cc1d9f1b87761e0502ac5e6b6bf",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "push",
+      "dt": 0.001,
+      "repeat": 0,
+      "width": 0.09,
+      "rear_y": 0.001,
+      "id": "push-687378cb6ab8",
+      "duration": 5.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.0038884220011823345,
+    "reference_sha256": "7dc2662a0f2b81879bf23f39fb4d192075a42cc1d9f1b87761e0502ac5e6b6bf",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "push",
+      "dt": 0.001,
+      "repeat": 1,
+      "width": 0.09,
+      "rear_y": 0.001,
+      "id": "push-7ab979f32354",
+      "duration": 5.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.0035841489989252295,
+    "reference_sha256": "7dc2662a0f2b81879bf23f39fb4d192075a42cc1d9f1b87761e0502ac5e6b6bf",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "push",
+      "dt": 0.001,
+      "repeat": 2,
+      "width": 0.09,
+      "rear_y": 0.001,
+      "id": "push-3b01d3ab60b8",
+      "duration": 5.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.003679371999169234,
+    "reference_sha256": "7dc2662a0f2b81879bf23f39fb4d192075a42cc1d9f1b87761e0502ac5e6b6bf",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "push",
+      "dt": 0.0005,
+      "repeat": 0,
+      "width": 0.09,
+      "rear_y": 0.001,
+      "id": "push-8e74d193afde",
+      "duration": 5.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.0037481889994523954,
+    "reference_sha256": "7dc2662a0f2b81879bf23f39fb4d192075a42cc1d9f1b87761e0502ac5e6b6bf",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "push",
+      "dt": 0.0005,
+      "repeat": 1,
+      "width": 0.09,
+      "rear_y": 0.001,
+      "id": "push-6ecd44229ed6",
+      "duration": 5.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.0038905900000827387,
+    "reference_sha256": "7dc2662a0f2b81879bf23f39fb4d192075a42cc1d9f1b87761e0502ac5e6b6bf",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "push",
+      "dt": 0.0005,
+      "repeat": 2,
+      "width": 0.09,
+      "rear_y": 0.001,
+      "id": "push-072103986bc2",
+      "duration": 5.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.005357652000384405,
+    "reference_sha256": "7dc2662a0f2b81879bf23f39fb4d192075a42cc1d9f1b87761e0502ac5e6b6bf",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "push",
+      "dt": 0.001,
+      "repeat": 0,
+      "width": 0.08,
+      "rear_y": 0,
+      "id": "push-7b6f982c0e5f",
+      "duration": 5.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.004034379999211524,
+    "reference_sha256": "7dc2662a0f2b81879bf23f39fb4d192075a42cc1d9f1b87761e0502ac5e6b6bf",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "push",
+      "dt": 0.001,
+      "repeat": 1,
+      "width": 0.08,
+      "rear_y": 0,
+      "id": "push-4cd12fb7a122",
+      "duration": 5.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.0037179520004428923,
+    "reference_sha256": "7dc2662a0f2b81879bf23f39fb4d192075a42cc1d9f1b87761e0502ac5e6b6bf",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "push",
+      "dt": 0.001,
+      "repeat": 2,
+      "width": 0.08,
+      "rear_y": 0,
+      "id": "push-9dde4881a363",
+      "duration": 5.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.003910334002284799,
+    "reference_sha256": "7dc2662a0f2b81879bf23f39fb4d192075a42cc1d9f1b87761e0502ac5e6b6bf",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "push",
+      "dt": 0.0005,
+      "repeat": 0,
+      "width": 0.08,
+      "rear_y": 0,
+      "id": "push-96ccdc35e6c4",
+      "duration": 5.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.0037375920001068152,
+    "reference_sha256": "7dc2662a0f2b81879bf23f39fb4d192075a42cc1d9f1b87761e0502ac5e6b6bf",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "push",
+      "dt": 0.0005,
+      "repeat": 1,
+      "width": 0.08,
+      "rear_y": 0,
+      "id": "push-62ec297f64f9",
+      "duration": 5.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.0035114290003548376,
+    "reference_sha256": "7dc2662a0f2b81879bf23f39fb4d192075a42cc1d9f1b87761e0502ac5e6b6bf",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "push",
+      "dt": 0.0005,
+      "repeat": 2,
+      "width": 0.08,
+      "rear_y": 0,
+      "id": "push-8848601ece70",
+      "duration": 5.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.0034748750003927853,
+    "reference_sha256": "7dc2662a0f2b81879bf23f39fb4d192075a42cc1d9f1b87761e0502ac5e6b6bf",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "push",
+      "dt": 0.001,
+      "repeat": 0,
+      "width": 0.08,
+      "rear_y": -0.001,
+      "id": "push-f9df6ca1c65a",
+      "duration": 5.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.006610060001548845,
+    "reference_sha256": "7dc2662a0f2b81879bf23f39fb4d192075a42cc1d9f1b87761e0502ac5e6b6bf",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "push",
+      "dt": 0.001,
+      "repeat": 1,
+      "width": 0.08,
+      "rear_y": -0.001,
+      "id": "push-a3136d589283",
+      "duration": 5.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.0035692389974428806,
+    "reference_sha256": "7dc2662a0f2b81879bf23f39fb4d192075a42cc1d9f1b87761e0502ac5e6b6bf",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "push",
+      "dt": 0.001,
+      "repeat": 2,
+      "width": 0.08,
+      "rear_y": -0.001,
+      "id": "push-eb388fee8cf6",
+      "duration": 5.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.003173847999278223,
+    "reference_sha256": "7dc2662a0f2b81879bf23f39fb4d192075a42cc1d9f1b87761e0502ac5e6b6bf",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "push",
+      "dt": 0.0005,
+      "repeat": 0,
+      "width": 0.08,
+      "rear_y": -0.001,
+      "id": "push-845d30f5f2aa",
+      "duration": 5.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.0037269399981596507,
+    "reference_sha256": "7dc2662a0f2b81879bf23f39fb4d192075a42cc1d9f1b87761e0502ac5e6b6bf",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "push",
+      "dt": 0.0005,
+      "repeat": 1,
+      "width": 0.08,
+      "rear_y": -0.001,
+      "id": "push-d6892b8092c9",
+      "duration": 5.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.003832284000964137,
+    "reference_sha256": "7dc2662a0f2b81879bf23f39fb4d192075a42cc1d9f1b87761e0502ac5e6b6bf",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "push",
+      "dt": 0.0005,
+      "repeat": 2,
+      "width": 0.08,
+      "rear_y": -0.001,
+      "id": "push-7311eb035f71",
+      "duration": 5.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.00362112199945841,
+    "reference_sha256": "7dc2662a0f2b81879bf23f39fb4d192075a42cc1d9f1b87761e0502ac5e6b6bf",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "push",
+      "dt": 0.001,
+      "repeat": 0,
+      "width": 0.08,
+      "rear_y": 0.001,
+      "id": "push-c40e9a866a39",
+      "duration": 5.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.0036278439984016586,
+    "reference_sha256": "7dc2662a0f2b81879bf23f39fb4d192075a42cc1d9f1b87761e0502ac5e6b6bf",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "push",
+      "dt": 0.001,
+      "repeat": 1,
+      "width": 0.08,
+      "rear_y": 0.001,
+      "id": "push-f7c9528c13ab",
+      "duration": 5.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.007427745000313735,
+    "reference_sha256": "7dc2662a0f2b81879bf23f39fb4d192075a42cc1d9f1b87761e0502ac5e6b6bf",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "push",
+      "dt": 0.001,
+      "repeat": 2,
+      "width": 0.08,
+      "rear_y": 0.001,
+      "id": "push-8d379b126f4e",
+      "duration": 5.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.005715127997973468,
+    "reference_sha256": "7dc2662a0f2b81879bf23f39fb4d192075a42cc1d9f1b87761e0502ac5e6b6bf",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "push",
+      "dt": 0.0005,
+      "repeat": 0,
+      "width": 0.08,
+      "rear_y": 0.001,
+      "id": "push-fa3582cd1d2d",
+      "duration": 5.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.004620347001036862,
+    "reference_sha256": "7dc2662a0f2b81879bf23f39fb4d192075a42cc1d9f1b87761e0502ac5e6b6bf",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "push",
+      "dt": 0.0005,
+      "repeat": 1,
+      "width": 0.08,
+      "rear_y": 0.001,
+      "id": "push-278ddbc4209f",
+      "duration": 5.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.0037340350027079694,
+    "reference_sha256": "7dc2662a0f2b81879bf23f39fb4d192075a42cc1d9f1b87761e0502ac5e6b6bf",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "push",
+      "dt": 0.0005,
+      "repeat": 2,
+      "width": 0.08,
+      "rear_y": 0.001,
+      "id": "push-ee03c962029d",
+      "duration": 5.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.0038008480005373713,
+    "reference_sha256": "7dc2662a0f2b81879bf23f39fb4d192075a42cc1d9f1b87761e0502ac5e6b6bf",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "sweep",
+      "dt": 0.001,
+      "repeat": 0,
+      "id": "sweep-cf7399b17d6d",
+      "duration": 12.5
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.005614202997094253,
+    "reference_sha256": "26da1241cfec8726d0db59fc4ad5874eabd0c7fb01beb7929e5faacdf67de32d",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "sweep",
+      "dt": 0.001,
+      "repeat": 1,
+      "id": "sweep-58afcc89a59b",
+      "duration": 12.5
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.006875415998365497,
+    "reference_sha256": "26da1241cfec8726d0db59fc4ad5874eabd0c7fb01beb7929e5faacdf67de32d",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "sweep",
+      "dt": 0.001,
+      "repeat": 2,
+      "id": "sweep-e700dae8e99f",
+      "duration": 12.5
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.006662396001047455,
+    "reference_sha256": "26da1241cfec8726d0db59fc4ad5874eabd0c7fb01beb7929e5faacdf67de32d",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 0,
+      "clearance": 0.0001,
+      "offset": 0,
+      "tilt_deg": 0,
+      "id": "insertion-ea58ee4b82b9",
+      "duration": 4.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.010009123001509579,
+    "reference_sha256": "d1530ba0f1a67003ff28399158ba3a6f70d64c9a66858807db03b1237c7f0df8",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 1,
+      "clearance": 0.0001,
+      "offset": 0,
+      "tilt_deg": 0,
+      "id": "insertion-483c23124b40",
+      "duration": 4.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.030423999000049662,
+    "reference_sha256": "d1530ba0f1a67003ff28399158ba3a6f70d64c9a66858807db03b1237c7f0df8",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 2,
+      "clearance": 0.0001,
+      "offset": 0,
+      "tilt_deg": 0,
+      "id": "insertion-6ca0603e7187",
+      "duration": 4.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.014676683000288904,
+    "reference_sha256": "d1530ba0f1a67003ff28399158ba3a6f70d64c9a66858807db03b1237c7f0df8",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 0,
+      "clearance": 0.0001,
+      "offset": 0.00025,
+      "tilt_deg": 0,
+      "id": "insertion-a50da9682978",
+      "duration": 4.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.005044654000812443,
+    "reference_sha256": "9000567f0dd5538c4b24ea990ae2731209a756c58b0eefa4b951769292f5081a",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 1,
+      "clearance": 0.0001,
+      "offset": 0.00025,
+      "tilt_deg": 0,
+      "id": "insertion-18da234be164",
+      "duration": 4.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.006453650999901583,
+    "reference_sha256": "9000567f0dd5538c4b24ea990ae2731209a756c58b0eefa4b951769292f5081a",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 2,
+      "clearance": 0.0001,
+      "offset": 0.00025,
+      "tilt_deg": 0,
+      "id": "insertion-8e56623a1fdd",
+      "duration": 4.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.005069466002169065,
+    "reference_sha256": "9000567f0dd5538c4b24ea990ae2731209a756c58b0eefa4b951769292f5081a",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 0,
+      "clearance": 0.0001,
+      "offset": 0,
+      "tilt_deg": 1,
+      "id": "insertion-5413d38ab6bf",
+      "duration": 4.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.004797906000021612,
+    "reference_sha256": "f1310079046f55bb6c6607d0ad487f2d0401e35f0e9b2e66334b2bd785864241",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 1,
+      "clearance": 0.0001,
+      "offset": 0,
+      "tilt_deg": 1,
+      "id": "insertion-14e6bb0e9d3b",
+      "duration": 4.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.004501262999838218,
+    "reference_sha256": "f1310079046f55bb6c6607d0ad487f2d0401e35f0e9b2e66334b2bd785864241",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 2,
+      "clearance": 0.0001,
+      "offset": 0,
+      "tilt_deg": 1,
+      "id": "insertion-e30c0c0ab219",
+      "duration": 4.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.004692329002864426,
+    "reference_sha256": "f1310079046f55bb6c6607d0ad487f2d0401e35f0e9b2e66334b2bd785864241",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 0,
+      "clearance": 0.00025,
+      "offset": 0,
+      "tilt_deg": 0,
+      "id": "insertion-386d95ac7e0a",
+      "duration": 4.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.004499438000493683,
+    "reference_sha256": "d1530ba0f1a67003ff28399158ba3a6f70d64c9a66858807db03b1237c7f0df8",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 1,
+      "clearance": 0.00025,
+      "offset": 0,
+      "tilt_deg": 0,
+      "id": "insertion-70215a73a006",
+      "duration": 4.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.004935782999382354,
+    "reference_sha256": "d1530ba0f1a67003ff28399158ba3a6f70d64c9a66858807db03b1237c7f0df8",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 2,
+      "clearance": 0.00025,
+      "offset": 0,
+      "tilt_deg": 0,
+      "id": "insertion-75386d156c0a",
+      "duration": 4.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.004758683000545716,
+    "reference_sha256": "d1530ba0f1a67003ff28399158ba3a6f70d64c9a66858807db03b1237c7f0df8",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 0,
+      "clearance": 0.00025,
+      "offset": 0.00025,
+      "tilt_deg": 0,
+      "id": "insertion-8c2a7186844f",
+      "duration": 4.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.004824843999813311,
+    "reference_sha256": "9000567f0dd5538c4b24ea990ae2731209a756c58b0eefa4b951769292f5081a",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 1,
+      "clearance": 0.00025,
+      "offset": 0.00025,
+      "tilt_deg": 0,
+      "id": "insertion-47a67b3b0d61",
+      "duration": 4.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.018367662996752188,
+    "reference_sha256": "9000567f0dd5538c4b24ea990ae2731209a756c58b0eefa4b951769292f5081a",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 2,
+      "clearance": 0.00025,
+      "offset": 0.00025,
+      "tilt_deg": 0,
+      "id": "insertion-aac36139cb78",
+      "duration": 4.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.004886822000116808,
+    "reference_sha256": "9000567f0dd5538c4b24ea990ae2731209a756c58b0eefa4b951769292f5081a",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 0,
+      "clearance": 0.00025,
+      "offset": 0,
+      "tilt_deg": 1,
+      "id": "insertion-cbef3637ecbb",
+      "duration": 4.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.0046968159986136016,
+    "reference_sha256": "f1310079046f55bb6c6607d0ad487f2d0401e35f0e9b2e66334b2bd785864241",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 1,
+      "clearance": 0.00025,
+      "offset": 0,
+      "tilt_deg": 1,
+      "id": "insertion-fbe18b5c1654",
+      "duration": 4.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.005136055002367357,
+    "reference_sha256": "f1310079046f55bb6c6607d0ad487f2d0401e35f0e9b2e66334b2bd785864241",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 2,
+      "clearance": 0.00025,
+      "offset": 0,
+      "tilt_deg": 1,
+      "id": "insertion-a2e8669cfe34",
+      "duration": 4.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.004899481002212269,
+    "reference_sha256": "f1310079046f55bb6c6607d0ad487f2d0401e35f0e9b2e66334b2bd785864241",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 0,
+      "clearance": 0.0005,
+      "offset": 0,
+      "tilt_deg": 0,
+      "id": "insertion-5472deab52a7",
+      "duration": 4.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.00488174099882599,
+    "reference_sha256": "d1530ba0f1a67003ff28399158ba3a6f70d64c9a66858807db03b1237c7f0df8",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 1,
+      "clearance": 0.0005,
+      "offset": 0,
+      "tilt_deg": 0,
+      "id": "insertion-37175dec0b01",
+      "duration": 4.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.004515591001108987,
+    "reference_sha256": "d1530ba0f1a67003ff28399158ba3a6f70d64c9a66858807db03b1237c7f0df8",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 2,
+      "clearance": 0.0005,
+      "offset": 0,
+      "tilt_deg": 0,
+      "id": "insertion-ce5e90767957",
+      "duration": 4.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.004714960999990581,
+    "reference_sha256": "d1530ba0f1a67003ff28399158ba3a6f70d64c9a66858807db03b1237c7f0df8",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 0,
+      "clearance": 0.0005,
+      "offset": 0.00025,
+      "tilt_deg": 0,
+      "id": "insertion-68f21330c871",
+      "duration": 4.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.0045780010004818905,
+    "reference_sha256": "9000567f0dd5538c4b24ea990ae2731209a756c58b0eefa4b951769292f5081a",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 1,
+      "clearance": 0.0005,
+      "offset": 0.00025,
+      "tilt_deg": 0,
+      "id": "insertion-b9f97ad974b1",
+      "duration": 4.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.004816830998606747,
+    "reference_sha256": "9000567f0dd5538c4b24ea990ae2731209a756c58b0eefa4b951769292f5081a",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 2,
+      "clearance": 0.0005,
+      "offset": 0.00025,
+      "tilt_deg": 0,
+      "id": "insertion-957abd9ccd58",
+      "duration": 4.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.004671983999287477,
+    "reference_sha256": "9000567f0dd5538c4b24ea990ae2731209a756c58b0eefa4b951769292f5081a",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 0,
+      "clearance": 0.0005,
+      "offset": 0,
+      "tilt_deg": 1,
+      "id": "insertion-42e1d7f6f4f1",
+      "duration": 4.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.0047532489988952875,
+    "reference_sha256": "f1310079046f55bb6c6607d0ad487f2d0401e35f0e9b2e66334b2bd785864241",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 1,
+      "clearance": 0.0005,
+      "offset": 0,
+      "tilt_deg": 1,
+      "id": "insertion-8a9b3722f3b3",
+      "duration": 4.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.0054740100022172555,
+    "reference_sha256": "f1310079046f55bb6c6607d0ad487f2d0401e35f0e9b2e66334b2bd785864241",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 2,
+      "clearance": 0.0005,
+      "offset": 0,
+      "tilt_deg": 1,
+      "id": "insertion-cb31ec5b7cf1",
+      "duration": 4.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.004600562002451625,
+    "reference_sha256": "f1310079046f55bb6c6607d0ad487f2d0401e35f0e9b2e66334b2bd785864241",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 0,
+      "clearance": 0.0001,
+      "tilt_deg": 1,
+      "guided": true,
+      "id": "insertion-7fb0c438a828",
+      "duration": 4.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.0046182670012058225,
+    "reference_sha256": "f1310079046f55bb6c6607d0ad487f2d0401e35f0e9b2e66334b2bd785864241",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 1,
+      "clearance": 0.0001,
+      "tilt_deg": 1,
+      "guided": true,
+      "id": "insertion-d48bf8be9ebb",
+      "duration": 4.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.004532544997346122,
+    "reference_sha256": "f1310079046f55bb6c6607d0ad487f2d0401e35f0e9b2e66334b2bd785864241",
+    "samples": 0,
+    "audit": {}
+  },
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "physx",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 2,
+      "clearance": 0.0001,
+      "tilt_deg": 1,
+      "guided": true,
+      "id": "insertion-095882702afc",
+      "duration": 4.0
+    },
+    "status": "error",
+    "error": "I/O operation on closed file.",
+    "wall_seconds": 0.004400793997774599,
+    "reference_sha256": "f1310079046f55bb6c6607d0ad487f2d0401e35f0e9b2e66334b2bd785864241",
+    "samples": 0,
+    "audit": {}
+  }
+]

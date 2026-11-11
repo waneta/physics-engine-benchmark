@@ -1,0 +1,31 @@
+{
+  "engine": "genesis",
+  "case": {
+    "family": "throughput",
+    "batch": 1
+  },
+  "batch": 1,
+  "status": "completed",
+  "precision": "float64",
+  "dt_s": 0.001,
+  "steps_per_repeat": 2500,
+  "repeats": 3,
+  "wall_seconds": [
+    12.530373845000213,
+    5.938767704999918,
+    10.631941436000488
+  ],
+  "median_seconds": 10.631941436000488,
+  "min_seconds": 5.938767704999918,
+  "max_seconds": 12.530373845000213,
+  "world_steps_per_second": 235.14049762678596,
+  "max_batch_reset_error_rad": 0.0,
+  "reference_sha256": "63a6ed90aa9d217296fea9d96bab674425b519c4baa2e3ff05c3949306030efb",
+  "memory": {
+    "torch_allocator_peak_bytes": 430592,
+    "note": "Excludes native Quadrants allocations; not total device peak."
+  },
+  "timing_scope": "Controller + physics + native host launch overhead; full trajectory warmup, reset, graph capture, state readback and rendering excluded; synchronized GPU boundaries.",
+  "max_single_world_equivalence_error_rad": 0.0,
+  "trajectory_validated": true
+}

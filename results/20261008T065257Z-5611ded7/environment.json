@@ -1,0 +1,64 @@
+{
+  "created_at": "2026-10-08T06:52:57.708636+00:00",
+  "schema_version": 1,
+  "engine": "mujoco-cpu",
+  "precision": "float64",
+  "rendering": false,
+  "python": "3.11.0rc1 (main, Aug 12 2022, 10:02:14) [GCC 11.2.0]",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "cpu": "12th Gen Intel(R) Core(TM) i7-12700KF",
+  "logical_cpus": 20,
+  "memory": "MemTotal:       32669132 kB",
+  "packages": {
+    "matplotlib": "3.11.2",
+    "physics-engine-benchmark": "0.1.0",
+    "contourpy": "1.3.3",
+    "kiwisolver": "1.5.1",
+    "PyOpenGL": "3.1.10",
+    "six": "1.17.0",
+    "fonttools": "4.66.1",
+    "iniconfig": "2.3.1",
+    "cycler": "0.12.1",
+    "absl-py": "2.5.0",
+    "glfw": "2.10.2",
+    "pyparsing": "3.3.3",
+    "websockets": "17.2",
+    "mujoco": "3.15.0",
+    "etils": "1.14.0",
+    "zipp": "4.1.1",
+    "fsspec": "2026.9.0",
+    "typing_extensions": "4.16.0",
+    "numpy": "2.4.6",
+    "pillow": "12.3.0",
+    "packaging": "26.3",
+    "ruff": "0.16.10",
+    "python-dateutil": "2.9.0.post0",
+    "Pygments": "2.21.0",
+    "pluggy": "1.6.0",
+    "pytest": "9.1.1"
+  },
+  "gpu": {
+    "returncode": 0,
+    "stdout": "NVIDIA GeForce RTX 4090 D, 570.211.01, 24564 MiB",
+    "stderr": ""
+  },
+  "git_commit": {
+    "returncode": 0,
+    "stdout": "9090b830f90de62ef01a666ec0e131234c3c1bab",
+    "stderr": ""
+  },
+  "git_status": {
+    "returncode": 0,
+    "stdout": "M .gitignore\n M .talisman/docs/ARCH.md\n M .talisman/docs/DECISIONS.md\n M .talisman/docs/PRD.md\n M .talisman/docs/RULES.md\n M .talisman/memory/repo.md\n M .talisman/runtime/events.jsonl\n M .talisman/runtime/queue.yaml\n M .talisman/runtime/state.yaml\n M .talisman/runtime/tasks.yaml\n M .talisman/spec/deps.yaml\n M .talisman/spec/modules.yaml\n M .talisman/spec/tasks.yaml\n M README.md\n?? \".talisman/dev_docs/2026-10/task01_\\346\\210\\221\\345\\201\\232\\350\\277\\231\\344\\270\\252\\345\\256\\236\\351\\252\\214\\345\\257\\271\\346\\257\\224.md\"\n?? configs/\n?? docs/benchmark.md\n?? docs/validation-2026-10-08.md\n?? pyproject.toml\n?? src/\n?? tests/\n?? uv.lock",
+    "stderr": ""
+  },
+  "source_sha256": {
+    "__init__.py": "311ab3d275cd9235c360312ec83b6a737c1bec627bb6aae4bbb80656d35df2cd",
+    "cli.py": "aad8678c508c82f7c7139a47c358e3f1c21d24b79c6bd99e6334b5a83f92e9a1",
+    "metrics.py": "841ced9465554970bacd636b3ef9a35dcaf4e72d01a202cf9985c168f6c23d7c",
+    "plotting.py": "92ca238f40a18ef7a86d699f7452beadf11e5a2270a1f3c660525aff75062d25",
+    "scenes.py": "7e494ac3fb53b91d902e463d5dac176752352874480bbced5e4771efdb152f3a",
+    "simulation.py": "765eedc8e5c571bb45aecdb94c84297faaae9c2a2dc57a2f03321846acd41141"
+  },
+  "lock_sha256": "73f62f1a22eac4a5d652771ca6b78c6f4db6e4d40a2be0fd2515ffbef4e9e489"
+}

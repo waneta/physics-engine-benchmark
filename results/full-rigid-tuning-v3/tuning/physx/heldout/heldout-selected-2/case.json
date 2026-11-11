@@ -1,0 +1,14 @@
+{
+  "id": "heldout-selected-2",
+  "family": "push",
+  "dt": 0.001,
+  "repeat": 0,
+  "phase": "heldout",
+  "controller": "selected",
+  "width": 0.09,
+  "rear_y": 0.001,
+  "kp_scale": 0.5,
+  "kd_scale": 0.7,
+  "push_duration": 4,
+  "duration": 6.0
+}

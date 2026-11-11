@@ -1,0 +1,11 @@
+{
+  "inputs": [
+    "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-rigid-tuning-v3",
+    "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-soft-v1",
+    "/home/datamesh/github_waneta/physics-engine-benchmark/results/recovery-20261009-cpu-insertion",
+    "/home/datamesh/github_waneta/physics-engine-benchmark/results/recovery-20261009-warp-insertion",
+    "/home/datamesh/github_waneta/physics-engine-benchmark/results/recovery-20261009-physx-push-full",
+    "/home/datamesh/github_waneta/physics-engine-benchmark/results/recovery-20261009-physx-push"
+  ],
+  "genesis_python": "/home/datamesh/github_waneta/physics-engine-benchmark/.venv-genesis-recovery/bin/python"
+}

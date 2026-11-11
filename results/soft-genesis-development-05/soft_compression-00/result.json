@@ -1,0 +1,35 @@
+{
+  "engine": "genesis",
+  "case": {
+    "family": "soft_compression",
+    "dt": 0.001,
+    "refined": false,
+    "duration": 1.5,
+    "repeat": 0,
+    "id": "soft_compression-00"
+  },
+  "status": "completed",
+  "error": null,
+  "numerically_valid": true,
+  "task_success": true,
+  "hold_lift_m": null,
+  "minimum_volume_ratio": 0.7984597137741511,
+  "force_n": null,
+  "force_validated": false,
+  "force_note": "Native deformable load accounting has not passed an independent momentum audit; no zero-load substitution.",
+  "audit": {
+    "engine": "genesis",
+    "material": "linear_corotated",
+    "solver": "implicit FEM + SAP (50 iterations)",
+    "precision": "float64",
+    "device": "cuda",
+    "vertex_count": 125,
+    "element_count": 384,
+    "mass_kg": 0.10504912346763821,
+    "rest_mesh_validation": "passed",
+    "force_validated": false,
+    "mesh_import": "scoped FEMEntity.sample hook, no remeshing"
+  },
+  "samples": 301,
+  "wall_seconds": 427.82519177499944
+}

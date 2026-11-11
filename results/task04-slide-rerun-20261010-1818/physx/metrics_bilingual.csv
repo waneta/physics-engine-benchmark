@@ -1,0 +1,167 @@
+﻿引擎 / Engine,场景 / Scene,步长 / Timestep (ms),重复编号 / Repeat,状态 / Status,指标名称（中文） / Metric name (Chinese),指标名称（英文） / Metric name (English),指标字段 / Metric key,单位符号 / Unit symbol,单位说明 / Unit description,数值 / Value,数值显示 / Display value
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,仿真步长,Simulation timestep,dt_s,s,秒 / second,0.002,0.002
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,物理步数,Physics steps,steps,步,步 / step,300,300
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,峰值接触合力,Peak resultant contact force,peak_contact_force_n,N,牛顿 / newton,1.0565707841639878,1.05657078
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,峰值法向接触力,Peak normal contact force,peak_contact_fz_n,N,牛顿 / newton,0.9810940828746254,0.981094083
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,最大穿透深度,Maximum penetration depth,max_penetration_m,m,米 / metre,3.212529579160739e-08,3.21252958e-08
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,首次接触时间,First contact time,first_contact_s,s,秒 / second,0.0,0
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,质心静置时间,COM settling time,settled_time_s,s,秒 / second,0.256,0.256
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,最大动量平衡残差,Maximum momentum balance residual,max_momentum_residual_ns,N·s,牛顿秒 / newton second,5.107051802370862e-08,5.1070518e-08
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,最大接触力核算误差,Maximum contact force accounting error,max_constraint_force_error_n,N,牛顿 / newton,,未测得 / Not measured
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,窗口接触冲量X,Window contact impulse X,window_contact_jx_ns,N·s,牛顿秒 / newton second,-0.015695991497283606,-0.0156959915
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,窗口接触冲量Y,Window contact impulse Y,window_contact_jy_ns,N·s,牛顿秒 / newton second,8.86919514914153e-09,8.86919515e-09
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,窗口接触冲量Z,Window contact impulse Z,window_contact_jz_ns,N·s,牛顿秒 / newton second,0.03923999230149557,0.0392399923
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,接触冲量窗口完整,Contact impulse window complete,impulse_window_complete,布尔,布尔值 / boolean,True,是 / Yes
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,停止时间,Stopping time,stop_time_s,s,秒 / second,0.256,0.256
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,停止距离,Stopping distance,stop_distance_m,m,米 / metre,0.12642449140548706,0.126424491
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,最终X位移,Final X displacement,final_displacement_m,m,米 / metre,0.12642449140548706,0.126424491
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,最大质心抬升,Maximum COM lift,max_com_lift_m,m,米 / metre,3.2782554622301507e-09,3.27825546e-09
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,理想库仑停止距离,Ideal Coulomb stopping distance,ideal_coulomb_distance_m,m,米 / metre,0.127420998980632,0.127420999
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,设定摩擦系数,Configured friction coefficient,configured_friction_coefficient,1,无量纲 / dimensionless,0.4,0.4
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,滑动段测量步数,Sliding measurement steps,friction_measurement_samples,步,步 / step,107,107
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,滑动窗口内有接触步数,Contact steps in sliding window,friction_contact_samples,步,步 / step,107,107
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,滑动段平均摩擦力,Mean sliding friction force,mean_friction_force_n,N,牛顿 / newton,0.392399914502503,0.392399915
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,滑动段平均法向力,Mean sliding normal force,mean_normal_force_n,N,牛顿 / newton,0.9810001126459055,0.981000113
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,实测等效摩擦系数,Measured effective friction coefficient,effective_friction_coefficient,1,无量纲 / dimensionless,0.3999998669155513,0.399999867
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,滑动段平均X减速度,Mean sliding X deceleration,mean_deceleration_m_s2,m/s²,米每二次方秒 / metre per second squared,3.9240035879051436,3.92400359
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,滑动段摩擦力反向,Sliding friction opposes motion,friction_opposes_motion,布尔,布尔值 / boolean,True,是 / Yes
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,全程X接触冲量,Total contact impulse X,total_contact_jx_ns,N·s,牛顿秒 / newton second,-0.10000003350612513,-0.100000034
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,相对理想轨迹最大X位移误差,Maximum X displacement error vs ideal trajectory,max_displacement_error_m,m,米 / metre,0.0009965075751449393,0.000996507575
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,相对理想轨迹X位移均方根误差,RMS X displacement error vs ideal trajectory,rms_displacement_error_m,m,米 / metre,0.0008438603930533708,0.000843860393
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,相对理想轨迹最大X速度误差,Maximum X velocity error vs ideal trajectory,max_slide_velocity_error_m_s,m/s,米每秒 / metre per second,9.466340998187661e-06,9.466341e-06
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,最大侧向偏移,Maximum lateral displacement,max_lateral_displacement_m,m,米 / metre,2.1874987510273058e-07,2.18749875e-07
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,理想库仑停止时间,Ideal Coulomb stopping time,ideal_coulomb_stop_time_s,s,秒 / second,0.254841997961264,0.254841998
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,停止距离相对理想值偏差,Stopping distance deviation from ideal,stop_distance_error_percent,%,百分比 / percent,-0.7820591449737484,-0.782059145
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,仿真步长,Simulation timestep,dt_s,s,秒 / second,0.002,0.002
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,物理步数,Physics steps,steps,步,步 / step,300,300
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,峰值接触合力,Peak resultant contact force,peak_contact_force_n,N,牛顿 / newton,1.0565707841639878,1.05657078
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,峰值法向接触力,Peak normal contact force,peak_contact_fz_n,N,牛顿 / newton,0.9810940828746254,0.981094083
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,最大穿透深度,Maximum penetration depth,max_penetration_m,m,米 / metre,3.212529579160739e-08,3.21252958e-08
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,首次接触时间,First contact time,first_contact_s,s,秒 / second,0.0,0
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,质心静置时间,COM settling time,settled_time_s,s,秒 / second,0.256,0.256
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,最大动量平衡残差,Maximum momentum balance residual,max_momentum_residual_ns,N·s,牛顿秒 / newton second,5.107051802370862e-08,5.1070518e-08
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,最大接触力核算误差,Maximum contact force accounting error,max_constraint_force_error_n,N,牛顿 / newton,,未测得 / Not measured
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,窗口接触冲量X,Window contact impulse X,window_contact_jx_ns,N·s,牛顿秒 / newton second,-0.015695991497283606,-0.0156959915
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,窗口接触冲量Y,Window contact impulse Y,window_contact_jy_ns,N·s,牛顿秒 / newton second,8.86919514914153e-09,8.86919515e-09
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,窗口接触冲量Z,Window contact impulse Z,window_contact_jz_ns,N·s,牛顿秒 / newton second,0.03923999230149557,0.0392399923
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,接触冲量窗口完整,Contact impulse window complete,impulse_window_complete,布尔,布尔值 / boolean,True,是 / Yes
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,停止时间,Stopping time,stop_time_s,s,秒 / second,0.256,0.256
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,停止距离,Stopping distance,stop_distance_m,m,米 / metre,0.12642449140548706,0.126424491
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,最终X位移,Final X displacement,final_displacement_m,m,米 / metre,0.12642449140548706,0.126424491
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,最大质心抬升,Maximum COM lift,max_com_lift_m,m,米 / metre,3.2782554622301507e-09,3.27825546e-09
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,理想库仑停止距离,Ideal Coulomb stopping distance,ideal_coulomb_distance_m,m,米 / metre,0.127420998980632,0.127420999
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,设定摩擦系数,Configured friction coefficient,configured_friction_coefficient,1,无量纲 / dimensionless,0.4,0.4
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,滑动段测量步数,Sliding measurement steps,friction_measurement_samples,步,步 / step,107,107
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,滑动窗口内有接触步数,Contact steps in sliding window,friction_contact_samples,步,步 / step,107,107
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,滑动段平均摩擦力,Mean sliding friction force,mean_friction_force_n,N,牛顿 / newton,0.392399914502503,0.392399915
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,滑动段平均法向力,Mean sliding normal force,mean_normal_force_n,N,牛顿 / newton,0.9810001126459055,0.981000113
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,实测等效摩擦系数,Measured effective friction coefficient,effective_friction_coefficient,1,无量纲 / dimensionless,0.3999998669155513,0.399999867
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,滑动段平均X减速度,Mean sliding X deceleration,mean_deceleration_m_s2,m/s²,米每二次方秒 / metre per second squared,3.9240035879051436,3.92400359
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,滑动段摩擦力反向,Sliding friction opposes motion,friction_opposes_motion,布尔,布尔值 / boolean,True,是 / Yes
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,全程X接触冲量,Total contact impulse X,total_contact_jx_ns,N·s,牛顿秒 / newton second,-0.10000003350612513,-0.100000034
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,相对理想轨迹最大X位移误差,Maximum X displacement error vs ideal trajectory,max_displacement_error_m,m,米 / metre,0.0009965075751449393,0.000996507575
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,相对理想轨迹X位移均方根误差,RMS X displacement error vs ideal trajectory,rms_displacement_error_m,m,米 / metre,0.0008438603930533708,0.000843860393
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,相对理想轨迹最大X速度误差,Maximum X velocity error vs ideal trajectory,max_slide_velocity_error_m_s,m/s,米每秒 / metre per second,9.466340998187661e-06,9.466341e-06
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,最大侧向偏移,Maximum lateral displacement,max_lateral_displacement_m,m,米 / metre,2.1874987510273058e-07,2.18749875e-07
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,理想库仑停止时间,Ideal Coulomb stopping time,ideal_coulomb_stop_time_s,s,秒 / second,0.254841997961264,0.254841998
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,停止距离相对理想值偏差,Stopping distance deviation from ideal,stop_distance_error_percent,%,百分比 / percent,-0.7820591449737484,-0.782059145
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,仿真步长,Simulation timestep,dt_s,s,秒 / second,0.002,0.002
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,物理步数,Physics steps,steps,步,步 / step,300,300
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,峰值接触合力,Peak resultant contact force,peak_contact_force_n,N,牛顿 / newton,1.0565707841639878,1.05657078
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,峰值法向接触力,Peak normal contact force,peak_contact_fz_n,N,牛顿 / newton,0.9810940828746254,0.981094083
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,最大穿透深度,Maximum penetration depth,max_penetration_m,m,米 / metre,3.212529579160739e-08,3.21252958e-08
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,首次接触时间,First contact time,first_contact_s,s,秒 / second,0.0,0
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,质心静置时间,COM settling time,settled_time_s,s,秒 / second,0.256,0.256
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,最大动量平衡残差,Maximum momentum balance residual,max_momentum_residual_ns,N·s,牛顿秒 / newton second,5.107051802370862e-08,5.1070518e-08
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,最大接触力核算误差,Maximum contact force accounting error,max_constraint_force_error_n,N,牛顿 / newton,,未测得 / Not measured
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,窗口接触冲量X,Window contact impulse X,window_contact_jx_ns,N·s,牛顿秒 / newton second,-0.015695991497283606,-0.0156959915
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,窗口接触冲量Y,Window contact impulse Y,window_contact_jy_ns,N·s,牛顿秒 / newton second,8.86919514914153e-09,8.86919515e-09
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,窗口接触冲量Z,Window contact impulse Z,window_contact_jz_ns,N·s,牛顿秒 / newton second,0.03923999230149557,0.0392399923
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,接触冲量窗口完整,Contact impulse window complete,impulse_window_complete,布尔,布尔值 / boolean,True,是 / Yes
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,停止时间,Stopping time,stop_time_s,s,秒 / second,0.256,0.256
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,停止距离,Stopping distance,stop_distance_m,m,米 / metre,0.12642449140548706,0.126424491
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,最终X位移,Final X displacement,final_displacement_m,m,米 / metre,0.12642449140548706,0.126424491
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,最大质心抬升,Maximum COM lift,max_com_lift_m,m,米 / metre,3.2782554622301507e-09,3.27825546e-09
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,理想库仑停止距离,Ideal Coulomb stopping distance,ideal_coulomb_distance_m,m,米 / metre,0.127420998980632,0.127420999
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,设定摩擦系数,Configured friction coefficient,configured_friction_coefficient,1,无量纲 / dimensionless,0.4,0.4
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,滑动段测量步数,Sliding measurement steps,friction_measurement_samples,步,步 / step,107,107
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,滑动窗口内有接触步数,Contact steps in sliding window,friction_contact_samples,步,步 / step,107,107
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,滑动段平均摩擦力,Mean sliding friction force,mean_friction_force_n,N,牛顿 / newton,0.392399914502503,0.392399915
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,滑动段平均法向力,Mean sliding normal force,mean_normal_force_n,N,牛顿 / newton,0.9810001126459055,0.981000113
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,实测等效摩擦系数,Measured effective friction coefficient,effective_friction_coefficient,1,无量纲 / dimensionless,0.3999998669155513,0.399999867
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,滑动段平均X减速度,Mean sliding X deceleration,mean_deceleration_m_s2,m/s²,米每二次方秒 / metre per second squared,3.9240035879051436,3.92400359
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,滑动段摩擦力反向,Sliding friction opposes motion,friction_opposes_motion,布尔,布尔值 / boolean,True,是 / Yes
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,全程X接触冲量,Total contact impulse X,total_contact_jx_ns,N·s,牛顿秒 / newton second,-0.10000003350612513,-0.100000034
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,相对理想轨迹最大X位移误差,Maximum X displacement error vs ideal trajectory,max_displacement_error_m,m,米 / metre,0.0009965075751449393,0.000996507575
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,相对理想轨迹X位移均方根误差,RMS X displacement error vs ideal trajectory,rms_displacement_error_m,m,米 / metre,0.0008438603930533708,0.000843860393
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,相对理想轨迹最大X速度误差,Maximum X velocity error vs ideal trajectory,max_slide_velocity_error_m_s,m/s,米每秒 / metre per second,9.466340998187661e-06,9.466341e-06
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,最大侧向偏移,Maximum lateral displacement,max_lateral_displacement_m,m,米 / metre,2.1874987510273058e-07,2.18749875e-07
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,理想库仑停止时间,Ideal Coulomb stopping time,ideal_coulomb_stop_time_s,s,秒 / second,0.254841997961264,0.254841998
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,停止距离相对理想值偏差,Stopping distance deviation from ideal,stop_distance_error_percent,%,百分比 / percent,-0.7820591449737484,-0.782059145
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,仿真步长,Simulation timestep,dt_s,s,秒 / second,0.001,0.001
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,物理步数,Physics steps,steps,步,步 / step,600,600
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,峰值接触合力,Peak resultant contact force,peak_contact_force_n,N,牛顿 / newton,1.0565703820806485,1.05657038
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,峰值法向接触力,Peak normal contact force,peak_contact_fz_n,N,牛顿 / newton,0.9812148199367888,0.98121482
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,最大穿透深度,Maximum penetration depth,max_penetration_m,m,米 / metre,3.211209258571768e-08,3.21120926e-08
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,首次接触时间,First contact time,first_contact_s,s,秒 / second,0.0,0
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,质心静置时间,COM settling time,settled_time_s,s,秒 / second,0.255,0.255
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,最大动量平衡残差,Maximum momentum balance residual,max_momentum_residual_ns,N·s,牛顿秒 / newton second,5.828864854130199e-08,5.82886485e-08
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,最大接触力核算误差,Maximum contact force accounting error,max_constraint_force_error_n,N,牛顿 / newton,,未测得 / Not measured
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,窗口接触冲量X,Window contact impulse X,window_contact_jx_ns,N·s,牛顿秒 / newton second,-0.015695991701010333,-0.0156959917
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,窗口接触冲量Y,Window contact impulse Y,window_contact_jy_ns,N·s,牛顿秒 / newton second,3.576736807772708e-09,3.57673681e-09
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,窗口接触冲量Z,Window contact impulse Z,window_contact_jz_ns,N·s,牛顿秒 / newton second,0.039239992894846254,0.0392399929
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,接触冲量窗口完整,Contact impulse window complete,impulse_window_complete,布尔,布尔值 / boolean,True,是 / Yes
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,停止时间,Stopping time,stop_time_s,s,秒 / second,0.255,0.255
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,停止距离,Stopping distance,stop_distance_m,m,米 / metre,0.1269179731607437,0.126917973
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,最终X位移,Final X displacement,final_displacement_m,m,米 / metre,0.12691786885261536,0.126917869
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,最大质心抬升,Maximum COM lift,max_com_lift_m,m,米 / metre,3.2782554622301507e-09,3.27825546e-09
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,理想库仑停止距离,Ideal Coulomb stopping distance,ideal_coulomb_distance_m,m,米 / metre,0.127420998980632,0.127420999
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,设定摩擦系数,Configured friction coefficient,configured_friction_coefficient,1,无量纲 / dimensionless,0.4,0.4
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,滑动段测量步数,Sliding measurement steps,friction_measurement_samples,步,步 / step,213,213
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,滑动窗口内有接触步数,Contact steps in sliding window,friction_contact_samples,步,步 / step,213,213
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,滑动段平均摩擦力,Mean sliding friction force,mean_friction_force_n,N,牛顿 / newton,0.39239991034188165,0.39239991
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,滑动段平均法向力,Mean sliding normal force,mean_normal_force_n,N,牛顿 / newton,0.981000102183942,0.981000102
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,实测等效摩擦系数,Measured effective friction coefficient,effective_friction_coefficient,1,无量纲 / dimensionless,0.3999998669401819,0.399999867
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,滑动段平均X减速度,Mean sliding X deceleration,mean_deceleration_m_s2,m/s²,米每二次方秒 / metre per second squared,3.924048667502515,3.92404867
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,滑动段摩擦力反向,Sliding friction opposes motion,friction_opposes_motion,布尔,布尔值 / boolean,True,是 / Yes
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,全程X接触冲量,Total contact impulse X,total_contact_jx_ns,N·s,牛顿秒 / newton second,-0.09999879836250639,-0.0999987984
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,相对理想轨迹最大X位移误差,Maximum X displacement error vs ideal trajectory,max_displacement_error_m,m,米 / metre,0.0005031301280166434,0.000503130128
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,相对理想轨迹X位移均方根误差,RMS X displacement error vs ideal trajectory,rms_displacement_error_m,m,米 / metre,0.00042580912548500946,0.000425809125
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,相对理想轨迹最大X速度误差,Maximum X velocity error vs ideal trajectory,max_slide_velocity_error_m_s,m/s,米每秒 / metre per second,1.1809935092865764e-05,1.18099351e-05
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,最大侧向偏移,Maximum lateral displacement,max_lateral_displacement_m,m,米 / metre,5.67842803889107e-08,5.67842804e-08
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,理想库仑停止时间,Ideal Coulomb stopping time,ideal_coulomb_stop_time_s,s,秒 / second,0.254841997961264,0.254841998
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,停止距离相对理想值偏差,Stopping distance deviation from ideal,stop_distance_error_percent,%,百分比 / percent,-0.39477466344832723,-0.394774663
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,仿真步长,Simulation timestep,dt_s,s,秒 / second,0.001,0.001
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,物理步数,Physics steps,steps,步,步 / step,600,600
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,峰值接触合力,Peak resultant contact force,peak_contact_force_n,N,牛顿 / newton,1.0565703820806485,1.05657038
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,峰值法向接触力,Peak normal contact force,peak_contact_fz_n,N,牛顿 / newton,0.9812148199367888,0.98121482
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,最大穿透深度,Maximum penetration depth,max_penetration_m,m,米 / metre,3.211209258571768e-08,3.21120926e-08
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,首次接触时间,First contact time,first_contact_s,s,秒 / second,0.0,0
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,质心静置时间,COM settling time,settled_time_s,s,秒 / second,0.255,0.255
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,最大动量平衡残差,Maximum momentum balance residual,max_momentum_residual_ns,N·s,牛顿秒 / newton second,5.828864854130199e-08,5.82886485e-08
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,最大接触力核算误差,Maximum contact force accounting error,max_constraint_force_error_n,N,牛顿 / newton,,未测得 / Not measured
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,窗口接触冲量X,Window contact impulse X,window_contact_jx_ns,N·s,牛顿秒 / newton second,-0.015695991701010333,-0.0156959917
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,窗口接触冲量Y,Window contact impulse Y,window_contact_jy_ns,N·s,牛顿秒 / newton second,3.576736807772708e-09,3.57673681e-09
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,窗口接触冲量Z,Window contact impulse Z,window_contact_jz_ns,N·s,牛顿秒 / newton second,0.039239992894846254,0.0392399929
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,接触冲量窗口完整,Contact impulse window complete,impulse_window_complete,布尔,布尔值 / boolean,True,是 / Yes
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,停止时间,Stopping time,stop_time_s,s,秒 / second,0.255,0.255
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,停止距离,Stopping distance,stop_distance_m,m,米 / metre,0.1269179731607437,0.126917973
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,最终X位移,Final X displacement,final_displacement_m,m,米 / metre,0.12691786885261536,0.126917869
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,最大质心抬升,Maximum COM lift,max_com_lift_m,m,米 / metre,3.2782554622301507e-09,3.27825546e-09
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,理想库仑停止距离,Ideal Coulomb stopping distance,ideal_coulomb_distance_m,m,米 / metre,0.127420998980632,0.127420999
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,设定摩擦系数,Configured friction coefficient,configured_friction_coefficient,1,无量纲 / dimensionless,0.4,0.4
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,滑动段测量步数,Sliding measurement steps,friction_measurement_samples,步,步 / step,213,213
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,滑动窗口内有接触步数,Contact steps in sliding window,friction_contact_samples,步,步 / step,213,213
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,滑动段平均摩擦力,Mean sliding friction force,mean_friction_force_n,N,牛顿 / newton,0.39239991034188165,0.39239991
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,滑动段平均法向力,Mean sliding normal force,mean_normal_force_n,N,牛顿 / newton,0.981000102183942,0.981000102
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,实测等效摩擦系数,Measured effective friction coefficient,effective_friction_coefficient,1,无量纲 / dimensionless,0.3999998669401819,0.399999867
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,滑动段平均X减速度,Mean sliding X deceleration,mean_deceleration_m_s2,m/s²,米每二次方秒 / metre per second squared,3.924048667502515,3.92404867
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,滑动段摩擦力反向,Sliding friction opposes motion,friction_opposes_motion,布尔,布尔值 / boolean,True,是 / Yes
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,全程X接触冲量,Total contact impulse X,total_contact_jx_ns,N·s,牛顿秒 / newton second,-0.09999879836250639,-0.0999987984
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,相对理想轨迹最大X位移误差,Maximum X displacement error vs ideal trajectory,max_displacement_error_m,m,米 / metre,0.0005031301280166434,0.000503130128
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,相对理想轨迹X位移均方根误差,RMS X displacement error vs ideal trajectory,rms_displacement_error_m,m,米 / metre,0.00042580912548500946,0.000425809125
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,相对理想轨迹最大X速度误差,Maximum X velocity error vs ideal trajectory,max_slide_velocity_error_m_s,m/s,米每秒 / metre per second,1.1809935092865764e-05,1.18099351e-05
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,最大侧向偏移,Maximum lateral displacement,max_lateral_displacement_m,m,米 / metre,5.67842803889107e-08,5.67842804e-08
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,理想库仑停止时间,Ideal Coulomb stopping time,ideal_coulomb_stop_time_s,s,秒 / second,0.254841997961264,0.254841998
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,停止距离相对理想值偏差,Stopping distance deviation from ideal,stop_distance_error_percent,%,百分比 / percent,-0.39477466344832723,-0.394774663
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,3,失败 / Failed,运行错误,Run error,,,,RuntimeError: Isaac worker timed out; see /home/datamesh/github_waneta/physics-engine-benchmark/.cache/logs/physics-bench-d50105d42262.log,

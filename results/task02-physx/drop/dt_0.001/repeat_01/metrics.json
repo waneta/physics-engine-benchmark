@@ -1,0 +1,18 @@
+{
+  "scene": "drop",
+  "dt_s": 0.001,
+  "steps": 1000,
+  "peak_contact_force_n": 255.05820303077562,
+  "peak_contact_fz_n": 255.0582028935427,
+  "max_penetration_m": 0.0003022276610136036,
+  "first_contact_s": 0.259,
+  "settled_time_s": 0.26,
+  "max_momentum_residual_ns": 4.9606151702613306e-08,
+  "max_constraint_force_error_n": null,
+  "window_contact_jx_ns": -1.7228053051864285e-08,
+  "window_contact_jy_ns": -3.049866470457062e-10,
+  "window_contact_jz_ns": 0.2933183649875054,
+  "impulse_window_complete": true,
+  "minimum_com_height_m": 0.019697772338986397,
+  "ideal_first_contact_s": 0.2593805842035477
+}

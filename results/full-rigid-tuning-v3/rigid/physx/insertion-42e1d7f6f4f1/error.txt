@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-rigid-tuning-v3/source/src/physics_benchmark/extended/rigid.py", line 348, in run
+    sim = {"mujoco": CPU, "mujoco-warp": Warp, "genesis": Genesis, "physx": PhysX}[engine](
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-rigid-tuning-v3/source/src/physics_benchmark/extended/physx.py", line 93, in __init__
+    self.send({"kind": "build", "spec": specification(scene)})
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-rigid-tuning-v3/source/src/physics_benchmark/extended/physx.py", line 102, in send
+    self.worker.process.stdin.write(json.dumps(msg) + "\n")
+ValueError: I/O operation on closed file.

@@ -1,0 +1,11 @@
+[
+  {
+    "engine": "mujoco-warp",
+    "scene": "drop",
+    "dt_s": 0.002,
+    "repeat": 0,
+    "status": "interrupted",
+    "directory": "drop/dt_0.002/repeat_00",
+    "error": "KeyboardInterrupt: cancelled by user"
+  }
+]

@@ -1,0 +1,34 @@
+Traceback (most recent call last):
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/src/physics_benchmark/extended/soft.py", line 161, in run
+    sim=import_module('.soft_'+engine.replace('-','_'),__package__).Simulation(case)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/src/physics_benchmark/extended/soft_genesis.py", line 30, in __init__
+    self.sim.build()
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/.venv-genesis/lib/python3.11/site-packages/genesis/utils/misc.py", line 136, in wrapper
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/.venv-genesis/lib/python3.11/site-packages/genesis/engine/scene.py", line 870, in build
+    self._sim.build()
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/.venv-genesis/lib/python3.11/site-packages/genesis/engine/simulator.py", line 231, in build
+    self._coupler.build()
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/.venv-genesis/lib/python3.11/site-packages/genesis/engine/couplers/sap_coupler.py", line 294, in build
+    self._init_rigid_fields()
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/.venv-genesis/lib/python3.11/site-packages/genesis/engine/couplers/sap_coupler.py", line 551, in _init_rigid_fields
+    self.rigid_state_dof = rigid_state_dof.field(
+                           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/.venv-genesis/lib/python3.11/site-packages/quadrants/lang/struct.py", line 802, in field
+    field = Struct.field(self.members, self.methods, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/.venv-genesis/lib/python3.11/site-packages/quadrants/lang/util.py", line 325, in wrapped
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/.venv-genesis/lib/python3.11/site-packages/quadrants/lang/struct.py", line 349, in field
+    impl.root.dense(impl.index_nd(dim), shape).place(e, offset=offset)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/.venv-genesis/lib/python3.11/site-packages/quadrants/_snode/fields_builder.py", line 77, in dense
+    return self.root.dense(indices, dimensions)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/.venv-genesis/lib/python3.11/site-packages/quadrants/lang/snode.py", line 44, in dense
+    return SNode(self.ptr.dense(axes, dimensions, _qd_core.DebugInfo(get_traceback())))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+quadrants._lib.core.quadrants_python.QuadrantsRuntimeError: Every dimension of a Quadrants field should be positive, got 0 in demension 1.

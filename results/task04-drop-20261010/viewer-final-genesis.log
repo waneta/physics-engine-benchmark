@@ -1,0 +1,7 @@
+Output: /home/datamesh/github_waneta/physics-engine-benchmark/results/task04-drop-20261010/viewer-final-genesis
+Running genesis: drop dt=0.002 repeat=1
+[38;5;226m[Genesis] [19:38:43] [WARNING] Scene.show_FPS is deprecated. Please use Scene.options.profiling.show_FPS[0m
+drop  dt=0.002 repeat=1: passed
+Running genesis: drop dt=0.001 repeat=1
+drop  dt=0.001 repeat=1: passed
+Report: /home/datamesh/github_waneta/physics-engine-benchmark/results/task04-drop-20261010/viewer-final-genesis/report.md

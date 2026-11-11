@@ -1,0 +1,223 @@
+[1/111] physx: collision_chain-5e2bf9ae0a40
+  completed; task_success=True; error=None
+[2/111] physx: collision_chain-230c318d0e18
+  completed; task_success=True; error=None
+[3/111] physx: collision_chain-ee4fddc70acd
+  completed; task_success=True; error=None
+[4/111] physx: collision_chain-4f07ee297f6e
+  completed; task_success=True; error=None
+[5/111] physx: collision_chain-053dd2f40471
+  completed; task_success=True; error=None
+[6/111] physx: collision_chain-379038ee9ae6
+  completed; task_success=True; error=None
+[7/111] physx: panda_open_loop-ac09844de5d0
+  completed; task_success=True; error=None
+[8/111] physx: panda_open_loop-fe41c13a05d4
+  completed; task_success=True; error=None
+[9/111] physx: panda_open_loop-3f052300a7e3
+  completed; task_success=True; error=None
+[10/111] physx: panda_open_loop-a2aaed8cdc92
+  completed; task_success=True; error=None
+[11/111] physx: panda_open_loop-2aa116cd1223
+  completed; task_success=True; error=None
+[12/111] physx: panda_open_loop-d095db4bd44a
+  completed; task_success=True; error=None
+[13/111] physx: panda_tracking-69d7d876490b
+  completed; task_success=True; error=None
+[14/111] physx: panda_tracking-85aeee04e952
+  completed; task_success=True; error=None
+[15/111] physx: panda_tracking-472d8ccf2172
+  completed; task_success=True; error=None
+[16/111] physx: panda_tracking-f13cdec2cd43
+  completed; task_success=True; error=None
+[17/111] physx: panda_tracking-f65fd9ac6047
+  completed; task_success=True; error=None
+[18/111] physx: panda_tracking-1d0246daf05e
+  completed; task_success=True; error=None
+[19/111] physx: grasp-955a4de2a3af
+  completed; task_success=True; error=None
+[20/111] physx: grasp-2b8f6b82dc36
+  completed; task_success=True; error=None
+[21/111] physx: grasp-c4fc0dae6408
+  completed; task_success=True; error=None
+[22/111] physx: grasp-617d9d80d621
+  completed; task_success=True; error=None
+[23/111] physx: grasp-018904402100
+  completed; task_success=True; error=None
+[24/111] physx: grasp-4174c8da86c5
+  completed; task_success=True; error=None
+[25/111] physx: stack-3c705b8adaef
+  completed; task_success=True; error=None
+[26/111] physx: stack-5a6fa2926149
+  completed; task_success=True; error=None
+[27/111] physx: stack-ee19fab0d88e
+  completed; task_success=True; error=None
+[28/111] physx: stack-42ac132e472b
+  completed; task_success=True; error=None
+[29/111] physx: stack-27e089c26bc1
+  completed; task_success=True; error=None
+[30/111] physx: stack-d78fcd4c4395
+  completed; task_success=True; error=None
+[31/111] physx: stack-c8077b104aaa
+  completed; task_success=True; error=None
+[32/111] physx: stack-6e24332feb2e
+  completed; task_success=True; error=None
+[33/111] physx: stack-233ed0e80ec3
+  completed; task_success=True; error=None
+[34/111] physx: stack-e560817ab22a
+  completed; task_success=False; error=None
+[35/111] physx: stack-e67af218c667
+[35/111] physx: stack-e67af218c667
+  completed; task_success=False; error=None
+[36/111] physx: stack-fc47448b3bcc
+  completed; task_success=False; error=None
+[37/111] physx: stack-fce39091a5fb
+  completed; task_success=True; error=None
+[38/111] physx: stack-ac5d281f8117
+  completed; task_success=True; error=None
+[39/111] physx: stack-076f63ccb27e
+  completed; task_success=True; error=None
+[40/111] physx: stack-7527ab912540
+  completed; task_success=False; error=None
+[41/111] physx: stack-057d4aedacad
+  completed; task_success=False; error=None
+[42/111] physx: stack-48203d3b5208
+  error; task_success=False; error=I/O operation on closed file.
+[43/111] physx: push-040b6acb5ce8
+  error; task_success=False; error=I/O operation on closed file.
+[44/111] physx: push-bf866ada1b95
+  error; task_success=False; error=I/O operation on closed file.
+[45/111] physx: push-05b606e18966
+  error; task_success=False; error=I/O operation on closed file.
+[46/111] physx: push-a715fd77a7d2
+  error; task_success=False; error=I/O operation on closed file.
+[47/111] physx: push-c8a50d929a26
+  error; task_success=False; error=I/O operation on closed file.
+[48/111] physx: push-503d09560c12
+  error; task_success=False; error=I/O operation on closed file.
+[49/111] physx: push-96caf5a40261
+  error; task_success=False; error=I/O operation on closed file.
+[50/111] physx: push-12255620c8d0
+  error; task_success=False; error=I/O operation on closed file.
+[51/111] physx: push-f956b06100d6
+  error; task_success=False; error=I/O operation on closed file.
+[52/111] physx: push-94cccfcec2b9
+  error; task_success=False; error=I/O operation on closed file.
+[53/111] physx: push-d1b5075ccdeb
+  error; task_success=False; error=I/O operation on closed file.
+[54/111] physx: push-3b1bb08c77d3
+  error; task_success=False; error=I/O operation on closed file.
+[55/111] physx: push-687378cb6ab8
+  error; task_success=False; error=I/O operation on closed file.
+[56/111] physx: push-7ab979f32354
+  error; task_success=False; error=I/O operation on closed file.
+[57/111] physx: push-3b01d3ab60b8
+  error; task_success=False; error=I/O operation on closed file.
+[58/111] physx: push-8e74d193afde
+  error; task_success=False; error=I/O operation on closed file.
+[59/111] physx: push-6ecd44229ed6
+  error; task_success=False; error=I/O operation on closed file.
+[60/111] physx: push-072103986bc2
+  error; task_success=False; error=I/O operation on closed file.
+[61/111] physx: push-7b6f982c0e5f
+  error; task_success=False; error=I/O operation on closed file.
+[62/111] physx: push-4cd12fb7a122
+  error; task_success=False; error=I/O operation on closed file.
+[63/111] physx: push-9dde4881a363
+  error; task_success=False; error=I/O operation on closed file.
+[64/111] physx: push-96ccdc35e6c4
+  error; task_success=False; error=I/O operation on closed file.
+[65/111] physx: push-62ec297f64f9
+  error; task_success=False; error=I/O operation on closed file.
+[66/111] physx: push-8848601ece70
+  error; task_success=False; error=I/O operation on closed file.
+[67/111] physx: push-f9df6ca1c65a
+  error; task_success=False; error=I/O operation on closed file.
+[68/111] physx: push-a3136d589283
+  error; task_success=False; error=I/O operation on closed file.
+[69/111] physx: push-eb388fee8cf6
+  error; task_success=False; error=I/O operation on closed file.
+[70/111] physx: push-845d30f5f2aa
+  error; task_success=False; error=I/O operation on closed file.
+[71/111] physx: push-d6892b8092c9
+  error; task_success=False; error=I/O operation on closed file.
+[72/111] physx: push-7311eb035f71
+  error; task_success=False; error=I/O operation on closed file.
+[73/111] physx: push-c40e9a866a39
+  error; task_success=False; error=I/O operation on closed file.
+[74/111] physx: push-f7c9528c13ab
+  error; task_success=False; error=I/O operation on closed file.
+[75/111] physx: push-8d379b126f4e
+  error; task_success=False; error=I/O operation on closed file.
+[76/111] physx: push-fa3582cd1d2d
+  error; task_success=False; error=I/O operation on closed file.
+[77/111] physx: push-278ddbc4209f
+  error; task_success=False; error=I/O operation on closed file.
+[78/111] physx: push-ee03c962029d
+  error; task_success=False; error=I/O operation on closed file.
+[79/111] physx: sweep-cf7399b17d6d
+  error; task_success=False; error=I/O operation on closed file.
+[80/111] physx: sweep-58afcc89a59b
+  error; task_success=False; error=I/O operation on closed file.
+[81/111] physx: sweep-e700dae8e99f
+  error; task_success=False; error=I/O operation on closed file.
+[82/111] physx: insertion-ea58ee4b82b9
+  error; task_success=False; error=I/O operation on closed file.
+[83/111] physx: insertion-483c23124b40
+  error; task_success=False; error=I/O operation on closed file.
+[84/111] physx: insertion-6ca0603e7187
+  error; task_success=False; error=I/O operation on closed file.
+[85/111] physx: insertion-a50da9682978
+  error; task_success=False; error=I/O operation on closed file.
+[86/111] physx: insertion-18da234be164
+  error; task_success=False; error=I/O operation on closed file.
+[87/111] physx: insertion-8e56623a1fdd
+  error; task_success=False; error=I/O operation on closed file.
+[88/111] physx: insertion-5413d38ab6bf
+  error; task_success=False; error=I/O operation on closed file.
+[89/111] physx: insertion-14e6bb0e9d3b
+  error; task_success=False; error=I/O operation on closed file.
+[90/111] physx: insertion-e30c0c0ab219
+  error; task_success=False; error=I/O operation on closed file.
+[91/111] physx: insertion-386d95ac7e0a
+  error; task_success=False; error=I/O operation on closed file.
+[92/111] physx: insertion-70215a73a006
+  error; task_success=False; error=I/O operation on closed file.
+[93/111] physx: insertion-75386d156c0a
+  error; task_success=False; error=I/O operation on closed file.
+[94/111] physx: insertion-8c2a7186844f
+  error; task_success=False; error=I/O operation on closed file.
+[95/111] physx: insertion-47a67b3b0d61
+  error; task_success=False; error=I/O operation on closed file.
+[96/111] physx: insertion-aac36139cb78
+  error; task_success=False; error=I/O operation on closed file.
+[97/111] physx: insertion-cbef3637ecbb
+  error; task_success=False; error=I/O operation on closed file.
+[98/111] physx: insertion-fbe18b5c1654
+  error; task_success=False; error=I/O operation on closed file.
+[99/111] physx: insertion-a2e8669cfe34
+  error; task_success=False; error=I/O operation on closed file.
+[100/111] physx: insertion-5472deab52a7
+  error; task_success=False; error=I/O operation on closed file.
+[101/111] physx: insertion-37175dec0b01
+  error; task_success=False; error=I/O operation on closed file.
+[102/111] physx: insertion-ce5e90767957
+  error; task_success=False; error=I/O operation on closed file.
+[103/111] physx: insertion-68f21330c871
+  error; task_success=False; error=I/O operation on closed file.
+[104/111] physx: insertion-b9f97ad974b1
+  error; task_success=False; error=I/O operation on closed file.
+[105/111] physx: insertion-957abd9ccd58
+  error; task_success=False; error=I/O operation on closed file.
+[106/111] physx: insertion-42e1d7f6f4f1
+  error; task_success=False; error=I/O operation on closed file.
+[107/111] physx: insertion-8a9b3722f3b3
+  error; task_success=False; error=I/O operation on closed file.
+[108/111] physx: insertion-cb31ec5b7cf1
+  error; task_success=False; error=I/O operation on closed file.
+[109/111] physx: insertion-7fb0c438a828
+  error; task_success=False; error=I/O operation on closed file.
+[110/111] physx: insertion-d48bf8be9ebb
+  error; task_success=False; error=I/O operation on closed file.
+[111/111] physx: insertion-095882702afc
+  error; task_success=False; error=I/O operation on closed file.

@@ -1,0 +1,11 @@
+{
+  "engine": "physx",
+  "scene": "hinge",
+  "dt_s": 0.0005,
+  "repeat": 0,
+  "status": "failed",
+  "directory": "hinge/dt_0.0005/repeat_00",
+  "error": "RuntimeError: Traceback (most recent call last):\n  File \"/workspace/scripts/isaac_worker.py\", line 203, in <module>\n    run(json.loads(line))\n  File \"/workspace/scripts/isaac_worker.py\", line 129, in run\n    view = tensors.create_simulation_view('numpy')\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/isaac-sim/extscache/omni.physics.tensors-110.1.13+110.1.2.lx64.r.cp312.u7f4/omni/physics/tensors/api.py\", line 39, in create_simulation_view\n    raise Exception(f\"Failed to create simulation view with backend '{backend}'\")\nException: Failed to create simulation view with backend 'physx'\n",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/datamesh/github_waneta/physics-engine-benchmark/src/physics_benchmark/cli.py\", line 219, in run_suite\n    run = simulate_fn(scene, cfg, dt, rows)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/datamesh/github_waneta/physics-engine-benchmark/src/physics_benchmark/backends/physx.py\", line 86, in simulate\n    message = _worker.receive()\n              ^^^^^^^^^^^^^^^^^\n  File \"/home/datamesh/github_waneta/physics-engine-benchmark/src/physics_benchmark/backends/physx.py\", line 59, in receive\n    raise RuntimeError(message['error'])\nRuntimeError: Traceback (most recent call last):\n  File \"/workspace/scripts/isaac_worker.py\", line 203, in <module>\n    run(json.loads(line))\n  File \"/workspace/scripts/isaac_worker.py\", line 129, in run\n    view = tensors.create_simulation_view('numpy')\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/isaac-sim/extscache/omni.physics.tensors-110.1.13+110.1.2.lx64.r.cp312.u7f4/omni/physics/tensors/api.py\", line 39, in create_simulation_view\n    raise Exception(f\"Failed to create simulation view with backend '{backend}'\")\nException: Failed to create simulation view with backend 'physx'\n\n",
+  "samples": 0
+}

@@ -1,0 +1,5 @@
+{
+  "family": "collision_chain",
+  "duration": 1.0,
+  "dt": 0.001
+}

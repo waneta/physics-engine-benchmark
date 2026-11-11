@@ -1,0 +1,73 @@
+{
+  "numerically_valid": true,
+  "task_success": true,
+  "simulated_seconds": 4.0,
+  "max_fk_error_m": 0.0,
+  "peak_contact_force_n": 16.181074625286662,
+  "joint_rmse_rad": 0.0063401798122297865,
+  "normalized_squared_arm_effort": 0.02459211642481529,
+  "joint_limit_excess_rad": 0.0,
+  "max_momentum_residual_ns": {
+    "cube0": 1.6708614239530845e-07,
+    "cube1": 1.616899186565919e-07,
+    "cube2": 1.291261115030266e-07
+  },
+  "contact_force_validated": true,
+  "passed_objects": 3,
+  "minimum_progress_m": 0.21051075401786218,
+  "minimum_capped_goal_progress_m": 0.09599999999999992,
+  "engine": "mujoco",
+  "case": {
+    "id": "train-p1-d1-t2-1",
+    "family": "push",
+    "dt": 0.001,
+    "repeat": 0,
+    "phase": "train",
+    "candidate": "p1-d1-t2",
+    "kp_scale": 1,
+    "kd_scale": 1,
+    "push_duration": 2,
+    "width": 0.09,
+    "rear_y": 0,
+    "duration": 4.0
+  },
+  "status": "completed",
+  "error": null,
+  "wall_seconds": 2.7287173699996856,
+  "reference_sha256": "c1e694f6f55c7ad92eb2ea4391b45a9d1ccc08b48a63d0389d8b33069ac617f2",
+  "samples": 4001,
+  "audit": {
+    "engine": "mujoco",
+    "version": "3.15.0",
+    "precision": "float64",
+    "device": "cpu",
+    "five_pose_fk_checks": [
+      {
+        "position_error_m": 0.0,
+        "rotation_frobenius_error": 0.0,
+        "joint_error": 0.0
+      },
+      {
+        "position_error_m": 0.0,
+        "rotation_frobenius_error": 0.0,
+        "joint_error": 0.0
+      },
+      {
+        "position_error_m": 0.0,
+        "rotation_frobenius_error": 0.0,
+        "joint_error": 0.0
+      },
+      {
+        "position_error_m": 0.0,
+        "rotation_frobenius_error": 0.0,
+        "joint_error": 0.0
+      },
+      {
+        "position_error_m": 0.0,
+        "rotation_frobenius_error": 0.0,
+        "joint_error": 0.0
+      }
+    ],
+    "initial_fk_error_m": 0.0
+  }
+}

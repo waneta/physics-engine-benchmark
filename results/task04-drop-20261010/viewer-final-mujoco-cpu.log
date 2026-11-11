@@ -1,0 +1,8 @@
+Output: /home/datamesh/github_waneta/physics-engine-benchmark/results/task04-drop-20261010/viewer-final-mujoco-cpu
+Running mujoco-cpu: drop dt=0.002 repeat=1
+Xlib:  extension "NV-GLX" missing on display ":1".
+drop  dt=0.002 repeat=1: passed
+Running mujoco-cpu: drop dt=0.001 repeat=1
+Xlib:  extension "NV-GLX" missing on display ":1".
+drop  dt=0.001 repeat=1: passed
+Report: /home/datamesh/github_waneta/physics-engine-benchmark/results/task04-drop-20261010/viewer-final-mujoco-cpu/report.md

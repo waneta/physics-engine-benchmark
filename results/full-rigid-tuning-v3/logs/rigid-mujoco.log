@@ -1,0 +1,222 @@
+[1/111] mujoco: collision_chain-5e2bf9ae0a40
+  completed; task_success=True; error=None
+[2/111] mujoco: collision_chain-230c318d0e18
+  completed; task_success=True; error=None
+[3/111] mujoco: collision_chain-ee4fddc70acd
+  completed; task_success=True; error=None
+[4/111] mujoco: collision_chain-4f07ee297f6e
+  completed; task_success=True; error=None
+[5/111] mujoco: collision_chain-053dd2f40471
+  completed; task_success=True; error=None
+[6/111] mujoco: collision_chain-379038ee9ae6
+  completed; task_success=True; error=None
+[7/111] mujoco: panda_open_loop-ac09844de5d0
+  completed; task_success=True; error=None
+[8/111] mujoco: panda_open_loop-fe41c13a05d4
+  completed; task_success=True; error=None
+[9/111] mujoco: panda_open_loop-3f052300a7e3
+  completed; task_success=True; error=None
+[10/111] mujoco: panda_open_loop-a2aaed8cdc92
+  completed; task_success=True; error=None
+[11/111] mujoco: panda_open_loop-2aa116cd1223
+  completed; task_success=True; error=None
+[12/111] mujoco: panda_open_loop-d095db4bd44a
+  completed; task_success=True; error=None
+[13/111] mujoco: panda_tracking-69d7d876490b
+  completed; task_success=True; error=None
+[14/111] mujoco: panda_tracking-85aeee04e952
+  completed; task_success=True; error=None
+[15/111] mujoco: panda_tracking-472d8ccf2172
+  completed; task_success=True; error=None
+[16/111] mujoco: panda_tracking-f13cdec2cd43
+  completed; task_success=True; error=None
+[17/111] mujoco: panda_tracking-f65fd9ac6047
+  completed; task_success=True; error=None
+[18/111] mujoco: panda_tracking-1d0246daf05e
+  completed; task_success=True; error=None
+[19/111] mujoco: grasp-955a4de2a3af
+  completed; task_success=True; error=None
+[20/111] mujoco: grasp-2b8f6b82dc36
+  completed; task_success=True; error=None
+[21/111] mujoco: grasp-c4fc0dae6408
+  completed; task_success=True; error=None
+[22/111] mujoco: grasp-617d9d80d621
+  completed; task_success=True; error=None
+[23/111] mujoco: grasp-018904402100
+  completed; task_success=True; error=None
+[24/111] mujoco: grasp-4174c8da86c5
+  completed; task_success=True; error=None
+[25/111] mujoco: stack-3c705b8adaef
+  completed; task_success=True; error=None
+[26/111] mujoco: stack-5a6fa2926149
+  completed; task_success=True; error=None
+[27/111] mujoco: stack-ee19fab0d88e
+  completed; task_success=True; error=None
+[28/111] mujoco: stack-42ac132e472b
+  completed; task_success=True; error=None
+[29/111] mujoco: stack-27e089c26bc1
+  completed; task_success=True; error=None
+[30/111] mujoco: stack-d78fcd4c4395
+  completed; task_success=True; error=None
+[31/111] mujoco: stack-c8077b104aaa
+  completed; task_success=True; error=None
+[32/111] mujoco: stack-6e24332feb2e
+  completed; task_success=True; error=None
+[33/111] mujoco: stack-233ed0e80ec3
+  completed; task_success=True; error=None
+[34/111] mujoco: stack-e560817ab22a
+  completed; task_success=False; error=None
+[35/111] mujoco: stack-e67af218c667
+  completed; task_success=False; error=None
+[36/111] mujoco: stack-fc47448b3bcc
+  completed; task_success=False; error=None
+[37/111] mujoco: stack-fce39091a5fb
+  completed; task_success=True; error=None
+[38/111] mujoco: stack-ac5d281f8117
+  completed; task_success=True; error=None
+[39/111] mujoco: stack-076f63ccb27e
+  completed; task_success=True; error=None
+[40/111] mujoco: stack-7527ab912540
+  completed; task_success=False; error=None
+[41/111] mujoco: stack-057d4aedacad
+  completed; task_success=False; error=None
+[42/111] mujoco: stack-48203d3b5208
+  completed; task_success=False; error=None
+[43/111] mujoco: push-040b6acb5ce8
+  completed; task_success=True; error=None
+[44/111] mujoco: push-bf866ada1b95
+  completed; task_success=True; error=None
+[45/111] mujoco: push-05b606e18966
+  completed; task_success=True; error=None
+[46/111] mujoco: push-a715fd77a7d2
+  completed; task_success=True; error=None
+[47/111] mujoco: push-c8a50d929a26
+  completed; task_success=True; error=None
+[48/111] mujoco: push-503d09560c12
+  completed; task_success=True; error=None
+[49/111] mujoco: push-96caf5a40261
+  completed; task_success=True; error=None
+[50/111] mujoco: push-12255620c8d0
+  completed; task_success=True; error=None
+[51/111] mujoco: push-f956b06100d6
+  completed; task_success=True; error=None
+[52/111] mujoco: push-94cccfcec2b9
+  completed; task_success=True; error=None
+[53/111] mujoco: push-d1b5075ccdeb
+  completed; task_success=True; error=None
+[54/111] mujoco: push-3b1bb08c77d3
+  completed; task_success=True; error=None
+[55/111] mujoco: push-687378cb6ab8
+  completed; task_success=True; error=None
+[56/111] mujoco: push-7ab979f32354
+  completed; task_success=True; error=None
+[57/111] mujoco: push-3b01d3ab60b8
+  completed; task_success=True; error=None
+[58/111] mujoco: push-8e74d193afde
+  completed; task_success=True; error=None
+[59/111] mujoco: push-6ecd44229ed6
+  completed; task_success=True; error=None
+[60/111] mujoco: push-072103986bc2
+  completed; task_success=True; error=None
+[61/111] mujoco: push-7b6f982c0e5f
+  completed; task_success=False; error=None
+[62/111] mujoco: push-4cd12fb7a122
+  completed; task_success=False; error=None
+[63/111] mujoco: push-9dde4881a363
+  completed; task_success=False; error=None
+[64/111] mujoco: push-96ccdc35e6c4
+  completed; task_success=False; error=None
+[65/111] mujoco: push-62ec297f64f9
+  completed; task_success=False; error=None
+[66/111] mujoco: push-8848601ece70
+  completed; task_success=False; error=None
+[67/111] mujoco: push-f9df6ca1c65a
+  completed; task_success=False; error=None
+[68/111] mujoco: push-a3136d589283
+  completed; task_success=False; error=None
+[69/111] mujoco: push-eb388fee8cf6
+  completed; task_success=False; error=None
+[70/111] mujoco: push-845d30f5f2aa
+  completed; task_success=False; error=None
+[71/111] mujoco: push-d6892b8092c9
+  completed; task_success=False; error=None
+[72/111] mujoco: push-7311eb035f71
+  completed; task_success=False; error=None
+[73/111] mujoco: push-c40e9a866a39
+  completed; task_success=False; error=None
+[74/111] mujoco: push-f7c9528c13ab
+  completed; task_success=False; error=None
+[75/111] mujoco: push-8d379b126f4e
+  completed; task_success=False; error=None
+[76/111] mujoco: push-fa3582cd1d2d
+  completed; task_success=False; error=None
+[77/111] mujoco: push-278ddbc4209f
+  completed; task_success=False; error=None
+[78/111] mujoco: push-ee03c962029d
+  completed; task_success=False; error=None
+[79/111] mujoco: sweep-cf7399b17d6d
+  completed; task_success=False; error=None
+[80/111] mujoco: sweep-58afcc89a59b
+  completed; task_success=False; error=None
+[81/111] mujoco: sweep-e700dae8e99f
+  completed; task_success=False; error=None
+[82/111] mujoco: insertion-ea58ee4b82b9
+  overload; task_success=False; error=None
+[83/111] mujoco: insertion-483c23124b40
+  overload; task_success=False; error=None
+[84/111] mujoco: insertion-6ca0603e7187
+  overload; task_success=False; error=None
+[85/111] mujoco: insertion-a50da9682978
+  overload; task_success=False; error=None
+[86/111] mujoco: insertion-18da234be164
+  overload; task_success=False; error=None
+[87/111] mujoco: insertion-8e56623a1fdd
+  overload; task_success=False; error=None
+[88/111] mujoco: insertion-5413d38ab6bf
+  overload; task_success=False; error=None
+[89/111] mujoco: insertion-14e6bb0e9d3b
+  overload; task_success=False; error=None
+[90/111] mujoco: insertion-e30c0c0ab219
+  overload; task_success=False; error=None
+[91/111] mujoco: insertion-386d95ac7e0a
+  overload; task_success=False; error=None
+[92/111] mujoco: insertion-70215a73a006
+  overload; task_success=False; error=None
+[93/111] mujoco: insertion-75386d156c0a
+  overload; task_success=False; error=None
+[94/111] mujoco: insertion-8c2a7186844f
+  overload; task_success=False; error=None
+[95/111] mujoco: insertion-47a67b3b0d61
+  overload; task_success=False; error=None
+[96/111] mujoco: insertion-aac36139cb78
+  overload; task_success=False; error=None
+[97/111] mujoco: insertion-cbef3637ecbb
+  overload; task_success=False; error=None
+[98/111] mujoco: insertion-fbe18b5c1654
+  overload; task_success=False; error=None
+[99/111] mujoco: insertion-a2e8669cfe34
+  overload; task_success=False; error=None
+[100/111] mujoco: insertion-5472deab52a7
+  overload; task_success=False; error=None
+[101/111] mujoco: insertion-37175dec0b01
+  overload; task_success=False; error=None
+[102/111] mujoco: insertion-ce5e90767957
+  overload; task_success=False; error=None
+[103/111] mujoco: insertion-68f21330c871
+  overload; task_success=False; error=None
+[104/111] mujoco: insertion-b9f97ad974b1
+  overload; task_success=False; error=None
+[105/111] mujoco: insertion-957abd9ccd58
+  overload; task_success=False; error=None
+[106/111] mujoco: insertion-42e1d7f6f4f1
+  overload; task_success=False; error=None
+[107/111] mujoco: insertion-8a9b3722f3b3
+  overload; task_success=False; error=None
+[108/111] mujoco: insertion-cb31ec5b7cf1
+  overload; task_success=False; error=None
+[109/111] mujoco: insertion-7fb0c438a828
+  overload; task_success=False; error=None
+[110/111] mujoco: insertion-d48bf8be9ebb
+  overload; task_success=False; error=None
+[111/111] mujoco: insertion-095882702afc
+  overload; task_success=False; error=None

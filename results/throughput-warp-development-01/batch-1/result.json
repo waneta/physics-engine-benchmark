@@ -1,0 +1,31 @@
+{
+  "engine": "mujoco-warp",
+  "case": {
+    "family": "throughput",
+    "batch": 1
+  },
+  "batch": 1,
+  "status": "completed",
+  "precision": "float32",
+  "dt_s": 0.001,
+  "steps_per_repeat": 2500,
+  "repeats": 3,
+  "wall_seconds": [
+    0.406831475999752,
+    0.40574690800076496,
+    0.407146491000276
+  ],
+  "median_seconds": 0.406831475999752,
+  "min_seconds": 0.40574690800076496,
+  "max_seconds": 0.407146491000276,
+  "world_steps_per_second": 6145.05058601101,
+  "max_batch_reset_error_rad": 0.0,
+  "reference_sha256": "63a6ed90aa9d217296fea9d96bab674425b519c4baa2e3ff05c3949306030efb",
+  "memory": {
+    "warp_pool_peak_bytes": 225042,
+    "warp_pool_current_bytes": 224647
+  },
+  "timing_scope": "Controller + physics + native host launch overhead; full trajectory warmup, reset, graph capture, state readback and rendering excluded; synchronized GPU boundaries.",
+  "max_single_world_equivalence_error_rad": 0.0,
+  "trajectory_validated": true
+}

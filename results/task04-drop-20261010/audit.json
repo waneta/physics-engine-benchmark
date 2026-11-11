@@ -1,0 +1,201 @@
+{
+  "passed": true,
+  "headless_runs": 24,
+  "gui_runs": 8,
+  "headless_steps": 18000,
+  "gui_steps": 6000,
+  "overview": [
+    {
+      "engine": "physx",
+      "headless_passed": 6,
+      "gui_passed": 2,
+      "settled_runs": 8
+    },
+    {
+      "engine": "mujoco-warp",
+      "headless_passed": 6,
+      "gui_passed": 2,
+      "settled_runs": 8
+    },
+    {
+      "engine": "mujoco-cpu",
+      "headless_passed": 6,
+      "gui_passed": 2,
+      "settled_runs": 8
+    },
+    {
+      "engine": "genesis",
+      "headless_passed": 6,
+      "gui_passed": 2,
+      "settled_runs": 8
+    }
+  ],
+  "gui_absolute_limits": {
+    "position_m": 1e-06,
+    "quaternion": 1e-06,
+    "velocity_m_s": 0.0001,
+    "angular_velocity_rad_s": 0.001,
+    "force_n": 0.001,
+    "impulse_ns": 1e-06
+  },
+  "viewer_equivalence": [
+    {
+      "engine": "physx",
+      "dt_s": 0.002,
+      "steps": 500,
+      "frames": 6,
+      "all_numeric_columns_identical": true,
+      "max_difference": {
+        "position_m": 0.0,
+        "quaternion": 0.0,
+        "velocity_m_s": 0.0,
+        "angular_velocity_rad_s": 0.0,
+        "force_n": 0.0,
+        "impulse_ns": 0.0
+      },
+      "final_display_pose_error": 0.0,
+      "settling_time_difference_s": 0.0,
+      "passed": true
+    },
+    {
+      "engine": "physx",
+      "dt_s": 0.001,
+      "steps": 1000,
+      "frames": 8,
+      "all_numeric_columns_identical": true,
+      "max_difference": {
+        "position_m": 0.0,
+        "quaternion": 0.0,
+        "velocity_m_s": 0.0,
+        "angular_velocity_rad_s": 0.0,
+        "force_n": 0.0,
+        "impulse_ns": 0.0
+      },
+      "final_display_pose_error": 0.0,
+      "settling_time_difference_s": 0.0,
+      "passed": true
+    },
+    {
+      "engine": "mujoco-warp",
+      "dt_s": 0.002,
+      "steps": 500,
+      "frames": 6,
+      "all_numeric_columns_identical": true,
+      "max_difference": {
+        "position_m": 0.0,
+        "quaternion": 0.0,
+        "velocity_m_s": 0.0,
+        "angular_velocity_rad_s": 0.0,
+        "force_n": 0.0,
+        "impulse_ns": 0.0
+      },
+      "final_display_pose_error": 0.0,
+      "settling_time_difference_s": 0.0,
+      "passed": true
+    },
+    {
+      "engine": "mujoco-warp",
+      "dt_s": 0.001,
+      "steps": 1000,
+      "frames": 6,
+      "all_numeric_columns_identical": true,
+      "max_difference": {
+        "position_m": 0.0,
+        "quaternion": 0.0,
+        "velocity_m_s": 0.0,
+        "angular_velocity_rad_s": 0.0,
+        "force_n": 0.0,
+        "impulse_ns": 0.0
+      },
+      "final_display_pose_error": 0.0,
+      "settling_time_difference_s": 0.0,
+      "passed": true
+    },
+    {
+      "engine": "mujoco-cpu",
+      "dt_s": 0.002,
+      "steps": 500,
+      "frames": 6,
+      "all_numeric_columns_identical": true,
+      "max_difference": {
+        "position_m": 0.0,
+        "quaternion": 0.0,
+        "velocity_m_s": 0.0,
+        "angular_velocity_rad_s": 0.0,
+        "force_n": 0.0,
+        "impulse_ns": 0.0
+      },
+      "final_display_pose_error": 0.0,
+      "settling_time_difference_s": 0.0,
+      "passed": true
+    },
+    {
+      "engine": "mujoco-cpu",
+      "dt_s": 0.001,
+      "steps": 1000,
+      "frames": 6,
+      "all_numeric_columns_identical": true,
+      "max_difference": {
+        "position_m": 0.0,
+        "quaternion": 0.0,
+        "velocity_m_s": 0.0,
+        "angular_velocity_rad_s": 0.0,
+        "force_n": 0.0,
+        "impulse_ns": 0.0
+      },
+      "final_display_pose_error": 0.0,
+      "settling_time_difference_s": 0.0,
+      "passed": true
+    },
+    {
+      "engine": "genesis",
+      "dt_s": 0.002,
+      "steps": 500,
+      "frames": 6,
+      "all_numeric_columns_identical": true,
+      "max_difference": {
+        "position_m": 0.0,
+        "quaternion": 0.0,
+        "velocity_m_s": 0.0,
+        "angular_velocity_rad_s": 0.0,
+        "force_n": 0.0,
+        "impulse_ns": 0.0
+      },
+      "final_display_pose_error": 0.0,
+      "settling_time_difference_s": 0.0,
+      "passed": true
+    },
+    {
+      "engine": "genesis",
+      "dt_s": 0.001,
+      "steps": 1000,
+      "frames": 6,
+      "all_numeric_columns_identical": true,
+      "max_difference": {
+        "position_m": 0.0,
+        "quaternion": 0.0,
+        "velocity_m_s": 0.0,
+        "angular_velocity_rad_s": 0.0,
+        "force_n": 0.0,
+        "impulse_ns": 0.0
+      },
+      "final_display_pose_error": 0.0,
+      "settling_time_difference_s": 0.0,
+      "passed": true
+    }
+  ],
+  "preserved_historical_files": 1130,
+  "historical_changes": [],
+  "source_changes": [],
+  "cpu_regression_passed": 18,
+  "slide_regression": [
+    {
+      "dt_s": 0.002,
+      "all_numeric_columns_identical": true
+    },
+    {
+      "dt_s": 0.001,
+      "all_numeric_columns_identical": true
+    }
+  ]
+}

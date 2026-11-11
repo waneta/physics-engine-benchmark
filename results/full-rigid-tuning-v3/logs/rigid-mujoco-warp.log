@@ -1,0 +1,337 @@
+[1/111] mujoco-warp: collision_chain-5e2bf9ae0a40
+Warp UserWarning: Kernel cache artifacts from a previous Warp version were found in '/home/datamesh/github_waneta/physics-engine-benchmark/.cache/warp'. These will be ignored. You can safely delete them.
+Warp 1.16.0 initialized:
+   CUDA Toolkit 12.9, Driver 12.8
+   Devices:
+     "cpu"      : "x86_64"
+     "cuda:0"   : "NVIDIA GeForce RTX 4090 D" (24 GiB, sm_89, mempool enabled)
+   Kernel cache:
+     /home/datamesh/github_waneta/physics-engine-benchmark/.cache/warp/1.16.0
+Module mujoco_warp._src.smooth ca013d6 load on device 'cuda:0' took 16.67 ms  (cached)
+Module _nxn_broadphase__locals__kernel_1be37570 1be3757 load on device 'cuda:0' took 4.73 ms  (cached)
+Module ccd_kernel_builder__locals__ccd_kernel_090b1cab 090b1ca load on device 'cuda:0' took 38.08 ms  (cached)
+Module ccd_kernel_builder__locals__ccd_kernel_118b20cc 118b20c load on device 'cuda:0' took 40.17 ms  (cached)
+Module _primitive_narrowphase__locals__primitive_narrowphase_27deb205 27deb20 load on device 'cuda:0' took 23.59 ms  (cached)
+Module mujoco_warp._src.constraint 5b5fe2d load on device 'cuda:0' took 0.69 ms  (cached)
+Module _friction_dof__locals__kernel_b1bda76d b1bda76 load on device 'cuda:0' took 0.80 ms  (cached)
+Module _efc_contact_init__locals__kernel_9f8465c5 9f8465c load on device 'cuda:0' took 0.77 ms  (cached)
+Module _efc_contact_jac_dense__locals__kernel_d7c0e5ee db8e6f1 load on device 'cuda:0' took 0.78 ms  (cached)
+Module _efc_contact_update__locals__kernel_edb30c24 edb30c2 load on device 'cuda:0' took 17.13 ms  (cached)
+Module mujoco_warp._src.passive 5924789 load on device 'cuda:0' took 1.36 ms  (cached)
+Module _qfrc_passive_kernel__locals__kernel_a386b29e a386b29 load on device 'cuda:0' took 0.65 ms  (cached)
+Module _qfrc_smooth__locals__kernel_b98573a2 b98573a load on device 'cuda:0' took 0.79 ms  (cached)
+Module mujoco_warp._src.support 46f46ca load on device 'cuda:0' took 0.58 ms  (cached)
+Module _small_cholesky_factorize_solve_block__locals__kernel_2b75aeaa 964bbb9 load on device 'cuda:0' took 70.06 ms  (cached)
+Module _solve_init_dof__locals__kernel_66e3dc49 66e3dc4 load on device 'cuda:0' took 0.65 ms  (cached)
+Module mujoco_warp._src.solver 9c75e2a load on device 'cuda:0' took 1.23 ms  (cached)
+Module _solve_init_jaref_kernel__locals__kernel_2b98d0c4 2b98d0c load on device 'cuda:0' took 29.44 ms  (cached)
+Module mul_m_kernel__locals___mul_m_8efe01a0 8efe01a load on device 'cuda:0' took 3.94 ms  (cached)
+Module _update_constraint_efc__locals__kernel_fc20741b fc20741 load on device 'cuda:0' took 0.74 ms  (cached)
+Module _update_constraint_init_qfrc_constraint_dense__locals__kernel_44c8eda8 44c8eda load on device 'cuda:0' took 0.71 ms  (cached)
+Module _update_gradient_zero_grad_dot__locals__kernel_52bae6b7 52bae6b load on device 'cuda:0' took 0.70 ms  (cached)
+Module _update_gradient_grad__locals__kernel_769b869e 769b869 load on device 'cuda:0' took 0.67 ms  (cached)
+Module _update_gradient_JTDAJ_dense_tiled__locals__kernel_f2f2f571 51360f3 load on device 'cuda:0' took 111.87 ms  (cached)
+Module _update_gradient_cholesky__locals__kernel_06c68590 69571d1 load on device 'cuda:0' took 224.09 ms  (cached)
+Module _linesearch_iterative_kernel__locals__kernel_2d235f8c 9d4a882 load on device 'cuda:0' took 0.76 ms  (cached)
+Module _solve_done__locals__kernel_9b35ebf5 9b35ebf load on device 'cuda:0' took 0.49 ms  (cached)
+Module mujoco_warp._src.forward 15f20a6 load on device 'cuda:0' took 0.98 ms  (cached)
+Module _next_time_builder__locals___next_time_56ba631e 56ba631 load on device 'cuda:0' took 0.73 ms  (cached)
+  completed; task_success=True; error=None
+[2/111] mujoco-warp: collision_chain-230c318d0e18
+  completed; task_success=True; error=None
+[3/111] mujoco-warp: collision_chain-ee4fddc70acd
+  completed; task_success=True; error=None
+[4/111] mujoco-warp: collision_chain-4f07ee297f6e
+  completed; task_success=True; error=None
+[5/111] mujoco-warp: collision_chain-053dd2f40471
+  completed; task_success=True; error=None
+[6/111] mujoco-warp: collision_chain-379038ee9ae6
+  completed; task_success=True; error=None
+[7/111] mujoco-warp: panda_open_loop-ac09844de5d0
+Module _tile_cholesky_factorize_solve_block__locals__kernel_99d3d39b e242bc5 load on device 'cuda:0' took 76.73 ms  (cached)
+Module _solve_init_jaref_kernel__locals__kernel_a069a8d9 a069a8d load on device 'cuda:0' took 1.89 ms  (cached)
+Module _update_gradient_JTDAJ_dense_tiled__locals__kernel_aebd8806 860727d load on device 'cuda:0' took 3.74 ms  (cached)
+Module _update_gradient_cholesky__locals__kernel_4ec8fbc5 47e6db7 load on device 'cuda:0' took 56.77 ms  (cached)
+  completed; task_success=True; error=None
+[8/111] mujoco-warp: panda_open_loop-fe41c13a05d4
+  completed; task_success=True; error=None
+[9/111] mujoco-warp: panda_open_loop-3f052300a7e3
+  completed; task_success=True; error=None
+[10/111] mujoco-warp: panda_open_loop-a2aaed8cdc92
+  completed; task_success=True; error=None
+[11/111] mujoco-warp: panda_open_loop-2aa116cd1223
+  completed; task_success=True; error=None
+[12/111] mujoco-warp: panda_open_loop-d095db4bd44a
+  completed; task_success=True; error=None
+[13/111] mujoco-warp: panda_tracking-69d7d876490b
+  completed; task_success=True; error=None
+[14/111] mujoco-warp: panda_tracking-85aeee04e952
+  completed; task_success=True; error=None
+[15/111] mujoco-warp: panda_tracking-472d8ccf2172
+  completed; task_success=True; error=None
+[16/111] mujoco-warp: panda_tracking-f13cdec2cd43
+  completed; task_success=True; error=None
+[17/111] mujoco-warp: panda_tracking-f65fd9ac6047
+  completed; task_success=True; error=None
+[18/111] mujoco-warp: panda_tracking-1d0246daf05e
+  completed; task_success=True; error=None
+[19/111] mujoco-warp: grasp-955a4de2a3af
+Module ccd_kernel_builder__locals__ccd_kernel_02381375 0238137 load on device 'cuda:0' took 45776.42 ms  (compiled)
+Module _limit_slide_hinge__locals__kernel_06cdb81d 06cdb81 load on device 'cuda:0' took 851.41 ms  (compiled)
+Module _tile_cholesky_factorize_solve_block__locals__kernel_8d2c83d3 bb4c15e load on device 'cuda:0' took 4228.62 ms  (compiled)
+Module _solve_init_jaref_kernel__locals__kernel_bba468c1 bba468c load on device 'cuda:0' took 187.80 ms  (compiled)
+Module _update_gradient_JTDAJ_dense_tiled__locals__kernel_967534ff d0365a3 load on device 'cuda:0' took 1161.85 ms  (compiled)
+Module _update_gradient_cholesky__locals__kernel_9258211d ac91759 load on device 'cuda:0' took 5660.65 ms  (compiled)
+  completed; task_success=True; error=None
+[20/111] mujoco-warp: grasp-2b8f6b82dc36
+  completed; task_success=True; error=None
+[21/111] mujoco-warp: grasp-c4fc0dae6408
+  completed; task_success=True; error=None
+[22/111] mujoco-warp: grasp-617d9d80d621
+  completed; task_success=True; error=None
+[23/111] mujoco-warp: grasp-018904402100
+  completed; task_success=True; error=None
+[24/111] mujoco-warp: grasp-4174c8da86c5
+  completed; task_success=True; error=None
+[25/111] mujoco-warp: stack-3c705b8adaef
+Module _solve_init_jaref_kernel__locals__kernel_217832cb 217832c load on device 'cuda:0' took 184.84 ms  (compiled)
+Module _update_gradient_JTDAJ_dense_tiled__locals__kernel_2c6e9603 3d0ecbc load on device 'cuda:0' took 660.17 ms  (compiled)
+Module _update_gradient_cholesky__locals__kernel_8e337ce5 bdc466d load on device 'cuda:0' took 3831.61 ms  (compiled)
+  completed; task_success=True; error=None
+[26/111] mujoco-warp: stack-5a6fa2926149
+  completed; task_success=True; error=None
+[27/111] mujoco-warp: stack-ee19fab0d88e
+  completed; task_success=True; error=None
+[28/111] mujoco-warp: stack-42ac132e472b
+  completed; task_success=True; error=None
+[29/111] mujoco-warp: stack-27e089c26bc1
+  completed; task_success=True; error=None
+[30/111] mujoco-warp: stack-d78fcd4c4395
+  completed; task_success=True; error=None
+[31/111] mujoco-warp: stack-c8077b104aaa
+  completed; task_success=True; error=None
+[32/111] mujoco-warp: stack-6e24332feb2e
+  completed; task_success=True; error=None
+[33/111] mujoco-warp: stack-233ed0e80ec3
+  completed; task_success=True; error=None
+[34/111] mujoco-warp: stack-e560817ab22a
+  completed; task_success=False; error=None
+[35/111] mujoco-warp: stack-e67af218c667
+  completed; task_success=False; error=None
+[36/111] mujoco-warp: stack-fc47448b3bcc
+  completed; task_success=False; error=None
+[37/111] mujoco-warp: stack-fce39091a5fb
+  completed; task_success=True; error=None
+[38/111] mujoco-warp: stack-ac5d281f8117
+  completed; task_success=True; error=None
+[39/111] mujoco-warp: stack-076f63ccb27e
+  completed; task_success=True; error=None
+[40/111] mujoco-warp: stack-7527ab912540
+  completed; task_success=False; error=None
+[41/111] mujoco-warp: stack-057d4aedacad
+  completed; task_success=False; error=None
+[42/111] mujoco-warp: stack-48203d3b5208
+  completed; task_success=False; error=None
+[43/111] mujoco-warp: push-040b6acb5ce8
+Module _solve_init_jaref_kernel__locals__kernel_de231236 de23123 load on device 'cuda:0' took 100.53 ms  (compiled)
+Module _update_gradient_JTDAJ_dense_tiled__locals__kernel_22c658ec 71d9c45 load on device 'cuda:0' took 489.99 ms  (compiled)
+Module _update_gradient_cholesky__locals__kernel_f046cac6 f43ff24 load on device 'cuda:0' took 2508.08 ms  (compiled)
+  completed; task_success=True; error=None
+[44/111] mujoco-warp: push-bf866ada1b95
+  completed; task_success=True; error=None
+[45/111] mujoco-warp: push-05b606e18966
+  completed; task_success=True; error=None
+[46/111] mujoco-warp: push-a715fd77a7d2
+[46/111] mujoco-warp: push-a715fd77a7d2
+Warp UserWarning: Kernel cache artifacts from a previous Warp version were found in '/home/datamesh/github_waneta/physics-engine-benchmark/.cache/warp'. These will be ignored. You can safely delete them.
+Warp 1.16.0 initialized:
+   CUDA Toolkit 12.9, Driver 12.8
+   Devices:
+     "cpu"      : "x86_64"
+     "cuda:0"   : "NVIDIA GeForce RTX 4090 D" (24 GiB, sm_89, mempool enabled)
+   Kernel cache:
+     /home/datamesh/github_waneta/physics-engine-benchmark/.cache/warp/1.16.0
+Module mujoco_warp._src.smooth ca013d6 load on device 'cuda:0' took 7.38 ms  (cached)
+Module _nxn_broadphase__locals__kernel_1be37570 1be3757 load on device 'cuda:0' took 26.96 ms  (cached)
+Module ccd_kernel_builder__locals__ccd_kernel_02381375 0238137 load on device 'cuda:0' took 15140.46 ms  (compiled)
+Module _primitive_narrowphase__locals__primitive_narrowphase_fcab5251 fcab525 load on device 'cuda:0' took 1.24 ms  (cached)
+Module mujoco_warp._src.constraint 5b5fe2d load on device 'cuda:0' took 0.98 ms  (cached)
+Module _friction_dof__locals__kernel_b1bda76d b1bda76 load on device 'cuda:0' took 1.04 ms  (cached)
+Module _limit_slide_hinge__locals__kernel_06cdb81d 06cdb81 load on device 'cuda:0' took 266.00 ms  (compiled)
+Module _efc_contact_init__locals__kernel_9f8465c5 9f8465c load on device 'cuda:0' took 0.95 ms  (cached)
+Module _efc_contact_jac_dense__locals__kernel_d7c0e5ee db8e6f1 load on device 'cuda:0' took 0.99 ms  (cached)
+Module _efc_contact_update__locals__kernel_edb30c24 edb30c2 load on device 'cuda:0' took 0.97 ms  (cached)
+Module mujoco_warp._src.passive 5924789 load on device 'cuda:0' took 2.23 ms  (cached)
+Module _qfrc_passive_kernel__locals__kernel_a386b29e a386b29 load on device 'cuda:0' took 1.08 ms  (cached)
+Module _qfrc_smooth__locals__kernel_b98573a2 b98573a load on device 'cuda:0' took 0.93 ms  (cached)
+Module mujoco_warp._src.support 46f46ca load on device 'cuda:0' took 0.90 ms  (cached)
+Module _small_cholesky_factorize_solve_block__locals__kernel_2b75aeaa 964bbb9 load on device 'cuda:0' took 1.21 ms  (cached)
+Module _tile_cholesky_factorize_solve_block__locals__kernel_8d2c83d3 bb4c15e load on device 'cuda:0' took 24.14 ms  (cached)
+Module _solve_init_dof__locals__kernel_66e3dc49 66e3dc4 load on device 'cuda:0' took 1.15 ms  (cached)
+Module mujoco_warp._src.solver 9c75e2a load on device 'cuda:0' took 1.57 ms  (cached)
+Module _solve_init_jaref_kernel__locals__kernel_de231236 de23123 load on device 'cuda:0' took 37.85 ms  (compiled)
+Module mul_m_kernel__locals___mul_m_8efe01a0 8efe01a load on device 'cuda:0' took 1.08 ms  (cached)
+Module _update_constraint_efc__locals__kernel_fc20741b fc20741 load on device 'cuda:0' took 0.90 ms  (cached)
+Module _update_constraint_init_qfrc_constraint_dense__locals__kernel_44c8eda8 44c8eda load on device 'cuda:0' took 0.80 ms  (cached)
+Module _update_gradient_zero_grad_dot__locals__kernel_52bae6b7 52bae6b load on device 'cuda:0' took 0.75 ms  (cached)
+Module _update_gradient_grad__locals__kernel_769b869e 769b869 load on device 'cuda:0' took 1.16 ms  (cached)
+Module _update_gradient_JTDAJ_dense_tiled__locals__kernel_22c658ec 71d9c45 load on device 'cuda:0' took 547.48 ms  (compiled)
+Module _update_gradient_cholesky__locals__kernel_f046cac6 f43ff24 load on device 'cuda:0' took 2399.66 ms  (compiled)
+Module _linesearch_iterative_kernel__locals__kernel_2d235f8c 9d4a882 load on device 'cuda:0' took 1.58 ms  (cached)
+Module _solve_done__locals__kernel_9b35ebf5 9b35ebf load on device 'cuda:0' took 1.17 ms  (cached)
+Module mujoco_warp._src.forward 15f20a6 load on device 'cuda:0' took 1.95 ms  (cached)
+Module _next_time_builder__locals___next_time_56ba631e 56ba631 load on device 'cuda:0' took 1.19 ms  (cached)
+  completed; task_success=True; error=None
+[47/111] mujoco-warp: push-c8a50d929a26
+  completed; task_success=True; error=None
+[48/111] mujoco-warp: push-503d09560c12
+  completed; task_success=True; error=None
+[49/111] mujoco-warp: push-96caf5a40261
+  completed; task_success=True; error=None
+[50/111] mujoco-warp: push-12255620c8d0
+  completed; task_success=True; error=None
+[51/111] mujoco-warp: push-f956b06100d6
+  completed; task_success=True; error=None
+[52/111] mujoco-warp: push-94cccfcec2b9
+  completed; task_success=True; error=None
+[53/111] mujoco-warp: push-d1b5075ccdeb
+  completed; task_success=True; error=None
+[54/111] mujoco-warp: push-3b1bb08c77d3
+  completed; task_success=True; error=None
+[55/111] mujoco-warp: push-687378cb6ab8
+  completed; task_success=True; error=None
+[56/111] mujoco-warp: push-7ab979f32354
+  completed; task_success=True; error=None
+[57/111] mujoco-warp: push-3b01d3ab60b8
+  completed; task_success=True; error=None
+[58/111] mujoco-warp: push-8e74d193afde
+  completed; task_success=True; error=None
+[59/111] mujoco-warp: push-6ecd44229ed6
+  completed; task_success=True; error=None
+[60/111] mujoco-warp: push-072103986bc2
+  completed; task_success=True; error=None
+[61/111] mujoco-warp: push-7b6f982c0e5f
+  completed; task_success=False; error=None
+[62/111] mujoco-warp: push-4cd12fb7a122
+  completed; task_success=False; error=None
+[63/111] mujoco-warp: push-9dde4881a363
+  completed; task_success=False; error=None
+[64/111] mujoco-warp: push-96ccdc35e6c4
+  completed; task_success=False; error=None
+[65/111] mujoco-warp: push-62ec297f64f9
+  completed; task_success=False; error=None
+[66/111] mujoco-warp: push-8848601ece70
+  completed; task_success=False; error=None
+[67/111] mujoco-warp: push-f9df6ca1c65a
+  completed; task_success=False; error=None
+[68/111] mujoco-warp: push-a3136d589283
+  completed; task_success=False; error=None
+[69/111] mujoco-warp: push-eb388fee8cf6
+  completed; task_success=False; error=None
+[70/111] mujoco-warp: push-845d30f5f2aa
+  completed; task_success=False; error=None
+[71/111] mujoco-warp: push-d6892b8092c9
+  completed; task_success=False; error=None
+[72/111] mujoco-warp: push-7311eb035f71
+  completed; task_success=False; error=None
+[73/111] mujoco-warp: push-c40e9a866a39
+  completed; task_success=False; error=None
+[74/111] mujoco-warp: push-f7c9528c13ab
+  completed; task_success=False; error=None
+[75/111] mujoco-warp: push-8d379b126f4e
+  completed; task_success=False; error=None
+[76/111] mujoco-warp: push-fa3582cd1d2d
+  completed; task_success=False; error=None
+[77/111] mujoco-warp: push-278ddbc4209f
+  completed; task_success=False; error=None
+[78/111] mujoco-warp: push-ee03c962029d
+  completed; task_success=False; error=None
+[79/111] mujoco-warp: sweep-cf7399b17d6d
+Module ccd_kernel_builder__locals__ccd_kernel_090b1cab 090b1ca load on device 'cuda:0' took 30791.46 ms  (compiled)
+Module ccd_kernel_builder__locals__ccd_kernel_ed214613 ed21461 load on device 'cuda:0' took 2257993.96 ms  (compiled)
+Module ccd_kernel_builder__locals__ccd_kernel_118b20cc 118b20c load on device 'cuda:0' took 16278.93 ms  (compiled)
+Module ccd_kernel_builder__locals__ccd_kernel_fba92434 fba9243 load on device 'cuda:0' took 16969.74 ms  (compiled)
+Module _primitive_narrowphase__locals__primitive_narrowphase_8a1e869d 8a1e869 load on device 'cuda:0' took 1694.03 ms  (compiled)
+Module _friction_dof__locals__kernel_aae08a76 aae08a7 load on device 'cuda:0' took 79.98 ms  (compiled)
+Module _limit_slide_hinge__locals__kernel_7d5a8061 7d5a806 load on device 'cuda:0' took 80.60 ms  (compiled)
+Module _efc_contact_init__locals__kernel_63e4be9b 63e4be9 load on device 'cuda:0' took 123.01 ms  (compiled)
+Module _efc_contact_jac_sparse__locals__kernel_c65fa0ff c65fa0f load on device 'cuda:0' took 126.70 ms  (compiled)
+Module _solve_init_dof__locals__kernel_14b514c8 14b514c load on device 'cuda:0' took 49.41 ms  (compiled)
+Module _solve_init_jaref_kernel__locals__kernel_daa83bce daa83bc load on device 'cuda:0' took 103.91 ms  (compiled)
+Module _update_constraint_init_qfrc_constraint_sparse__locals__kernel_75c6b7f4 75c6b7f load on device 'cuda:0' took 51.46 ms  (compiled)
+Module _update_gradient_init_h_sparse__locals__kernel_89238011 8923801 load on device 'cuda:0' took 41.11 ms  (compiled)
+Module _JTDACJ_sparse__locals__kernel_e6109cec e6109ce load on device 'cuda:0' took 50.03 ms  (compiled)
+Module _JTDACJ_sparse__locals__kernel_bdfe1c4a 97a5435 load on device 'cuda:0' took 354.58 ms  (compiled)
+Module _update_gradient_cholesky_blocked__locals__kernel_55d9dc31 69decb4 load on device 'cuda:0' took 4486.03 ms  (compiled)
+Module _linesearch_jv_fused_kernel__locals__kernel_b1115c87 b1115c8 load on device 'cuda:0' took 77.19 ms  (compiled)
+Module _linesearch_iterative_kernel__locals__kernel_e1440bdd bfe3938 load on device 'cuda:0' took 992.95 ms  (compiled)
+/home/datamesh/github_waneta/physics-engine-benchmark/.venv-warp/lib/python3.11/site-packages/warp/_src/types.py:3548: RuntimeWarning: overflow encountered in cast
+  arr = np.asarray(data, dtype=npdtype)
+  completed; task_success=False; error=None
+[80/111] mujoco-warp: sweep-58afcc89a59b
+  completed; task_success=False; error=None
+[81/111] mujoco-warp: sweep-e700dae8e99f
+  completed; task_success=False; error=None
+[82/111] mujoco-warp: insertion-ea58ee4b82b9
+Module _solve_init_jaref_kernel__locals__kernel_d9ccab34 d9ccab3 load on device 'cuda:0' took 165.91 ms  (compiled)
+Module _update_gradient_JTDAJ_dense_tiled__locals__kernel_55f5bf48 e5e951f load on device 'cuda:0' took 2325.97 ms  (compiled)
+Module _update_gradient_cholesky__locals__kernel_e5b6727a 41a4aa6 load on device 'cuda:0' took 8492.01 ms  (compiled)
+  overload; task_success=False; error=None
+[83/111] mujoco-warp: insertion-483c23124b40
+  overload; task_success=False; error=None
+[84/111] mujoco-warp: insertion-6ca0603e7187
+  overload; task_success=False; error=None
+[85/111] mujoco-warp: insertion-a50da9682978
+  overload; task_success=False; error=None
+[86/111] mujoco-warp: insertion-18da234be164
+  overload; task_success=False; error=None
+[87/111] mujoco-warp: insertion-8e56623a1fdd
+  overload; task_success=False; error=None
+[88/111] mujoco-warp: insertion-5413d38ab6bf
+  overload; task_success=False; error=None
+[89/111] mujoco-warp: insertion-14e6bb0e9d3b
+  overload; task_success=False; error=None
+[90/111] mujoco-warp: insertion-e30c0c0ab219
+  overload; task_success=False; error=None
+[91/111] mujoco-warp: insertion-386d95ac7e0a
+  overload; task_success=False; error=None
+[92/111] mujoco-warp: insertion-70215a73a006
+  overload; task_success=False; error=None
+[93/111] mujoco-warp: insertion-75386d156c0a
+  overload; task_success=False; error=None
+[94/111] mujoco-warp: insertion-8c2a7186844f
+  overload; task_success=False; error=None
+[95/111] mujoco-warp: insertion-47a67b3b0d61
+  overload; task_success=False; error=None
+[96/111] mujoco-warp: insertion-aac36139cb78
+  overload; task_success=False; error=None
+[97/111] mujoco-warp: insertion-cbef3637ecbb
+  overload; task_success=False; error=None
+[98/111] mujoco-warp: insertion-fbe18b5c1654
+  overload; task_success=False; error=None
+[99/111] mujoco-warp: insertion-a2e8669cfe34
+  overload; task_success=False; error=None
+[100/111] mujoco-warp: insertion-5472deab52a7
+  overload; task_success=False; error=None
+[101/111] mujoco-warp: insertion-37175dec0b01
+  overload; task_success=False; error=None
+[102/111] mujoco-warp: insertion-ce5e90767957
+  overload; task_success=False; error=None
+[103/111] mujoco-warp: insertion-68f21330c871
+  overload; task_success=False; error=None
+[104/111] mujoco-warp: insertion-b9f97ad974b1
+  overload; task_success=False; error=None
+[105/111] mujoco-warp: insertion-957abd9ccd58
+  overload; task_success=False; error=None
+[106/111] mujoco-warp: insertion-42e1d7f6f4f1
+  overload; task_success=False; error=None
+[107/111] mujoco-warp: insertion-8a9b3722f3b3
+  overload; task_success=False; error=None
+[108/111] mujoco-warp: insertion-cb31ec5b7cf1
+  overload; task_success=False; error=None
+[109/111] mujoco-warp: insertion-7fb0c438a828
+  overload; task_success=False; error=None
+[110/111] mujoco-warp: insertion-d48bf8be9ebb
+  overload; task_success=False; error=None
+[111/111] mujoco-warp: insertion-095882702afc
+  overload; task_success=False; error=None

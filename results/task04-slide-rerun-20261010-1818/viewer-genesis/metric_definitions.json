@@ -1,0 +1,233 @@
+{
+  "dt_s": {
+    "名称": "仿真步长",
+    "name_en": "Simulation timestep",
+    "单位": "s",
+    "unit_name_zh": "秒",
+    "unit_name_en": "second"
+  },
+  "steps": {
+    "名称": "物理步数",
+    "name_en": "Physics steps",
+    "单位": "步",
+    "unit_name_zh": "步",
+    "unit_name_en": "step"
+  },
+  "peak_contact_force_n": {
+    "名称": "峰值接触合力",
+    "name_en": "Peak resultant contact force",
+    "单位": "N",
+    "unit_name_zh": "牛顿",
+    "unit_name_en": "newton"
+  },
+  "peak_contact_fz_n": {
+    "名称": "峰值法向接触力",
+    "name_en": "Peak normal contact force",
+    "单位": "N",
+    "unit_name_zh": "牛顿",
+    "unit_name_en": "newton"
+  },
+  "max_penetration_m": {
+    "名称": "最大穿透深度",
+    "name_en": "Maximum penetration depth",
+    "单位": "m",
+    "unit_name_zh": "米",
+    "unit_name_en": "metre"
+  },
+  "first_contact_s": {
+    "名称": "首次接触时间",
+    "name_en": "First contact time",
+    "单位": "s",
+    "unit_name_zh": "秒",
+    "unit_name_en": "second"
+  },
+  "settled_time_s": {
+    "名称": "质心静置时间",
+    "name_en": "COM settling time",
+    "单位": "s",
+    "unit_name_zh": "秒",
+    "unit_name_en": "second"
+  },
+  "max_momentum_residual_ns": {
+    "名称": "最大动量平衡残差",
+    "name_en": "Maximum momentum balance residual",
+    "单位": "N·s",
+    "unit_name_zh": "牛顿秒",
+    "unit_name_en": "newton second"
+  },
+  "max_constraint_force_error_n": {
+    "名称": "最大接触力核算误差",
+    "name_en": "Maximum contact force accounting error",
+    "单位": "N",
+    "unit_name_zh": "牛顿",
+    "unit_name_en": "newton"
+  },
+  "window_contact_jx_ns": {
+    "名称": "窗口接触冲量X",
+    "name_en": "Window contact impulse X",
+    "单位": "N·s",
+    "unit_name_zh": "牛顿秒",
+    "unit_name_en": "newton second"
+  },
+  "window_contact_jy_ns": {
+    "名称": "窗口接触冲量Y",
+    "name_en": "Window contact impulse Y",
+    "单位": "N·s",
+    "unit_name_zh": "牛顿秒",
+    "unit_name_en": "newton second"
+  },
+  "window_contact_jz_ns": {
+    "名称": "窗口接触冲量Z",
+    "name_en": "Window contact impulse Z",
+    "单位": "N·s",
+    "unit_name_zh": "牛顿秒",
+    "unit_name_en": "newton second"
+  },
+  "impulse_window_complete": {
+    "名称": "接触冲量窗口完整",
+    "name_en": "Contact impulse window complete",
+    "单位": "布尔",
+    "unit_name_zh": "布尔值",
+    "unit_name_en": "boolean"
+  },
+  "stop_time_s": {
+    "名称": "停止时间",
+    "name_en": "Stopping time",
+    "单位": "s",
+    "unit_name_zh": "秒",
+    "unit_name_en": "second"
+  },
+  "stop_distance_m": {
+    "名称": "停止距离",
+    "name_en": "Stopping distance",
+    "单位": "m",
+    "unit_name_zh": "米",
+    "unit_name_en": "metre"
+  },
+  "final_displacement_m": {
+    "名称": "最终X位移",
+    "name_en": "Final X displacement",
+    "单位": "m",
+    "unit_name_zh": "米",
+    "unit_name_en": "metre"
+  },
+  "max_com_lift_m": {
+    "名称": "最大质心抬升",
+    "name_en": "Maximum COM lift",
+    "单位": "m",
+    "unit_name_zh": "米",
+    "unit_name_en": "metre"
+  },
+  "ideal_coulomb_distance_m": {
+    "名称": "理想库仑停止距离",
+    "name_en": "Ideal Coulomb stopping distance",
+    "单位": "m",
+    "unit_name_zh": "米",
+    "unit_name_en": "metre"
+  },
+  "configured_friction_coefficient": {
+    "名称": "设定摩擦系数",
+    "name_en": "Configured friction coefficient",
+    "单位": "1",
+    "unit_name_zh": "无量纲",
+    "unit_name_en": "dimensionless"
+  },
+  "friction_measurement_samples": {
+    "名称": "滑动段测量步数",
+    "name_en": "Sliding measurement steps",
+    "单位": "步",
+    "unit_name_zh": "步",
+    "unit_name_en": "step"
+  },
+  "friction_contact_samples": {
+    "名称": "滑动窗口内有接触步数",
+    "name_en": "Contact steps in sliding window",
+    "单位": "步",
+    "unit_name_zh": "步",
+    "unit_name_en": "step"
+  },
+  "mean_friction_force_n": {
+    "名称": "滑动段平均摩擦力",
+    "name_en": "Mean sliding friction force",
+    "单位": "N",
+    "unit_name_zh": "牛顿",
+    "unit_name_en": "newton"
+  },
+  "mean_normal_force_n": {
+    "名称": "滑动段平均法向力",
+    "name_en": "Mean sliding normal force",
+    "单位": "N",
+    "unit_name_zh": "牛顿",
+    "unit_name_en": "newton"
+  },
+  "effective_friction_coefficient": {
+    "名称": "实测等效摩擦系数",
+    "name_en": "Measured effective friction coefficient",
+    "单位": "1",
+    "unit_name_zh": "无量纲",
+    "unit_name_en": "dimensionless"
+  },
+  "mean_deceleration_m_s2": {
+    "名称": "滑动段平均X减速度",
+    "name_en": "Mean sliding X deceleration",
+    "单位": "m/s²",
+    "unit_name_zh": "米每二次方秒",
+    "unit_name_en": "metre per second squared"
+  },
+  "friction_opposes_motion": {
+    "名称": "滑动段摩擦力反向",
+    "name_en": "Sliding friction opposes motion",
+    "单位": "布尔",
+    "unit_name_zh": "布尔值",
+    "unit_name_en": "boolean"
+  },
+  "total_contact_jx_ns": {
+    "名称": "全程X接触冲量",
+    "name_en": "Total contact impulse X",
+    "单位": "N·s",
+    "unit_name_zh": "牛顿秒",
+    "unit_name_en": "newton second"
+  },
+  "max_displacement_error_m": {
+    "名称": "相对理想轨迹最大X位移误差",
+    "name_en": "Maximum X displacement error vs ideal trajectory",
+    "单位": "m",
+    "unit_name_zh": "米",
+    "unit_name_en": "metre"
+  },
+  "rms_displacement_error_m": {
+    "名称": "相对理想轨迹X位移均方根误差",
+    "name_en": "RMS X displacement error vs ideal trajectory",
+    "单位": "m",
+    "unit_name_zh": "米",
+    "unit_name_en": "metre"
+  },
+  "max_slide_velocity_error_m_s": {
+    "名称": "相对理想轨迹最大X速度误差",
+    "name_en": "Maximum X velocity error vs ideal trajectory",
+    "单位": "m/s",
+    "unit_name_zh": "米每秒",
+    "unit_name_en": "metre per second"
+  },
+  "max_lateral_displacement_m": {
+    "名称": "最大侧向偏移",
+    "name_en": "Maximum lateral displacement",
+    "单位": "m",
+    "unit_name_zh": "米",
+    "unit_name_en": "metre"
+  },
+  "ideal_coulomb_stop_time_s": {
+    "名称": "理想库仑停止时间",
+    "name_en": "Ideal Coulomb stopping time",
+    "单位": "s",
+    "unit_name_zh": "秒",
+    "unit_name_en": "second"
+  },
+  "stop_distance_error_percent": {
+    "名称": "停止距离相对理想值偏差",
+    "name_en": "Stopping distance deviation from ideal",
+    "单位": "%",
+    "unit_name_zh": "百分比",
+    "unit_name_en": "percent"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "created_at": "2026-10-08T09:47:18.898236+00:00",
+  "schema_version": 1,
+  "engine": "physx",
+  "precision": "float32",
+  "rendering": false,
+  "python": "3.11.0rc1 (main, Aug 12 2022, 10:02:14) [GCC 11.2.0]",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "cpu": "12th Gen Intel(R) Core(TM) i7-12700KF",
+  "logical_cpus": 20,
+  "memory": "MemTotal:       32669136 kB",
+  "packages": {
+    "matplotlib": "3.11.2",
+    "physics-engine-benchmark": "0.1.0",
+    "contourpy": "1.3.3",
+    "kiwisolver": "1.5.1",
+    "PyOpenGL": "3.1.10",
+    "six": "1.17.0",
+    "fonttools": "4.66.1",
+    "iniconfig": "2.3.1",
+    "cycler": "0.12.1",
+    "absl-py": "2.5.0",
+    "glfw": "2.10.2",
+    "pyparsing": "3.3.3",
+    "websockets": "17.2",
+    "mujoco": "3.15.0",
+    "etils": "1.14.0",
+    "zipp": "4.1.1",
+    "fsspec": "2026.9.0",
+    "typing_extensions": "4.16.0",
+    "numpy": "2.4.6",
+    "pillow": "12.3.0",
+    "packaging": "26.3",
+    "ruff": "0.16.10",
+    "python-dateutil": "2.9.0.post0",
+    "Pygments": "2.21.0",
+    "pluggy": "1.6.0",
+    "pytest": "9.1.1"
+  },
+  "gpu": {
+    "returncode": 0,
+    "stdout": "NVIDIA GeForce RTX 4090 D, 570.211.01, 24564 MiB",
+    "stderr": ""
+  },
+  "git_commit": {
+    "returncode": 0,
+    "stdout": "9090b830f90de62ef01a666ec0e131234c3c1bab",
+    "stderr": ""
+  },
+  "git_status": {
+    "returncode": 0,
+    "stdout": "M .gitignore\n M .talisman/README.md\n M .talisman/docs/ARCH.md\n M .talisman/docs/DECISIONS.md\n M .talisman/docs/PRD.md\n M .talisman/docs/RULES.md\n M .talisman/memory/repo.md\n M .talisman/runtime/events.jsonl\n M .talisman/runtime/queue.yaml\n M .talisman/runtime/state.yaml\n M .talisman/runtime/tasks.yaml\n M .talisman/spec/deps.yaml\n M .talisman/spec/modules.yaml\n M .talisman/spec/tasks.yaml\n M README.md\n?? \".talisman/dev_docs/2026-10/task01_\\346\\210\\221\\345\\201\\232\\350\\277\\231\\344\\270\\252\\345\\256\\236\\351\\252\\214\\345\\257\\271\\346\\257\\224.md\"\n?? \".talisman/dev_docs/2026-10/task02_\\347\\273\\247\\347\\273\\255\\345\\211\\251\\344\\275\\231\\347\\211\\251\\347\\220\\206\\345\\274\\225\\346\\223\\216.md\"\n?? \".talisman/dev_docs/2026-10/task03_\\350\\277\\231\\345\\233\\233\\347\\247\\215\\347\\211\\251\\347\\220\\206\\345\\274\\225\\346\\223\\216\\347\\216\\257\\345\\242\\203\\351\\203\\250\\347\\275\\262.md\"\n?? configs/\n?? docs/benchmark.md\n?? docs/validation-2026-10-08.md\n?? pyproject.toml\n?? requirements/\n?? scripts/\n?? src/\n?? tests/\n?? uv.lock",
+    "stderr": ""
+  },
+  "source_sha256": {
+    "src/physics_benchmark/__init__.py": "311ab3d275cd9235c360312ec83b6a737c1bec627bb6aae4bbb80656d35df2cd",
+    "src/physics_benchmark/backends/__init__.py": "3d5abe22bb7b44c66d15c3e8403b268b1c8863e20c93beb0dcefb46b67236c3c",
+    "src/physics_benchmark/backends/genesis.py": "bb8b402902b89b93a297d17706c8360d8d9336a9898bf35db1fad01be66157d1",
+    "src/physics_benchmark/backends/physx.py": "dbd9e58a8c349ca08d79a3b748dac20618e1a7dff6cd712c32f1bbb0cac3d4e6",
+    "src/physics_benchmark/backends/warp.py": "569aeaf7417f6ea36bc544e37fabdf2f37b430951e8a8c7b02ff3eb48e54073b",
+    "src/physics_benchmark/cli.py": "56c1c3aaf6b80a6efa9e9d85f2e9b46c96cd9deaecb805c9766efa1abf135815",
+    "src/physics_benchmark/comparison.py": "71bd2d3a89e40c272e55469f68cd05b1aa4120acd6323b7aa53e4a8b0842a8d2",
+    "src/physics_benchmark/metrics.py": "e774c35fca388d3bd22bfd866dc4ad216b7d0d38277bb832866ec98da8d104db",
+    "src/physics_benchmark/plotting.py": "e61a19b698d4fa0f5c15babd3ecff69d58d6fd1073d72c0c6712075d31a6a226",
+    "src/physics_benchmark/sampling.py": "dad16e83d207266ce7c23cc44f5283e899f60228dc9446c2d1bee399831757f9",
+    "src/physics_benchmark/scenes.py": "7e494ac3fb53b91d902e463d5dac176752352874480bbced5e4771efdb152f3a",
+    "src/physics_benchmark/simulation.py": "765eedc8e5c571bb45aecdb94c84297faaae9c2a2dc57a2f03321846acd41141",
+    "scripts/isaac_worker.py": "486caf10c926fb2e7e274c4feddd6a02fe8e223ce146d457639db35abe07bb58",
+    "scripts/probe_isaac.py": "969d186f88c8c18c9c3c36f2583148151d6c3f359fc64636251d8305410ec217"
+  },
+  "lock_sha256": "73f62f1a22eac4a5d652771ca6b78c6f4db6e4d40a2be0fd2515ffbef4e9e489"
+}

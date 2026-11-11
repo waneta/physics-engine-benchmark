@@ -1,0 +1,36 @@
+{
+  "engine": "mujoco-warp",
+  "case": {
+    "family": "soft_grasp",
+    "dt": 2.5e-05,
+    "refined": false,
+    "duration": 4.5,
+    "finger_force": 2,
+    "repeat": 0,
+    "id": "soft_grasp-08"
+  },
+  "status": "completed",
+  "error": null,
+  "numerically_valid": true,
+  "task_success": true,
+  "hold_lift_m": 0.06398317194914227,
+  "hold_com_lift_m": 0.06393458328777313,
+  "hold_window_covered": true,
+  "minimum_volume_ratio": 0.617040227226292,
+  "force_n": null,
+  "force_validated": true,
+  "force_note": "Native contact impulses passed nodal momentum balance.",
+  "audit": {
+    "engine": "mujoco-warp",
+    "mujoco_version": "3.15.0",
+    "material": "MuJoCo flex elasticity",
+    "force_validated": true,
+    "vertex_count": 125,
+    "element_count": 384,
+    "mass_kg": 0.10504912346763821,
+    "reference_sha256": "d67d60793c2fb46bb459c5b6385779d83f2fa70b7364a42a6b8b9d84a13d6274",
+    "max_momentum_residual_ns": 5.223440471255805e-08
+  },
+  "samples": 901,
+  "wall_seconds": 1719.542411950999
+}

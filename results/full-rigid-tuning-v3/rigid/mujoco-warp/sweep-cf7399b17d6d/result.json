@@ -1,0 +1,78 @@
+{
+  "numerically_valid": true,
+  "task_success": false,
+  "simulated_seconds": 12.5,
+  "max_fk_error_m": 3.001738525442499e-07,
+  "peak_contact_force_n": 43.89192522146848,
+  "joint_rmse_rad": 0.004470897716816556,
+  "normalized_squared_arm_effort": 0.024969628012837274,
+  "joint_limit_excess_rad": 0.0,
+  "max_momentum_residual_ns": {
+    "object0": 3.0596174182927958e-06,
+    "object1": 3.6211439824753274e-05,
+    "object2": 1.2120444209786677e-05,
+    "object3": 7.0898409258837836e-06,
+    "object4": 2.2508585764229783e-05,
+    "object5": 9.20358378392143e-06,
+    "object6": 2.147767381618754e-06,
+    "object7": 1.8862758643536782e-05,
+    "object8": 1.017305323284909e-05,
+    "object9": 1.121067751296972e-07,
+    "object10": 8.013083882435065e-06,
+    "object11": 1.5056163007833105e-05,
+    "object12": 4.141264101474982e-07,
+    "object13": 1.756871358014854e-05,
+    "object14": 7.208766591318484e-06
+  },
+  "contact_force_validated": false,
+  "objects_in_tray": 10,
+  "engine": "mujoco-warp",
+  "case": {
+    "family": "sweep",
+    "dt": 0.001,
+    "repeat": 0,
+    "id": "sweep-cf7399b17d6d",
+    "duration": 12.5
+  },
+  "status": "completed",
+  "error": null,
+  "wall_seconds": 2386.062023115999,
+  "reference_sha256": "26da1241cfec8726d0db59fc4ad5874eabd0c7fb01beb7929e5faacdf67de32d",
+  "samples": 12501,
+  "audit": {
+    "engine": "mujoco-warp",
+    "version": "3.15.0",
+    "precision": "float32",
+    "device": "cuda:0",
+    "contact_capacity": 384,
+    "constraint_capacity": 3072,
+    "five_pose_fk_checks": [
+      {
+        "position_error_m": 1.145596484342093e-07,
+        "rotation_frobenius_error": 3.640161782239135e-07,
+        "joint_error": 4.371139006309477e-08
+      },
+      {
+        "position_error_m": 8.611715818229726e-08,
+        "rotation_frobenius_error": 4.399757310329934e-07,
+        "joint_error": 4.276864373764511e-08
+      },
+      {
+        "position_error_m": 7.60693918966382e-08,
+        "rotation_frobenius_error": 4.539262377427832e-07,
+        "joint_error": 4.465413638854443e-08
+      },
+      {
+        "position_error_m": 8.760864611545571e-08,
+        "rotation_frobenius_error": 4.120823338028509e-07,
+        "joint_error": 1.0714883202922465e-07
+      },
+      {
+        "position_error_m": 1.3246683772116796e-07,
+        "rotation_frobenius_error": 4.4188058711138075e-07,
+        "joint_error": 1.190737126677277e-07
+      }
+    ],
+    "initial_fk_error_m": 1.145596484342093e-07
+  }
+}

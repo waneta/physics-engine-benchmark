@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/src/physics_benchmark/extended/soft.py", line 166, in run
+    sim=import_module('.soft_'+engine.replace('-','_'),__package__).Simulation(case)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/src/physics_benchmark/extended/soft_physx.py", line 20, in __init__
+    self.worker=Worker('isaac_extended_worker.py');self.send(dict(kind='build',spec=spec));reply=self.worker.receive();self.state=reply['state'];self.audit=reply['audit']
+                                                                                                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/src/physics_benchmark/backends/physx.py", line 93, in receive
+    raise RuntimeError(message["error"])
+RuntimeError: Traceback (most recent call last):
+  File "/workspace/scripts/isaac_extended_worker.py", line 150, in <module>
+    experiment=Experiment(request['spec']);emit('built',audit=experiment.audit,state=experiment.state())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scripts/isaac_extended_worker.py", line 112, in __init__
+    native=self.soft.get_rest_nodal_positions()[0];expected=np.array(s['soft']['vertices']);dist=np.linalg.norm(expected[:,None]-native[None,:],axis=2);self.node_order=np.argmin(dist,axis=1)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/isaac-sim/extscache/omni.physics.tensors-110.1.13+110.1.2.lx64.r.cp312.u7f4/omni/physics/tensors/api.py", line 4526, in get_rest_nodal_positions
+    raise Exception("Failed to get deformable body rest nodal positions from backend")
+Exception: Failed to get deformable body rest nodal positions from backend
+

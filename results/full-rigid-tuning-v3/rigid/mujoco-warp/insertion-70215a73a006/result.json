@@ -1,0 +1,66 @@
+{
+  "numerically_valid": true,
+  "task_success": false,
+  "simulated_seconds": 3.184,
+  "max_fk_error_m": 2.8105913346027896e-07,
+  "peak_contact_force_n": 293.8728607740704,
+  "joint_rmse_rad": 0.11653907000657864,
+  "normalized_squared_arm_effort": 0.015730585780988245,
+  "joint_limit_excess_rad": 0.0,
+  "max_momentum_residual_ns": {},
+  "contact_force_validated": null,
+  "final_insertion_depth_m": 0.020351865093105992,
+  "minimum_final_hold_depth_m": null,
+  "engine": "mujoco-warp",
+  "case": {
+    "family": "insertion",
+    "dt": 0.001,
+    "repeat": 1,
+    "clearance": 0.00025,
+    "offset": 0,
+    "tilt_deg": 0,
+    "id": "insertion-70215a73a006",
+    "duration": 4.0
+  },
+  "status": "overload",
+  "error": null,
+  "wall_seconds": 7.117314781000459,
+  "reference_sha256": "d1530ba0f1a67003ff28399158ba3a6f70d64c9a66858807db03b1237c7f0df8",
+  "samples": 3185,
+  "audit": {
+    "engine": "mujoco-warp",
+    "version": "3.15.0",
+    "precision": "float32",
+    "device": "cuda:0",
+    "contact_capacity": 1072,
+    "constraint_capacity": 8576,
+    "five_pose_fk_checks": [
+      {
+        "position_error_m": 8.963322284394337e-08,
+        "rotation_frobenius_error": 3.681748363107543e-07,
+        "joint_error": 6.586204248648642e-08
+      },
+      {
+        "position_error_m": 9.66408486569037e-08,
+        "rotation_frobenius_error": 3.4911915493861663e-07,
+        "joint_error": 6.330756008310345e-08
+      },
+      {
+        "position_error_m": 1.1688014761590537e-07,
+        "rotation_frobenius_error": 3.810190188838151e-07,
+        "joint_error": 6.841652488986938e-08
+      },
+      {
+        "position_error_m": 6.239020550191654e-08,
+        "rotation_frobenius_error": 3.308469867751904e-07,
+        "joint_error": 5.9445264266599906e-08
+      },
+      {
+        "position_error_m": 8.889985075866136e-08,
+        "rotation_frobenius_error": 4.3197407940706455e-07,
+        "joint_error": 4.724922986198976e-08
+      }
+    ],
+    "initial_fk_error_m": 8.963322284394337e-08
+  }
+}

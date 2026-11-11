@@ -1,0 +1,40 @@
+Output: /home/datamesh/github_waneta/physics-engine-benchmark/results/task04-drop-20261010/regression-cpu
+Running mujoco-cpu: slide dt=0.002 repeat=1
+slide dt=0.002 repeat=1: passed
+Running mujoco-cpu: slide dt=0.002 repeat=2
+slide dt=0.002 repeat=2: passed
+Running mujoco-cpu: slide dt=0.002 repeat=3
+slide dt=0.002 repeat=3: passed
+Running mujoco-cpu: slide dt=0.001 repeat=1
+slide dt=0.001 repeat=1: passed
+Running mujoco-cpu: slide dt=0.001 repeat=2
+slide dt=0.001 repeat=2: passed
+Running mujoco-cpu: slide dt=0.001 repeat=3
+slide dt=0.001 repeat=3: passed
+Running mujoco-cpu: drop dt=0.002 repeat=1
+drop  dt=0.002 repeat=1: passed
+Running mujoco-cpu: drop dt=0.002 repeat=2
+drop  dt=0.002 repeat=2: passed
+Running mujoco-cpu: drop dt=0.002 repeat=3
+drop  dt=0.002 repeat=3: passed
+Running mujoco-cpu: drop dt=0.001 repeat=1
+drop  dt=0.001 repeat=1: passed
+Running mujoco-cpu: drop dt=0.001 repeat=2
+drop  dt=0.001 repeat=2: passed
+Running mujoco-cpu: drop dt=0.001 repeat=3
+drop  dt=0.001 repeat=3: passed
+Running mujoco-cpu: hinge dt=0.001 repeat=1
+hinge dt=0.001 repeat=1: passed
+Running mujoco-cpu: hinge dt=0.001 repeat=2
+hinge dt=0.001 repeat=2: passed
+Running mujoco-cpu: hinge dt=0.001 repeat=3
+hinge dt=0.001 repeat=3: passed
+Running mujoco-cpu: hinge dt=0.0005 repeat=1
+hinge dt=0.0005 repeat=1: passed
+Running mujoco-cpu: hinge dt=0.0005 repeat=2
+hinge dt=0.0005 repeat=2: passed
+Running mujoco-cpu: hinge dt=0.0005 repeat=3
+hinge dt=0.0005 repeat=3: passed
+Report: /home/datamesh/github_waneta/physics-engine-benchmark/results/task04-drop-20261010/regression-cpu/report.md
+/home/datamesh/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/matplotlib-z5hra98l because there was an issue with the default path (/home/datamesh/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.

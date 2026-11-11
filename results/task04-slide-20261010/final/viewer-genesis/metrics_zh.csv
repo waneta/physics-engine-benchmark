@@ -1,0 +1,7 @@
+﻿引擎,场景,步长(ms),重复编号,状态,指标名称,指标字段,单位,数值
+Genesis CUDA,滑动方块,2.0,1,失败,运行错误,,,"EGLError: EGLError(
+	err = 'No EGL context could be initialized.'
+)"
+Genesis CUDA,滑动方块,1.0,1,失败,运行错误,,,"EGLError: EGLError(
+	err = 'No EGL context could be initialized.'
+)"

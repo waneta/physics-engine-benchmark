@@ -1,0 +1,117 @@
+[42/111] physx: stack-48203d3b5208
+[42/111] physx: stack-48203d3b5208
+  completed; task_success=False; error=None
+[52/111] physx: push-94cccfcec2b9
+  completed; task_success=True; error=None
+[53/111] physx: push-d1b5075ccdeb
+  completed; task_success=True; error=None
+[54/111] physx: push-3b1bb08c77d3
+  completed; task_success=True; error=None
+[56/111] physx: push-7ab979f32354
+  completed; task_success=True; error=None
+[57/111] physx: push-3b01d3ab60b8
+  completed; task_success=True; error=None
+[58/111] physx: push-8e74d193afde
+  completed; task_success=True; error=None
+[59/111] physx: push-6ecd44229ed6
+  completed; task_success=True; error=None
+[60/111] physx: push-072103986bc2
+  completed; task_success=True; error=None
+[61/111] physx: push-7b6f982c0e5f
+  completed; task_success=False; error=None
+[62/111] physx: push-4cd12fb7a122
+  completed; task_success=False; error=None
+[63/111] physx: push-9dde4881a363
+  completed; task_success=False; error=None
+[64/111] physx: push-96ccdc35e6c4
+  completed; task_success=False; error=None
+[65/111] physx: push-62ec297f64f9
+  completed; task_success=False; error=None
+[66/111] physx: push-8848601ece70
+  completed; task_success=False; error=None
+[68/111] physx: push-a3136d589283
+  completed; task_success=False; error=None
+[69/111] physx: push-eb388fee8cf6
+  completed; task_success=False; error=None
+[70/111] physx: push-845d30f5f2aa
+  completed; task_success=False; error=None
+[71/111] physx: push-d6892b8092c9
+  completed; task_success=False; error=None
+[72/111] physx: push-7311eb035f71
+  completed; task_success=False; error=None
+[74/111] physx: push-f7c9528c13ab
+  completed; task_success=False; error=None
+[75/111] physx: push-8d379b126f4e
+  completed; task_success=False; error=None
+[76/111] physx: push-fa3582cd1d2d
+  completed; task_success=False; error=None
+[77/111] physx: push-278ddbc4209f
+  completed; task_success=False; error=None
+[78/111] physx: push-ee03c962029d
+  completed; task_success=False; error=None
+[79/111] physx: sweep-cf7399b17d6d
+  completed; task_success=False; error=None
+[80/111] physx: sweep-58afcc89a59b
+  completed; task_success=False; error=None
+[81/111] physx: sweep-e700dae8e99f
+  completed; task_success=False; error=None
+[82/111] physx: insertion-ea58ee4b82b9
+  completed; task_success=True; error=None
+[83/111] physx: insertion-483c23124b40
+  completed; task_success=True; error=None
+[84/111] physx: insertion-6ca0603e7187
+  completed; task_success=True; error=None
+[85/111] physx: insertion-a50da9682978
+  overload; task_success=False; error=None
+[86/111] physx: insertion-18da234be164
+  overload; task_success=False; error=None
+[87/111] physx: insertion-8e56623a1fdd
+  overload; task_success=False; error=None
+[88/111] physx: insertion-5413d38ab6bf
+  overload; task_success=False; error=None
+[89/111] physx: insertion-14e6bb0e9d3b
+  overload; task_success=False; error=None
+[90/111] physx: insertion-e30c0c0ab219
+  overload; task_success=False; error=None
+[91/111] physx: insertion-386d95ac7e0a
+  completed; task_success=True; error=None
+[92/111] physx: insertion-70215a73a006
+  completed; task_success=True; error=None
+[93/111] physx: insertion-75386d156c0a
+  completed; task_success=True; error=None
+[94/111] physx: insertion-8c2a7186844f
+  completed; task_success=True; error=None
+[95/111] physx: insertion-47a67b3b0d61
+  completed; task_success=True; error=None
+[96/111] physx: insertion-aac36139cb78
+  completed; task_success=True; error=None
+[97/111] physx: insertion-cbef3637ecbb
+  completed; task_success=True; error=None
+[98/111] physx: insertion-fbe18b5c1654
+  completed; task_success=True; error=None
+[99/111] physx: insertion-a2e8669cfe34
+  completed; task_success=True; error=None
+[100/111] physx: insertion-5472deab52a7
+  completed; task_success=True; error=None
+[101/111] physx: insertion-37175dec0b01
+  completed; task_success=True; error=None
+[102/111] physx: insertion-ce5e90767957
+  completed; task_success=True; error=None
+[103/111] physx: insertion-68f21330c871
+  completed; task_success=True; error=None
+[104/111] physx: insertion-b9f97ad974b1
+  completed; task_success=True; error=None
+[105/111] physx: insertion-957abd9ccd58
+  completed; task_success=True; error=None
+[106/111] physx: insertion-42e1d7f6f4f1
+  completed; task_success=True; error=None
+[107/111] physx: insertion-8a9b3722f3b3
+  completed; task_success=True; error=None
+[108/111] physx: insertion-cb31ec5b7cf1
+  completed; task_success=True; error=None
+[109/111] physx: insertion-7fb0c438a828
+  overload; task_success=False; error=None
+[110/111] physx: insertion-d48bf8be9ebb
+  overload; task_success=False; error=None
+[111/111] physx: insertion-095882702afc
+  overload; task_success=False; error=None

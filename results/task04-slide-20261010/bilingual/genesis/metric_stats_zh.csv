@@ -1,0 +1,67 @@
+﻿引擎,场景,步长(ms),记录次数,通过次数,有效数值次数,指标名称,Metric name,指标字段,单位,单位说明 / Unit description,平均值,标准差,最小值,最大值
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,3,3,仿真步长,Simulation timestep,dt_s,s,秒 / second,0.002,0.0,0.002,0.002
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,3,3,物理步数,Physics steps,steps,步,步 / step,300.0,0.0,300,300
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,3,3,峰值接触合力,Peak resultant contact force,peak_contact_force_n,N,牛顿 / newton,1.5019442396085825,0.0,1.5019442396085825,1.5019442396085825
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,3,3,峰值法向接触力,Peak normal contact force,peak_contact_fz_n,N,牛顿 / newton,1.3945202174859537,0.0,1.3945202174859537,1.3945202174859537
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,3,3,最大穿透深度,Maximum penetration depth,max_penetration_m,m,米 / metre,8.374312368258571e-05,0.0,8.374312368258571e-05,8.374312368258571e-05
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,3,3,首次接触时间,First contact time,first_contact_s,s,秒 / second,0.002,0.0,0.002,0.002
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,3,3,质心静置时间,COM settling time,settled_time_s,s,秒 / second,0.26,0.0,0.26,0.26
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,3,3,最大动量平衡残差,Maximum momentum balance residual,max_momentum_residual_ns,N·s,牛顿秒 / newton second,5.72049027063859e-14,0.0,5.72049027063859e-14,5.72049027063859e-14
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,3,3,最大接触力核算误差,Maximum contact force accounting error,max_constraint_force_error_n,N,牛顿 / newton,0.0,0.0,0.0,0.0
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,3,3,窗口接触冲量X,Window contact impulse X,window_contact_jx_ns,N·s,牛顿秒 / newton second,-0.016507662486278468,0.0,-0.016507662486278468,-0.016507662486278468
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,3,3,窗口接触冲量Y,Window contact impulse Y,window_contact_jy_ns,N·s,牛顿秒 / newton second,9.375193674246026e-20,1.2037062152420224e-35,9.375193674246028e-20,9.375193674246028e-20
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,3,3,窗口接触冲量Z,Window contact impulse Z,window_contact_jz_ns,N·s,牛顿秒 / newton second,0.04126915621569617,0.0,0.04126915621569617,0.04126915621569617
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,3,0,接触冲量窗口完整,Contact impulse window complete,impulse_window_complete,布尔,布尔值 / boolean,,,,
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,3,3,停止时间,Stopping time,stop_time_s,s,秒 / second,0.26,0.0,0.26,0.26
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,3,3,停止距离,Stopping distance,stop_distance_m,m,米 / metre,0.12645274718403343,0.0,0.12645274718403343,0.12645274718403343
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,3,3,最终X位移,Final X displacement,final_displacement_m,m,米 / metre,0.12644700340497408,0.0,0.12644700340497408,0.12644700340497408
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,3,3,最大质心抬升,Maximum COM lift,max_com_lift_m,m,米 / metre,0.0,0.0,0.0,0.0
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,3,3,理想库仑停止距离,Ideal Coulomb stopping distance,ideal_coulomb_distance_m,m,米 / metre,0.127420998980632,0.0,0.127420998980632,0.127420998980632
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,3,3,设定摩擦系数,Configured friction coefficient,configured_friction_coefficient,1,无量纲 / dimensionless,0.4000000000000001,5.551115123125783e-17,0.4,0.4
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,3,3,滑动段测量步数,Sliding measurement steps,friction_measurement_samples,步,步 / step,106.0,0.0,106,106
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,3,3,滑动窗口内有接触步数,Contact steps in sliding window,friction_contact_samples,步,步 / step,106.0,0.0,106,106
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,3,3,滑动段平均摩擦力,Mean sliding friction force,mean_friction_force_n,N,牛顿 / newton,0.3908250898371802,5.551115123125783e-17,0.39082508983718023,0.39082508983718023
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,3,3,滑动段平均法向力,Mean sliding normal force,mean_normal_force_n,N,牛顿 / newton,0.9806832214914659,0.0,0.9806832214914659,0.9806832214914659
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,3,3,实测等效摩擦系数,Measured effective friction coefficient,effective_friction_coefficient,1,无量纲 / dimensionless,0.3985232756840647,5.551115123125783e-17,0.39852327568406476,0.39852327568406476
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,3,3,滑动段平均X减速度,Mean sliding X deceleration,mean_deceleration_m_s2,m/s²,米每二次方秒 / metre per second squared,3.908250898384717,4.440892098500626e-16,3.9082508983847175,3.9082508983847175
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,3,0,滑动段摩擦力反向,Sliding friction opposes motion,friction_opposes_motion,布尔,布尔值 / boolean,,,,
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,3,3,全程X接触冲量,Total contact impulse X,total_contact_jx_ns,N·s,牛顿秒 / newton second,-0.10000000000034544,1.3877787807814457e-17,-0.10000000000034545,-0.10000000000034545
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,3,3,相对理想轨迹最大X位移误差,Maximum X displacement error vs ideal trajectory,max_displacement_error_m,m,米 / metre,0.0009796388722101423,0.0,0.0009796388722101423,0.0009796388722101423
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,3,3,相对理想轨迹X位移均方根误差,RMS X displacement error vs ideal trajectory,rms_displacement_error_m,m,米 / metre,0.0008254221147657964,0.0,0.0008254221147657964,0.0008254221147657964
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,3,3,相对理想轨迹最大X速度误差,Maximum X velocity error vs ideal trajectory,max_slide_velocity_error_m_s,m/s,米每秒 / metre per second,0.007847999999999966,0.0,0.007847999999999966,0.007847999999999966
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,3,3,最大侧向偏移,Maximum lateral displacement,max_lateral_displacement_m,m,米 / metre,6.508040626340123e-19,9.62964972193618e-35,6.5080406263401225e-19,6.5080406263401225e-19
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,3,3,理想库仑停止时间,Ideal Coulomb stopping time,ideal_coulomb_stop_time_s,s,秒 / second,0.254841997961264,0.0,0.254841997961264,0.254841997961264
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,3,3,停止距离相对理想值偏差,Stopping distance deviation from ideal,stop_distance_error_percent,%,百分比 / percent,-0.7598840099705564,0.0,-0.7598840099705564,-0.7598840099705564
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,3,3,仿真步长,Simulation timestep,dt_s,s,秒 / second,0.001,0.0,0.001,0.001
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,3,3,物理步数,Physics steps,steps,步,步 / step,600.0,0.0,600,600
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,3,3,峰值接触合力,Peak resultant contact force,peak_contact_force_n,N,牛顿 / newton,1.254692675234048,0.0,1.254692675234048,1.254692675234048
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,3,3,峰值法向接触力,Peak normal contact force,peak_contact_fz_n,N,牛顿 / newton,1.1649529031792822,0.0,1.1649529031792822,1.1649529031792822
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,3,3,最大穿透深度,Maximum penetration depth,max_penetration_m,m,米 / metre,4.862578591516287e-05,0.0,4.862578591516287e-05,4.862578591516287e-05
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,3,3,首次接触时间,First contact time,first_contact_s,s,秒 / second,0.001,0.0,0.001,0.001
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,3,3,质心静置时间,COM settling time,settled_time_s,s,秒 / second,0.262,0.0,0.262,0.262
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,3,3,最大动量平衡残差,Maximum momentum balance residual,max_momentum_residual_ns,N·s,牛顿秒 / newton second,2.872138483511957e-14,0.0,2.872138483511957e-14,2.872138483511957e-14
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,3,3,最大接触力核算误差,Maximum contact force accounting error,max_constraint_force_error_n,N,牛顿 / newton,0.0,0.0,0.0,0.0
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,3,3,窗口接触冲量X,Window contact impulse X,window_contact_jx_ns,N·s,牛顿秒 / newton second,-0.016099500276672136,0.0,-0.016099500276672136,-0.016099500276672136
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,3,3,窗口接触冲量Y,Window contact impulse Y,window_contact_jy_ns,N·s,牛顿秒 / newton second,-2.618567613251416e-21,3.76158192263132e-37,-2.6185676132514164e-21,-2.6185676132514164e-21
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,3,3,窗口接触冲量Z,Window contact impulse Z,window_contact_jz_ns,N·s,牛顿秒 / newton second,0.04024875069168034,0.0,0.04024875069168034,0.04024875069168034
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,3,0,接触冲量窗口完整,Contact impulse window complete,impulse_window_complete,布尔,布尔值 / boolean,,,,
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,3,3,停止时间,Stopping time,stop_time_s,s,秒 / second,0.262,0.0,0.262,0.262
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,3,3,停止距离,Stopping distance,stop_distance_m,m,米 / metre,0.12696067064951433,0.0,0.12696067064951433,0.12696067064951433
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,3,3,最终X位移,Final X displacement,final_displacement_m,m,米 / metre,0.1269561482682044,0.0,0.1269561482682044,0.1269561482682044
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,3,3,最大质心抬升,Maximum COM lift,max_com_lift_m,m,米 / metre,0.0,0.0,0.0,0.0
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,3,3,理想库仑停止距离,Ideal Coulomb stopping distance,ideal_coulomb_distance_m,m,米 / metre,0.127420998980632,0.0,0.127420998980632,0.127420998980632
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,3,3,设定摩擦系数,Configured friction coefficient,configured_friction_coefficient,1,无量纲 / dimensionless,0.4000000000000001,5.551115123125783e-17,0.4,0.4
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,3,3,滑动段测量步数,Sliding measurement steps,friction_measurement_samples,步,步 / step,212.0,0.0,212,212
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,3,3,滑动窗口内有接触步数,Contact steps in sliding window,friction_contact_samples,步,步 / step,212.0,0.0,212,212
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,3,3,滑动段平均摩擦力,Mean sliding friction force,mean_friction_force_n,N,牛顿 / newton,0.3913492361634148,5.551115123125783e-17,0.3913492361634149,0.3913492361634149
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,3,3,滑动段平均法向力,Mean sliding normal force,mean_normal_force_n,N,牛顿 / newton,0.9808690976074267,0.0,0.9808690976074267,0.9808690976074267
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,3,3,实测等效摩擦系数,Measured effective friction coefficient,effective_friction_coefficient,1,无量纲 / dimensionless,0.3989821242386052,0.0,0.3989821242386052,0.3989821242386052
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,3,3,滑动段平均X减速度,Mean sliding X deceleration,mean_deceleration_m_s2,m/s²,米每二次方秒 / metre per second squared,3.9134923616451154,0.0,3.9134923616451154,3.9134923616451154
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,3,0,滑动段摩擦力反向,Sliding friction opposes motion,friction_opposes_motion,布尔,布尔值 / boolean,,,,
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,3,3,全程X接触冲量,Total contact impulse X,total_contact_jx_ns,N·s,牛顿秒 / newton second,-0.10000000000044484,0.0,-0.10000000000044484,-0.10000000000044484
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,3,3,相对理想轨迹最大X位移误差,Maximum X displacement error vs ideal trajectory,max_displacement_error_m,m,米 / metre,0.00048277601428819983,0.0,0.00048277601428819983,0.00048277601428819983
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,3,3,相对理想轨迹X位移均方根误差,RMS X displacement error vs ideal trajectory,rms_displacement_error_m,m,米 / metre,0.0003963691602515813,0.0,0.0003963691602515813,0.0003963691602515813
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,3,3,相对理想轨迹最大X速度误差,Maximum X velocity error vs ideal trajectory,max_slide_velocity_error_m_s,m/s,米每秒 / metre per second,0.005722682053090559,0.0,0.005722682053090559,0.005722682053090559
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,3,3,最大侧向偏移,Maximum lateral displacement,max_lateral_displacement_m,m,米 / metre,5.3930192584812504e-20,0.0,5.3930192584812504e-20,5.3930192584812504e-20
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,3,3,理想库仑停止时间,Ideal Coulomb stopping time,ideal_coulomb_stop_time_s,s,秒 / second,0.254841997961264,0.0,0.254841997961264,0.254841997961264
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,3,3,停止距离相对理想值偏差,Stopping distance deviation from ideal,stop_distance_error_percent,%,百分比 / percent,-0.36126567426114814,0.0,-0.36126567426114814,-0.36126567426114814

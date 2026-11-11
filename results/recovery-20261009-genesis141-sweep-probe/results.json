@@ -1,0 +1,113 @@
+[
+  {
+    "numerically_valid": true,
+    "task_success": false,
+    "simulated_seconds": 12.5,
+    "max_fk_error_m": 1.0065819770698741e-15,
+    "peak_contact_force_n": 574.079758418685,
+    "joint_rmse_rad": 0.01596773921676257,
+    "normalized_squared_arm_effort": 0.03104840557991193,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {
+      "object0": 0.019621060967599538,
+      "object1": 0.5739304111029029,
+      "object2": 0.012930798340163812,
+      "object3": 0.01579321252007295,
+      "object4": 0.02523956044747028,
+      "object5": 0.011612761053880441,
+      "object6": 4.369716511201723e-05,
+      "object7": 0.028568209953600578,
+      "object8": 0.023170764928251764,
+      "object9": 6.274976803972926e-07,
+      "object10": 0.0005590077291612164,
+      "object11": 0.5741196269784867,
+      "object12": 2.5939927969878538e-05,
+      "object13": 0.19200615867033383,
+      "object14": 0.07720023597053266
+    },
+    "contact_force_validated": false,
+    "objects_in_tray": 10,
+    "engine": "genesis",
+    "case": {
+      "family": "sweep",
+      "dt": 0.001,
+      "repeat": 0,
+      "id": "sweep-cf7399b17d6d",
+      "duration": 12.5
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 1138.199157754003,
+    "reference_sha256": "26da1241cfec8726d0db59fc4ad5874eabd0c7fb01beb7929e5faacdf67de32d",
+    "samples": 12501,
+    "audit": {
+      "engine": "genesis",
+      "version": "1.4.1",
+      "precision": "float64",
+      "device": "cuda:0",
+      "import_errors": {
+        "link0": 0.0,
+        "link1": 0.0,
+        "link2": 0.0,
+        "link3": 0.0,
+        "link4": 0.0,
+        "link5": 0.0,
+        "link6": 0.0,
+        "link7": 0.0,
+        "hand": 0.0,
+        "left_finger": 0.0,
+        "right_finger": 0.0,
+        "paddle": 0.0,
+        "table": 0.0,
+        "object0": 0.0,
+        "object1": 0.0,
+        "object2": 0.0,
+        "object3": 0.0,
+        "object4": 0.0,
+        "object5": 0.0,
+        "object6": 0.0,
+        "object7": 0.0,
+        "object8": 0.0,
+        "object9": 0.0,
+        "object10": 0.0,
+        "object11": 0.0,
+        "object12": 0.0,
+        "object13": 0.0,
+        "object14": 0.0,
+        "tray": 0.0,
+        "ramp": 0.0,
+        "passage_-1": 0.0,
+        "passage_1": 0.0,
+        "guide": 0.0
+      },
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 2.220446049250313e-16,
+          "rotation_frobenius_error": 1.744852445362456e-15,
+          "joint_error": 0.0
+        },
+        {
+          "position_error_m": 4.440892098500626e-16,
+          "rotation_frobenius_error": 2.7112878867305186e-15,
+          "joint_error": 0.0
+        },
+        {
+          "position_error_m": 2.220446049250313e-16,
+          "rotation_frobenius_error": 2.3747344311330636e-15,
+          "joint_error": 0.0
+        },
+        {
+          "position_error_m": 3.3306690738754696e-16,
+          "rotation_frobenius_error": 2.4948749367860014e-15,
+          "joint_error": 0.0
+        },
+        {
+          "position_error_m": 2.220446049250313e-16,
+          "rotation_frobenius_error": 2.469946533257708e-15,
+          "joint_error": 0.0
+        }
+      ],
+      "initial_fk_error_m": 2.220446049250313e-16
+    }
+  }
+]

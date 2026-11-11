@@ -1,0 +1,14 @@
+Output: /home/datamesh/github_waneta/physics-engine-benchmark/results/task04-slide-rerun-20261010-1818/physx
+Running physx: slide dt=0.002 repeat=1
+slide dt=0.002 repeat=1: passed
+Running physx: slide dt=0.002 repeat=2
+slide dt=0.002 repeat=2: passed
+Running physx: slide dt=0.002 repeat=3
+slide dt=0.002 repeat=3: passed
+Running physx: slide dt=0.001 repeat=1
+slide dt=0.001 repeat=1: passed
+Running physx: slide dt=0.001 repeat=2
+slide dt=0.001 repeat=2: passed
+Running physx: slide dt=0.001 repeat=3
+slide dt=0.001 repeat=3: failed
+Report: /home/datamesh/github_waneta/physics-engine-benchmark/results/task04-slide-rerun-20261010-1818/physx/report.md

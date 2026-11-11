@@ -1,0 +1,12 @@
+soft_compression-00 completed None
+soft_compression-01 completed None
+soft_compression-02 completed None
+soft_compression-03 error Isaac worker timed out; see /home/datamesh/github_waneta/physics-engine-benchmark/results/full-soft-v1/source/.cache/logs/physics-bench-171e652bf5df.log
+soft_grasp-04 inverted None
+soft_grasp-05 inverted None
+soft_grasp-06 error Native cleanup failed: Command '['docker', 'stop', '--time', '5', 'physics-bench-3170065fa3b2']' timed out after 15 seconds
+soft_grasp-07 inverted None
+soft_grasp-08 inverted None
+soft_grasp-09 inverted None
+soft_grasp-10 inverted None
+soft_grasp-11 inverted None

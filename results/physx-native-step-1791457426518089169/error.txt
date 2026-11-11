@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/src/physics_benchmark/extended/rigid.py", line 184, in run
+    wrench=sim.step(u);q,v,p,quat=sim.state()
+           ^^^^^^^^^^^
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/src/physics_benchmark/extended/physx.py", line 40, in step
+    self.send({'kind':'step','command':command.tolist()});reply=self.worker.receive();self.current=reply['state'];return np.asarray(reply['wrench'])
+                                                                ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/src/physics_benchmark/backends/physx.py", line 93, in receive
+    raise RuntimeError(message["error"])
+RuntimeError: Traceback (most recent call last):
+  File "/workspace/scripts/isaac_extended_worker.py", line 134, in <module>
+    wrench=experiment.step(request['command']);emit('sample',state=experiment.state(),wrench=wrench.tolist())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scripts/isaac_extended_worker.py", line 121, in step
+    force=friction[i]/self.dt;wrench[b,:3]+=force;wrench[b,3:]+=np.cross(points[i]-self.positions[b],force)
+          ~~~~~~~~^^^
+IndexError: index 2048 is out of bounds for axis 0 with size 2048
+

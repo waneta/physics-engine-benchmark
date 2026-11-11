@@ -8,10 +8,12 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 .ruff_cache/
+# Generated results stay ignored; curated tracked files are listed in archives/2026-11-11/manifest.json.
 results/
 dist/
 *.egg-info/
 
+# The archived diagnose_warp_force.py is explicitly tracked; other cache files stay ignored.
 .cache/
 build/
 

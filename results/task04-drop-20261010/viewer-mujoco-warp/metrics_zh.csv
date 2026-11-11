@@ -1,0 +1,2 @@
+﻿引擎,场景,步长(ms),重复编号,状态,指标名称,Metric name,指标字段,单位,单位说明 / Unit description,数值,数值显示 / Display value
+MuJoCo-Warp（直接 CUDA）,方块下落 / Cube drop,2.0,1,中断 / Interrupted,运行错误,Run error,,,,KeyboardInterrupt: cancelled by user,

@@ -1,0 +1,62 @@
+{
+  "gravity_m_s2": 9.81,
+  "cube_mass_kg": 0.1,
+  "cube_side_m": 0.04,
+  "slide_speed_m_s": 1.0,
+  "sliding_friction": 0.4,
+  "drop_height_m": 0.35,
+  "hinge_mass_kg": 1.0,
+  "hinge_length_m": 0.3,
+  "hinge_width_m": 0.04,
+  "hinge_initial_angle_rad": 0.5,
+  "pulse_torque_nm": 0.2,
+  "pulse_start_s": 0.1,
+  "pulse_end_s": 0.2,
+  "contact_solref": [
+    0.01,
+    1.0
+  ],
+  "contact_solimp": [
+    0.9,
+    0.95,
+    0.001,
+    0.5,
+    2.0
+  ],
+  "solver_iterations": 100,
+  "solver_tolerance": 1e-10,
+  "stop_speed_m_s": 0.001,
+  "impulse_window_s": 0.04,
+  "momentum_tolerance_ns": 5e-06,
+  "durations_s": {
+    "slide": 0.6,
+    "drop": 1.0,
+    "hinge": 1.0
+  },
+  "timesteps_s": {
+    "slide": [
+      0.002,
+      0.001
+    ],
+    "drop": [
+      0.002,
+      0.001
+    ],
+    "hinge": [
+      0.001,
+      0.0005
+    ]
+  },
+  "provenance": {
+    "mode": "independent_reimplementation_not_exact_reproduction",
+    "source": ".talisman/dev_docs/2026-10/机器人仿真物理引擎对比 — MuJoCo‑Warp  Genesis  PhysX 1.md",
+    "assumptions": [
+      "slide_speed_m_s=1 and sliding_friction=0.4 are selected locally; the clipping omits them",
+      "hinge is a uniform rectangular prism with square 4 cm cross-section",
+      "Euler integrator, Newton solver, elliptic cone, condim=3 and solimp are explicit local choices",
+      "solref=(0.01,1) is stated for drop; using it for slide is a local choice",
+      "no torsional/rolling friction, joint damping, armature, or pre-settling",
+      "installed engine version is locked in uv.lock, not assumed equal to the article"
+    ]
+  }
+}

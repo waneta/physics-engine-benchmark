@@ -1,0 +1,47 @@
+{
+  "engine": "physx",
+  "execution_path": "Isaac Sim / PhysX CPU TGS",
+  "isaac_sim_version": "6.0.1-rc.7+release.42383.32955d8d.gl",
+  "precision": "float32",
+  "solver": "TGS",
+  "gpu_dynamics": false,
+  "position_iterations": 100,
+  "velocity_iterations": 1,
+  "mass_kg": [
+    [
+      0.10000000149011612
+    ]
+  ],
+  "inertia_kg_m2": [
+    [
+      2.6666666599339806e-05,
+      0.0,
+      0.0,
+      0.0,
+      2.6666666599339806e-05,
+      0.0,
+      0.0,
+      0.0,
+      2.6666666599339806e-05
+    ]
+  ],
+  "com_local": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "force_source": "PhysX native contact-report impulse on target body / dt, including friction",
+  "contact_offset_m": 0.001,
+  "rest_offset_m": 0.0,
+  "restitution": 0.0,
+  "implementation_difference": "Isaac Sim 6.0.1 image, not article 6.1; hard contact has no solref/solimp",
+  "scene_usda": "#usda 1.0\n(\n    endTimeCode = 1000000\n    metersPerUnit = 1\n    startTimeCode = 0\n    timeCodesPerSecond = 1000\n    upAxis = \"Z\"\n)\n\ndef \"Render\" (\n    hide_in_stage_window = true\n    no_delete = true\n)\n{\n    def \"OmniverseKit\"\n    {\n        def \"HydraTextures\" (\n            hide_in_stage_window = true\n            no_delete = true\n        )\n        {\n            def RenderProduct \"omni_kit_widget_viewport_ViewportTexture_0\" (\n                prepend apiSchemas = [\"OmniRtxSettingsCommonAdvancedAPI_1\", \"OmniRtxSettingsRtAdvancedAPI_1\", \"OmniRtxSettingsPtAdvancedAPI_1\", \"OmniRtxPostColorGradingAPI_1\", \"OmniRtxPostChromaticAberrationAPI_1\", \"OmniRtxPostBloomPhysicalAPI_1\", \"OmniRtxPostMatteObjectAPI_1\", \"OmniRtxPostCompositingAPI_1\", \"OmniRtxPostDofAPI_1\", \"OmniRtxPostMotionBlurAPI_1\", \"OmniRtxPostTvNoiseAPI_1\", \"OmniRtxPostTonemapIrayReinhardAPI_1\", \"OmniRtxPostDebugSettingsAPI_1\", \"OmniRtxDebugSettingsAPI_1\"]\n                hide_in_stage_window = true\n                no_delete = true\n            )\n            {\n                rel camera = </OmniverseKit_Persp>\n                token omni:rtx:ambientOcclusion:denoiserMode = \"none\"\n                token omni:rtx:background:source:texture:textureMode = \"repeatMirrored\"\n                token omni:rtx:background:source:type = \"domeLight\"\n                bool omni:rtx:debug:view:pixelDebug:enableFixedTextPos = 1\n                token omni:rtx:directLighting:sampledLighting:denoisingTechnique = \"None\"\n                bool omni:rtx:dlss:frameGeneration = 0\n                float3 omni:rtx:domeLight:rotationAxis = (0, 0, 1)\n                bool omni:rtx:indirectDiffuse:denoiser:enabled = 0\n                bool omni:rtx:material:db:syncLoads = 1\n                token omni:rtx:post:dlss:execMode = \"performance\"\n                bool omni:rtx:post:registeredCompositing:invertColorCorrection = 1\n                bool omni:rtx:post:registeredCompositing:invertToneMap = 1\n                bool omni:rtx:pt:adaptiveSampling:filterError = 0\n                uint omni:rtx:pt:adaptiveSampling:fixedSppIterations = 2\n                int omni:rtx:pt:clampSpp = 64\n                uint omni:rtx:pt:limits:maxBounces = 3\n                uint omni:rtx:pt:limits:maxGlossyBounces = 3\n                uint omni:rtx:pt:maxSamplesPerLaunch = 2073600\n                uint omni:rtx:pt:mgpu:maxPixelsPerRegionExponent = 12\n                int omni:rtx:pt:samplesPerIteration = 64\n                uint omni:rtx:pt:samplesPerPixel = 64\n                bool omni:rtx:reflections:denoiser:enabled = 0\n                token omni:rtx:rendermode = \"RealTimePathTracing\"\n                color3f omni:rtx:rt:ambientLight:color = (0.1, 0.1, 0.1)\n                bool omni:rtx:rt:demoire = 0\n                bool omni:rtx:rt:lightcache:spatialCache:dontResolveConflicts = 1\n                int omni:rtx:rt:sss:samples = 1\n                uint omni:rtx:rtpt:maxVolumeBounces = 15\n                float omni:rtx:rtpt:modulatingRoughnessThreshold = 0.08\n                bool omni:rtx:scene:hydra:materialSyncLoads = 1\n                bool omni:rtx:scene:hydra:mdlMaterialWarmup = 1\n                rel orderedVars = </Render/Vars/LdrColor>\n                custom bool overrideClipRange = 0\n                uniform int2 resolution = (64, 64)\n            }\n        }\n    }\n\n    def RenderSettings \"OmniverseGlobalRenderSettings\" (\n        prepend apiSchemas = [\"OmniRtxSettingsGlobalRtAdvancedAPI_1\", \"OmniRtxSettingsGlobalPtAdvancedAPI_1\"]\n        no_delete = true\n    )\n    {\n        rel products = </Render/OmniverseKit/HydraTextures/omni_kit_widget_viewport_ViewportTexture_0>\n    }\n\n    def \"Vars\"\n    {\n        def RenderVar \"LdrColor\" (\n            hide_in_stage_window = true\n            no_delete = true\n        )\n        {\n            uniform string sourceName = \"LdrColor\"\n            uniform token sourceType = \"raw\"\n        }\n    }\n}\n\nover \"OmniverseKit_Persp\"\n{\n    float exposure:fStop = 5\n    float exposure:responsivity = 1.1026709\n    float exposure:time = 0.02\n}\n\ndef \"World\"\n{\n    def PhysicsScene \"physicsScene\" (\n        prepend apiSchemas = [\"NewtonSceneAPI\", \"PhysxSceneAPI\"]\n    )\n    {\n        vector3f physics:gravityDirection = (0, 0, -1)\n        float physics:gravityMagnitude = 9.81\n        uniform token physxScene:broadphaseType = \"MBP\"\n        bool physxScene:enableCCD = 1\n        bool physxScene:enableGPUDynamics = 0\n        bool physxScene:enableStabilization = 0\n        uniform token physxScene:solverType = \"TGS\"\n        uint physxScene:timeStepsPerSecond = 1000\n    }\n\n    def Xform \"object\" (\n        prepend apiSchemas = [\"PhysicsRigidBodyAPI\", \"PhysicsMassAPI\", \"PhysxRigidBodyAPI\", \"MaterialBindingAPI\", \"PhysxContactReportAPI\"]\n    )\n    {\n        rel material:binding:physics = </World/material> (\n            bindMaterialAs = \"weakerThanDescendants\"\n        )\n        vector3f physics:angularVelocity = (4.0752832e-7, -0.000001709751, 0.0000022101221)\n        point3f physics:centerOfMass = (0, 0, 0)\n        float3 physics:diagonalInertia = (0.000026666667, 0.000026666667, 0.000026666667)\n        float physics:mass = 0.1\n        quatf physics:principalAxes = (1, 0, 0, 0)\n        vector3f physics:velocity = (0.9921524, 1.4519105e-9, -1.1853649e-7)\n        float physxContactReport:threshold = 0\n        float physxRigidBody:angularDamping = 0\n        float physxRigidBody:linearDamping = 0\n        float physxRigidBody:sleepThreshold = 0\n        int physxRigidBody:solverPositionIterationCount = 100\n        int physxRigidBody:solverVelocityIterationCount = 1\n        float physxRigidBody:stabilizationThreshold = 0\n        quatf xformOp:orient = (1, 3.8748332e-14, 2.842171e-14, -4.5863873e-9)\n        float3 xformOp:scale = (1, 1, 1)\n        double3 xformOp:translate = (0.0019882305059581995, -2.3260258996682381e-10, 0.020000001415610313)\n        uniform token[] xformOpOrder = [\"xformOp:translate\", \"xformOp:orient\", \"xformOp:scale\"]\n\n        def Cube \"geometry\" (\n            prepend apiSchemas = [\"PhysicsCollisionAPI\", \"PhysxCollisionAPI\"]\n        )\n        {\n            float physxCollision:contactOffset = 0.001\n            float physxCollision:restOffset = 0\n            double size = 1\n            float3 xformOp:scale = (0.04, 0.04, 0.04)\n            uniform token[] xformOpOrder = [\"xformOp:scale\"]\n        }\n    }\n\n    def Xform \"ground\"\n    {\n        quatf xformOp:orient = (1, 0, 0, 0)\n        float3 xformOp:scale = (1, 1, 1)\n        double3 xformOp:translate = (0, 0, 0)\n        uniform token[] xformOpOrder = [\"xformOp:translate\", \"xformOp:orient\", \"xformOp:scale\"]\n\n        def Mesh \"CollisionMesh\"\n        {\n            uniform bool doubleSided = 0\n            int[] faceVertexCounts = [4]\n            int[] faceVertexIndices = [0, 1, 2, 3]\n            normal3f[] normals = [(0, 0, 1), (0, 0, 1), (0, 0, 1), (0, 0, 1)]\n            point3f[] points = [(-10, -10, 0), (10, -10, 0), (10, 10, 0), (-10, 10, 0)]\n            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]\n            texCoord2f[] primvars:st = [(0, 0), (1, 0), (1, 1), (0, 1)] (\n                interpolation = \"varying\"\n            )\n        }\n\n        def Plane \"CollisionPlane\" (\n            prepend apiSchemas = [\"PhysicsCollisionAPI\", \"MaterialBindingAPI\", \"PhysxCollisionAPI\"]\n        )\n        {\n            uniform token axis = \"Z\"\n            rel material:binding:physics = </World/material> (\n                bindMaterialAs = \"weakerThanDescendants\"\n            )\n            float physxCollision:contactOffset = 0.001\n            float physxCollision:restOffset = 0\n            uniform token purpose = \"guide\"\n        }\n    }\n\n    def Material \"material\" (\n        prepend apiSchemas = [\"PhysicsMaterialAPI\"]\n    )\n    {\n        float physics:dynamicFriction = 0.4\n        float physics:restitution = 0\n        float physics:staticFriction = 0.4\n    }\n}\n\n",
+  "validation": "passed",
+  "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1"
+}

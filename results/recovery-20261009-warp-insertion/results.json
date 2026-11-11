@@ -1,0 +1,1982 @@
+[
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 4.0,
+    "max_fk_error_m": 2.8632940858244396e-07,
+    "peak_contact_force_n": 0.0,
+    "joint_rmse_rad": 0.0007426060809162048,
+    "normalized_squared_arm_effort": 0.01605974538111314,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {},
+    "contact_force_validated": null,
+    "final_insertion_depth_m": 0.020002026914556992,
+    "minimum_final_hold_depth_m": 0.019999642729674805,
+    "engine": "mujoco-warp",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 0,
+      "clearance": 0.0001,
+      "offset": 0,
+      "tilt_deg": 0,
+      "id": "insertion-ea58ee4b82b9",
+      "duration": 4.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 27.284784323999702,
+    "reference_sha256": "d1530ba0f1a67003ff28399158ba3a6f70d64c9a66858807db03b1237c7f0df8",
+    "samples": 4001,
+    "audit": {
+      "engine": "mujoco-warp",
+      "version": "3.15.0",
+      "precision": "float32",
+      "device": "cuda:0",
+      "contact_capacity": 1072,
+      "constraint_capacity": 8576,
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 8.963322284394337e-08,
+          "rotation_frobenius_error": 3.681748363107543e-07,
+          "joint_error": 6.586204248648642e-08
+        },
+        {
+          "position_error_m": 9.66408486569037e-08,
+          "rotation_frobenius_error": 3.4911915493861663e-07,
+          "joint_error": 6.330756008310345e-08
+        },
+        {
+          "position_error_m": 1.1688014761590537e-07,
+          "rotation_frobenius_error": 3.810190188838151e-07,
+          "joint_error": 6.841652488986938e-08
+        },
+        {
+          "position_error_m": 6.239020550191654e-08,
+          "rotation_frobenius_error": 3.308469867751904e-07,
+          "joint_error": 5.9445264266599906e-08
+        },
+        {
+          "position_error_m": 8.889985075866136e-08,
+          "rotation_frobenius_error": 4.3197407940706455e-07,
+          "joint_error": 4.724922986198976e-08
+        }
+      ],
+      "initial_fk_error_m": 8.963322284394337e-08
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 4.0,
+    "max_fk_error_m": 2.8632940858244396e-07,
+    "peak_contact_force_n": 0.0,
+    "joint_rmse_rad": 0.0007426060809162048,
+    "normalized_squared_arm_effort": 0.01605974538111314,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {},
+    "contact_force_validated": null,
+    "final_insertion_depth_m": 0.020002026914556992,
+    "minimum_final_hold_depth_m": 0.019999642729674805,
+    "engine": "mujoco-warp",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 1,
+      "clearance": 0.0001,
+      "offset": 0,
+      "tilt_deg": 0,
+      "id": "insertion-483c23124b40",
+      "duration": 4.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 4.436781260999851,
+    "reference_sha256": "d1530ba0f1a67003ff28399158ba3a6f70d64c9a66858807db03b1237c7f0df8",
+    "samples": 4001,
+    "audit": {
+      "engine": "mujoco-warp",
+      "version": "3.15.0",
+      "precision": "float32",
+      "device": "cuda:0",
+      "contact_capacity": 1072,
+      "constraint_capacity": 8576,
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 8.963322284394337e-08,
+          "rotation_frobenius_error": 3.681748363107543e-07,
+          "joint_error": 6.586204248648642e-08
+        },
+        {
+          "position_error_m": 9.66408486569037e-08,
+          "rotation_frobenius_error": 3.4911915493861663e-07,
+          "joint_error": 6.330756008310345e-08
+        },
+        {
+          "position_error_m": 1.1688014761590537e-07,
+          "rotation_frobenius_error": 3.810190188838151e-07,
+          "joint_error": 6.841652488986938e-08
+        },
+        {
+          "position_error_m": 6.239020550191654e-08,
+          "rotation_frobenius_error": 3.308469867751904e-07,
+          "joint_error": 5.9445264266599906e-08
+        },
+        {
+          "position_error_m": 8.889985075866136e-08,
+          "rotation_frobenius_error": 4.3197407940706455e-07,
+          "joint_error": 4.724922986198976e-08
+        }
+      ],
+      "initial_fk_error_m": 8.963322284394337e-08
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 4.0,
+    "max_fk_error_m": 2.8632940858244396e-07,
+    "peak_contact_force_n": 0.0,
+    "joint_rmse_rad": 0.0007426060809162048,
+    "normalized_squared_arm_effort": 0.01605974538111314,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {},
+    "contact_force_validated": null,
+    "final_insertion_depth_m": 0.020002026914556992,
+    "minimum_final_hold_depth_m": 0.019999642729674805,
+    "engine": "mujoco-warp",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 2,
+      "clearance": 0.0001,
+      "offset": 0,
+      "tilt_deg": 0,
+      "id": "insertion-6ca0603e7187",
+      "duration": 4.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 4.383079704000011,
+    "reference_sha256": "d1530ba0f1a67003ff28399158ba3a6f70d64c9a66858807db03b1237c7f0df8",
+    "samples": 4001,
+    "audit": {
+      "engine": "mujoco-warp",
+      "version": "3.15.0",
+      "precision": "float32",
+      "device": "cuda:0",
+      "contact_capacity": 1072,
+      "constraint_capacity": 8576,
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 8.963322284394337e-08,
+          "rotation_frobenius_error": 3.681748363107543e-07,
+          "joint_error": 6.586204248648642e-08
+        },
+        {
+          "position_error_m": 9.66408486569037e-08,
+          "rotation_frobenius_error": 3.4911915493861663e-07,
+          "joint_error": 6.330756008310345e-08
+        },
+        {
+          "position_error_m": 1.1688014761590537e-07,
+          "rotation_frobenius_error": 3.810190188838151e-07,
+          "joint_error": 6.841652488986938e-08
+        },
+        {
+          "position_error_m": 6.239020550191654e-08,
+          "rotation_frobenius_error": 3.308469867751904e-07,
+          "joint_error": 5.9445264266599906e-08
+        },
+        {
+          "position_error_m": 8.889985075866136e-08,
+          "rotation_frobenius_error": 4.3197407940706455e-07,
+          "joint_error": 4.724922986198976e-08
+        }
+      ],
+      "initial_fk_error_m": 8.963322284394337e-08
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 4.0,
+    "max_fk_error_m": 3.0519015851330926e-07,
+    "peak_contact_force_n": 13.644136086667686,
+    "joint_rmse_rad": 0.000881772032765059,
+    "normalized_squared_arm_effort": 0.016112825239751653,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {},
+    "contact_force_validated": null,
+    "final_insertion_depth_m": 0.01996214715463218,
+    "minimum_final_hold_depth_m": 0.019958928843665458,
+    "engine": "mujoco-warp",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 0,
+      "clearance": 0.0001,
+      "offset": 0.00025,
+      "tilt_deg": 0,
+      "id": "insertion-a50da9682978",
+      "duration": 4.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 4.668826701000398,
+    "reference_sha256": "9000567f0dd5538c4b24ea990ae2731209a756c58b0eefa4b951769292f5081a",
+    "samples": 4001,
+    "audit": {
+      "engine": "mujoco-warp",
+      "version": "3.15.0",
+      "precision": "float32",
+      "device": "cuda:0",
+      "contact_capacity": 1072,
+      "constraint_capacity": 8576,
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 9.168047454544137e-08,
+          "rotation_frobenius_error": 3.42779915137593e-07,
+          "joint_error": 3.62904375439399e-08
+        },
+        {
+          "position_error_m": 6.85060511651514e-08,
+          "rotation_frobenius_error": 5.159121398003578e-07,
+          "joint_error": 3.7233183869389563e-08
+        },
+        {
+          "position_error_m": 5.8742533337596825e-08,
+          "rotation_frobenius_error": 2.680592806380066e-07,
+          "joint_error": 3.534769121849024e-08
+        },
+        {
+          "position_error_m": 5.9339793523349726e-08,
+          "rotation_frobenius_error": 2.361198812149755e-07,
+          "joint_error": 1.1888659923187106e-07
+        },
+        {
+          "position_error_m": 6.872500630996509e-08,
+          "rotation_frobenius_error": 2.904572520351321e-07,
+          "joint_error": 1.0669056482726091e-07
+        }
+      ],
+      "initial_fk_error_m": 9.168047454544137e-08
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 4.0,
+    "max_fk_error_m": 3.0519015851330926e-07,
+    "peak_contact_force_n": 13.64414817244993,
+    "joint_rmse_rad": 0.0008818378735262752,
+    "normalized_squared_arm_effort": 0.0161126543121476,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {},
+    "contact_force_validated": null,
+    "final_insertion_depth_m": 0.0199604782800184,
+    "minimum_final_hold_depth_m": 0.01995749843092265,
+    "engine": "mujoco-warp",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 1,
+      "clearance": 0.0001,
+      "offset": 0.00025,
+      "tilt_deg": 0,
+      "id": "insertion-18da234be164",
+      "duration": 4.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 4.60686368000006,
+    "reference_sha256": "9000567f0dd5538c4b24ea990ae2731209a756c58b0eefa4b951769292f5081a",
+    "samples": 4001,
+    "audit": {
+      "engine": "mujoco-warp",
+      "version": "3.15.0",
+      "precision": "float32",
+      "device": "cuda:0",
+      "contact_capacity": 1072,
+      "constraint_capacity": 8576,
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 9.168047454544137e-08,
+          "rotation_frobenius_error": 3.42779915137593e-07,
+          "joint_error": 3.62904375439399e-08
+        },
+        {
+          "position_error_m": 6.85060511651514e-08,
+          "rotation_frobenius_error": 5.159121398003578e-07,
+          "joint_error": 3.7233183869389563e-08
+        },
+        {
+          "position_error_m": 5.8742533337596825e-08,
+          "rotation_frobenius_error": 2.680592806380066e-07,
+          "joint_error": 3.534769121849024e-08
+        },
+        {
+          "position_error_m": 5.9339793523349726e-08,
+          "rotation_frobenius_error": 2.361198812149755e-07,
+          "joint_error": 1.1888659923187106e-07
+        },
+        {
+          "position_error_m": 6.872500630996509e-08,
+          "rotation_frobenius_error": 2.904572520351321e-07,
+          "joint_error": 1.0669056482726091e-07
+        }
+      ],
+      "initial_fk_error_m": 9.168047454544137e-08
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 4.0,
+    "max_fk_error_m": 3.0519015851330926e-07,
+    "peak_contact_force_n": 13.644100496075838,
+    "joint_rmse_rad": 0.0008818108806450333,
+    "normalized_squared_arm_effort": 0.016112834331051304,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {},
+    "contact_force_validated": null,
+    "final_insertion_depth_m": 0.019962564394080284,
+    "minimum_final_hold_depth_m": 0.019959286589660896,
+    "engine": "mujoco-warp",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 2,
+      "clearance": 0.0001,
+      "offset": 0.00025,
+      "tilt_deg": 0,
+      "id": "insertion-8e56623a1fdd",
+      "duration": 4.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 4.6175163689995316,
+    "reference_sha256": "9000567f0dd5538c4b24ea990ae2731209a756c58b0eefa4b951769292f5081a",
+    "samples": 4001,
+    "audit": {
+      "engine": "mujoco-warp",
+      "version": "3.15.0",
+      "precision": "float32",
+      "device": "cuda:0",
+      "contact_capacity": 1072,
+      "constraint_capacity": 8576,
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 9.168047454544137e-08,
+          "rotation_frobenius_error": 3.42779915137593e-07,
+          "joint_error": 3.62904375439399e-08
+        },
+        {
+          "position_error_m": 6.85060511651514e-08,
+          "rotation_frobenius_error": 5.159121398003578e-07,
+          "joint_error": 3.7233183869389563e-08
+        },
+        {
+          "position_error_m": 5.8742533337596825e-08,
+          "rotation_frobenius_error": 2.680592806380066e-07,
+          "joint_error": 3.534769121849024e-08
+        },
+        {
+          "position_error_m": 5.9339793523349726e-08,
+          "rotation_frobenius_error": 2.361198812149755e-07,
+          "joint_error": 1.1888659923187106e-07
+        },
+        {
+          "position_error_m": 6.872500630996509e-08,
+          "rotation_frobenius_error": 2.904572520351321e-07,
+          "joint_error": 1.0669056482726091e-07
+        }
+      ],
+      "initial_fk_error_m": 9.168047454544137e-08
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": false,
+    "simulated_seconds": 4.0,
+    "max_fk_error_m": 2.822158413416333e-07,
+    "peak_contact_force_n": 16.92353379396109,
+    "joint_rmse_rad": 0.00466733090358272,
+    "normalized_squared_arm_effort": 0.01373185073904143,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {},
+    "contact_force_validated": null,
+    "final_insertion_depth_m": 0.013803277769678934,
+    "minimum_final_hold_depth_m": 0.013785493544220317,
+    "engine": "mujoco-warp",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 0,
+      "clearance": 0.0001,
+      "offset": 0,
+      "tilt_deg": 1,
+      "id": "insertion-5413d38ab6bf",
+      "duration": 4.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 5.093000994000249,
+    "reference_sha256": "f1310079046f55bb6c6607d0ad487f2d0401e35f0e9b2e66334b2bd785864241",
+    "samples": 4001,
+    "audit": {
+      "engine": "mujoco-warp",
+      "version": "3.15.0",
+      "precision": "float32",
+      "device": "cuda:0",
+      "contact_capacity": 1072,
+      "constraint_capacity": 8576,
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 6.796006690734657e-08,
+          "rotation_frobenius_error": 3.2633674860900833e-07,
+          "joint_error": 3.239108115060674e-08
+        },
+        {
+          "position_error_m": 2.1318231813172162e-07,
+          "rotation_frobenius_error": 3.787800074665127e-07,
+          "joint_error": 3.1448334825157076e-08
+        },
+        {
+          "position_error_m": 8.09064022166961e-08,
+          "rotation_frobenius_error": 3.227702154297246e-07,
+          "joint_error": 3.33338274760564e-08
+        },
+        {
+          "position_error_m": 9.147227175709816e-08,
+          "rotation_frobenius_error": 3.5515350116862154e-07,
+          "joint_error": 9.635342301805849e-08
+        },
+        {
+          "position_error_m": 1.6331087793197696e-07,
+          "rotation_frobenius_error": 2.2460751409993692e-07,
+          "joint_error": 1.0854945742266864e-07
+        }
+      ],
+      "initial_fk_error_m": 6.796006690734657e-08
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": false,
+    "simulated_seconds": 4.0,
+    "max_fk_error_m": 2.822158413416333e-07,
+    "peak_contact_force_n": 16.983930334790344,
+    "joint_rmse_rad": 0.0046796647440833115,
+    "normalized_squared_arm_effort": 0.013728431256696434,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {},
+    "contact_force_validated": null,
+    "final_insertion_depth_m": 0.013797293195833116,
+    "minimum_final_hold_depth_m": 0.013781159816970756,
+    "engine": "mujoco-warp",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 1,
+      "clearance": 0.0001,
+      "offset": 0,
+      "tilt_deg": 1,
+      "id": "insertion-14e6bb0e9d3b",
+      "duration": 4.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 5.067580152999653,
+    "reference_sha256": "f1310079046f55bb6c6607d0ad487f2d0401e35f0e9b2e66334b2bd785864241",
+    "samples": 4001,
+    "audit": {
+      "engine": "mujoco-warp",
+      "version": "3.15.0",
+      "precision": "float32",
+      "device": "cuda:0",
+      "contact_capacity": 1072,
+      "constraint_capacity": 8576,
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 6.796006690734657e-08,
+          "rotation_frobenius_error": 3.2633674860900833e-07,
+          "joint_error": 3.239108115060674e-08
+        },
+        {
+          "position_error_m": 2.1318231813172162e-07,
+          "rotation_frobenius_error": 3.787800074665127e-07,
+          "joint_error": 3.1448334825157076e-08
+        },
+        {
+          "position_error_m": 8.09064022166961e-08,
+          "rotation_frobenius_error": 3.227702154297246e-07,
+          "joint_error": 3.33338274760564e-08
+        },
+        {
+          "position_error_m": 9.147227175709816e-08,
+          "rotation_frobenius_error": 3.5515350116862154e-07,
+          "joint_error": 9.635342301805849e-08
+        },
+        {
+          "position_error_m": 1.6331087793197696e-07,
+          "rotation_frobenius_error": 2.2460751409993692e-07,
+          "joint_error": 1.0854945742266864e-07
+        }
+      ],
+      "initial_fk_error_m": 6.796006690734657e-08
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": false,
+    "simulated_seconds": 4.0,
+    "max_fk_error_m": 2.822158413416333e-07,
+    "peak_contact_force_n": 16.982062030346434,
+    "joint_rmse_rad": 0.004679453440491843,
+    "normalized_squared_arm_effort": 0.013728532191089644,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {},
+    "contact_force_validated": null,
+    "final_insertion_depth_m": 0.013798203355480654,
+    "minimum_final_hold_depth_m": 0.013782010193626792,
+    "engine": "mujoco-warp",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 2,
+      "clearance": 0.0001,
+      "offset": 0,
+      "tilt_deg": 1,
+      "id": "insertion-e30c0c0ab219",
+      "duration": 4.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 5.152333134000401,
+    "reference_sha256": "f1310079046f55bb6c6607d0ad487f2d0401e35f0e9b2e66334b2bd785864241",
+    "samples": 4001,
+    "audit": {
+      "engine": "mujoco-warp",
+      "version": "3.15.0",
+      "precision": "float32",
+      "device": "cuda:0",
+      "contact_capacity": 1072,
+      "constraint_capacity": 8576,
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 6.796006690734657e-08,
+          "rotation_frobenius_error": 3.2633674860900833e-07,
+          "joint_error": 3.239108115060674e-08
+        },
+        {
+          "position_error_m": 2.1318231813172162e-07,
+          "rotation_frobenius_error": 3.787800074665127e-07,
+          "joint_error": 3.1448334825157076e-08
+        },
+        {
+          "position_error_m": 8.09064022166961e-08,
+          "rotation_frobenius_error": 3.227702154297246e-07,
+          "joint_error": 3.33338274760564e-08
+        },
+        {
+          "position_error_m": 9.147227175709816e-08,
+          "rotation_frobenius_error": 3.5515350116862154e-07,
+          "joint_error": 9.635342301805849e-08
+        },
+        {
+          "position_error_m": 1.6331087793197696e-07,
+          "rotation_frobenius_error": 2.2460751409993692e-07,
+          "joint_error": 1.0854945742266864e-07
+        }
+      ],
+      "initial_fk_error_m": 6.796006690734657e-08
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 4.0,
+    "max_fk_error_m": 2.8632940858244396e-07,
+    "peak_contact_force_n": 0.0,
+    "joint_rmse_rad": 0.0007426060809162048,
+    "normalized_squared_arm_effort": 0.01605974538111314,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {},
+    "contact_force_validated": null,
+    "final_insertion_depth_m": 0.020002026914556992,
+    "minimum_final_hold_depth_m": 0.019999642729674805,
+    "engine": "mujoco-warp",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 0,
+      "clearance": 0.00025,
+      "offset": 0,
+      "tilt_deg": 0,
+      "id": "insertion-386d95ac7e0a",
+      "duration": 4.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 4.2126491640001404,
+    "reference_sha256": "d1530ba0f1a67003ff28399158ba3a6f70d64c9a66858807db03b1237c7f0df8",
+    "samples": 4001,
+    "audit": {
+      "engine": "mujoco-warp",
+      "version": "3.15.0",
+      "precision": "float32",
+      "device": "cuda:0",
+      "contact_capacity": 1072,
+      "constraint_capacity": 8576,
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 8.963322284394337e-08,
+          "rotation_frobenius_error": 3.681748363107543e-07,
+          "joint_error": 6.586204248648642e-08
+        },
+        {
+          "position_error_m": 9.66408486569037e-08,
+          "rotation_frobenius_error": 3.4911915493861663e-07,
+          "joint_error": 6.330756008310345e-08
+        },
+        {
+          "position_error_m": 1.1688014761590537e-07,
+          "rotation_frobenius_error": 3.810190188838151e-07,
+          "joint_error": 6.841652488986938e-08
+        },
+        {
+          "position_error_m": 6.239020550191654e-08,
+          "rotation_frobenius_error": 3.308469867751904e-07,
+          "joint_error": 5.9445264266599906e-08
+        },
+        {
+          "position_error_m": 8.889985075866136e-08,
+          "rotation_frobenius_error": 4.3197407940706455e-07,
+          "joint_error": 4.724922986198976e-08
+        }
+      ],
+      "initial_fk_error_m": 8.963322284394337e-08
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 4.0,
+    "max_fk_error_m": 2.8632940858244396e-07,
+    "peak_contact_force_n": 0.0,
+    "joint_rmse_rad": 0.0007426060809162048,
+    "normalized_squared_arm_effort": 0.01605974538111314,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {},
+    "contact_force_validated": null,
+    "final_insertion_depth_m": 0.020002026914556992,
+    "minimum_final_hold_depth_m": 0.019999642729674805,
+    "engine": "mujoco-warp",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 1,
+      "clearance": 0.00025,
+      "offset": 0,
+      "tilt_deg": 0,
+      "id": "insertion-70215a73a006",
+      "duration": 4.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 4.245338852000714,
+    "reference_sha256": "d1530ba0f1a67003ff28399158ba3a6f70d64c9a66858807db03b1237c7f0df8",
+    "samples": 4001,
+    "audit": {
+      "engine": "mujoco-warp",
+      "version": "3.15.0",
+      "precision": "float32",
+      "device": "cuda:0",
+      "contact_capacity": 1072,
+      "constraint_capacity": 8576,
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 8.963322284394337e-08,
+          "rotation_frobenius_error": 3.681748363107543e-07,
+          "joint_error": 6.586204248648642e-08
+        },
+        {
+          "position_error_m": 9.66408486569037e-08,
+          "rotation_frobenius_error": 3.4911915493861663e-07,
+          "joint_error": 6.330756008310345e-08
+        },
+        {
+          "position_error_m": 1.1688014761590537e-07,
+          "rotation_frobenius_error": 3.810190188838151e-07,
+          "joint_error": 6.841652488986938e-08
+        },
+        {
+          "position_error_m": 6.239020550191654e-08,
+          "rotation_frobenius_error": 3.308469867751904e-07,
+          "joint_error": 5.9445264266599906e-08
+        },
+        {
+          "position_error_m": 8.889985075866136e-08,
+          "rotation_frobenius_error": 4.3197407940706455e-07,
+          "joint_error": 4.724922986198976e-08
+        }
+      ],
+      "initial_fk_error_m": 8.963322284394337e-08
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 4.0,
+    "max_fk_error_m": 2.8632940858244396e-07,
+    "peak_contact_force_n": 0.0,
+    "joint_rmse_rad": 0.0007426060809162048,
+    "normalized_squared_arm_effort": 0.01605974538111314,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {},
+    "contact_force_validated": null,
+    "final_insertion_depth_m": 0.020002026914556992,
+    "minimum_final_hold_depth_m": 0.019999642729674805,
+    "engine": "mujoco-warp",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 2,
+      "clearance": 0.00025,
+      "offset": 0,
+      "tilt_deg": 0,
+      "id": "insertion-75386d156c0a",
+      "duration": 4.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 4.4110641139996005,
+    "reference_sha256": "d1530ba0f1a67003ff28399158ba3a6f70d64c9a66858807db03b1237c7f0df8",
+    "samples": 4001,
+    "audit": {
+      "engine": "mujoco-warp",
+      "version": "3.15.0",
+      "precision": "float32",
+      "device": "cuda:0",
+      "contact_capacity": 1072,
+      "constraint_capacity": 8576,
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 8.963322284394337e-08,
+          "rotation_frobenius_error": 3.681748363107543e-07,
+          "joint_error": 6.586204248648642e-08
+        },
+        {
+          "position_error_m": 9.66408486569037e-08,
+          "rotation_frobenius_error": 3.4911915493861663e-07,
+          "joint_error": 6.330756008310345e-08
+        },
+        {
+          "position_error_m": 1.1688014761590537e-07,
+          "rotation_frobenius_error": 3.810190188838151e-07,
+          "joint_error": 6.841652488986938e-08
+        },
+        {
+          "position_error_m": 6.239020550191654e-08,
+          "rotation_frobenius_error": 3.308469867751904e-07,
+          "joint_error": 5.9445264266599906e-08
+        },
+        {
+          "position_error_m": 8.889985075866136e-08,
+          "rotation_frobenius_error": 4.3197407940706455e-07,
+          "joint_error": 4.724922986198976e-08
+        }
+      ],
+      "initial_fk_error_m": 8.963322284394337e-08
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 4.0,
+    "max_fk_error_m": 3.0519015851330926e-07,
+    "peak_contact_force_n": 13.512546371359647,
+    "joint_rmse_rad": 0.0007551609635260004,
+    "normalized_squared_arm_effort": 0.01606563159910713,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {},
+    "contact_force_validated": null,
+    "final_insertion_depth_m": 0.020001252054127505,
+    "minimum_final_hold_depth_m": 0.019999702330638525,
+    "engine": "mujoco-warp",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 0,
+      "clearance": 0.00025,
+      "offset": 0.00025,
+      "tilt_deg": 0,
+      "id": "insertion-8c2a7186844f",
+      "duration": 4.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 4.504934136999509,
+    "reference_sha256": "9000567f0dd5538c4b24ea990ae2731209a756c58b0eefa4b951769292f5081a",
+    "samples": 4001,
+    "audit": {
+      "engine": "mujoco-warp",
+      "version": "3.15.0",
+      "precision": "float32",
+      "device": "cuda:0",
+      "contact_capacity": 1072,
+      "constraint_capacity": 8576,
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 9.168047454544137e-08,
+          "rotation_frobenius_error": 3.42779915137593e-07,
+          "joint_error": 3.62904375439399e-08
+        },
+        {
+          "position_error_m": 6.85060511651514e-08,
+          "rotation_frobenius_error": 5.159121398003578e-07,
+          "joint_error": 3.7233183869389563e-08
+        },
+        {
+          "position_error_m": 5.8742533337596825e-08,
+          "rotation_frobenius_error": 2.680592806380066e-07,
+          "joint_error": 3.534769121849024e-08
+        },
+        {
+          "position_error_m": 5.9339793523349726e-08,
+          "rotation_frobenius_error": 2.361198812149755e-07,
+          "joint_error": 1.1888659923187106e-07
+        },
+        {
+          "position_error_m": 6.872500630996509e-08,
+          "rotation_frobenius_error": 2.904572520351321e-07,
+          "joint_error": 1.0669056482726091e-07
+        }
+      ],
+      "initial_fk_error_m": 9.168047454544137e-08
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 4.0,
+    "max_fk_error_m": 3.0519015851330926e-07,
+    "peak_contact_force_n": 13.512546768394037,
+    "joint_rmse_rad": 0.0007551609635237994,
+    "normalized_squared_arm_effort": 0.01606563159888459,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {},
+    "contact_force_validated": null,
+    "final_insertion_depth_m": 0.020001252054127505,
+    "minimum_final_hold_depth_m": 0.019999702330638525,
+    "engine": "mujoco-warp",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 1,
+      "clearance": 0.00025,
+      "offset": 0.00025,
+      "tilt_deg": 0,
+      "id": "insertion-47a67b3b0d61",
+      "duration": 4.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 4.608542836000197,
+    "reference_sha256": "9000567f0dd5538c4b24ea990ae2731209a756c58b0eefa4b951769292f5081a",
+    "samples": 4001,
+    "audit": {
+      "engine": "mujoco-warp",
+      "version": "3.15.0",
+      "precision": "float32",
+      "device": "cuda:0",
+      "contact_capacity": 1072,
+      "constraint_capacity": 8576,
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 9.168047454544137e-08,
+          "rotation_frobenius_error": 3.42779915137593e-07,
+          "joint_error": 3.62904375439399e-08
+        },
+        {
+          "position_error_m": 6.85060511651514e-08,
+          "rotation_frobenius_error": 5.159121398003578e-07,
+          "joint_error": 3.7233183869389563e-08
+        },
+        {
+          "position_error_m": 5.8742533337596825e-08,
+          "rotation_frobenius_error": 2.680592806380066e-07,
+          "joint_error": 3.534769121849024e-08
+        },
+        {
+          "position_error_m": 5.9339793523349726e-08,
+          "rotation_frobenius_error": 2.361198812149755e-07,
+          "joint_error": 1.1888659923187106e-07
+        },
+        {
+          "position_error_m": 6.872500630996509e-08,
+          "rotation_frobenius_error": 2.904572520351321e-07,
+          "joint_error": 1.0669056482726091e-07
+        }
+      ],
+      "initial_fk_error_m": 9.168047454544137e-08
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 4.0,
+    "max_fk_error_m": 3.0519015851330926e-07,
+    "peak_contact_force_n": 13.512594675783834,
+    "joint_rmse_rad": 0.0007551609635265417,
+    "normalized_squared_arm_effort": 0.016065631598588623,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {},
+    "contact_force_validated": null,
+    "final_insertion_depth_m": 0.020001252054127505,
+    "minimum_final_hold_depth_m": 0.019999702330638525,
+    "engine": "mujoco-warp",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 2,
+      "clearance": 0.00025,
+      "offset": 0.00025,
+      "tilt_deg": 0,
+      "id": "insertion-aac36139cb78",
+      "duration": 4.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 4.426820820000103,
+    "reference_sha256": "9000567f0dd5538c4b24ea990ae2731209a756c58b0eefa4b951769292f5081a",
+    "samples": 4001,
+    "audit": {
+      "engine": "mujoco-warp",
+      "version": "3.15.0",
+      "precision": "float32",
+      "device": "cuda:0",
+      "contact_capacity": 1072,
+      "constraint_capacity": 8576,
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 9.168047454544137e-08,
+          "rotation_frobenius_error": 3.42779915137593e-07,
+          "joint_error": 3.62904375439399e-08
+        },
+        {
+          "position_error_m": 6.85060511651514e-08,
+          "rotation_frobenius_error": 5.159121398003578e-07,
+          "joint_error": 3.7233183869389563e-08
+        },
+        {
+          "position_error_m": 5.8742533337596825e-08,
+          "rotation_frobenius_error": 2.680592806380066e-07,
+          "joint_error": 3.534769121849024e-08
+        },
+        {
+          "position_error_m": 5.9339793523349726e-08,
+          "rotation_frobenius_error": 2.361198812149755e-07,
+          "joint_error": 1.1888659923187106e-07
+        },
+        {
+          "position_error_m": 6.872500630996509e-08,
+          "rotation_frobenius_error": 2.904572520351321e-07,
+          "joint_error": 1.0669056482726091e-07
+        }
+      ],
+      "initial_fk_error_m": 9.168047454544137e-08
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 4.0,
+    "max_fk_error_m": 2.822158413416333e-07,
+    "peak_contact_force_n": 1.3001068365055297,
+    "joint_rmse_rad": 0.0007488596300188671,
+    "normalized_squared_arm_effort": 0.015961835616967304,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {},
+    "contact_force_validated": null,
+    "final_insertion_depth_m": 0.019992284847707098,
+    "minimum_final_hold_depth_m": 0.019988362359584677,
+    "engine": "mujoco-warp",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 0,
+      "clearance": 0.00025,
+      "offset": 0,
+      "tilt_deg": 1,
+      "id": "insertion-cbef3637ecbb",
+      "duration": 4.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 4.639352584000335,
+    "reference_sha256": "f1310079046f55bb6c6607d0ad487f2d0401e35f0e9b2e66334b2bd785864241",
+    "samples": 4001,
+    "audit": {
+      "engine": "mujoco-warp",
+      "version": "3.15.0",
+      "precision": "float32",
+      "device": "cuda:0",
+      "contact_capacity": 1072,
+      "constraint_capacity": 8576,
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 6.796006690734657e-08,
+          "rotation_frobenius_error": 3.2633674860900833e-07,
+          "joint_error": 3.239108115060674e-08
+        },
+        {
+          "position_error_m": 2.1318231813172162e-07,
+          "rotation_frobenius_error": 3.787800074665127e-07,
+          "joint_error": 3.1448334825157076e-08
+        },
+        {
+          "position_error_m": 8.09064022166961e-08,
+          "rotation_frobenius_error": 3.227702154297246e-07,
+          "joint_error": 3.33338274760564e-08
+        },
+        {
+          "position_error_m": 9.147227175709816e-08,
+          "rotation_frobenius_error": 3.5515350116862154e-07,
+          "joint_error": 9.635342301805849e-08
+        },
+        {
+          "position_error_m": 1.6331087793197696e-07,
+          "rotation_frobenius_error": 2.2460751409993692e-07,
+          "joint_error": 1.0854945742266864e-07
+        }
+      ],
+      "initial_fk_error_m": 6.796006690734657e-08
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 4.0,
+    "max_fk_error_m": 2.822158413416333e-07,
+    "peak_contact_force_n": 1.3000584283378365,
+    "joint_rmse_rad": 0.000748859630020053,
+    "normalized_squared_arm_effort": 0.01596183563281826,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {},
+    "contact_force_validated": null,
+    "final_insertion_depth_m": 0.019992284847707098,
+    "minimum_final_hold_depth_m": 0.019988362359584677,
+    "engine": "mujoco-warp",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 1,
+      "clearance": 0.00025,
+      "offset": 0,
+      "tilt_deg": 1,
+      "id": "insertion-fbe18b5c1654",
+      "duration": 4.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 4.647163030999764,
+    "reference_sha256": "f1310079046f55bb6c6607d0ad487f2d0401e35f0e9b2e66334b2bd785864241",
+    "samples": 4001,
+    "audit": {
+      "engine": "mujoco-warp",
+      "version": "3.15.0",
+      "precision": "float32",
+      "device": "cuda:0",
+      "contact_capacity": 1072,
+      "constraint_capacity": 8576,
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 6.796006690734657e-08,
+          "rotation_frobenius_error": 3.2633674860900833e-07,
+          "joint_error": 3.239108115060674e-08
+        },
+        {
+          "position_error_m": 2.1318231813172162e-07,
+          "rotation_frobenius_error": 3.787800074665127e-07,
+          "joint_error": 3.1448334825157076e-08
+        },
+        {
+          "position_error_m": 8.09064022166961e-08,
+          "rotation_frobenius_error": 3.227702154297246e-07,
+          "joint_error": 3.33338274760564e-08
+        },
+        {
+          "position_error_m": 9.147227175709816e-08,
+          "rotation_frobenius_error": 3.5515350116862154e-07,
+          "joint_error": 9.635342301805849e-08
+        },
+        {
+          "position_error_m": 1.6331087793197696e-07,
+          "rotation_frobenius_error": 2.2460751409993692e-07,
+          "joint_error": 1.0854945742266864e-07
+        }
+      ],
+      "initial_fk_error_m": 6.796006690734657e-08
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 4.0,
+    "max_fk_error_m": 2.822158413416333e-07,
+    "peak_contact_force_n": 1.3000825377967014,
+    "joint_rmse_rad": 0.0007488596300212675,
+    "normalized_squared_arm_effort": 0.015961835653205757,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {},
+    "contact_force_validated": null,
+    "final_insertion_depth_m": 0.019992284847707098,
+    "minimum_final_hold_depth_m": 0.019988362359584677,
+    "engine": "mujoco-warp",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 2,
+      "clearance": 0.00025,
+      "offset": 0,
+      "tilt_deg": 1,
+      "id": "insertion-a2e8669cfe34",
+      "duration": 4.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 4.647768038999857,
+    "reference_sha256": "f1310079046f55bb6c6607d0ad487f2d0401e35f0e9b2e66334b2bd785864241",
+    "samples": 4001,
+    "audit": {
+      "engine": "mujoco-warp",
+      "version": "3.15.0",
+      "precision": "float32",
+      "device": "cuda:0",
+      "contact_capacity": 1072,
+      "constraint_capacity": 8576,
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 6.796006690734657e-08,
+          "rotation_frobenius_error": 3.2633674860900833e-07,
+          "joint_error": 3.239108115060674e-08
+        },
+        {
+          "position_error_m": 2.1318231813172162e-07,
+          "rotation_frobenius_error": 3.787800074665127e-07,
+          "joint_error": 3.1448334825157076e-08
+        },
+        {
+          "position_error_m": 8.09064022166961e-08,
+          "rotation_frobenius_error": 3.227702154297246e-07,
+          "joint_error": 3.33338274760564e-08
+        },
+        {
+          "position_error_m": 9.147227175709816e-08,
+          "rotation_frobenius_error": 3.5515350116862154e-07,
+          "joint_error": 9.635342301805849e-08
+        },
+        {
+          "position_error_m": 1.6331087793197696e-07,
+          "rotation_frobenius_error": 2.2460751409993692e-07,
+          "joint_error": 1.0854945742266864e-07
+        }
+      ],
+      "initial_fk_error_m": 6.796006690734657e-08
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 4.0,
+    "max_fk_error_m": 2.8632940858244396e-07,
+    "peak_contact_force_n": 0.0,
+    "joint_rmse_rad": 0.0007426060809162048,
+    "normalized_squared_arm_effort": 0.01605974538111314,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {},
+    "contact_force_validated": null,
+    "final_insertion_depth_m": 0.020002026914556992,
+    "minimum_final_hold_depth_m": 0.019999642729674805,
+    "engine": "mujoco-warp",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 0,
+      "clearance": 0.0005,
+      "offset": 0,
+      "tilt_deg": 0,
+      "id": "insertion-5472deab52a7",
+      "duration": 4.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 4.303017568000541,
+    "reference_sha256": "d1530ba0f1a67003ff28399158ba3a6f70d64c9a66858807db03b1237c7f0df8",
+    "samples": 4001,
+    "audit": {
+      "engine": "mujoco-warp",
+      "version": "3.15.0",
+      "precision": "float32",
+      "device": "cuda:0",
+      "contact_capacity": 1072,
+      "constraint_capacity": 8576,
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 8.963322284394337e-08,
+          "rotation_frobenius_error": 3.681748363107543e-07,
+          "joint_error": 6.586204248648642e-08
+        },
+        {
+          "position_error_m": 9.66408486569037e-08,
+          "rotation_frobenius_error": 3.4911915493861663e-07,
+          "joint_error": 6.330756008310345e-08
+        },
+        {
+          "position_error_m": 1.1688014761590537e-07,
+          "rotation_frobenius_error": 3.810190188838151e-07,
+          "joint_error": 6.841652488986938e-08
+        },
+        {
+          "position_error_m": 6.239020550191654e-08,
+          "rotation_frobenius_error": 3.308469867751904e-07,
+          "joint_error": 5.9445264266599906e-08
+        },
+        {
+          "position_error_m": 8.889985075866136e-08,
+          "rotation_frobenius_error": 4.3197407940706455e-07,
+          "joint_error": 4.724922986198976e-08
+        }
+      ],
+      "initial_fk_error_m": 8.963322284394337e-08
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 4.0,
+    "max_fk_error_m": 2.8632940858244396e-07,
+    "peak_contact_force_n": 0.0,
+    "joint_rmse_rad": 0.0007426060809162048,
+    "normalized_squared_arm_effort": 0.01605974538111314,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {},
+    "contact_force_validated": null,
+    "final_insertion_depth_m": 0.020002026914556992,
+    "minimum_final_hold_depth_m": 0.019999642729674805,
+    "engine": "mujoco-warp",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 1,
+      "clearance": 0.0005,
+      "offset": 0,
+      "tilt_deg": 0,
+      "id": "insertion-37175dec0b01",
+      "duration": 4.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 4.326265729000625,
+    "reference_sha256": "d1530ba0f1a67003ff28399158ba3a6f70d64c9a66858807db03b1237c7f0df8",
+    "samples": 4001,
+    "audit": {
+      "engine": "mujoco-warp",
+      "version": "3.15.0",
+      "precision": "float32",
+      "device": "cuda:0",
+      "contact_capacity": 1072,
+      "constraint_capacity": 8576,
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 8.963322284394337e-08,
+          "rotation_frobenius_error": 3.681748363107543e-07,
+          "joint_error": 6.586204248648642e-08
+        },
+        {
+          "position_error_m": 9.66408486569037e-08,
+          "rotation_frobenius_error": 3.4911915493861663e-07,
+          "joint_error": 6.330756008310345e-08
+        },
+        {
+          "position_error_m": 1.1688014761590537e-07,
+          "rotation_frobenius_error": 3.810190188838151e-07,
+          "joint_error": 6.841652488986938e-08
+        },
+        {
+          "position_error_m": 6.239020550191654e-08,
+          "rotation_frobenius_error": 3.308469867751904e-07,
+          "joint_error": 5.9445264266599906e-08
+        },
+        {
+          "position_error_m": 8.889985075866136e-08,
+          "rotation_frobenius_error": 4.3197407940706455e-07,
+          "joint_error": 4.724922986198976e-08
+        }
+      ],
+      "initial_fk_error_m": 8.963322284394337e-08
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 4.0,
+    "max_fk_error_m": 2.8632940858244396e-07,
+    "peak_contact_force_n": 0.0,
+    "joint_rmse_rad": 0.0007426060809162048,
+    "normalized_squared_arm_effort": 0.01605974538111314,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {},
+    "contact_force_validated": null,
+    "final_insertion_depth_m": 0.020002026914556992,
+    "minimum_final_hold_depth_m": 0.019999642729674805,
+    "engine": "mujoco-warp",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 2,
+      "clearance": 0.0005,
+      "offset": 0,
+      "tilt_deg": 0,
+      "id": "insertion-ce5e90767957",
+      "duration": 4.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 4.275406188000488,
+    "reference_sha256": "d1530ba0f1a67003ff28399158ba3a6f70d64c9a66858807db03b1237c7f0df8",
+    "samples": 4001,
+    "audit": {
+      "engine": "mujoco-warp",
+      "version": "3.15.0",
+      "precision": "float32",
+      "device": "cuda:0",
+      "contact_capacity": 1072,
+      "constraint_capacity": 8576,
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 8.963322284394337e-08,
+          "rotation_frobenius_error": 3.681748363107543e-07,
+          "joint_error": 6.586204248648642e-08
+        },
+        {
+          "position_error_m": 9.66408486569037e-08,
+          "rotation_frobenius_error": 3.4911915493861663e-07,
+          "joint_error": 6.330756008310345e-08
+        },
+        {
+          "position_error_m": 1.1688014761590537e-07,
+          "rotation_frobenius_error": 3.810190188838151e-07,
+          "joint_error": 6.841652488986938e-08
+        },
+        {
+          "position_error_m": 6.239020550191654e-08,
+          "rotation_frobenius_error": 3.308469867751904e-07,
+          "joint_error": 5.9445264266599906e-08
+        },
+        {
+          "position_error_m": 8.889985075866136e-08,
+          "rotation_frobenius_error": 4.3197407940706455e-07,
+          "joint_error": 4.724922986198976e-08
+        }
+      ],
+      "initial_fk_error_m": 8.963322284394337e-08
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 4.0,
+    "max_fk_error_m": 3.0519015851330926e-07,
+    "peak_contact_force_n": 0.0,
+    "joint_rmse_rad": 0.0007425089346948164,
+    "normalized_squared_arm_effort": 0.01606499974957602,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {},
+    "contact_force_validated": null,
+    "final_insertion_depth_m": 0.020002086519214646,
+    "minimum_final_hold_depth_m": 0.019999642729742972,
+    "engine": "mujoco-warp",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 0,
+      "clearance": 0.0005,
+      "offset": 0.00025,
+      "tilt_deg": 0,
+      "id": "insertion-68f21330c871",
+      "duration": 4.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 4.298013229999924,
+    "reference_sha256": "9000567f0dd5538c4b24ea990ae2731209a756c58b0eefa4b951769292f5081a",
+    "samples": 4001,
+    "audit": {
+      "engine": "mujoco-warp",
+      "version": "3.15.0",
+      "precision": "float32",
+      "device": "cuda:0",
+      "contact_capacity": 1072,
+      "constraint_capacity": 8576,
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 9.168047454544137e-08,
+          "rotation_frobenius_error": 3.42779915137593e-07,
+          "joint_error": 3.62904375439399e-08
+        },
+        {
+          "position_error_m": 6.85060511651514e-08,
+          "rotation_frobenius_error": 5.159121398003578e-07,
+          "joint_error": 3.7233183869389563e-08
+        },
+        {
+          "position_error_m": 5.8742533337596825e-08,
+          "rotation_frobenius_error": 2.680592806380066e-07,
+          "joint_error": 3.534769121849024e-08
+        },
+        {
+          "position_error_m": 5.9339793523349726e-08,
+          "rotation_frobenius_error": 2.361198812149755e-07,
+          "joint_error": 1.1888659923187106e-07
+        },
+        {
+          "position_error_m": 6.872500630996509e-08,
+          "rotation_frobenius_error": 2.904572520351321e-07,
+          "joint_error": 1.0669056482726091e-07
+        }
+      ],
+      "initial_fk_error_m": 9.168047454544137e-08
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 4.0,
+    "max_fk_error_m": 3.0519015851330926e-07,
+    "peak_contact_force_n": 0.0,
+    "joint_rmse_rad": 0.0007425089346948164,
+    "normalized_squared_arm_effort": 0.01606499974957602,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {},
+    "contact_force_validated": null,
+    "final_insertion_depth_m": 0.020002086519214646,
+    "minimum_final_hold_depth_m": 0.019999642729742972,
+    "engine": "mujoco-warp",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 1,
+      "clearance": 0.0005,
+      "offset": 0.00025,
+      "tilt_deg": 0,
+      "id": "insertion-b9f97ad974b1",
+      "duration": 4.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 4.230443522000314,
+    "reference_sha256": "9000567f0dd5538c4b24ea990ae2731209a756c58b0eefa4b951769292f5081a",
+    "samples": 4001,
+    "audit": {
+      "engine": "mujoco-warp",
+      "version": "3.15.0",
+      "precision": "float32",
+      "device": "cuda:0",
+      "contact_capacity": 1072,
+      "constraint_capacity": 8576,
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 9.168047454544137e-08,
+          "rotation_frobenius_error": 3.42779915137593e-07,
+          "joint_error": 3.62904375439399e-08
+        },
+        {
+          "position_error_m": 6.85060511651514e-08,
+          "rotation_frobenius_error": 5.159121398003578e-07,
+          "joint_error": 3.7233183869389563e-08
+        },
+        {
+          "position_error_m": 5.8742533337596825e-08,
+          "rotation_frobenius_error": 2.680592806380066e-07,
+          "joint_error": 3.534769121849024e-08
+        },
+        {
+          "position_error_m": 5.9339793523349726e-08,
+          "rotation_frobenius_error": 2.361198812149755e-07,
+          "joint_error": 1.1888659923187106e-07
+        },
+        {
+          "position_error_m": 6.872500630996509e-08,
+          "rotation_frobenius_error": 2.904572520351321e-07,
+          "joint_error": 1.0669056482726091e-07
+        }
+      ],
+      "initial_fk_error_m": 9.168047454544137e-08
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 4.0,
+    "max_fk_error_m": 3.0519015851330926e-07,
+    "peak_contact_force_n": 0.0,
+    "joint_rmse_rad": 0.0007425089346948164,
+    "normalized_squared_arm_effort": 0.01606499974957602,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {},
+    "contact_force_validated": null,
+    "final_insertion_depth_m": 0.020002086519214646,
+    "minimum_final_hold_depth_m": 0.019999642729742972,
+    "engine": "mujoco-warp",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 2,
+      "clearance": 0.0005,
+      "offset": 0.00025,
+      "tilt_deg": 0,
+      "id": "insertion-957abd9ccd58",
+      "duration": 4.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 4.229146497999864,
+    "reference_sha256": "9000567f0dd5538c4b24ea990ae2731209a756c58b0eefa4b951769292f5081a",
+    "samples": 4001,
+    "audit": {
+      "engine": "mujoco-warp",
+      "version": "3.15.0",
+      "precision": "float32",
+      "device": "cuda:0",
+      "contact_capacity": 1072,
+      "constraint_capacity": 8576,
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 9.168047454544137e-08,
+          "rotation_frobenius_error": 3.42779915137593e-07,
+          "joint_error": 3.62904375439399e-08
+        },
+        {
+          "position_error_m": 6.85060511651514e-08,
+          "rotation_frobenius_error": 5.159121398003578e-07,
+          "joint_error": 3.7233183869389563e-08
+        },
+        {
+          "position_error_m": 5.8742533337596825e-08,
+          "rotation_frobenius_error": 2.680592806380066e-07,
+          "joint_error": 3.534769121849024e-08
+        },
+        {
+          "position_error_m": 5.9339793523349726e-08,
+          "rotation_frobenius_error": 2.361198812149755e-07,
+          "joint_error": 1.1888659923187106e-07
+        },
+        {
+          "position_error_m": 6.872500630996509e-08,
+          "rotation_frobenius_error": 2.904572520351321e-07,
+          "joint_error": 1.0669056482726091e-07
+        }
+      ],
+      "initial_fk_error_m": 9.168047454544137e-08
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 4.0,
+    "max_fk_error_m": 2.822158413416333e-07,
+    "peak_contact_force_n": 0.0,
+    "joint_rmse_rad": 0.0007427783789778022,
+    "normalized_squared_arm_effort": 0.015947728474876986,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {},
+    "contact_force_validated": null,
+    "final_insertion_depth_m": 0.02000215103241426,
+    "minimum_final_hold_depth_m": 0.019999761784519787,
+    "engine": "mujoco-warp",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 0,
+      "clearance": 0.0005,
+      "offset": 0,
+      "tilt_deg": 1,
+      "id": "insertion-42e1d7f6f4f1",
+      "duration": 4.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 4.145059866000338,
+    "reference_sha256": "f1310079046f55bb6c6607d0ad487f2d0401e35f0e9b2e66334b2bd785864241",
+    "samples": 4001,
+    "audit": {
+      "engine": "mujoco-warp",
+      "version": "3.15.0",
+      "precision": "float32",
+      "device": "cuda:0",
+      "contact_capacity": 1072,
+      "constraint_capacity": 8576,
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 6.796006690734657e-08,
+          "rotation_frobenius_error": 3.2633674860900833e-07,
+          "joint_error": 3.239108115060674e-08
+        },
+        {
+          "position_error_m": 2.1318231813172162e-07,
+          "rotation_frobenius_error": 3.787800074665127e-07,
+          "joint_error": 3.1448334825157076e-08
+        },
+        {
+          "position_error_m": 8.09064022166961e-08,
+          "rotation_frobenius_error": 3.227702154297246e-07,
+          "joint_error": 3.33338274760564e-08
+        },
+        {
+          "position_error_m": 9.147227175709816e-08,
+          "rotation_frobenius_error": 3.5515350116862154e-07,
+          "joint_error": 9.635342301805849e-08
+        },
+        {
+          "position_error_m": 1.6331087793197696e-07,
+          "rotation_frobenius_error": 2.2460751409993692e-07,
+          "joint_error": 1.0854945742266864e-07
+        }
+      ],
+      "initial_fk_error_m": 6.796006690734657e-08
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 4.0,
+    "max_fk_error_m": 2.822158413416333e-07,
+    "peak_contact_force_n": 0.0,
+    "joint_rmse_rad": 0.0007427783789778022,
+    "normalized_squared_arm_effort": 0.015947728474876986,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {},
+    "contact_force_validated": null,
+    "final_insertion_depth_m": 0.02000215103241426,
+    "minimum_final_hold_depth_m": 0.019999761784519787,
+    "engine": "mujoco-warp",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 1,
+      "clearance": 0.0005,
+      "offset": 0,
+      "tilt_deg": 1,
+      "id": "insertion-8a9b3722f3b3",
+      "duration": 4.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 4.158064823000132,
+    "reference_sha256": "f1310079046f55bb6c6607d0ad487f2d0401e35f0e9b2e66334b2bd785864241",
+    "samples": 4001,
+    "audit": {
+      "engine": "mujoco-warp",
+      "version": "3.15.0",
+      "precision": "float32",
+      "device": "cuda:0",
+      "contact_capacity": 1072,
+      "constraint_capacity": 8576,
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 6.796006690734657e-08,
+          "rotation_frobenius_error": 3.2633674860900833e-07,
+          "joint_error": 3.239108115060674e-08
+        },
+        {
+          "position_error_m": 2.1318231813172162e-07,
+          "rotation_frobenius_error": 3.787800074665127e-07,
+          "joint_error": 3.1448334825157076e-08
+        },
+        {
+          "position_error_m": 8.09064022166961e-08,
+          "rotation_frobenius_error": 3.227702154297246e-07,
+          "joint_error": 3.33338274760564e-08
+        },
+        {
+          "position_error_m": 9.147227175709816e-08,
+          "rotation_frobenius_error": 3.5515350116862154e-07,
+          "joint_error": 9.635342301805849e-08
+        },
+        {
+          "position_error_m": 1.6331087793197696e-07,
+          "rotation_frobenius_error": 2.2460751409993692e-07,
+          "joint_error": 1.0854945742266864e-07
+        }
+      ],
+      "initial_fk_error_m": 6.796006690734657e-08
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 4.0,
+    "max_fk_error_m": 2.822158413416333e-07,
+    "peak_contact_force_n": 0.0,
+    "joint_rmse_rad": 0.0007427783789778022,
+    "normalized_squared_arm_effort": 0.015947728474876986,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {},
+    "contact_force_validated": null,
+    "final_insertion_depth_m": 0.02000215103241426,
+    "minimum_final_hold_depth_m": 0.019999761784519787,
+    "engine": "mujoco-warp",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 2,
+      "clearance": 0.0005,
+      "offset": 0,
+      "tilt_deg": 1,
+      "id": "insertion-cb31ec5b7cf1",
+      "duration": 4.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 4.192791069000123,
+    "reference_sha256": "f1310079046f55bb6c6607d0ad487f2d0401e35f0e9b2e66334b2bd785864241",
+    "samples": 4001,
+    "audit": {
+      "engine": "mujoco-warp",
+      "version": "3.15.0",
+      "precision": "float32",
+      "device": "cuda:0",
+      "contact_capacity": 1072,
+      "constraint_capacity": 8576,
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 6.796006690734657e-08,
+          "rotation_frobenius_error": 3.2633674860900833e-07,
+          "joint_error": 3.239108115060674e-08
+        },
+        {
+          "position_error_m": 2.1318231813172162e-07,
+          "rotation_frobenius_error": 3.787800074665127e-07,
+          "joint_error": 3.1448334825157076e-08
+        },
+        {
+          "position_error_m": 8.09064022166961e-08,
+          "rotation_frobenius_error": 3.227702154297246e-07,
+          "joint_error": 3.33338274760564e-08
+        },
+        {
+          "position_error_m": 9.147227175709816e-08,
+          "rotation_frobenius_error": 3.5515350116862154e-07,
+          "joint_error": 9.635342301805849e-08
+        },
+        {
+          "position_error_m": 1.6331087793197696e-07,
+          "rotation_frobenius_error": 2.2460751409993692e-07,
+          "joint_error": 1.0854945742266864e-07
+        }
+      ],
+      "initial_fk_error_m": 6.796006690734657e-08
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": false,
+    "simulated_seconds": 4.0,
+    "max_fk_error_m": 2.822158413416333e-07,
+    "peak_contact_force_n": 21.275301268568406,
+    "joint_rmse_rad": 0.0032127560545273225,
+    "normalized_squared_arm_effort": 0.014340438877303968,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {},
+    "contact_force_validated": null,
+    "final_insertion_depth_m": 0.016179977365893605,
+    "minimum_final_hold_depth_m": 0.01587479249865742,
+    "engine": "mujoco-warp",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 0,
+      "clearance": 0.0001,
+      "tilt_deg": 1,
+      "guided": true,
+      "id": "insertion-7fb0c438a828",
+      "duration": 4.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 5.340633180000623,
+    "reference_sha256": "f1310079046f55bb6c6607d0ad487f2d0401e35f0e9b2e66334b2bd785864241",
+    "samples": 4001,
+    "audit": {
+      "engine": "mujoco-warp",
+      "version": "3.15.0",
+      "precision": "float32",
+      "device": "cuda:0",
+      "contact_capacity": 1072,
+      "constraint_capacity": 8576,
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 6.796006690734657e-08,
+          "rotation_frobenius_error": 3.2633674860900833e-07,
+          "joint_error": 3.239108115060674e-08
+        },
+        {
+          "position_error_m": 2.1318231813172162e-07,
+          "rotation_frobenius_error": 3.787800074665127e-07,
+          "joint_error": 3.1448334825157076e-08
+        },
+        {
+          "position_error_m": 8.09064022166961e-08,
+          "rotation_frobenius_error": 3.227702154297246e-07,
+          "joint_error": 3.33338274760564e-08
+        },
+        {
+          "position_error_m": 9.147227175709816e-08,
+          "rotation_frobenius_error": 3.5515350116862154e-07,
+          "joint_error": 9.635342301805849e-08
+        },
+        {
+          "position_error_m": 1.6331087793197696e-07,
+          "rotation_frobenius_error": 2.2460751409993692e-07,
+          "joint_error": 1.0854945742266864e-07
+        }
+      ],
+      "initial_fk_error_m": 6.796006690734657e-08
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": false,
+    "simulated_seconds": 4.0,
+    "max_fk_error_m": 2.822158413416333e-07,
+    "peak_contact_force_n": 21.649483308893483,
+    "joint_rmse_rad": 0.0032346766303417078,
+    "normalized_squared_arm_effort": 0.014340981415081146,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {},
+    "contact_force_validated": null,
+    "final_insertion_depth_m": 0.016237342310198022,
+    "minimum_final_hold_depth_m": 0.01586370416621341,
+    "engine": "mujoco-warp",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 1,
+      "clearance": 0.0001,
+      "tilt_deg": 1,
+      "guided": true,
+      "id": "insertion-d48bf8be9ebb",
+      "duration": 4.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 5.296493310000187,
+    "reference_sha256": "f1310079046f55bb6c6607d0ad487f2d0401e35f0e9b2e66334b2bd785864241",
+    "samples": 4001,
+    "audit": {
+      "engine": "mujoco-warp",
+      "version": "3.15.0",
+      "precision": "float32",
+      "device": "cuda:0",
+      "contact_capacity": 1072,
+      "constraint_capacity": 8576,
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 6.796006690734657e-08,
+          "rotation_frobenius_error": 3.2633674860900833e-07,
+          "joint_error": 3.239108115060674e-08
+        },
+        {
+          "position_error_m": 2.1318231813172162e-07,
+          "rotation_frobenius_error": 3.787800074665127e-07,
+          "joint_error": 3.1448334825157076e-08
+        },
+        {
+          "position_error_m": 8.09064022166961e-08,
+          "rotation_frobenius_error": 3.227702154297246e-07,
+          "joint_error": 3.33338274760564e-08
+        },
+        {
+          "position_error_m": 9.147227175709816e-08,
+          "rotation_frobenius_error": 3.5515350116862154e-07,
+          "joint_error": 9.635342301805849e-08
+        },
+        {
+          "position_error_m": 1.6331087793197696e-07,
+          "rotation_frobenius_error": 2.2460751409993692e-07,
+          "joint_error": 1.0854945742266864e-07
+        }
+      ],
+      "initial_fk_error_m": 6.796006690734657e-08
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": false,
+    "simulated_seconds": 4.0,
+    "max_fk_error_m": 2.822158413416333e-07,
+    "peak_contact_force_n": 19.855623667208988,
+    "joint_rmse_rad": 0.0032014769352372748,
+    "normalized_squared_arm_effort": 0.014338334461958454,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {},
+    "contact_force_validated": null,
+    "final_insertion_depth_m": 0.01621599362491538,
+    "minimum_final_hold_depth_m": 0.01588055053453502,
+    "engine": "mujoco-warp",
+    "case": {
+      "family": "insertion",
+      "dt": 0.001,
+      "repeat": 2,
+      "clearance": 0.0001,
+      "tilt_deg": 1,
+      "guided": true,
+      "id": "insertion-095882702afc",
+      "duration": 4.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 5.311077272000148,
+    "reference_sha256": "f1310079046f55bb6c6607d0ad487f2d0401e35f0e9b2e66334b2bd785864241",
+    "samples": 4001,
+    "audit": {
+      "engine": "mujoco-warp",
+      "version": "3.15.0",
+      "precision": "float32",
+      "device": "cuda:0",
+      "contact_capacity": 1072,
+      "constraint_capacity": 8576,
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 6.796006690734657e-08,
+          "rotation_frobenius_error": 3.2633674860900833e-07,
+          "joint_error": 3.239108115060674e-08
+        },
+        {
+          "position_error_m": 2.1318231813172162e-07,
+          "rotation_frobenius_error": 3.787800074665127e-07,
+          "joint_error": 3.1448334825157076e-08
+        },
+        {
+          "position_error_m": 8.09064022166961e-08,
+          "rotation_frobenius_error": 3.227702154297246e-07,
+          "joint_error": 3.33338274760564e-08
+        },
+        {
+          "position_error_m": 9.147227175709816e-08,
+          "rotation_frobenius_error": 3.5515350116862154e-07,
+          "joint_error": 9.635342301805849e-08
+        },
+        {
+          "position_error_m": 1.6331087793197696e-07,
+          "rotation_frobenius_error": 2.2460751409993692e-07,
+          "joint_error": 1.0854945742266864e-07
+        }
+      ],
+      "initial_fk_error_m": 6.796006690734657e-08
+    }
+  }
+]

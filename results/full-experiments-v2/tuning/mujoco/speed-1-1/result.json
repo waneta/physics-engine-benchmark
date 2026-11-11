@@ -1,0 +1,43 @@
+{
+  "numerically_valid": true,
+  "task_success": true,
+  "simulated_seconds": 3.0,
+  "max_fk_error_m": 0.0,
+  "peak_contact_force_n": 18.008721870405836,
+  "joint_rmse_rad": 0.005142226974523698,
+  "normalized_squared_arm_effort": 0.025699833188588976,
+  "joint_limit_excess_rad": 0.0,
+  "max_momentum_residual_ns": {
+    "cube0": 7.450936414261378e-08,
+    "cube1": 1.334088894446802e-07,
+    "cube2": 1.838906373714785e-07
+  },
+  "contact_force_validated": true,
+  "passed_objects": 3,
+  "minimum_progress_m": 0.22180180026081547,
+  "minimum_capped_goal_progress_m": 0.09599999999999992,
+  "engine": "mujoco",
+  "case": {
+    "id": "speed-1-1",
+    "family": "push",
+    "dt": 0.001,
+    "repeat": 0,
+    "phase": "speed",
+    "push_duration": 1,
+    "width": 0.09,
+    "rear_y": 0,
+    "duration": 3.0
+  },
+  "status": "completed",
+  "error": null,
+  "wall_seconds": 2.001988505000554,
+  "reference_sha256": "1e45a251ff5df8068073c239a23868a0fe4a6272bd37d3fb409a21be4b8c5569",
+  "samples": 3001,
+  "audit": {
+    "engine": "mujoco",
+    "version": "3.15.0",
+    "precision": "float64",
+    "device": "cpu",
+    "initial_fk_error_m": 0.0
+  }
+}

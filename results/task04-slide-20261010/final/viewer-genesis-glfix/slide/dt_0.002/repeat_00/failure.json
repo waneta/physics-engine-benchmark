@@ -1,0 +1,11 @@
+{
+  "engine": "genesis",
+  "scene": "slide",
+  "dt_s": 0.002,
+  "repeat": 0,
+  "status": "failed",
+  "directory": "slide/dt_0.002/repeat_00",
+  "error": "AssertionError: ",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/datamesh/github_waneta/physics-engine-benchmark/src/physics_benchmark/cli.py\", line 245, in run_suite\n    run = simulate_fn(scene, cfg, dt, rows, on_sample=viewer)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/datamesh/github_waneta/physics-engine-benchmark/src/physics_benchmark/backends/genesis.py\", line 167, in simulate\n    simulation.destroy()\n  File \"/home/datamesh/github_waneta/physics-engine-benchmark/.venv-genesis/lib/python3.11/site-packages/genesis/engine/scene.py\", line 291, in destroy\n    self._visualizer.destroy()\n  File \"/home/datamesh/github_waneta/physics-engine-benchmark/.venv-genesis/lib/python3.11/site-packages/genesis/vis/visualizer.py\", line 117, in destroy\n    self._rasterizer.destroy()\n  File \"/home/datamesh/github_waneta/physics-engine-benchmark/.venv-genesis/lib/python3.11/site-packages/genesis/vis/rasterizer.py\", line 168, in destroy\n    self._renderer.make_current()\n  File \"/home/datamesh/github_waneta/physics-engine-benchmark/.venv-genesis/lib/python3.11/site-packages/genesis/ext/pyrender/offscreen.py\", line 49, in make_current\n    self._platform.make_current()\n  File \"/home/datamesh/github_waneta/physics-engine-benchmark/.venv-genesis/lib/python3.11/site-packages/genesis/ext/pyrender/platforms/egl.py\", line 270, in make_current\n    assert eglMakeCurrent(self._egl_display, EGL_NO_SURFACE, EGL_NO_SURFACE, self._egl_context)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n",
+  "samples": 300
+}

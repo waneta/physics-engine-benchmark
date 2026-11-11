@@ -1,0 +1,21 @@
+{
+  "scene": "slide",
+  "dt_s": 0.001,
+  "steps": 600,
+  "peak_contact_force_n": 9.532979617927985,
+  "peak_contact_fz_n": 8.851149320602417,
+  "max_penetration_m": 0.00011839655528448137,
+  "first_contact_s": 0.001,
+  "settled_time_s": 0.262,
+  "max_momentum_residual_ns": 1.512923367895314e-07,
+  "max_constraint_force_error_n": 4.777675730550708e-07,
+  "window_contact_jx_ns": -0.01833700352907182,
+  "window_contact_jy_ns": -4.874440524549333e-10,
+  "window_contact_jz_ns": 0.04584250777959827,
+  "impulse_window_complete": true,
+  "stop_time_s": 0.262,
+  "stop_distance_m": 0.12696042656898499,
+  "final_displacement_m": 0.12696203589439392,
+  "max_com_lift_m": 0.00037421241402625996,
+  "ideal_coulomb_distance_m": 0.127420998980632
+}

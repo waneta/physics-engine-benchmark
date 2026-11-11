@@ -1,0 +1,37 @@
+{
+  "numerically_valid": true,
+  "task_success": false,
+  "simulated_seconds": 3.112,
+  "max_fk_error_m": 0.0,
+  "peak_contact_force_n": 346.22549580915313,
+  "joint_rmse_rad": 0.09738396341361782,
+  "normalized_squared_arm_effort": 0.01571882378744989,
+  "joint_limit_excess_rad": 0.0,
+  "max_momentum_residual_ns": {},
+  "contact_force_validated": null,
+  "final_insertion_depth_m": 0.01919240441142145,
+  "minimum_final_hold_depth_m": null,
+  "engine": "mujoco",
+  "case": {
+    "family": "insertion",
+    "dt": 0.001,
+    "repeat": 1,
+    "clearance": 0.0005,
+    "offset": 0,
+    "tilt_deg": 0,
+    "id": "insertion-37175dec0b01",
+    "duration": 4.0
+  },
+  "status": "overload",
+  "error": null,
+  "wall_seconds": 1.1960274579996621,
+  "reference_sha256": "d1530ba0f1a67003ff28399158ba3a6f70d64c9a66858807db03b1237c7f0df8",
+  "samples": 3113,
+  "audit": {
+    "engine": "mujoco",
+    "version": "3.15.0",
+    "precision": "float64",
+    "device": "cpu",
+    "initial_fk_error_m": 0.0
+  }
+}

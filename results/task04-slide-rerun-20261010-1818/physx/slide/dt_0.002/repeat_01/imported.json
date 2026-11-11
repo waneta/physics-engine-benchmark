@@ -1,0 +1,83 @@
+{
+  "engine": "physx",
+  "execution_path": "Isaac Sim / PhysX CPU TGS",
+  "isaac_sim_version": "6.0.1-rc.7+release.42383.32955d8d.gl",
+  "precision": "float32",
+  "solver": "TGS",
+  "gpu_dynamics": false,
+  "position_iterations": 100,
+  "velocity_iterations": 1,
+  "mass_kg": [
+    [
+      0.10000000149011612
+    ]
+  ],
+  "inertia_kg_m2": [
+    [
+      2.6666666599339806e-05,
+      0.0,
+      0.0,
+      0.0,
+      2.6666666599339806e-05,
+      0.0,
+      0.0,
+      0.0,
+      2.6666666599339806e-05
+    ]
+  ],
+  "com_local": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "force_source": "PhysX contact-report normal impulse + RigidContactView friction impulse, divided by dt",
+  "contact_offset_m": 0.001,
+  "rest_offset_m": 0.0,
+  "restitution": 0.0,
+  "implementation_difference": "Isaac Sim 6.0.1 image, not article 6.1; hard contact has no solref/solimp",
+  "material_properties": [
+    [
+      [
+        0.4000000059604645,
+        0.4000000059604645,
+        0.0
+      ]
+    ]
+  ],
+  "contact_offsets": [
+    [
+      0.0010000000474974513
+    ]
+  ],
+  "rest_offsets": [
+    [
+      0.0
+    ]
+  ],
+  "validation": "passed",
+  "initial_qpos": [
+    0.0,
+    0.0,
+    0.019999999552965164,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "initial_qvel": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+  "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9"
+}

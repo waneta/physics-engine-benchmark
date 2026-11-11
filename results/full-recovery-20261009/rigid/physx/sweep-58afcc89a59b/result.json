@@ -1,0 +1,107 @@
+{
+  "numerically_valid": true,
+  "task_success": false,
+  "simulated_seconds": 12.5,
+  "max_fk_error_m": 7.249905356807895e-07,
+  "peak_contact_force_n": 130.47043536630034,
+  "joint_rmse_rad": 0.014457048644974019,
+  "normalized_squared_arm_effort": 0.03009040422518716,
+  "joint_limit_excess_rad": 0.0,
+  "max_momentum_residual_ns": {
+    "object0": 1.7117016726871277e-08,
+    "object1": 1.930161861305635e-08,
+    "object2": 2.271107675461788e-08,
+    "object3": 2.8300424328780877e-05,
+    "object4": 2.5846240344685462e-08,
+    "object5": 1.7758603465351745e-08,
+    "object6": 2.9477649917999927e-08,
+    "object7": 2.4114878056337123e-08,
+    "object8": 0.00044275232050963747,
+    "object9": 6.180316701985544e-09,
+    "object10": 2.2422006838209744e-09,
+    "object11": 1.865913947987702e-08,
+    "object12": 2.9477649705157488e-08,
+    "object13": 2.5739461021970888e-08,
+    "object14": 0.0004427526286417087
+  },
+  "contact_force_validated": false,
+  "objects_in_tray": 10,
+  "engine": "physx",
+  "case": {
+    "family": "sweep",
+    "dt": 0.001,
+    "repeat": 1,
+    "id": "sweep-58afcc89a59b",
+    "duration": 12.5
+  },
+  "status": "completed",
+  "error": null,
+  "wall_seconds": 184.08664543000123,
+  "reference_sha256": "26da1241cfec8726d0db59fc4ad5874eabd0c7fb01beb7929e5faacdf67de32d",
+  "samples": 12501,
+  "audit": {
+    "engine": "physx",
+    "precision": "float32",
+    "solver": "CPU TGS",
+    "import_errors": {
+      "link0": 1.7812252020577013e-09,
+      "link1": 3.46946704699036e-08,
+      "link2": 2.1725296953795104e-08,
+      "link3": 2.384185791015625e-07,
+      "link4": 9.610176050778296e-09,
+      "link5": 3.630876543869732e-09,
+      "link6": 9.050369273455594e-10,
+      "link7": 8.075237284410619e-10,
+      "hand": 6.705522526129215e-10,
+      "left_finger": 9.313225746154785e-10,
+      "right_finger": 9.313225746154785e-10,
+      "paddle": 4.9799681522619266e-12,
+      "object0": 1.902180576747914e-14,
+      "object1": 3.0380905954765624e-14,
+      "object2": 2.4805463113658456e-13,
+      "object3": 1.902180576747914e-14,
+      "object4": 3.0380905954765624e-14,
+      "object5": 2.4805463113658456e-13,
+      "object6": 1.902180576747914e-14,
+      "object7": 3.0380905954765624e-14,
+      "object8": 2.4805463113658456e-13,
+      "object9": 1.902180576747914e-14,
+      "object10": 3.0380905954765624e-14,
+      "object11": 2.4805463113658456e-13,
+      "object12": 1.902180576747914e-14,
+      "object13": 3.0380905954765624e-14,
+      "object14": 2.4805463113658456e-13
+    },
+    "contact_force_source": "normal report + friction tensor impulses",
+    "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+    "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+    "five_pose_fk_checks": [
+      {
+        "position_error_m": 2.686734180690209e-07,
+        "rotation_frobenius_error": 1.0633208823910982e-06,
+        "joint_error": 4.371139006309477e-08
+      },
+      {
+        "position_error_m": 1.7397411440113475e-07,
+        "rotation_frobenius_error": 1.419296256208406e-06,
+        "joint_error": 4.276864373764511e-08
+      },
+      {
+        "position_error_m": 3.465519964329644e-07,
+        "rotation_frobenius_error": 1.3428310770648775e-06,
+        "joint_error": 4.465413638854443e-08
+      },
+      {
+        "position_error_m": 2.885406803487811e-07,
+        "rotation_frobenius_error": 1.1782020850202812e-06,
+        "joint_error": 1.0714883202922465e-07
+      },
+      {
+        "position_error_m": 1.196276908088656e-07,
+        "rotation_frobenius_error": 1.2614675506152887e-06,
+        "joint_error": 1.190737126677277e-07
+      }
+    ],
+    "initial_fk_error_m": 2.686734180690209e-07
+  }
+}

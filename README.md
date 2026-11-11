@@ -8,6 +8,10 @@
 多引擎安装、版本及测量差异见 [使用说明](docs/multi-engine.md)，
 实测结果见 [task02 验收记录](docs/validation-task02.md)。
 
+已保存的关键报告、指标、历史脚本和源码快照见
+[2026-11-11 轻量归档](archives/2026-11-11/README.md)，内含逐文件 SHA-256 校验入口。
+归档不包含完整原始采样数据；Windows 迁移限制与未保存内容见归档说明。
+
 独立部署文档：[MuJoCo CPU](docs/deploy-mujoco.md)、[MuJoCo-Warp](docs/deploy-mujoco-warp.md)、[Genesis](docs/deploy-genesis.md)、[Isaac Sim/PhysX](docs/deploy-physx.md)。
 
 task04 滑动方块的四引擎**有界面/无界面命令、中英文摩擦与轨迹指标**见

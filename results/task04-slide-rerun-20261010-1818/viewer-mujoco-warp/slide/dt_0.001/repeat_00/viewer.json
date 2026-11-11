@@ -1,0 +1,16 @@
+{
+  "mode": "live_measured_states",
+  "renderer": "MuJoCo passive viewer; isolated display model, no mj_step",
+  "frames": 87,
+  "speed": 0.2,
+  "hold_s": 2.0,
+  "final_display_qpos": [
+    0.12696205079555511,
+    -9.989647331565266e-09,
+    0.01997268758714199,
+    1.0,
+    6.805858654423957e-10,
+    1.3973854962046062e-08,
+    -6.216680503712269e-08
+  ]
+}

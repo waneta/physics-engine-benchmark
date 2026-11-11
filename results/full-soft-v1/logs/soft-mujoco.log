@@ -1,0 +1,54 @@
+WARNING: flex 'ball' is not rigid and has no equality constraints or passive forces
+Element name 'ball', id 0, line 1
+
+soft_compression-00 completed None
+WARNING: flex 'ball' is not rigid and has no equality constraints or passive forces
+Element name 'ball', id 0, line 1
+
+soft_compression-01 completed None
+WARNING: flex 'ball' is not rigid and has no equality constraints or passive forces
+Element name 'ball', id 0, line 1
+
+soft_compression-02 completed None
+WARNING: flex 'ball' is not rigid and has no equality constraints or passive forces
+Element name 'ball', id 0, line 1
+
+soft_compression-00 completed None
+soft_compression-01 completed None
+soft_compression-02 completed None
+WARNING: flex 'ball' is not rigid and has no equality constraints or passive forces
+Element name 'ball', id 0, line 1
+
+soft_compression-03 completed None
+WARNING: flex 'ball' is not rigid and has no equality constraints or passive forces
+Element name 'ball', id 0, line 43
+
+soft_grasp-04 inverted None
+WARNING: flex 'ball' is not rigid and has no equality constraints or passive forces
+Element name 'ball', id 0, line 43
+
+soft_grasp-05 inverted None
+WARNING: flex 'ball' is not rigid and has no equality constraints or passive forces
+Element name 'ball', id 0, line 43
+
+soft_grasp-06 inverted None
+WARNING: flex 'ball' is not rigid and has no equality constraints or passive forces
+Element name 'ball', id 0, line 43
+
+soft_grasp-07 inverted None
+WARNING: flex 'ball' is not rigid and has no equality constraints or passive forces
+Element name 'ball', id 0, line 43
+
+soft_grasp-08 inverted None
+WARNING: flex 'ball' is not rigid and has no equality constraints or passive forces
+Element name 'ball', id 0, line 43
+
+soft_grasp-09 inverted None
+WARNING: flex 'ball' is not rigid and has no equality constraints or passive forces
+Element name 'ball', id 0, line 43
+
+soft_grasp-10 completed None
+WARNING: flex 'ball' is not rigid and has no equality constraints or passive forces
+Element name 'ball', id 0, line 43
+
+soft_grasp-11 completed None

@@ -1,0 +1,70 @@
+{
+  "numerically_valid": true,
+  "task_success": true,
+  "simulated_seconds": 5.0,
+  "max_fk_error_m": 0.0,
+  "peak_contact_force_n": 29.738833055105946,
+  "joint_rmse_rad": 0.05365938003955297,
+  "normalized_squared_arm_effort": 0.033006517569068625,
+  "joint_limit_excess_rad": 0.0,
+  "max_momentum_residual_ns": {
+    "cube0": 1.1080401237647942e-07,
+    "cube1": 1.5875613311725898e-07,
+    "cube2": 1.1200549876752474e-07
+  },
+  "contact_force_validated": true,
+  "passed_objects": 3,
+  "minimum_progress_m": 0.19210354872705243,
+  "minimum_capped_goal_progress_m": 0.09599999999999992,
+  "engine": "mujoco",
+  "case": {
+    "id": "heldout-baseline-1",
+    "family": "push",
+    "dt": 0.001,
+    "repeat": 0,
+    "phase": "heldout",
+    "controller": "baseline",
+    "width": 0.09,
+    "rear_y": -0.001,
+    "duration": 5.0
+  },
+  "status": "completed",
+  "error": null,
+  "wall_seconds": 3.9905304390013043,
+  "reference_sha256": "7dc2662a0f2b81879bf23f39fb4d192075a42cc1d9f1b87761e0502ac5e6b6bf",
+  "samples": 5001,
+  "audit": {
+    "engine": "mujoco",
+    "version": "3.15.0",
+    "precision": "float64",
+    "device": "cpu",
+    "five_pose_fk_checks": [
+      {
+        "position_error_m": 0.0,
+        "rotation_frobenius_error": 0.0,
+        "joint_error": 0.0
+      },
+      {
+        "position_error_m": 0.0,
+        "rotation_frobenius_error": 0.0,
+        "joint_error": 0.0
+      },
+      {
+        "position_error_m": 0.0,
+        "rotation_frobenius_error": 0.0,
+        "joint_error": 0.0
+      },
+      {
+        "position_error_m": 0.0,
+        "rotation_frobenius_error": 0.0,
+        "joint_error": 0.0
+      },
+      {
+        "position_error_m": 0.0,
+        "rotation_frobenius_error": 0.0,
+        "joint_error": 0.0
+      }
+    ],
+    "initial_fk_error_m": 0.0
+  }
+}

@@ -1,0 +1,193 @@
+﻿引擎 / Engine,场景 / Scene,步长 / Timestep (ms),重复编号 / Repeat,状态 / Status,指标名称（中文） / Metric name (Chinese),指标名称（英文） / Metric name (English),指标字段 / Metric key,单位符号 / Unit symbol,单位说明 / Unit description,数值 / Value,数值显示 / Display value
+MuJoCo CPU,方块下落 / Cube drop,2.0,1,通过 / Passed,仿真步长,Simulation timestep,dt_s,s,秒 / second,0.002,0.002
+MuJoCo CPU,方块下落 / Cube drop,2.0,1,通过 / Passed,物理步数,Physics steps,steps,步,步 / step,500,500
+MuJoCo CPU,方块下落 / Cube drop,2.0,1,通过 / Passed,峰值接触合力,Peak resultant contact force,peak_contact_force_n,N,牛顿 / newton,58.257194805194004,58.2571948
+MuJoCo CPU,方块下落 / Cube drop,2.0,1,通过 / Passed,峰值法向接触力,Peak normal contact force,peak_contact_fz_n,N,牛顿 / newton,58.257194805194004,58.2571948
+MuJoCo CPU,方块下落 / Cube drop,2.0,1,通过 / Passed,最大穿透深度,Maximum penetration depth,max_penetration_m,m,米 / metre,0.00874060957185738,0.00874060957
+MuJoCo CPU,方块下落 / Cube drop,2.0,1,通过 / Passed,首次接触时间,First contact time,first_contact_s,s,秒 / second,0.26,0.26
+MuJoCo CPU,方块下落 / Cube drop,2.0,1,通过 / Passed,质心静置时间,COM settling time,settled_time_s,s,秒 / second,0.36,0.36
+MuJoCo CPU,方块下落 / Cube drop,2.0,1,通过 / Passed,最大动量平衡残差,Maximum momentum balance residual,max_momentum_residual_ns,N·s,牛顿秒 / newton second,5.864980367708936e-14,5.86498037e-14
+MuJoCo CPU,方块下落 / Cube drop,2.0,1,通过 / Passed,最大接触力核算误差,Maximum contact force accounting error,max_constraint_force_error_n,N,牛顿 / newton,0.0,0
+MuJoCo CPU,方块下落 / Cube drop,2.0,1,通过 / Passed,窗口接触冲量X,Window contact impulse X,window_contact_jx_ns,N·s,牛顿秒 / newton second,0.0,0
+MuJoCo CPU,方块下落 / Cube drop,2.0,1,通过 / Passed,窗口接触冲量Y,Window contact impulse Y,window_contact_jy_ns,N·s,牛顿秒 / newton second,0.0,0
+MuJoCo CPU,方块下落 / Cube drop,2.0,1,通过 / Passed,窗口接触冲量Z,Window contact impulse Z,window_contact_jz_ns,N·s,牛顿秒 / newton second,0.3055473863898925,0.305547386
+MuJoCo CPU,方块下落 / Cube drop,2.0,1,通过 / Passed,接触冲量窗口完整,Contact impulse window complete,impulse_window_complete,布尔,布尔值 / boolean,True,是 / Yes
+MuJoCo CPU,方块下落 / Cube drop,2.0,1,通过 / Passed,最低质心高度,Minimum COM height,minimum_com_height_m,m,米 / metre,0.01125939042814262,0.0112593904
+MuJoCo CPU,方块下落 / Cube drop,2.0,1,通过 / Passed,理想首次接触时间,Ideal first contact time,ideal_first_contact_s,s,秒 / second,0.2593805842035477,0.259380584
+MuJoCo CPU,方块下落 / Cube drop,2.0,1,通过 / Passed,首次接触时间相对理想值偏差,First contact time deviation from ideal,first_contact_time_error_s,s,秒 / second,0.000619415796452305,0.000619415796
+MuJoCo CPU,方块下落 / Cube drop,2.0,1,通过 / Passed,首次接触步初竖直速度,Vertical velocity at start of first contact step,preimpact_vertical_velocity_m_s,m/s,米每秒 / metre per second,-2.5506000000000038,-2.5506
+MuJoCo CPU,方块下落 / Cube drop,2.0,1,通过 / Passed,理想碰撞前竖直速度,Ideal preimpact vertical velocity,ideal_impact_vertical_velocity_m_s,m/s,米每秒 / metre per second,-2.5445235310368033,-2.54452353
+MuJoCo CPU,方块下落 / Cube drop,2.0,1,通过 / Passed,接触后最大向上速度,Peak upward velocity after contact,peak_rebound_vertical_velocity_m_s,m/s,米每秒 / metre per second,0.33726551151563616,0.337265512
+MuJoCo CPU,方块下落 / Cube drop,2.0,1,通过 / Passed,自由落体段最大高度误差,Maximum free-fall height error,max_free_fall_height_error_m,m,米 / metre,0.002550599999999837,0.0025506
+MuJoCo CPU,方块下落 / Cube drop,2.0,1,通过 / Passed,自由落体段最大竖直速度误差,Maximum free-fall vertical velocity error,max_free_fall_velocity_error_m_s,m/s,米每秒 / metre per second,3.552713678800501e-15,3.55271368e-15
+MuJoCo CPU,方块下落 / Cube drop,2.0,1,通过 / Passed,最终质心高度,Final COM height,final_com_height_m,m,米 / metre,0.01997269919433799,0.0199726992
+MuJoCo CPU,方块下落 / Cube drop,2.0,1,通过 / Passed,最终质心线速度模长,Final COM linear speed,final_linear_speed_m_s,m/s,米每秒 / metre per second,1.0206933775256044e-14,1.02069338e-14
+MuJoCo CPU,方块下落 / Cube drop,2.0,1,通过 / Passed,最终角速度模长,Final angular speed,final_angular_speed_rad_s,rad/s,弧度每秒 / radian per second,0.0,0
+MuJoCo CPU,方块下落 / Cube drop,2.0,1,通过 / Passed,刚体静置时间,Rigid-body settling time,rigid_settled_time_s,s,秒 / second,0.36,0.36
+MuJoCo CPU,方块下落 / Cube drop,2.0,1,通过 / Passed,静置后观察时长,Observation duration after settling,rest_observation_duration_s,s,秒 / second,0.64,0.64
+MuJoCo CPU,方块下落 / Cube drop,2.0,1,通过 / Passed,记录时长内刚体已静置,Rigid body settled within recorded duration,settled_within_duration,布尔,布尔值 / boolean,True,是 / Yes
+MuJoCo CPU,方块下落 / Cube drop,2.0,1,通过 / Passed,静置角速度阈值,Settling angular speed threshold,settling_angular_speed_threshold_rad_s,rad/s,弧度每秒 / radian per second,0.028867513459481287,0.0288675135
+MuJoCo CPU,方块下落 / Cube drop,2.0,1,通过 / Passed,末段平均法向接触力,Mean normal contact force in final window,mean_tail_normal_force_n,N,牛顿 / newton,0.9809999999993345,0.981
+MuJoCo CPU,方块下落 / Cube drop,2.0,1,通过 / Passed,末段平均支撑力与重力比,Final-window mean support force to weight ratio,tail_support_weight_ratio,1,无量纲 / dimensionless,0.9999999999993215,1
+MuJoCo CPU,方块下落 / Cube drop,2.0,1,通过 / Passed,最大水平偏移,Maximum horizontal displacement,max_horizontal_displacement_m,m,米 / metre,0.0,0
+MuJoCo CPU,方块下落 / Cube drop,2.0,1,通过 / Passed,全程Z接触冲量,Total contact impulse Z,total_contact_jz_ns,N·s,牛顿秒 / newton second,0.9810000000005701,0.981
+MuJoCo CPU,方块下落 / Cube drop,2.0,2,通过 / Passed,仿真步长,Simulation timestep,dt_s,s,秒 / second,0.002,0.002
+MuJoCo CPU,方块下落 / Cube drop,2.0,2,通过 / Passed,物理步数,Physics steps,steps,步,步 / step,500,500
+MuJoCo CPU,方块下落 / Cube drop,2.0,2,通过 / Passed,峰值接触合力,Peak resultant contact force,peak_contact_force_n,N,牛顿 / newton,58.257194805194004,58.2571948
+MuJoCo CPU,方块下落 / Cube drop,2.0,2,通过 / Passed,峰值法向接触力,Peak normal contact force,peak_contact_fz_n,N,牛顿 / newton,58.257194805194004,58.2571948
+MuJoCo CPU,方块下落 / Cube drop,2.0,2,通过 / Passed,最大穿透深度,Maximum penetration depth,max_penetration_m,m,米 / metre,0.00874060957185738,0.00874060957
+MuJoCo CPU,方块下落 / Cube drop,2.0,2,通过 / Passed,首次接触时间,First contact time,first_contact_s,s,秒 / second,0.26,0.26
+MuJoCo CPU,方块下落 / Cube drop,2.0,2,通过 / Passed,质心静置时间,COM settling time,settled_time_s,s,秒 / second,0.36,0.36
+MuJoCo CPU,方块下落 / Cube drop,2.0,2,通过 / Passed,最大动量平衡残差,Maximum momentum balance residual,max_momentum_residual_ns,N·s,牛顿秒 / newton second,5.864980367708936e-14,5.86498037e-14
+MuJoCo CPU,方块下落 / Cube drop,2.0,2,通过 / Passed,最大接触力核算误差,Maximum contact force accounting error,max_constraint_force_error_n,N,牛顿 / newton,0.0,0
+MuJoCo CPU,方块下落 / Cube drop,2.0,2,通过 / Passed,窗口接触冲量X,Window contact impulse X,window_contact_jx_ns,N·s,牛顿秒 / newton second,0.0,0
+MuJoCo CPU,方块下落 / Cube drop,2.0,2,通过 / Passed,窗口接触冲量Y,Window contact impulse Y,window_contact_jy_ns,N·s,牛顿秒 / newton second,0.0,0
+MuJoCo CPU,方块下落 / Cube drop,2.0,2,通过 / Passed,窗口接触冲量Z,Window contact impulse Z,window_contact_jz_ns,N·s,牛顿秒 / newton second,0.3055473863898925,0.305547386
+MuJoCo CPU,方块下落 / Cube drop,2.0,2,通过 / Passed,接触冲量窗口完整,Contact impulse window complete,impulse_window_complete,布尔,布尔值 / boolean,True,是 / Yes
+MuJoCo CPU,方块下落 / Cube drop,2.0,2,通过 / Passed,最低质心高度,Minimum COM height,minimum_com_height_m,m,米 / metre,0.01125939042814262,0.0112593904
+MuJoCo CPU,方块下落 / Cube drop,2.0,2,通过 / Passed,理想首次接触时间,Ideal first contact time,ideal_first_contact_s,s,秒 / second,0.2593805842035477,0.259380584
+MuJoCo CPU,方块下落 / Cube drop,2.0,2,通过 / Passed,首次接触时间相对理想值偏差,First contact time deviation from ideal,first_contact_time_error_s,s,秒 / second,0.000619415796452305,0.000619415796
+MuJoCo CPU,方块下落 / Cube drop,2.0,2,通过 / Passed,首次接触步初竖直速度,Vertical velocity at start of first contact step,preimpact_vertical_velocity_m_s,m/s,米每秒 / metre per second,-2.5506000000000038,-2.5506
+MuJoCo CPU,方块下落 / Cube drop,2.0,2,通过 / Passed,理想碰撞前竖直速度,Ideal preimpact vertical velocity,ideal_impact_vertical_velocity_m_s,m/s,米每秒 / metre per second,-2.5445235310368033,-2.54452353
+MuJoCo CPU,方块下落 / Cube drop,2.0,2,通过 / Passed,接触后最大向上速度,Peak upward velocity after contact,peak_rebound_vertical_velocity_m_s,m/s,米每秒 / metre per second,0.33726551151563616,0.337265512
+MuJoCo CPU,方块下落 / Cube drop,2.0,2,通过 / Passed,自由落体段最大高度误差,Maximum free-fall height error,max_free_fall_height_error_m,m,米 / metre,0.002550599999999837,0.0025506
+MuJoCo CPU,方块下落 / Cube drop,2.0,2,通过 / Passed,自由落体段最大竖直速度误差,Maximum free-fall vertical velocity error,max_free_fall_velocity_error_m_s,m/s,米每秒 / metre per second,3.552713678800501e-15,3.55271368e-15
+MuJoCo CPU,方块下落 / Cube drop,2.0,2,通过 / Passed,最终质心高度,Final COM height,final_com_height_m,m,米 / metre,0.01997269919433799,0.0199726992
+MuJoCo CPU,方块下落 / Cube drop,2.0,2,通过 / Passed,最终质心线速度模长,Final COM linear speed,final_linear_speed_m_s,m/s,米每秒 / metre per second,1.0206933775256044e-14,1.02069338e-14
+MuJoCo CPU,方块下落 / Cube drop,2.0,2,通过 / Passed,最终角速度模长,Final angular speed,final_angular_speed_rad_s,rad/s,弧度每秒 / radian per second,0.0,0
+MuJoCo CPU,方块下落 / Cube drop,2.0,2,通过 / Passed,刚体静置时间,Rigid-body settling time,rigid_settled_time_s,s,秒 / second,0.36,0.36
+MuJoCo CPU,方块下落 / Cube drop,2.0,2,通过 / Passed,静置后观察时长,Observation duration after settling,rest_observation_duration_s,s,秒 / second,0.64,0.64
+MuJoCo CPU,方块下落 / Cube drop,2.0,2,通过 / Passed,记录时长内刚体已静置,Rigid body settled within recorded duration,settled_within_duration,布尔,布尔值 / boolean,True,是 / Yes
+MuJoCo CPU,方块下落 / Cube drop,2.0,2,通过 / Passed,静置角速度阈值,Settling angular speed threshold,settling_angular_speed_threshold_rad_s,rad/s,弧度每秒 / radian per second,0.028867513459481287,0.0288675135
+MuJoCo CPU,方块下落 / Cube drop,2.0,2,通过 / Passed,末段平均法向接触力,Mean normal contact force in final window,mean_tail_normal_force_n,N,牛顿 / newton,0.9809999999993345,0.981
+MuJoCo CPU,方块下落 / Cube drop,2.0,2,通过 / Passed,末段平均支撑力与重力比,Final-window mean support force to weight ratio,tail_support_weight_ratio,1,无量纲 / dimensionless,0.9999999999993215,1
+MuJoCo CPU,方块下落 / Cube drop,2.0,2,通过 / Passed,最大水平偏移,Maximum horizontal displacement,max_horizontal_displacement_m,m,米 / metre,0.0,0
+MuJoCo CPU,方块下落 / Cube drop,2.0,2,通过 / Passed,全程Z接触冲量,Total contact impulse Z,total_contact_jz_ns,N·s,牛顿秒 / newton second,0.9810000000005701,0.981
+MuJoCo CPU,方块下落 / Cube drop,2.0,3,通过 / Passed,仿真步长,Simulation timestep,dt_s,s,秒 / second,0.002,0.002
+MuJoCo CPU,方块下落 / Cube drop,2.0,3,通过 / Passed,物理步数,Physics steps,steps,步,步 / step,500,500
+MuJoCo CPU,方块下落 / Cube drop,2.0,3,通过 / Passed,峰值接触合力,Peak resultant contact force,peak_contact_force_n,N,牛顿 / newton,58.257194805194004,58.2571948
+MuJoCo CPU,方块下落 / Cube drop,2.0,3,通过 / Passed,峰值法向接触力,Peak normal contact force,peak_contact_fz_n,N,牛顿 / newton,58.257194805194004,58.2571948
+MuJoCo CPU,方块下落 / Cube drop,2.0,3,通过 / Passed,最大穿透深度,Maximum penetration depth,max_penetration_m,m,米 / metre,0.00874060957185738,0.00874060957
+MuJoCo CPU,方块下落 / Cube drop,2.0,3,通过 / Passed,首次接触时间,First contact time,first_contact_s,s,秒 / second,0.26,0.26
+MuJoCo CPU,方块下落 / Cube drop,2.0,3,通过 / Passed,质心静置时间,COM settling time,settled_time_s,s,秒 / second,0.36,0.36
+MuJoCo CPU,方块下落 / Cube drop,2.0,3,通过 / Passed,最大动量平衡残差,Maximum momentum balance residual,max_momentum_residual_ns,N·s,牛顿秒 / newton second,5.864980367708936e-14,5.86498037e-14
+MuJoCo CPU,方块下落 / Cube drop,2.0,3,通过 / Passed,最大接触力核算误差,Maximum contact force accounting error,max_constraint_force_error_n,N,牛顿 / newton,0.0,0
+MuJoCo CPU,方块下落 / Cube drop,2.0,3,通过 / Passed,窗口接触冲量X,Window contact impulse X,window_contact_jx_ns,N·s,牛顿秒 / newton second,0.0,0
+MuJoCo CPU,方块下落 / Cube drop,2.0,3,通过 / Passed,窗口接触冲量Y,Window contact impulse Y,window_contact_jy_ns,N·s,牛顿秒 / newton second,0.0,0
+MuJoCo CPU,方块下落 / Cube drop,2.0,3,通过 / Passed,窗口接触冲量Z,Window contact impulse Z,window_contact_jz_ns,N·s,牛顿秒 / newton second,0.3055473863898925,0.305547386
+MuJoCo CPU,方块下落 / Cube drop,2.0,3,通过 / Passed,接触冲量窗口完整,Contact impulse window complete,impulse_window_complete,布尔,布尔值 / boolean,True,是 / Yes
+MuJoCo CPU,方块下落 / Cube drop,2.0,3,通过 / Passed,最低质心高度,Minimum COM height,minimum_com_height_m,m,米 / metre,0.01125939042814262,0.0112593904
+MuJoCo CPU,方块下落 / Cube drop,2.0,3,通过 / Passed,理想首次接触时间,Ideal first contact time,ideal_first_contact_s,s,秒 / second,0.2593805842035477,0.259380584
+MuJoCo CPU,方块下落 / Cube drop,2.0,3,通过 / Passed,首次接触时间相对理想值偏差,First contact time deviation from ideal,first_contact_time_error_s,s,秒 / second,0.000619415796452305,0.000619415796
+MuJoCo CPU,方块下落 / Cube drop,2.0,3,通过 / Passed,首次接触步初竖直速度,Vertical velocity at start of first contact step,preimpact_vertical_velocity_m_s,m/s,米每秒 / metre per second,-2.5506000000000038,-2.5506
+MuJoCo CPU,方块下落 / Cube drop,2.0,3,通过 / Passed,理想碰撞前竖直速度,Ideal preimpact vertical velocity,ideal_impact_vertical_velocity_m_s,m/s,米每秒 / metre per second,-2.5445235310368033,-2.54452353
+MuJoCo CPU,方块下落 / Cube drop,2.0,3,通过 / Passed,接触后最大向上速度,Peak upward velocity after contact,peak_rebound_vertical_velocity_m_s,m/s,米每秒 / metre per second,0.33726551151563616,0.337265512
+MuJoCo CPU,方块下落 / Cube drop,2.0,3,通过 / Passed,自由落体段最大高度误差,Maximum free-fall height error,max_free_fall_height_error_m,m,米 / metre,0.002550599999999837,0.0025506
+MuJoCo CPU,方块下落 / Cube drop,2.0,3,通过 / Passed,自由落体段最大竖直速度误差,Maximum free-fall vertical velocity error,max_free_fall_velocity_error_m_s,m/s,米每秒 / metre per second,3.552713678800501e-15,3.55271368e-15
+MuJoCo CPU,方块下落 / Cube drop,2.0,3,通过 / Passed,最终质心高度,Final COM height,final_com_height_m,m,米 / metre,0.01997269919433799,0.0199726992
+MuJoCo CPU,方块下落 / Cube drop,2.0,3,通过 / Passed,最终质心线速度模长,Final COM linear speed,final_linear_speed_m_s,m/s,米每秒 / metre per second,1.0206933775256044e-14,1.02069338e-14
+MuJoCo CPU,方块下落 / Cube drop,2.0,3,通过 / Passed,最终角速度模长,Final angular speed,final_angular_speed_rad_s,rad/s,弧度每秒 / radian per second,0.0,0
+MuJoCo CPU,方块下落 / Cube drop,2.0,3,通过 / Passed,刚体静置时间,Rigid-body settling time,rigid_settled_time_s,s,秒 / second,0.36,0.36
+MuJoCo CPU,方块下落 / Cube drop,2.0,3,通过 / Passed,静置后观察时长,Observation duration after settling,rest_observation_duration_s,s,秒 / second,0.64,0.64
+MuJoCo CPU,方块下落 / Cube drop,2.0,3,通过 / Passed,记录时长内刚体已静置,Rigid body settled within recorded duration,settled_within_duration,布尔,布尔值 / boolean,True,是 / Yes
+MuJoCo CPU,方块下落 / Cube drop,2.0,3,通过 / Passed,静置角速度阈值,Settling angular speed threshold,settling_angular_speed_threshold_rad_s,rad/s,弧度每秒 / radian per second,0.028867513459481287,0.0288675135
+MuJoCo CPU,方块下落 / Cube drop,2.0,3,通过 / Passed,末段平均法向接触力,Mean normal contact force in final window,mean_tail_normal_force_n,N,牛顿 / newton,0.9809999999993345,0.981
+MuJoCo CPU,方块下落 / Cube drop,2.0,3,通过 / Passed,末段平均支撑力与重力比,Final-window mean support force to weight ratio,tail_support_weight_ratio,1,无量纲 / dimensionless,0.9999999999993215,1
+MuJoCo CPU,方块下落 / Cube drop,2.0,3,通过 / Passed,最大水平偏移,Maximum horizontal displacement,max_horizontal_displacement_m,m,米 / metre,0.0,0
+MuJoCo CPU,方块下落 / Cube drop,2.0,3,通过 / Passed,全程Z接触冲量,Total contact impulse Z,total_contact_jz_ns,N·s,牛顿秒 / newton second,0.9810000000005701,0.981
+MuJoCo CPU,方块下落 / Cube drop,1.0,1,通过 / Passed,仿真步长,Simulation timestep,dt_s,s,秒 / second,0.001,0.001
+MuJoCo CPU,方块下落 / Cube drop,1.0,1,通过 / Passed,物理步数,Physics steps,steps,步,步 / step,1000,1000
+MuJoCo CPU,方块下落 / Cube drop,1.0,1,通过 / Passed,峰值接触合力,Peak resultant contact force,peak_contact_force_n,N,牛顿 / newton,53.44137700485474,53.441377
+MuJoCo CPU,方块下落 / Cube drop,1.0,1,通过 / Passed,峰值法向接触力,Peak normal contact force,peak_contact_fz_n,N,牛顿 / newton,53.44137700485474,53.441377
+MuJoCo CPU,方块下落 / Cube drop,1.0,1,通过 / Passed,最大穿透深度,Maximum penetration depth,max_penetration_m,m,米 / metre,0.007567367710084476,0.00756736771
+MuJoCo CPU,方块下落 / Cube drop,1.0,1,通过 / Passed,首次接触时间,First contact time,first_contact_s,s,秒 / second,0.259,0.259
+MuJoCo CPU,方块下落 / Cube drop,1.0,1,通过 / Passed,质心静置时间,COM settling time,settled_time_s,s,秒 / second,0.364,0.364
+MuJoCo CPU,方块下落 / Cube drop,1.0,1,通过 / Passed,最大动量平衡残差,Maximum momentum balance residual,max_momentum_residual_ns,N·s,牛顿秒 / newton second,2.9929322923072917e-14,2.99293229e-14
+MuJoCo CPU,方块下落 / Cube drop,1.0,1,通过 / Passed,最大接触力核算误差,Maximum contact force accounting error,max_constraint_force_error_n,N,牛顿 / newton,0.0,0
+MuJoCo CPU,方块下落 / Cube drop,1.0,1,通过 / Passed,窗口接触冲量X,Window contact impulse X,window_contact_jx_ns,N·s,牛顿秒 / newton second,0.0,0
+MuJoCo CPU,方块下落 / Cube drop,1.0,1,通过 / Passed,窗口接触冲量Y,Window contact impulse Y,window_contact_jy_ns,N·s,牛顿秒 / newton second,0.0,0
+MuJoCo CPU,方块下落 / Cube drop,1.0,1,通过 / Passed,窗口接触冲量Z,Window contact impulse Z,window_contact_jz_ns,N·s,牛顿秒 / newton second,0.30341046652836884,0.303410467
+MuJoCo CPU,方块下落 / Cube drop,1.0,1,通过 / Passed,接触冲量窗口完整,Contact impulse window complete,impulse_window_complete,布尔,布尔值 / boolean,True,是 / Yes
+MuJoCo CPU,方块下落 / Cube drop,1.0,1,通过 / Passed,最低质心高度,Minimum COM height,minimum_com_height_m,m,米 / metre,0.012432632289915525,0.0124326323
+MuJoCo CPU,方块下落 / Cube drop,1.0,1,通过 / Passed,理想首次接触时间,Ideal first contact time,ideal_first_contact_s,s,秒 / second,0.2593805842035477,0.259380584
+MuJoCo CPU,方块下落 / Cube drop,1.0,1,通过 / Passed,首次接触时间相对理想值偏差,First contact time deviation from ideal,first_contact_time_error_s,s,秒 / second,-0.00038058420354769584,-0.000380584204
+MuJoCo CPU,方块下落 / Cube drop,1.0,1,通过 / Passed,首次接触步初竖直速度,Vertical velocity at start of first contact step,preimpact_vertical_velocity_m_s,m/s,米每秒 / metre per second,-2.540790000000002,-2.54079
+MuJoCo CPU,方块下落 / Cube drop,1.0,1,通过 / Passed,理想碰撞前竖直速度,Ideal preimpact vertical velocity,ideal_impact_vertical_velocity_m_s,m/s,米每秒 / metre per second,-2.5445235310368033,-2.54452353
+MuJoCo CPU,方块下落 / Cube drop,1.0,1,通过 / Passed,接触后最大向上速度,Peak upward velocity after contact,peak_rebound_vertical_velocity_m_s,m/s,米每秒 / metre per second,0.28465400856625256,0.284654009
+MuJoCo CPU,方块下落 / Cube drop,1.0,1,通过 / Passed,自由落体段最大高度误差,Maximum free-fall height error,max_free_fall_height_error_m,m,米 / metre,0.0012703950000005557,0.001270395
+MuJoCo CPU,方块下落 / Cube drop,1.0,1,通过 / Passed,自由落体段最大竖直速度误差,Maximum free-fall vertical velocity error,max_free_fall_velocity_error_m_s,m/s,米每秒 / metre per second,8.881784197001252e-15,8.8817842e-15
+MuJoCo CPU,方块下落 / Cube drop,1.0,1,通过 / Passed,最终质心高度,Final COM height,final_com_height_m,m,米 / metre,0.019972699194338268,0.0199726992
+MuJoCo CPU,方块下落 / Cube drop,1.0,1,通过 / Passed,最终质心线速度模长,Final COM linear speed,final_linear_speed_m_s,m/s,米每秒 / metre per second,6.117859401870977e-16,6.1178594e-16
+MuJoCo CPU,方块下落 / Cube drop,1.0,1,通过 / Passed,最终角速度模长,Final angular speed,final_angular_speed_rad_s,rad/s,弧度每秒 / radian per second,0.0,0
+MuJoCo CPU,方块下落 / Cube drop,1.0,1,通过 / Passed,刚体静置时间,Rigid-body settling time,rigid_settled_time_s,s,秒 / second,0.364,0.364
+MuJoCo CPU,方块下落 / Cube drop,1.0,1,通过 / Passed,静置后观察时长,Observation duration after settling,rest_observation_duration_s,s,秒 / second,0.636,0.636
+MuJoCo CPU,方块下落 / Cube drop,1.0,1,通过 / Passed,记录时长内刚体已静置,Rigid body settled within recorded duration,settled_within_duration,布尔,布尔值 / boolean,True,是 / Yes
+MuJoCo CPU,方块下落 / Cube drop,1.0,1,通过 / Passed,静置角速度阈值,Settling angular speed threshold,settling_angular_speed_threshold_rad_s,rad/s,弧度每秒 / radian per second,0.028867513459481287,0.0288675135
+MuJoCo CPU,方块下落 / Cube drop,1.0,1,通过 / Passed,末段平均法向接触力,Mean normal contact force in final window,mean_tail_normal_force_n,N,牛顿 / newton,0.9809999999906788,0.981
+MuJoCo CPU,方块下落 / Cube drop,1.0,1,通过 / Passed,末段平均支撑力与重力比,Final-window mean support force to weight ratio,tail_support_weight_ratio,1,无量纲 / dimensionless,0.9999999999904982,1
+MuJoCo CPU,方块下落 / Cube drop,1.0,1,通过 / Passed,最大水平偏移,Maximum horizontal displacement,max_horizontal_displacement_m,m,米 / metre,0.0,0
+MuJoCo CPU,方块下落 / Cube drop,1.0,1,通过 / Passed,全程Z接触冲量,Total contact impulse Z,total_contact_jz_ns,N·s,牛顿秒 / newton second,0.9809999999982202,0.981
+MuJoCo CPU,方块下落 / Cube drop,1.0,2,通过 / Passed,仿真步长,Simulation timestep,dt_s,s,秒 / second,0.001,0.001
+MuJoCo CPU,方块下落 / Cube drop,1.0,2,通过 / Passed,物理步数,Physics steps,steps,步,步 / step,1000,1000
+MuJoCo CPU,方块下落 / Cube drop,1.0,2,通过 / Passed,峰值接触合力,Peak resultant contact force,peak_contact_force_n,N,牛顿 / newton,53.44137700485474,53.441377
+MuJoCo CPU,方块下落 / Cube drop,1.0,2,通过 / Passed,峰值法向接触力,Peak normal contact force,peak_contact_fz_n,N,牛顿 / newton,53.44137700485474,53.441377
+MuJoCo CPU,方块下落 / Cube drop,1.0,2,通过 / Passed,最大穿透深度,Maximum penetration depth,max_penetration_m,m,米 / metre,0.007567367710084476,0.00756736771
+MuJoCo CPU,方块下落 / Cube drop,1.0,2,通过 / Passed,首次接触时间,First contact time,first_contact_s,s,秒 / second,0.259,0.259
+MuJoCo CPU,方块下落 / Cube drop,1.0,2,通过 / Passed,质心静置时间,COM settling time,settled_time_s,s,秒 / second,0.364,0.364
+MuJoCo CPU,方块下落 / Cube drop,1.0,2,通过 / Passed,最大动量平衡残差,Maximum momentum balance residual,max_momentum_residual_ns,N·s,牛顿秒 / newton second,2.9929322923072917e-14,2.99293229e-14
+MuJoCo CPU,方块下落 / Cube drop,1.0,2,通过 / Passed,最大接触力核算误差,Maximum contact force accounting error,max_constraint_force_error_n,N,牛顿 / newton,0.0,0
+MuJoCo CPU,方块下落 / Cube drop,1.0,2,通过 / Passed,窗口接触冲量X,Window contact impulse X,window_contact_jx_ns,N·s,牛顿秒 / newton second,0.0,0
+MuJoCo CPU,方块下落 / Cube drop,1.0,2,通过 / Passed,窗口接触冲量Y,Window contact impulse Y,window_contact_jy_ns,N·s,牛顿秒 / newton second,0.0,0
+MuJoCo CPU,方块下落 / Cube drop,1.0,2,通过 / Passed,窗口接触冲量Z,Window contact impulse Z,window_contact_jz_ns,N·s,牛顿秒 / newton second,0.30341046652836884,0.303410467
+MuJoCo CPU,方块下落 / Cube drop,1.0,2,通过 / Passed,接触冲量窗口完整,Contact impulse window complete,impulse_window_complete,布尔,布尔值 / boolean,True,是 / Yes
+MuJoCo CPU,方块下落 / Cube drop,1.0,2,通过 / Passed,最低质心高度,Minimum COM height,minimum_com_height_m,m,米 / metre,0.012432632289915525,0.0124326323
+MuJoCo CPU,方块下落 / Cube drop,1.0,2,通过 / Passed,理想首次接触时间,Ideal first contact time,ideal_first_contact_s,s,秒 / second,0.2593805842035477,0.259380584
+MuJoCo CPU,方块下落 / Cube drop,1.0,2,通过 / Passed,首次接触时间相对理想值偏差,First contact time deviation from ideal,first_contact_time_error_s,s,秒 / second,-0.00038058420354769584,-0.000380584204
+MuJoCo CPU,方块下落 / Cube drop,1.0,2,通过 / Passed,首次接触步初竖直速度,Vertical velocity at start of first contact step,preimpact_vertical_velocity_m_s,m/s,米每秒 / metre per second,-2.540790000000002,-2.54079
+MuJoCo CPU,方块下落 / Cube drop,1.0,2,通过 / Passed,理想碰撞前竖直速度,Ideal preimpact vertical velocity,ideal_impact_vertical_velocity_m_s,m/s,米每秒 / metre per second,-2.5445235310368033,-2.54452353
+MuJoCo CPU,方块下落 / Cube drop,1.0,2,通过 / Passed,接触后最大向上速度,Peak upward velocity after contact,peak_rebound_vertical_velocity_m_s,m/s,米每秒 / metre per second,0.28465400856625256,0.284654009
+MuJoCo CPU,方块下落 / Cube drop,1.0,2,通过 / Passed,自由落体段最大高度误差,Maximum free-fall height error,max_free_fall_height_error_m,m,米 / metre,0.0012703950000005557,0.001270395
+MuJoCo CPU,方块下落 / Cube drop,1.0,2,通过 / Passed,自由落体段最大竖直速度误差,Maximum free-fall vertical velocity error,max_free_fall_velocity_error_m_s,m/s,米每秒 / metre per second,8.881784197001252e-15,8.8817842e-15
+MuJoCo CPU,方块下落 / Cube drop,1.0,2,通过 / Passed,最终质心高度,Final COM height,final_com_height_m,m,米 / metre,0.019972699194338268,0.0199726992
+MuJoCo CPU,方块下落 / Cube drop,1.0,2,通过 / Passed,最终质心线速度模长,Final COM linear speed,final_linear_speed_m_s,m/s,米每秒 / metre per second,6.117859401870977e-16,6.1178594e-16
+MuJoCo CPU,方块下落 / Cube drop,1.0,2,通过 / Passed,最终角速度模长,Final angular speed,final_angular_speed_rad_s,rad/s,弧度每秒 / radian per second,0.0,0
+MuJoCo CPU,方块下落 / Cube drop,1.0,2,通过 / Passed,刚体静置时间,Rigid-body settling time,rigid_settled_time_s,s,秒 / second,0.364,0.364
+MuJoCo CPU,方块下落 / Cube drop,1.0,2,通过 / Passed,静置后观察时长,Observation duration after settling,rest_observation_duration_s,s,秒 / second,0.636,0.636
+MuJoCo CPU,方块下落 / Cube drop,1.0,2,通过 / Passed,记录时长内刚体已静置,Rigid body settled within recorded duration,settled_within_duration,布尔,布尔值 / boolean,True,是 / Yes
+MuJoCo CPU,方块下落 / Cube drop,1.0,2,通过 / Passed,静置角速度阈值,Settling angular speed threshold,settling_angular_speed_threshold_rad_s,rad/s,弧度每秒 / radian per second,0.028867513459481287,0.0288675135
+MuJoCo CPU,方块下落 / Cube drop,1.0,2,通过 / Passed,末段平均法向接触力,Mean normal contact force in final window,mean_tail_normal_force_n,N,牛顿 / newton,0.9809999999906788,0.981
+MuJoCo CPU,方块下落 / Cube drop,1.0,2,通过 / Passed,末段平均支撑力与重力比,Final-window mean support force to weight ratio,tail_support_weight_ratio,1,无量纲 / dimensionless,0.9999999999904982,1
+MuJoCo CPU,方块下落 / Cube drop,1.0,2,通过 / Passed,最大水平偏移,Maximum horizontal displacement,max_horizontal_displacement_m,m,米 / metre,0.0,0
+MuJoCo CPU,方块下落 / Cube drop,1.0,2,通过 / Passed,全程Z接触冲量,Total contact impulse Z,total_contact_jz_ns,N·s,牛顿秒 / newton second,0.9809999999982202,0.981
+MuJoCo CPU,方块下落 / Cube drop,1.0,3,通过 / Passed,仿真步长,Simulation timestep,dt_s,s,秒 / second,0.001,0.001
+MuJoCo CPU,方块下落 / Cube drop,1.0,3,通过 / Passed,物理步数,Physics steps,steps,步,步 / step,1000,1000
+MuJoCo CPU,方块下落 / Cube drop,1.0,3,通过 / Passed,峰值接触合力,Peak resultant contact force,peak_contact_force_n,N,牛顿 / newton,53.44137700485474,53.441377
+MuJoCo CPU,方块下落 / Cube drop,1.0,3,通过 / Passed,峰值法向接触力,Peak normal contact force,peak_contact_fz_n,N,牛顿 / newton,53.44137700485474,53.441377
+MuJoCo CPU,方块下落 / Cube drop,1.0,3,通过 / Passed,最大穿透深度,Maximum penetration depth,max_penetration_m,m,米 / metre,0.007567367710084476,0.00756736771
+MuJoCo CPU,方块下落 / Cube drop,1.0,3,通过 / Passed,首次接触时间,First contact time,first_contact_s,s,秒 / second,0.259,0.259
+MuJoCo CPU,方块下落 / Cube drop,1.0,3,通过 / Passed,质心静置时间,COM settling time,settled_time_s,s,秒 / second,0.364,0.364
+MuJoCo CPU,方块下落 / Cube drop,1.0,3,通过 / Passed,最大动量平衡残差,Maximum momentum balance residual,max_momentum_residual_ns,N·s,牛顿秒 / newton second,2.9929322923072917e-14,2.99293229e-14
+MuJoCo CPU,方块下落 / Cube drop,1.0,3,通过 / Passed,最大接触力核算误差,Maximum contact force accounting error,max_constraint_force_error_n,N,牛顿 / newton,0.0,0
+MuJoCo CPU,方块下落 / Cube drop,1.0,3,通过 / Passed,窗口接触冲量X,Window contact impulse X,window_contact_jx_ns,N·s,牛顿秒 / newton second,0.0,0
+MuJoCo CPU,方块下落 / Cube drop,1.0,3,通过 / Passed,窗口接触冲量Y,Window contact impulse Y,window_contact_jy_ns,N·s,牛顿秒 / newton second,0.0,0
+MuJoCo CPU,方块下落 / Cube drop,1.0,3,通过 / Passed,窗口接触冲量Z,Window contact impulse Z,window_contact_jz_ns,N·s,牛顿秒 / newton second,0.30341046652836884,0.303410467
+MuJoCo CPU,方块下落 / Cube drop,1.0,3,通过 / Passed,接触冲量窗口完整,Contact impulse window complete,impulse_window_complete,布尔,布尔值 / boolean,True,是 / Yes
+MuJoCo CPU,方块下落 / Cube drop,1.0,3,通过 / Passed,最低质心高度,Minimum COM height,minimum_com_height_m,m,米 / metre,0.012432632289915525,0.0124326323
+MuJoCo CPU,方块下落 / Cube drop,1.0,3,通过 / Passed,理想首次接触时间,Ideal first contact time,ideal_first_contact_s,s,秒 / second,0.2593805842035477,0.259380584
+MuJoCo CPU,方块下落 / Cube drop,1.0,3,通过 / Passed,首次接触时间相对理想值偏差,First contact time deviation from ideal,first_contact_time_error_s,s,秒 / second,-0.00038058420354769584,-0.000380584204
+MuJoCo CPU,方块下落 / Cube drop,1.0,3,通过 / Passed,首次接触步初竖直速度,Vertical velocity at start of first contact step,preimpact_vertical_velocity_m_s,m/s,米每秒 / metre per second,-2.540790000000002,-2.54079
+MuJoCo CPU,方块下落 / Cube drop,1.0,3,通过 / Passed,理想碰撞前竖直速度,Ideal preimpact vertical velocity,ideal_impact_vertical_velocity_m_s,m/s,米每秒 / metre per second,-2.5445235310368033,-2.54452353
+MuJoCo CPU,方块下落 / Cube drop,1.0,3,通过 / Passed,接触后最大向上速度,Peak upward velocity after contact,peak_rebound_vertical_velocity_m_s,m/s,米每秒 / metre per second,0.28465400856625256,0.284654009
+MuJoCo CPU,方块下落 / Cube drop,1.0,3,通过 / Passed,自由落体段最大高度误差,Maximum free-fall height error,max_free_fall_height_error_m,m,米 / metre,0.0012703950000005557,0.001270395
+MuJoCo CPU,方块下落 / Cube drop,1.0,3,通过 / Passed,自由落体段最大竖直速度误差,Maximum free-fall vertical velocity error,max_free_fall_velocity_error_m_s,m/s,米每秒 / metre per second,8.881784197001252e-15,8.8817842e-15
+MuJoCo CPU,方块下落 / Cube drop,1.0,3,通过 / Passed,最终质心高度,Final COM height,final_com_height_m,m,米 / metre,0.019972699194338268,0.0199726992
+MuJoCo CPU,方块下落 / Cube drop,1.0,3,通过 / Passed,最终质心线速度模长,Final COM linear speed,final_linear_speed_m_s,m/s,米每秒 / metre per second,6.117859401870977e-16,6.1178594e-16
+MuJoCo CPU,方块下落 / Cube drop,1.0,3,通过 / Passed,最终角速度模长,Final angular speed,final_angular_speed_rad_s,rad/s,弧度每秒 / radian per second,0.0,0
+MuJoCo CPU,方块下落 / Cube drop,1.0,3,通过 / Passed,刚体静置时间,Rigid-body settling time,rigid_settled_time_s,s,秒 / second,0.364,0.364
+MuJoCo CPU,方块下落 / Cube drop,1.0,3,通过 / Passed,静置后观察时长,Observation duration after settling,rest_observation_duration_s,s,秒 / second,0.636,0.636
+MuJoCo CPU,方块下落 / Cube drop,1.0,3,通过 / Passed,记录时长内刚体已静置,Rigid body settled within recorded duration,settled_within_duration,布尔,布尔值 / boolean,True,是 / Yes
+MuJoCo CPU,方块下落 / Cube drop,1.0,3,通过 / Passed,静置角速度阈值,Settling angular speed threshold,settling_angular_speed_threshold_rad_s,rad/s,弧度每秒 / radian per second,0.028867513459481287,0.0288675135
+MuJoCo CPU,方块下落 / Cube drop,1.0,3,通过 / Passed,末段平均法向接触力,Mean normal contact force in final window,mean_tail_normal_force_n,N,牛顿 / newton,0.9809999999906788,0.981
+MuJoCo CPU,方块下落 / Cube drop,1.0,3,通过 / Passed,末段平均支撑力与重力比,Final-window mean support force to weight ratio,tail_support_weight_ratio,1,无量纲 / dimensionless,0.9999999999904982,1
+MuJoCo CPU,方块下落 / Cube drop,1.0,3,通过 / Passed,最大水平偏移,Maximum horizontal displacement,max_horizontal_displacement_m,m,米 / metre,0.0,0
+MuJoCo CPU,方块下落 / Cube drop,1.0,3,通过 / Passed,全程Z接触冲量,Total contact impulse Z,total_contact_jz_ns,N·s,牛顿秒 / newton second,0.9809999999982202,0.981

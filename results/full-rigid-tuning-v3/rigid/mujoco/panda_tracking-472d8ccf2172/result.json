@@ -1,0 +1,59 @@
+{
+  "numerically_valid": true,
+  "task_success": true,
+  "simulated_seconds": 2.5,
+  "max_fk_error_m": 0.0,
+  "peak_contact_force_n": 0.0,
+  "joint_rmse_rad": 6.220318748834301e-05,
+  "normalized_squared_arm_effort": 0.016072046483233456,
+  "joint_limit_excess_rad": 0.0,
+  "max_momentum_residual_ns": {},
+  "contact_force_validated": null,
+  "engine": "mujoco",
+  "case": {
+    "family": "panda_tracking",
+    "dt": 0.001,
+    "repeat": 2,
+    "id": "panda_tracking-472d8ccf2172",
+    "duration": 2.5
+  },
+  "status": "completed",
+  "error": null,
+  "wall_seconds": 0.5816817439999795,
+  "reference_sha256": "63a6ed90aa9d217296fea9d96bab674425b519c4baa2e3ff05c3949306030efb",
+  "samples": 2501,
+  "audit": {
+    "engine": "mujoco",
+    "version": "3.15.0",
+    "precision": "float64",
+    "device": "cpu",
+    "five_pose_fk_checks": [
+      {
+        "position_error_m": 0.0,
+        "rotation_frobenius_error": 0.0,
+        "joint_error": 0.0
+      },
+      {
+        "position_error_m": 0.0,
+        "rotation_frobenius_error": 0.0,
+        "joint_error": 0.0
+      },
+      {
+        "position_error_m": 0.0,
+        "rotation_frobenius_error": 0.0,
+        "joint_error": 0.0
+      },
+      {
+        "position_error_m": 0.0,
+        "rotation_frobenius_error": 0.0,
+        "joint_error": 0.0
+      },
+      {
+        "position_error_m": 0.0,
+        "rotation_frobenius_error": 0.0,
+        "joint_error": 0.0
+      }
+    ],
+    "initial_fk_error_m": 0.0
+  }
+}

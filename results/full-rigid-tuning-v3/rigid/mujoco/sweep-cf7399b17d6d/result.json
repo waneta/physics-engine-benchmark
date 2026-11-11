@@ -1,0 +1,76 @@
+{
+  "numerically_valid": true,
+  "task_success": false,
+  "simulated_seconds": 12.5,
+  "max_fk_error_m": 0.0,
+  "peak_contact_force_n": 40.6165051092559,
+  "joint_rmse_rad": 0.0066289507531733256,
+  "normalized_squared_arm_effort": 0.02588204923227954,
+  "joint_limit_excess_rad": 0.0,
+  "max_momentum_residual_ns": {
+    "object0": 2.2199433708597272e-08,
+    "object1": 5.3694397522367947e-08,
+    "object2": 7.118947288704453e-08,
+    "object3": 1.7256004615033403e-08,
+    "object4": 6.257463719763417e-08,
+    "object5": 6.697177121471035e-08,
+    "object6": 1.0803861701757636e-08,
+    "object7": 8.331953527349157e-08,
+    "object8": 5.374526673594588e-08,
+    "object9": 1.2435134531670942e-10,
+    "object10": 2.980324401567913e-08,
+    "object11": 5.660595064493783e-08,
+    "object12": 1.0531840181181744e-08,
+    "object13": 7.359060700004351e-08,
+    "object14": 4.925773490517495e-08
+  },
+  "contact_force_validated": true,
+  "objects_in_tray": 9,
+  "engine": "mujoco",
+  "case": {
+    "family": "sweep",
+    "dt": 0.001,
+    "repeat": 0,
+    "id": "sweep-cf7399b17d6d",
+    "duration": 12.5
+  },
+  "status": "completed",
+  "error": null,
+  "wall_seconds": 23.038291560999824,
+  "reference_sha256": "26da1241cfec8726d0db59fc4ad5874eabd0c7fb01beb7929e5faacdf67de32d",
+  "samples": 12501,
+  "audit": {
+    "engine": "mujoco",
+    "version": "3.15.0",
+    "precision": "float64",
+    "device": "cpu",
+    "five_pose_fk_checks": [
+      {
+        "position_error_m": 0.0,
+        "rotation_frobenius_error": 0.0,
+        "joint_error": 0.0
+      },
+      {
+        "position_error_m": 0.0,
+        "rotation_frobenius_error": 0.0,
+        "joint_error": 0.0
+      },
+      {
+        "position_error_m": 0.0,
+        "rotation_frobenius_error": 0.0,
+        "joint_error": 0.0
+      },
+      {
+        "position_error_m": 0.0,
+        "rotation_frobenius_error": 0.0,
+        "joint_error": 0.0
+      },
+      {
+        "position_error_m": 0.0,
+        "rotation_frobenius_error": 0.0,
+        "joint_error": 0.0
+      }
+    ],
+    "initial_fk_error_m": 0.0
+  }
+}

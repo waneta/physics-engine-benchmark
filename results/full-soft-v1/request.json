@@ -1,0 +1,12 @@
+{
+  "scopes": [
+    "soft"
+  ],
+  "engines": [
+    "mujoco",
+    "physx",
+    "mujoco-warp",
+    "genesis",
+    "newton-vbd"
+  ]
+}

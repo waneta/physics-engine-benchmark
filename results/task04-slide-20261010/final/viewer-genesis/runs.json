@@ -1,0 +1,20 @@
+[
+  {
+    "engine": "genesis",
+    "scene": "slide",
+    "dt_s": 0.002,
+    "repeat": 0,
+    "status": "failed",
+    "directory": "slide/dt_0.002/repeat_00",
+    "error": "EGLError: EGLError(\n\terr = 'No EGL context could be initialized.'\n)"
+  },
+  {
+    "engine": "genesis",
+    "scene": "slide",
+    "dt_s": 0.001,
+    "repeat": 0,
+    "status": "failed",
+    "directory": "slide/dt_0.001/repeat_00",
+    "error": "EGLError: EGLError(\n\terr = 'No EGL context could be initialized.'\n)"
+  }
+]

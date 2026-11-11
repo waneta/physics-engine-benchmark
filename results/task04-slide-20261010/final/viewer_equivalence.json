@@ -1,0 +1,198 @@
+{
+  "description": "Live GUI vs headless, measured state/force/impulse comparison; float32 variations allowed by predeclared absolute limits",
+  "records": [
+    {
+      "engine": "mujoco-cpu",
+      "dt_s": 0.002,
+      "steps": 300,
+      "all_numeric_columns_identical": true,
+      "max_difference": {
+        "position_m": 0.0,
+        "quaternion": 0.0,
+        "velocity_m_s": 0.0,
+        "angular_velocity_rad_s": 0.0,
+        "force_n": 0.0,
+        "impulse_ns": 0.0
+      },
+      "limits": {
+        "position_m": 1e-06,
+        "quaternion": 1e-06,
+        "velocity_m_s": 0.0001,
+        "angular_velocity_rad_s": 0.001,
+        "force_n": 0.001,
+        "impulse_ns": 1e-06
+      },
+      "frames": 19,
+      "passed": true
+    },
+    {
+      "engine": "mujoco-cpu",
+      "dt_s": 0.001,
+      "steps": 600,
+      "all_numeric_columns_identical": true,
+      "max_difference": {
+        "position_m": 0.0,
+        "quaternion": 0.0,
+        "velocity_m_s": 0.0,
+        "angular_velocity_rad_s": 0.0,
+        "force_n": 0.0,
+        "impulse_ns": 0.0
+      },
+      "limits": {
+        "position_m": 1e-06,
+        "quaternion": 1e-06,
+        "velocity_m_s": 0.0001,
+        "angular_velocity_rad_s": 0.001,
+        "force_n": 0.001,
+        "impulse_ns": 1e-06
+      },
+      "frames": 19,
+      "passed": true
+    },
+    {
+      "engine": "mujoco-warp",
+      "dt_s": 0.002,
+      "steps": 300,
+      "all_numeric_columns_identical": false,
+      "max_difference": {
+        "position_m": 1.862645149230957e-09,
+        "quaternion": 2.828892320394516e-08,
+        "velocity_m_s": 1.1920928955078125e-07,
+        "angular_velocity_rad_s": 6.884336471557617e-06,
+        "force_n": 8.344650268554688e-06,
+        "impulse_ns": 1.6689300537039986e-08
+      },
+      "limits": {
+        "position_m": 1e-06,
+        "quaternion": 1e-06,
+        "velocity_m_s": 0.0001,
+        "angular_velocity_rad_s": 0.001,
+        "force_n": 0.001,
+        "impulse_ns": 1e-06
+      },
+      "frames": 19,
+      "passed": true
+    },
+    {
+      "engine": "mujoco-warp",
+      "dt_s": 0.001,
+      "steps": 600,
+      "all_numeric_columns_identical": false,
+      "max_difference": {
+        "position_m": 1.862645149230957e-09,
+        "quaternion": 1.3853423297405243e-08,
+        "velocity_m_s": 8.940696716308594e-08,
+        "angular_velocity_rad_s": 4.410743713378906e-06,
+        "force_n": 6.064772605895996e-06,
+        "impulse_ns": 6.064772605993141e-09
+      },
+      "limits": {
+        "position_m": 1e-06,
+        "quaternion": 1e-06,
+        "velocity_m_s": 0.0001,
+        "angular_velocity_rad_s": 0.001,
+        "force_n": 0.001,
+        "impulse_ns": 1e-06
+      },
+      "frames": 19,
+      "passed": true
+    },
+    {
+      "engine": "genesis",
+      "dt_s": 0.002,
+      "steps": 300,
+      "all_numeric_columns_identical": true,
+      "max_difference": {
+        "position_m": 0.0,
+        "quaternion": 0.0,
+        "velocity_m_s": 0.0,
+        "angular_velocity_rad_s": 0.0,
+        "force_n": 0.0,
+        "impulse_ns": 0.0
+      },
+      "limits": {
+        "position_m": 1e-06,
+        "quaternion": 1e-06,
+        "velocity_m_s": 0.0001,
+        "angular_velocity_rad_s": 0.001,
+        "force_n": 0.001,
+        "impulse_ns": 1e-06
+      },
+      "frames": 76,
+      "passed": true
+    },
+    {
+      "engine": "genesis",
+      "dt_s": 0.001,
+      "steps": 600,
+      "all_numeric_columns_identical": true,
+      "max_difference": {
+        "position_m": 0.0,
+        "quaternion": 0.0,
+        "velocity_m_s": 0.0,
+        "angular_velocity_rad_s": 0.0,
+        "force_n": 0.0,
+        "impulse_ns": 0.0
+      },
+      "limits": {
+        "position_m": 1e-06,
+        "quaternion": 1e-06,
+        "velocity_m_s": 0.0001,
+        "angular_velocity_rad_s": 0.001,
+        "force_n": 0.001,
+        "impulse_ns": 1e-06
+      },
+      "frames": 87,
+      "passed": true
+    },
+    {
+      "engine": "physx",
+      "dt_s": 0.002,
+      "steps": 300,
+      "all_numeric_columns_identical": true,
+      "max_difference": {
+        "position_m": 0.0,
+        "quaternion": 0.0,
+        "velocity_m_s": 0.0,
+        "angular_velocity_rad_s": 0.0,
+        "force_n": 0.0,
+        "impulse_ns": 0.0
+      },
+      "limits": {
+        "position_m": 1e-06,
+        "quaternion": 1e-06,
+        "velocity_m_s": 0.0001,
+        "angular_velocity_rad_s": 0.001,
+        "force_n": 0.001,
+        "impulse_ns": 1e-06
+      },
+      "frames": 69,
+      "passed": true
+    },
+    {
+      "engine": "physx",
+      "dt_s": 0.001,
+      "steps": 600,
+      "all_numeric_columns_identical": true,
+      "max_difference": {
+        "position_m": 0.0,
+        "quaternion": 0.0,
+        "velocity_m_s": 0.0,
+        "angular_velocity_rad_s": 0.0,
+        "force_n": 0.0,
+        "impulse_ns": 0.0
+      },
+      "limits": {
+        "position_m": 1e-06,
+        "quaternion": 1e-06,
+        "velocity_m_s": 0.0001,
+        "angular_velocity_rad_s": 0.001,
+        "force_n": 0.001,
+        "impulse_ns": 1e-06
+      },
+      "frames": 52,
+      "passed": true
+    }
+  ],
+  "passed": true
+}

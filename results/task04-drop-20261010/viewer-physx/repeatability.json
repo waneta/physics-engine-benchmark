@@ -1,0 +1,18 @@
+[
+  {
+    "scene": "drop",
+    "dt_s": 0.002,
+    "successful_repeats": 1,
+    "requested_repeats": 1,
+    "max_abs_difference_by_column": {},
+    "all_numeric_samples_identical": null
+  },
+  {
+    "scene": "drop",
+    "dt_s": 0.001,
+    "successful_repeats": 0,
+    "requested_repeats": 1,
+    "max_abs_difference_by_column": {},
+    "all_numeric_samples_identical": null
+  }
+]

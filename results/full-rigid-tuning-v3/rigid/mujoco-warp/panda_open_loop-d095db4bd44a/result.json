@@ -1,0 +1,61 @@
+{
+  "numerically_valid": true,
+  "task_success": true,
+  "simulated_seconds": 0.5,
+  "max_fk_error_m": 2.3844051756492643e-07,
+  "peak_contact_force_n": 0.0,
+  "joint_rmse_rad": 0.021386895386592778,
+  "normalized_squared_arm_effort": 0.014785486357647176,
+  "joint_limit_excess_rad": 0.0,
+  "max_momentum_residual_ns": {},
+  "contact_force_validated": null,
+  "engine": "mujoco-warp",
+  "case": {
+    "family": "panda_open_loop",
+    "dt": 0.0005,
+    "repeat": 2,
+    "id": "panda_open_loop-d095db4bd44a",
+    "duration": 0.5
+  },
+  "status": "completed",
+  "error": null,
+  "wall_seconds": 2.0233205619997534,
+  "reference_sha256": "30e02a7e1151ea6fdca3f585a95a9e7e1f60554a0ad91191fdd8122b570d9837",
+  "samples": 1001,
+  "audit": {
+    "engine": "mujoco-warp",
+    "version": "3.15.0",
+    "precision": "float32",
+    "device": "cuda:0",
+    "contact_capacity": 256,
+    "constraint_capacity": 2048,
+    "five_pose_fk_checks": [
+      {
+        "position_error_m": 1.145596484342093e-07,
+        "rotation_frobenius_error": 3.22866160918913e-07,
+        "joint_error": 4.371139006309477e-08
+      },
+      {
+        "position_error_m": 8.611715818229726e-08,
+        "rotation_frobenius_error": 4.399757310329934e-07,
+        "joint_error": 4.276864373764511e-08
+      },
+      {
+        "position_error_m": 6.50594085271905e-08,
+        "rotation_frobenius_error": 4.539262377427832e-07,
+        "joint_error": 4.465413638854443e-08
+      },
+      {
+        "position_error_m": 9.167134329413074e-08,
+        "rotation_frobenius_error": 4.120823338028509e-07,
+        "joint_error": 1.0714883202922465e-07
+      },
+      {
+        "position_error_m": 8.849607768812717e-08,
+        "rotation_frobenius_error": 4.4188058711138075e-07,
+        "joint_error": 1.190737126677277e-07
+      }
+    ],
+    "initial_fk_error_m": 1.145596484342093e-07
+  }
+}

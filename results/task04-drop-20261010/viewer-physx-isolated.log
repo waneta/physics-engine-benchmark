@@ -1,0 +1,6 @@
+Output: /home/datamesh/github_waneta/physics-engine-benchmark/results/task04-drop-20261010/viewer-physx-isolated
+Running physx: drop dt=0.002 repeat=1
+drop  dt=0.002 repeat=1: passed
+Running physx: drop dt=0.001 repeat=1
+drop  dt=0.001 repeat=1: passed
+Report: /home/datamesh/github_waneta/physics-engine-benchmark/results/task04-drop-20261010/viewer-physx-isolated/report.md

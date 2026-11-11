@@ -1,0 +1,34 @@
+[
+  {
+    "engine": "mujoco",
+    "case": {
+      "family": "soft_grasp",
+      "dt": 5e-05,
+      "refined": false,
+      "duration": 4.5,
+      "finger_force": 1,
+      "repeat": 0,
+      "id": "soft_grasp-04"
+    },
+    "status": "inverted",
+    "error": null,
+    "numerically_valid": false,
+    "task_success": false,
+    "hold_lift_m": null,
+    "minimum_volume_ratio": -0.003199259961452006,
+    "force_n": null,
+    "force_validated": true,
+    "force_note": "Sum of native flex contact loads passed nodal momentum balance.",
+    "audit": {
+      "engine": "mujoco",
+      "material": "MuJoCo flex elasticity",
+      "force_validated": true,
+      "vertex_count": 125,
+      "element_count": 384,
+      "mass_kg": 0.10504912346763821,
+      "max_momentum_residual_ns": 1.6219612782384626e-09
+    },
+    "samples": 282,
+    "wall_seconds": 30.285242035999545
+  }
+]

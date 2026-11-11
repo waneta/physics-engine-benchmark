@@ -1,0 +1,28 @@
+[
+  {
+    "engine": "physx",
+    "case": {
+      "family": "soft_grasp",
+      "dt": 0.001,
+      "refined": false,
+      "duration": 4.5,
+      "finger_force": 1,
+      "repeat": 0,
+      "id": "soft_grasp-04"
+    },
+    "status": "error",
+    "error": "\nNot equal to tolerance rtol=1e-07, atol=1e-06\n\nMismatched elements: 124 / 375 (33.1%)\nFirst 5 mismatches are at indices:\n [0, 2]: 0.48003172874450684 (ACTUAL), 0.4800615442271505 (DESIRED)\n [1, 2]: 0.48735225200653076 (ACTUAL), 0.4873820523028393 (DESIRED)\n [2, 2]: 0.4973522424697876 (ACTUAL), 0.49738205230283933 (DESIRED)\n [3, 2]: 0.5073522329330444 (ACTUAL), 0.5073820523028393 (DESIRED)\n [4, 2]: 0.5146727561950684 (ACTUAL), 0.5147025603785281 (DESIRED)\nMax absolute difference among violations: 2.98289065e-05\nMax relative difference among violations: 6.33580627e-05\n ACTUAL: array([[ 2.895701e-01, -1.732051e-02,  4.800317e-01],\n       [ 2.868906e-01, -2.000000e-02,  4.873523e-01],\n       [ 2.856774e-01, -2.121320e-02,  4.973522e-01],...\n DESIRED: array([[ 2.895701e-01, -1.732051e-02,  4.800615e-01],\n       [ 2.868906e-01, -2.000000e-02,  4.873821e-01],\n       [ 2.856774e-01, -2.121320e-02,  4.973821e-01],...",
+    "numerically_valid": false,
+    "task_success": false,
+    "hold_lift_m": null,
+    "hold_com_lift_m": null,
+    "hold_window_covered": false,
+    "minimum_volume_ratio": null,
+    "force_n": null,
+    "force_validated": false,
+    "force_note": "Native deformable load accounting has not passed an independent momentum audit; no zero-load substitution.",
+    "audit": {},
+    "samples": 0,
+    "wall_seconds": 69.22041952699965
+  }
+]

@@ -1,0 +1,36 @@
+Traceback (most recent call last):
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/.venv-newton/lib/python3.11/site-packages/warp/_src/types.py", line 799, in _binary_op
+    desc = op.get_builtin(self, x)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/.venv-newton/lib/python3.11/site-packages/warp/_src/context.py", line 650, in get_builtin
+    raise RuntimeError(
+RuntimeError: Couldn't find a function 'mul' compatible with the arguments 'vec3f, int'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/src/physics_benchmark/extended/soft.py", line 161, in run
+    sim=import_module('.soft_'+engine.replace('-','_'),__package__).Simulation(case)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/src/physics_benchmark/extended/soft_newton_vbd.py", line 27, in __init__
+    builder.add_shape_box(b,hx=.01,hy=.08,hz=.08)
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/.venv-newton/lib/python3.11/site-packages/newton/_src/utils/deprecation.py", line 83, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/.venv-newton/lib/python3.11/site-packages/newton/_src/sim/builder.py", line 6812, in add_shape_box
+    return self.add_shape(
+           ^^^^^^^^^^^^^^^
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/.venv-newton/lib/python3.11/site-packages/newton/_src/sim/builder.py", line 6541, in add_shape
+    self._update_body_mass(body, m, inertia, com_body, xform.q)
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/.venv-newton/lib/python3.11/site-packages/newton/_src/sim/builder.py", line 9713, in _update_body_mass
+    new_com = (self.body_com[i] * self.body_mass[i] + p * m) / new_mass
+               ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/.venv-newton/lib/python3.11/site-packages/warp/_src/types.py", line 1033, in __mul__
+    return _binary_op(self, warp.mul, y, vec_t, cw=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/.venv-newton/lib/python3.11/site-packages/warp/_src/types.py", line 803, in _binary_op
+    desc = op.get_builtin(self[0], x)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/.venv-newton/lib/python3.11/site-packages/warp/_src/context.py", line 650, in get_builtin
+    raise RuntimeError(
+RuntimeError: Couldn't find a function 'mul' compatible with the arguments 'float, int'

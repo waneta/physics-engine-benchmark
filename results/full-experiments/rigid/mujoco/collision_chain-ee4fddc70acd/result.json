@@ -1,0 +1,33 @@
+{
+  "numerically_valid": true,
+  "task_success": true,
+  "simulated_seconds": 1.0,
+  "max_fk_error_m": 0.0,
+  "peak_contact_force_n": 22.067205587033914,
+  "max_momentum_residual_ns": {
+    "sphere": 1.4822140189499108e-08,
+    "cube": 3.924247293355425e-08,
+    "prism": 3.9222516864317235e-08
+  },
+  "contact_force_validated": true,
+  "engine": "mujoco",
+  "case": {
+    "family": "collision_chain",
+    "dt": 0.001,
+    "repeat": 2,
+    "id": "collision_chain-ee4fddc70acd",
+    "duration": 1.0
+  },
+  "status": "completed",
+  "error": null,
+  "wall_seconds": 0.33792552600061754,
+  "reference_sha256": null,
+  "samples": 1001,
+  "audit": {
+    "engine": "mujoco",
+    "version": "3.15.0",
+    "precision": "float64",
+    "device": "cpu",
+    "initial_fk_error_m": 0.0
+  }
+}

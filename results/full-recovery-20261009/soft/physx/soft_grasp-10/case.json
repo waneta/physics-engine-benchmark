@@ -1,0 +1,9 @@
+{
+  "family": "soft_grasp",
+  "dt": 0.0005,
+  "refined": true,
+  "duration": 4.5,
+  "finger_force": 2,
+  "repeat": 0,
+  "id": "soft_grasp-10"
+}

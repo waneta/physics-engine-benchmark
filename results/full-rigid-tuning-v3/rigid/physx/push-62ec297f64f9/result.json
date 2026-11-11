@@ -1,0 +1,20 @@
+{
+  "numerically_valid": false,
+  "task_success": false,
+  "engine": "physx",
+  "case": {
+    "family": "push",
+    "dt": 0.0005,
+    "repeat": 1,
+    "width": 0.08,
+    "rear_y": 0,
+    "id": "push-62ec297f64f9",
+    "duration": 5.0
+  },
+  "status": "error",
+  "error": "I/O operation on closed file.",
+  "wall_seconds": 0.0035114290003548376,
+  "reference_sha256": "7dc2662a0f2b81879bf23f39fb4d192075a42cc1d9f1b87761e0502ac5e6b6bf",
+  "samples": 0,
+  "audit": {}
+}

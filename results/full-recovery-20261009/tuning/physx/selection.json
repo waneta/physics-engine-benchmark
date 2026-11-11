@@ -1,0 +1,14 @@
+{
+  "id": "train-p0.5-d0.7-t4-0",
+  "family": "push",
+  "dt": 0.001,
+  "repeat": 0,
+  "phase": "train",
+  "candidate": "p0.5-d0.7-t4",
+  "kp_scale": 0.5,
+  "kd_scale": 0.7,
+  "push_duration": 4,
+  "width": 0.09,
+  "rear_y": -0.002,
+  "duration": 6.0
+}

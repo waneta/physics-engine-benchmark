@@ -1,0 +1,28 @@
+Traceback (most recent call last):
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/src/physics_benchmark/extended/soft.py", line 381, in run
+    sim = import_module(".soft_" + engine.replace("-", "_"), __package__).Simulation(case)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/src/physics_benchmark/extended/soft_physx.py", line 47, in __init__
+    np.testing.assert_allclose(self.state["vertices"], self.rest, atol=1e-6)
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/.venv/lib/python3.11/site-packages/numpy/testing/_private/utils.py", line 1768, in assert_allclose
+    assert_array_compare(compare, actual, desired, err_msg=str(err_msg),
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/.venv/lib/python3.11/site-packages/numpy/testing/_private/utils.py", line 983, in assert_array_compare
+    raise AssertionError(msg)
+AssertionError: 
+Not equal to tolerance rtol=1e-07, atol=1e-06
+
+Mismatched elements: 124 / 375 (33.1%)
+First 5 mismatches are at indices:
+ [0, 2]: 0.48003172874450684 (ACTUAL), 0.4800615442271505 (DESIRED)
+ [1, 2]: 0.48735225200653076 (ACTUAL), 0.4873820523028393 (DESIRED)
+ [2, 2]: 0.4973522424697876 (ACTUAL), 0.49738205230283933 (DESIRED)
+ [3, 2]: 0.5073522329330444 (ACTUAL), 0.5073820523028393 (DESIRED)
+ [4, 2]: 0.5146727561950684 (ACTUAL), 0.5147025603785281 (DESIRED)
+Max absolute difference among violations: 2.98289065e-05
+Max relative difference among violations: 6.33580627e-05
+ ACTUAL: array([[ 2.895701e-01, -1.732051e-02,  4.800317e-01],
+       [ 2.868906e-01, -2.000000e-02,  4.873523e-01],
+       [ 2.856774e-01, -2.121320e-02,  4.973522e-01],...
+ DESIRED: array([[ 2.895701e-01, -1.732051e-02,  4.800615e-01],
+       [ 2.868906e-01, -2.000000e-02,  4.873821e-01],
+       [ 2.856774e-01, -2.121320e-02,  4.973821e-01],...

@@ -1,0 +1,1076 @@
+[
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 5.0,
+    "max_fk_error_m": 7.248950608581701e-07,
+    "peak_contact_force_n": 15.072125029566354,
+    "joint_rmse_rad": 0.01009659726128197,
+    "normalized_squared_arm_effort": 0.024826743779889398,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {
+      "cube0": 5.9120908215259184e-08,
+      "cube1": 4.1773075653234496e-08,
+      "cube2": 5.4362871654960706e-08
+    },
+    "contact_force_validated": true,
+    "passed_objects": 3,
+    "minimum_progress_m": 0.1799735724925995,
+    "minimum_capped_goal_progress_m": 0.09600001097274746,
+    "engine": "physx",
+    "case": {
+      "id": "heldout-baseline-0",
+      "family": "push",
+      "dt": 0.001,
+      "repeat": 0,
+      "phase": "heldout",
+      "controller": "baseline",
+      "width": 0.09,
+      "rear_y": -0.003,
+      "duration": 5.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 33.781583279996994,
+    "reference_sha256": "7dc2662a0f2b81879bf23f39fb4d192075a42cc1d9f1b87761e0502ac5e6b6bf",
+    "samples": 5001,
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "CPU TGS",
+      "import_errors": {
+        "link0": 1.7812252020577013e-09,
+        "link1": 3.46946704699036e-08,
+        "link2": 2.1725296953795104e-08,
+        "link3": 2.384185791015625e-07,
+        "link4": 9.610176050778296e-09,
+        "link5": 3.630876543869732e-09,
+        "link6": 9.050369273455594e-10,
+        "link7": 8.075237284410619e-10,
+        "hand": 6.705522526129215e-10,
+        "left_finger": 9.313225746154785e-10,
+        "right_finger": 9.313225746154785e-10,
+        "cube0": 6.7326864434036e-14,
+        "cube1": 6.7326864434036e-14,
+        "cube2": 6.7326864434036e-14
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 2.686734180690209e-07,
+          "rotation_frobenius_error": 1.0633208823910982e-06,
+          "joint_error": 4.371139006309477e-08
+        },
+        {
+          "position_error_m": 1.7397411440113475e-07,
+          "rotation_frobenius_error": 1.419296256208406e-06,
+          "joint_error": 4.276864373764511e-08
+        },
+        {
+          "position_error_m": 3.465519964329644e-07,
+          "rotation_frobenius_error": 1.3428310770648775e-06,
+          "joint_error": 4.465413638854443e-08
+        },
+        {
+          "position_error_m": 2.664225804416276e-07,
+          "rotation_frobenius_error": 1.1782020850202812e-06,
+          "joint_error": 1.0714883202922465e-07
+        },
+        {
+          "position_error_m": 1.196276908088656e-07,
+          "rotation_frobenius_error": 1.2614675506152887e-06,
+          "joint_error": 1.190737126677277e-07
+        }
+      ],
+      "initial_fk_error_m": 2.686734180690209e-07
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 5.0,
+    "max_fk_error_m": 6.610490226420564e-07,
+    "peak_contact_force_n": 24.080741934226804,
+    "joint_rmse_rad": 0.0062699806129634834,
+    "normalized_squared_arm_effort": 0.02439366185452002,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {
+      "cube0": 8.045251518888256e-08,
+      "cube1": 6.089960844548704e-08,
+      "cube2": 4.552117204032823e-08
+    },
+    "contact_force_validated": true,
+    "passed_objects": 3,
+    "minimum_progress_m": 0.22150394320487976,
+    "minimum_capped_goal_progress_m": 0.09600001097274746,
+    "engine": "physx",
+    "case": {
+      "id": "heldout-baseline-1",
+      "family": "push",
+      "dt": 0.001,
+      "repeat": 0,
+      "phase": "heldout",
+      "controller": "baseline",
+      "width": 0.09,
+      "rear_y": -0.001,
+      "duration": 5.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 33.62983173200337,
+    "reference_sha256": "7dc2662a0f2b81879bf23f39fb4d192075a42cc1d9f1b87761e0502ac5e6b6bf",
+    "samples": 5001,
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "CPU TGS",
+      "import_errors": {
+        "link0": 1.7812252020577013e-09,
+        "link1": 3.46946704699036e-08,
+        "link2": 2.1725296953795104e-08,
+        "link3": 2.384185791015625e-07,
+        "link4": 9.610176050778296e-09,
+        "link5": 3.630876543869732e-09,
+        "link6": 9.050369273455594e-10,
+        "link7": 8.075237284410619e-10,
+        "hand": 6.705522526129215e-10,
+        "left_finger": 9.313225746154785e-10,
+        "right_finger": 9.313225746154785e-10,
+        "cube0": 6.7326864434036e-14,
+        "cube1": 6.7326864434036e-14,
+        "cube2": 6.7326864434036e-14
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 2.686734180690209e-07,
+          "rotation_frobenius_error": 1.0633208823910982e-06,
+          "joint_error": 4.371139006309477e-08
+        },
+        {
+          "position_error_m": 1.7397411440113475e-07,
+          "rotation_frobenius_error": 1.419296256208406e-06,
+          "joint_error": 4.276864373764511e-08
+        },
+        {
+          "position_error_m": 3.465519964329644e-07,
+          "rotation_frobenius_error": 1.3428310770648775e-06,
+          "joint_error": 4.465413638854443e-08
+        },
+        {
+          "position_error_m": 2.664225804416276e-07,
+          "rotation_frobenius_error": 1.1782020850202812e-06,
+          "joint_error": 1.0714883202922465e-07
+        },
+        {
+          "position_error_m": 1.196276908088656e-07,
+          "rotation_frobenius_error": 1.2614675506152887e-06,
+          "joint_error": 1.190737126677277e-07
+        }
+      ],
+      "initial_fk_error_m": 2.686734180690209e-07
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 5.0,
+    "max_fk_error_m": 6.978359287708987e-07,
+    "peak_contact_force_n": 126.55550471028518,
+    "joint_rmse_rad": 0.015613848700982858,
+    "normalized_squared_arm_effort": 0.024971593674061526,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {
+      "cube0": 8.123796646498406e-08,
+      "cube1": 5.7995707758240893e-08,
+      "cube2": 6.079020408046081e-08
+    },
+    "contact_force_validated": true,
+    "passed_objects": 3,
+    "minimum_progress_m": 0.1808854639530182,
+    "minimum_capped_goal_progress_m": 0.09600001097274746,
+    "engine": "physx",
+    "case": {
+      "id": "heldout-baseline-2",
+      "family": "push",
+      "dt": 0.001,
+      "repeat": 0,
+      "phase": "heldout",
+      "controller": "baseline",
+      "width": 0.09,
+      "rear_y": 0.001,
+      "duration": 5.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 33.66812723699695,
+    "reference_sha256": "7dc2662a0f2b81879bf23f39fb4d192075a42cc1d9f1b87761e0502ac5e6b6bf",
+    "samples": 5001,
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "CPU TGS",
+      "import_errors": {
+        "link0": 1.7812252020577013e-09,
+        "link1": 3.46946704699036e-08,
+        "link2": 2.1725296953795104e-08,
+        "link3": 2.384185791015625e-07,
+        "link4": 9.610176050778296e-09,
+        "link5": 3.630876543869732e-09,
+        "link6": 9.050369273455594e-10,
+        "link7": 8.075237284410619e-10,
+        "hand": 6.705522526129215e-10,
+        "left_finger": 9.313225746154785e-10,
+        "right_finger": 9.313225746154785e-10,
+        "cube0": 6.7326864434036e-14,
+        "cube1": 6.7326864434036e-14,
+        "cube2": 6.7326864434036e-14
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 2.686734180690209e-07,
+          "rotation_frobenius_error": 1.0633208823910982e-06,
+          "joint_error": 4.371139006309477e-08
+        },
+        {
+          "position_error_m": 1.7397411440113475e-07,
+          "rotation_frobenius_error": 1.419296256208406e-06,
+          "joint_error": 4.276864373764511e-08
+        },
+        {
+          "position_error_m": 3.465519964329644e-07,
+          "rotation_frobenius_error": 1.3428310770648775e-06,
+          "joint_error": 4.465413638854443e-08
+        },
+        {
+          "position_error_m": 2.664225804416276e-07,
+          "rotation_frobenius_error": 1.1782020850202812e-06,
+          "joint_error": 1.0714883202922465e-07
+        },
+        {
+          "position_error_m": 1.196276908088656e-07,
+          "rotation_frobenius_error": 1.2614675506152887e-06,
+          "joint_error": 1.190737126677277e-07
+        }
+      ],
+      "initial_fk_error_m": 2.686734180690209e-07
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 5.0,
+    "max_fk_error_m": 6.820902300276314e-07,
+    "peak_contact_force_n": 21.23999317275114,
+    "joint_rmse_rad": 0.008195599535978492,
+    "normalized_squared_arm_effort": 0.02441050447818942,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {
+      "cube0": 5.918524693917214e-08,
+      "cube1": 5.2474236433836e-08,
+      "cube2": 5.203128983406162e-08
+    },
+    "contact_force_validated": true,
+    "passed_objects": 3,
+    "minimum_progress_m": 0.1814480721950531,
+    "minimum_capped_goal_progress_m": 0.09600001097274746,
+    "engine": "physx",
+    "case": {
+      "id": "heldout-baseline-3",
+      "family": "push",
+      "dt": 0.001,
+      "repeat": 0,
+      "phase": "heldout",
+      "controller": "baseline",
+      "width": 0.09,
+      "rear_y": 0.003,
+      "duration": 5.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 33.257416628999636,
+    "reference_sha256": "7dc2662a0f2b81879bf23f39fb4d192075a42cc1d9f1b87761e0502ac5e6b6bf",
+    "samples": 5001,
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "CPU TGS",
+      "import_errors": {
+        "link0": 1.7812252020577013e-09,
+        "link1": 3.46946704699036e-08,
+        "link2": 2.1725296953795104e-08,
+        "link3": 2.384185791015625e-07,
+        "link4": 9.610176050778296e-09,
+        "link5": 3.630876543869732e-09,
+        "link6": 9.050369273455594e-10,
+        "link7": 8.075237284410619e-10,
+        "hand": 6.705522526129215e-10,
+        "left_finger": 9.313225746154785e-10,
+        "right_finger": 9.313225746154785e-10,
+        "cube0": 6.7326864434036e-14,
+        "cube1": 6.7326864434036e-14,
+        "cube2": 6.7326864434036e-14
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 2.686734180690209e-07,
+          "rotation_frobenius_error": 1.0633208823910982e-06,
+          "joint_error": 4.371139006309477e-08
+        },
+        {
+          "position_error_m": 1.7397411440113475e-07,
+          "rotation_frobenius_error": 1.419296256208406e-06,
+          "joint_error": 4.276864373764511e-08
+        },
+        {
+          "position_error_m": 3.465519964329644e-07,
+          "rotation_frobenius_error": 1.3428310770648775e-06,
+          "joint_error": 4.465413638854443e-08
+        },
+        {
+          "position_error_m": 2.664225804416276e-07,
+          "rotation_frobenius_error": 1.1782020850202812e-06,
+          "joint_error": 1.0714883202922465e-07
+        },
+        {
+          "position_error_m": 1.196276908088656e-07,
+          "rotation_frobenius_error": 1.2614675506152887e-06,
+          "joint_error": 1.190737126677277e-07
+        }
+      ],
+      "initial_fk_error_m": 2.686734180690209e-07
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": false,
+    "simulated_seconds": 5.0,
+    "max_fk_error_m": 6.469338893798733e-07,
+    "peak_contact_force_n": 508.3447511782384,
+    "joint_rmse_rad": 0.1496188079116341,
+    "normalized_squared_arm_effort": 0.06718974573082788,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {
+      "cube0": 2.4616986611725676e-07,
+      "cube1": 8.426759343064533e-08,
+      "cube2": 8.316791918449645e-08
+    },
+    "contact_force_validated": true,
+    "passed_objects": 0,
+    "minimum_progress_m": 0.014053821563720703,
+    "minimum_capped_goal_progress_m": 0.014053821563720703,
+    "engine": "physx",
+    "case": {
+      "id": "heldout-baseline-4",
+      "family": "push",
+      "dt": 0.001,
+      "repeat": 0,
+      "phase": "heldout",
+      "controller": "baseline",
+      "width": 0.08,
+      "rear_y": -0.001,
+      "duration": 5.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 30.125551525998162,
+    "reference_sha256": "7dc2662a0f2b81879bf23f39fb4d192075a42cc1d9f1b87761e0502ac5e6b6bf",
+    "samples": 5001,
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "CPU TGS",
+      "import_errors": {
+        "link0": 1.7812252020577013e-09,
+        "link1": 3.46946704699036e-08,
+        "link2": 2.1725296953795104e-08,
+        "link3": 2.384185791015625e-07,
+        "link4": 9.610176050778296e-09,
+        "link5": 3.630876543869732e-09,
+        "link6": 9.050369273455594e-10,
+        "link7": 8.075237284410619e-10,
+        "hand": 6.705522526129215e-10,
+        "left_finger": 9.313225746154785e-10,
+        "right_finger": 9.313225746154785e-10,
+        "cube0": 6.7326864434036e-14,
+        "cube1": 6.7326864434036e-14,
+        "cube2": 6.7326864434036e-14
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 2.686734180690209e-07,
+          "rotation_frobenius_error": 1.0633208823910982e-06,
+          "joint_error": 4.371139006309477e-08
+        },
+        {
+          "position_error_m": 1.7397411440113475e-07,
+          "rotation_frobenius_error": 1.419296256208406e-06,
+          "joint_error": 4.276864373764511e-08
+        },
+        {
+          "position_error_m": 3.465519964329644e-07,
+          "rotation_frobenius_error": 1.3428310770648775e-06,
+          "joint_error": 4.465413638854443e-08
+        },
+        {
+          "position_error_m": 2.664225804416276e-07,
+          "rotation_frobenius_error": 1.1782020850202812e-06,
+          "joint_error": 1.0714883202922465e-07
+        },
+        {
+          "position_error_m": 1.196276908088656e-07,
+          "rotation_frobenius_error": 1.2614675506152887e-06,
+          "joint_error": 1.190737126677277e-07
+        }
+      ],
+      "initial_fk_error_m": 2.686734180690209e-07
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": false,
+    "simulated_seconds": 5.0,
+    "max_fk_error_m": 6.457245903193302e-07,
+    "peak_contact_force_n": 324.49854365254987,
+    "joint_rmse_rad": 0.15427869478726214,
+    "normalized_squared_arm_effort": 0.06974006682686391,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {
+      "cube0": 1.5563261616897215e-07,
+      "cube1": 6.312567770990076e-08,
+      "cube2": 6.982194577829448e-08
+    },
+    "contact_force_validated": true,
+    "passed_objects": 0,
+    "minimum_progress_m": 0.012516975402832031,
+    "minimum_capped_goal_progress_m": 0.012516975402832031,
+    "engine": "physx",
+    "case": {
+      "id": "heldout-baseline-5",
+      "family": "push",
+      "dt": 0.001,
+      "repeat": 0,
+      "phase": "heldout",
+      "controller": "baseline",
+      "width": 0.08,
+      "rear_y": 0.001,
+      "duration": 5.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 31.125921979997656,
+    "reference_sha256": "7dc2662a0f2b81879bf23f39fb4d192075a42cc1d9f1b87761e0502ac5e6b6bf",
+    "samples": 5001,
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "CPU TGS",
+      "import_errors": {
+        "link0": 1.7812252020577013e-09,
+        "link1": 3.46946704699036e-08,
+        "link2": 2.1725296953795104e-08,
+        "link3": 2.384185791015625e-07,
+        "link4": 9.610176050778296e-09,
+        "link5": 3.630876543869732e-09,
+        "link6": 9.050369273455594e-10,
+        "link7": 8.075237284410619e-10,
+        "hand": 6.705522526129215e-10,
+        "left_finger": 9.313225746154785e-10,
+        "right_finger": 9.313225746154785e-10,
+        "cube0": 6.7326864434036e-14,
+        "cube1": 6.7326864434036e-14,
+        "cube2": 6.7326864434036e-14
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 2.686734180690209e-07,
+          "rotation_frobenius_error": 1.0633208823910982e-06,
+          "joint_error": 4.371139006309477e-08
+        },
+        {
+          "position_error_m": 1.7397411440113475e-07,
+          "rotation_frobenius_error": 1.419296256208406e-06,
+          "joint_error": 4.276864373764511e-08
+        },
+        {
+          "position_error_m": 3.465519964329644e-07,
+          "rotation_frobenius_error": 1.3428310770648775e-06,
+          "joint_error": 4.465413638854443e-08
+        },
+        {
+          "position_error_m": 2.664225804416276e-07,
+          "rotation_frobenius_error": 1.1782020850202812e-06,
+          "joint_error": 1.0714883202922465e-07
+        },
+        {
+          "position_error_m": 1.196276908088656e-07,
+          "rotation_frobenius_error": 1.2614675506152887e-06,
+          "joint_error": 1.190737126677277e-07
+        }
+      ],
+      "initial_fk_error_m": 2.686734180690209e-07
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 6.0,
+    "max_fk_error_m": 7.334722056309243e-07,
+    "peak_contact_force_n": 19.643220553021155,
+    "joint_rmse_rad": 0.02015847586899856,
+    "normalized_squared_arm_effort": 0.023819435317253126,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {
+      "cube0": 5.28952710923461e-08,
+      "cube1": 4.858786316290299e-08,
+      "cube2": 3.3207481395518e-08
+    },
+    "contact_force_validated": true,
+    "passed_objects": 3,
+    "minimum_progress_m": 0.17153826355934143,
+    "minimum_capped_goal_progress_m": 0.09600001097274746,
+    "engine": "physx",
+    "case": {
+      "id": "heldout-selected-0",
+      "family": "push",
+      "dt": 0.001,
+      "repeat": 0,
+      "phase": "heldout",
+      "controller": "selected",
+      "width": 0.09,
+      "rear_y": -0.003,
+      "kp_scale": 0.5,
+      "kd_scale": 0.7,
+      "push_duration": 4,
+      "duration": 6.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 40.40602767100063,
+    "reference_sha256": "f0e52c673be3ee0289bc18c64e405606a5e605d3fb91114bc560572cc90088a7",
+    "samples": 6001,
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "CPU TGS",
+      "import_errors": {
+        "link0": 1.7812252020577013e-09,
+        "link1": 3.46946704699036e-08,
+        "link2": 2.1725296953795104e-08,
+        "link3": 2.384185791015625e-07,
+        "link4": 9.610176050778296e-09,
+        "link5": 3.630876543869732e-09,
+        "link6": 9.050369273455594e-10,
+        "link7": 8.075237284410619e-10,
+        "hand": 6.705522526129215e-10,
+        "left_finger": 9.313225746154785e-10,
+        "right_finger": 9.313225746154785e-10,
+        "cube0": 6.7326864434036e-14,
+        "cube1": 6.7326864434036e-14,
+        "cube2": 6.7326864434036e-14
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 2.686734180690209e-07,
+          "rotation_frobenius_error": 1.0633208823910982e-06,
+          "joint_error": 4.371139006309477e-08
+        },
+        {
+          "position_error_m": 1.7397411440113475e-07,
+          "rotation_frobenius_error": 1.419296256208406e-06,
+          "joint_error": 4.276864373764511e-08
+        },
+        {
+          "position_error_m": 3.465519964329644e-07,
+          "rotation_frobenius_error": 1.3428310770648775e-06,
+          "joint_error": 4.465413638854443e-08
+        },
+        {
+          "position_error_m": 2.664225804416276e-07,
+          "rotation_frobenius_error": 1.1782020850202812e-06,
+          "joint_error": 1.0714883202922465e-07
+        },
+        {
+          "position_error_m": 1.196276908088656e-07,
+          "rotation_frobenius_error": 1.2614675506152887e-06,
+          "joint_error": 1.190737126677277e-07
+        }
+      ],
+      "initial_fk_error_m": 2.686734180690209e-07
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": false,
+    "simulated_seconds": 6.0,
+    "max_fk_error_m": 6.88628210320547e-07,
+    "peak_contact_force_n": 47.411837111912696,
+    "joint_rmse_rad": 0.05315877539440814,
+    "normalized_squared_arm_effort": 0.023267055877473006,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {
+      "cube0": 1.0272952180677126e-07,
+      "cube1": 9.701812691163368e-08,
+      "cube2": 3.719264706159538e-08
+    },
+    "contact_force_validated": true,
+    "passed_objects": 1,
+    "minimum_progress_m": 0.044164299964904785,
+    "minimum_capped_goal_progress_m": 0.044164299964904785,
+    "engine": "physx",
+    "case": {
+      "id": "heldout-selected-1",
+      "family": "push",
+      "dt": 0.001,
+      "repeat": 0,
+      "phase": "heldout",
+      "controller": "selected",
+      "width": 0.09,
+      "rear_y": -0.001,
+      "kp_scale": 0.5,
+      "kd_scale": 0.7,
+      "push_duration": 4,
+      "duration": 6.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 30.87215994500002,
+    "reference_sha256": "f0e52c673be3ee0289bc18c64e405606a5e605d3fb91114bc560572cc90088a7",
+    "samples": 6001,
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "CPU TGS",
+      "import_errors": {
+        "link0": 1.7812252020577013e-09,
+        "link1": 3.46946704699036e-08,
+        "link2": 2.1725296953795104e-08,
+        "link3": 2.384185791015625e-07,
+        "link4": 9.610176050778296e-09,
+        "link5": 3.630876543869732e-09,
+        "link6": 9.050369273455594e-10,
+        "link7": 8.075237284410619e-10,
+        "hand": 6.705522526129215e-10,
+        "left_finger": 9.313225746154785e-10,
+        "right_finger": 9.313225746154785e-10,
+        "cube0": 6.7326864434036e-14,
+        "cube1": 6.7326864434036e-14,
+        "cube2": 6.7326864434036e-14
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 2.686734180690209e-07,
+          "rotation_frobenius_error": 1.0633208823910982e-06,
+          "joint_error": 4.371139006309477e-08
+        },
+        {
+          "position_error_m": 1.7397411440113475e-07,
+          "rotation_frobenius_error": 1.419296256208406e-06,
+          "joint_error": 4.276864373764511e-08
+        },
+        {
+          "position_error_m": 3.465519964329644e-07,
+          "rotation_frobenius_error": 1.3428310770648775e-06,
+          "joint_error": 4.465413638854443e-08
+        },
+        {
+          "position_error_m": 2.664225804416276e-07,
+          "rotation_frobenius_error": 1.1782020850202812e-06,
+          "joint_error": 1.0714883202922465e-07
+        },
+        {
+          "position_error_m": 1.196276908088656e-07,
+          "rotation_frobenius_error": 1.2614675506152887e-06,
+          "joint_error": 1.190737126677277e-07
+        }
+      ],
+      "initial_fk_error_m": 2.686734180690209e-07
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": false,
+    "simulated_seconds": 6.0,
+    "max_fk_error_m": 6.305888113677634e-07,
+    "peak_contact_force_n": 39.28808191492398,
+    "joint_rmse_rad": 0.04233142067686731,
+    "normalized_squared_arm_effort": 0.022975598776479745,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {
+      "cube0": 7.022232292350719e-08,
+      "cube1": 4.533036711120018e-08,
+      "cube2": 5.137933102626669e-08
+    },
+    "contact_force_validated": true,
+    "passed_objects": 1,
+    "minimum_progress_m": 0.08201286196708679,
+    "minimum_capped_goal_progress_m": 0.08201286196708679,
+    "engine": "physx",
+    "case": {
+      "id": "heldout-selected-2",
+      "family": "push",
+      "dt": 0.001,
+      "repeat": 0,
+      "phase": "heldout",
+      "controller": "selected",
+      "width": 0.09,
+      "rear_y": 0.001,
+      "kp_scale": 0.5,
+      "kd_scale": 0.7,
+      "push_duration": 4,
+      "duration": 6.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 35.32227934799448,
+    "reference_sha256": "f0e52c673be3ee0289bc18c64e405606a5e605d3fb91114bc560572cc90088a7",
+    "samples": 6001,
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "CPU TGS",
+      "import_errors": {
+        "link0": 1.7812252020577013e-09,
+        "link1": 3.46946704699036e-08,
+        "link2": 2.1725296953795104e-08,
+        "link3": 2.384185791015625e-07,
+        "link4": 9.610176050778296e-09,
+        "link5": 3.630876543869732e-09,
+        "link6": 9.050369273455594e-10,
+        "link7": 8.075237284410619e-10,
+        "hand": 6.705522526129215e-10,
+        "left_finger": 9.313225746154785e-10,
+        "right_finger": 9.313225746154785e-10,
+        "cube0": 6.7326864434036e-14,
+        "cube1": 6.7326864434036e-14,
+        "cube2": 6.7326864434036e-14
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 2.686734180690209e-07,
+          "rotation_frobenius_error": 1.0633208823910982e-06,
+          "joint_error": 4.371139006309477e-08
+        },
+        {
+          "position_error_m": 1.7397411440113475e-07,
+          "rotation_frobenius_error": 1.419296256208406e-06,
+          "joint_error": 4.276864373764511e-08
+        },
+        {
+          "position_error_m": 3.465519964329644e-07,
+          "rotation_frobenius_error": 1.3428310770648775e-06,
+          "joint_error": 4.465413638854443e-08
+        },
+        {
+          "position_error_m": 2.664225804416276e-07,
+          "rotation_frobenius_error": 1.1782020850202812e-06,
+          "joint_error": 1.0714883202922465e-07
+        },
+        {
+          "position_error_m": 1.196276908088656e-07,
+          "rotation_frobenius_error": 1.2614675506152887e-06,
+          "joint_error": 1.190737126677277e-07
+        }
+      ],
+      "initial_fk_error_m": 2.686734180690209e-07
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": true,
+    "simulated_seconds": 6.0,
+    "max_fk_error_m": 6.57386461736345e-07,
+    "peak_contact_force_n": 24.798529206854713,
+    "joint_rmse_rad": 0.01876515522233731,
+    "normalized_squared_arm_effort": 0.023739051775448817,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {
+      "cube0": 5.056810808666729e-08,
+      "cube1": 2.956044901698859e-08,
+      "cube2": 4.447886242824513e-08
+    },
+    "contact_force_validated": true,
+    "passed_objects": 3,
+    "minimum_progress_m": 0.17009702324867249,
+    "minimum_capped_goal_progress_m": 0.09600001097274746,
+    "engine": "physx",
+    "case": {
+      "id": "heldout-selected-3",
+      "family": "push",
+      "dt": 0.001,
+      "repeat": 0,
+      "phase": "heldout",
+      "controller": "selected",
+      "width": 0.09,
+      "rear_y": 0.003,
+      "kp_scale": 0.5,
+      "kd_scale": 0.7,
+      "push_duration": 4,
+      "duration": 6.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 40.87301189999562,
+    "reference_sha256": "f0e52c673be3ee0289bc18c64e405606a5e605d3fb91114bc560572cc90088a7",
+    "samples": 6001,
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "CPU TGS",
+      "import_errors": {
+        "link0": 1.7812252020577013e-09,
+        "link1": 3.46946704699036e-08,
+        "link2": 2.1725296953795104e-08,
+        "link3": 2.384185791015625e-07,
+        "link4": 9.610176050778296e-09,
+        "link5": 3.630876543869732e-09,
+        "link6": 9.050369273455594e-10,
+        "link7": 8.075237284410619e-10,
+        "hand": 6.705522526129215e-10,
+        "left_finger": 9.313225746154785e-10,
+        "right_finger": 9.313225746154785e-10,
+        "cube0": 6.7326864434036e-14,
+        "cube1": 6.7326864434036e-14,
+        "cube2": 6.7326864434036e-14
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 2.686734180690209e-07,
+          "rotation_frobenius_error": 1.0633208823910982e-06,
+          "joint_error": 4.371139006309477e-08
+        },
+        {
+          "position_error_m": 1.7397411440113475e-07,
+          "rotation_frobenius_error": 1.419296256208406e-06,
+          "joint_error": 4.276864373764511e-08
+        },
+        {
+          "position_error_m": 3.465519964329644e-07,
+          "rotation_frobenius_error": 1.3428310770648775e-06,
+          "joint_error": 4.465413638854443e-08
+        },
+        {
+          "position_error_m": 2.664225804416276e-07,
+          "rotation_frobenius_error": 1.1782020850202812e-06,
+          "joint_error": 1.0714883202922465e-07
+        },
+        {
+          "position_error_m": 1.196276908088656e-07,
+          "rotation_frobenius_error": 1.2614675506152887e-06,
+          "joint_error": 1.190737126677277e-07
+        }
+      ],
+      "initial_fk_error_m": 2.686734180690209e-07
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": false,
+    "simulated_seconds": 6.0,
+    "max_fk_error_m": 7.818912323802215e-07,
+    "peak_contact_force_n": 75.80874954936971,
+    "joint_rmse_rad": 0.11826196229361231,
+    "normalized_squared_arm_effort": 0.023797719669521416,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {
+      "cube0": 3.0755234591236146e-08,
+      "cube1": 1.812952301664538e-08,
+      "cube2": 2.2945001295063224e-08
+    },
+    "contact_force_validated": true,
+    "passed_objects": 0,
+    "minimum_progress_m": 0.01759740710258484,
+    "minimum_capped_goal_progress_m": 0.01759740710258484,
+    "engine": "physx",
+    "case": {
+      "id": "heldout-selected-4",
+      "family": "push",
+      "dt": 0.001,
+      "repeat": 0,
+      "phase": "heldout",
+      "controller": "selected",
+      "width": 0.08,
+      "rear_y": -0.001,
+      "kp_scale": 0.5,
+      "kd_scale": 0.7,
+      "push_duration": 4,
+      "duration": 6.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 36.82476042000053,
+    "reference_sha256": "f0e52c673be3ee0289bc18c64e405606a5e605d3fb91114bc560572cc90088a7",
+    "samples": 6001,
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "CPU TGS",
+      "import_errors": {
+        "link0": 1.7812252020577013e-09,
+        "link1": 3.46946704699036e-08,
+        "link2": 2.1725296953795104e-08,
+        "link3": 2.384185791015625e-07,
+        "link4": 9.610176050778296e-09,
+        "link5": 3.630876543869732e-09,
+        "link6": 9.050369273455594e-10,
+        "link7": 8.075237284410619e-10,
+        "hand": 6.705522526129215e-10,
+        "left_finger": 9.313225746154785e-10,
+        "right_finger": 9.313225746154785e-10,
+        "cube0": 6.7326864434036e-14,
+        "cube1": 6.7326864434036e-14,
+        "cube2": 6.7326864434036e-14
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 2.686734180690209e-07,
+          "rotation_frobenius_error": 1.0633208823910982e-06,
+          "joint_error": 4.371139006309477e-08
+        },
+        {
+          "position_error_m": 1.7397411440113475e-07,
+          "rotation_frobenius_error": 1.419296256208406e-06,
+          "joint_error": 4.276864373764511e-08
+        },
+        {
+          "position_error_m": 3.465519964329644e-07,
+          "rotation_frobenius_error": 1.3428310770648775e-06,
+          "joint_error": 4.465413638854443e-08
+        },
+        {
+          "position_error_m": 2.664225804416276e-07,
+          "rotation_frobenius_error": 1.1782020850202812e-06,
+          "joint_error": 1.0714883202922465e-07
+        },
+        {
+          "position_error_m": 1.196276908088656e-07,
+          "rotation_frobenius_error": 1.2614675506152887e-06,
+          "joint_error": 1.190737126677277e-07
+        }
+      ],
+      "initial_fk_error_m": 2.686734180690209e-07
+    }
+  },
+  {
+    "numerically_valid": true,
+    "task_success": false,
+    "simulated_seconds": 6.0,
+    "max_fk_error_m": 6.735368482402797e-07,
+    "peak_contact_force_n": 461.6077545938925,
+    "joint_rmse_rad": 0.11520944841612304,
+    "normalized_squared_arm_effort": 0.024034712523990722,
+    "joint_limit_excess_rad": 0.0,
+    "max_momentum_residual_ns": {
+      "cube0": 4.10061872782743e-08,
+      "cube1": 7.167916478875965e-08,
+      "cube2": 1.5326267306865114e-07
+    },
+    "contact_force_validated": true,
+    "passed_objects": 0,
+    "minimum_progress_m": 0.014609187841415405,
+    "minimum_capped_goal_progress_m": 0.014609187841415405,
+    "engine": "physx",
+    "case": {
+      "id": "heldout-selected-5",
+      "family": "push",
+      "dt": 0.001,
+      "repeat": 0,
+      "phase": "heldout",
+      "controller": "selected",
+      "width": 0.08,
+      "rear_y": 0.001,
+      "kp_scale": 0.5,
+      "kd_scale": 0.7,
+      "push_duration": 4,
+      "duration": 6.0
+    },
+    "status": "completed",
+    "error": null,
+    "wall_seconds": 32.33200426999974,
+    "reference_sha256": "f0e52c673be3ee0289bc18c64e405606a5e605d3fb91114bc560572cc90088a7",
+    "samples": 6001,
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "CPU TGS",
+      "import_errors": {
+        "link0": 1.7812252020577013e-09,
+        "link1": 3.46946704699036e-08,
+        "link2": 2.1725296953795104e-08,
+        "link3": 2.384185791015625e-07,
+        "link4": 9.610176050778296e-09,
+        "link5": 3.630876543869732e-09,
+        "link6": 9.050369273455594e-10,
+        "link7": 8.075237284410619e-10,
+        "hand": 6.705522526129215e-10,
+        "left_finger": 9.313225746154785e-10,
+        "right_finger": 9.313225746154785e-10,
+        "cube0": 6.7326864434036e-14,
+        "cube1": 6.7326864434036e-14,
+        "cube2": 6.7326864434036e-14
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "five_pose_fk_checks": [
+        {
+          "position_error_m": 2.686734180690209e-07,
+          "rotation_frobenius_error": 1.0633208823910982e-06,
+          "joint_error": 4.371139006309477e-08
+        },
+        {
+          "position_error_m": 1.7397411440113475e-07,
+          "rotation_frobenius_error": 1.419296256208406e-06,
+          "joint_error": 4.276864373764511e-08
+        },
+        {
+          "position_error_m": 3.465519964329644e-07,
+          "rotation_frobenius_error": 1.3428310770648775e-06,
+          "joint_error": 4.465413638854443e-08
+        },
+        {
+          "position_error_m": 2.664225804416276e-07,
+          "rotation_frobenius_error": 1.1782020850202812e-06,
+          "joint_error": 1.0714883202922465e-07
+        },
+        {
+          "position_error_m": 1.196276908088656e-07,
+          "rotation_frobenius_error": 1.2614675506152887e-06,
+          "joint_error": 1.190737126677277e-07
+        }
+      ],
+      "initial_fk_error_m": 2.686734180690209e-07
+    }
+  }
+]

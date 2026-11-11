@@ -1,0 +1,34 @@
+Warp UserWarning: Kernel cache artifacts from a previous Warp version were found in '/home/datamesh/github_waneta/physics-engine-benchmark/.cache/warp'. These will be ignored. You can safely delete them.
+Warp 1.16.0 initialized:
+   CUDA Toolkit 12.9, Driver 12.8
+   Devices:
+     "cpu"      : "x86_64"
+     "cuda:0"   : "NVIDIA GeForce RTX 4090 D" (24 GiB, sm_89, mempool enabled)
+   Kernel cache:
+     /home/datamesh/github_waneta/physics-engine-benchmark/.cache/warp/1.16.0
+Module physics_benchmark.extended.throughput_kernels 95a13f1 load on device 'cuda:0' took 638.60 ms  (compiled)
+Module mujoco_warp._src.smooth ca013d6 load on device 'cuda:0' took 6.01 ms  (cached)
+Module _primitive_narrowphase__locals__primitive_narrowphase_fcab5251 fcab525 load on device 'cuda:0' took 0.71 ms  (cached)
+Module mujoco_warp._src.constraint 5b5fe2d load on device 'cuda:0' took 0.61 ms  (cached)
+Module _friction_dof__locals__kernel_b1bda76d b1bda76 load on device 'cuda:0' took 2.15 ms  (cached)
+Module _efc_contact_init__locals__kernel_9f8465c5 9f8465c load on device 'cuda:0' took 2.90 ms  (cached)
+Module _efc_contact_jac_dense__locals__kernel_d7c0e5ee db8e6f1 load on device 'cuda:0' took 2.44 ms  (cached)
+Module mujoco_warp._src.passive 5924789 load on device 'cuda:0' took 0.99 ms  (cached)
+Module _qfrc_passive_kernel__locals__kernel_a386b29e a386b29 load on device 'cuda:0' took 0.61 ms  (cached)
+Module _qfrc_smooth__locals__kernel_b98573a2 b98573a load on device 'cuda:0' took 0.55 ms  (cached)
+Module mujoco_warp._src.support 46f46ca load on device 'cuda:0' took 0.52 ms  (cached)
+Module _tile_cholesky_factorize_solve_block__locals__kernel_99d3d39b e242bc5 load on device 'cuda:0' took 55.99 ms  (cached)
+Module _solve_init_dof__locals__kernel_66e3dc49 66e3dc4 load on device 'cuda:0' took 1.37 ms  (cached)
+Module mujoco_warp._src.solver 9c75e2a load on device 'cuda:0' took 0.90 ms  (cached)
+Module _solve_init_jaref_kernel__locals__kernel_a069a8d9 a069a8d load on device 'cuda:0' took 1.32 ms  (cached)
+Module mul_m_kernel__locals___mul_m_8efe01a0 8efe01a load on device 'cuda:0' took 0.71 ms  (cached)
+Module _update_constraint_efc__locals__kernel_fc20741b fc20741 load on device 'cuda:0' took 0.75 ms  (cached)
+Module _update_constraint_init_qfrc_constraint_dense__locals__kernel_44c8eda8 44c8eda load on device 'cuda:0' took 1.37 ms  (cached)
+Module _update_gradient_zero_grad_dot__locals__kernel_52bae6b7 52bae6b load on device 'cuda:0' took 0.59 ms  (cached)
+Module _update_gradient_grad__locals__kernel_769b869e 769b869 load on device 'cuda:0' took 0.49 ms  (cached)
+Module _update_gradient_JTDAJ_dense_tiled__locals__kernel_b7ce13b8 efdc318 load on device 'cuda:0' took 935.19 ms  (compiled)
+Module _update_gradient_cholesky__locals__kernel_4ec8fbc5 47e6db7 load on device 'cuda:0' took 43.71 ms  (cached)
+Module _linesearch_iterative_kernel__locals__kernel_2d235f8c 9d4a882 load on device 'cuda:0' took 2.38 ms  (cached)
+Module _solve_done__locals__kernel_9b35ebf5 9b35ebf load on device 'cuda:0' took 0.66 ms  (cached)
+Module mujoco_warp._src.forward 15f20a6 load on device 'cuda:0' took 1.21 ms  (cached)
+Module _next_time_builder__locals___next_time_56ba631e 56ba631 load on device 'cuda:0' took 0.73 ms  (cached)

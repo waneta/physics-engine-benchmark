@@ -1,0 +1,34 @@
+{
+  "numerically_valid": true,
+  "task_success": true,
+  "simulated_seconds": 3.5,
+  "max_fk_error_m": 0.0,
+  "peak_contact_force_n": 22.768763967461332,
+  "joint_rmse_rad": 0.0028284435783099368,
+  "normalized_squared_arm_effort": 0.014772975433612341,
+  "joint_limit_excess_rad": 0.0,
+  "max_momentum_residual_ns": {
+    "cube": 9.862739428731813e-08
+  },
+  "contact_force_validated": true,
+  "maximum_lift_m": 0.0735315934397856,
+  "minimum_hold_lift_m": 0.07279503311499841,
+  "engine": "mujoco",
+  "case": {
+    "family": "grasp",
+    "duration": 3.5,
+    "dt": 0.001
+  },
+  "status": "completed",
+  "error": null,
+  "wall_seconds": 1.2607509950012172,
+  "reference_sha256": "0e1f06c7d55e852eb1780bd49de5bb95728084616b78b6ac06b574817b29eae5",
+  "samples": 3501,
+  "audit": {
+    "engine": "mujoco",
+    "version": "3.15.0",
+    "precision": "float64",
+    "device": "cpu",
+    "initial_fk_error_m": 0.0
+  }
+}

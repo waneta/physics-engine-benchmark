@@ -1,0 +1,20 @@
+[
+  {
+    "numerically_valid": false,
+    "task_success": false,
+    "engine": "genesis",
+    "case": {
+      "family": "sweep",
+      "dt": 0.001,
+      "repeat": 0,
+      "id": "sweep-cf7399b17d6d",
+      "duration": 12.5
+    },
+    "status": "error",
+    "error": "[cuda_driver.h:operator()@94] CUDA Error CUDA_ERROR_INVALID_PTX: a PTX JIT compilation failed while calling module_load_data_ex (cuModuleLoadDataEx)",
+    "wall_seconds": 8.510953744999824,
+    "reference_sha256": "26da1241cfec8726d0db59fc4ad5874eabd0c7fb01beb7929e5faacdf67de32d",
+    "samples": 0,
+    "audit": {}
+  }
+]

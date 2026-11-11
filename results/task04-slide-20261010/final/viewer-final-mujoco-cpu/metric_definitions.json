@@ -1,0 +1,134 @@
+{
+  "dt_s": {
+    "名称": "仿真步长",
+    "单位": "s"
+  },
+  "steps": {
+    "名称": "物理步数",
+    "单位": "步"
+  },
+  "peak_contact_force_n": {
+    "名称": "峰值接触合力",
+    "单位": "N"
+  },
+  "peak_contact_fz_n": {
+    "名称": "峰值法向接触力",
+    "单位": "N"
+  },
+  "max_penetration_m": {
+    "名称": "最大穿透深度",
+    "单位": "m"
+  },
+  "first_contact_s": {
+    "名称": "首次接触时间",
+    "单位": "s"
+  },
+  "settled_time_s": {
+    "名称": "质心静置时间",
+    "单位": "s"
+  },
+  "max_momentum_residual_ns": {
+    "名称": "最大动量平衡残差",
+    "单位": "N·s"
+  },
+  "max_constraint_force_error_n": {
+    "名称": "最大接触力核算误差",
+    "单位": "N"
+  },
+  "window_contact_jx_ns": {
+    "名称": "窗口接触冲量X",
+    "单位": "N·s"
+  },
+  "window_contact_jy_ns": {
+    "名称": "窗口接触冲量Y",
+    "单位": "N·s"
+  },
+  "window_contact_jz_ns": {
+    "名称": "窗口接触冲量Z",
+    "单位": "N·s"
+  },
+  "impulse_window_complete": {
+    "名称": "接触冲量窗口完整",
+    "单位": "布尔"
+  },
+  "stop_time_s": {
+    "名称": "停止时间",
+    "单位": "s"
+  },
+  "stop_distance_m": {
+    "名称": "停止距离",
+    "单位": "m"
+  },
+  "final_displacement_m": {
+    "名称": "最终X位移",
+    "单位": "m"
+  },
+  "max_com_lift_m": {
+    "名称": "最大质心抬升",
+    "单位": "m"
+  },
+  "ideal_coulomb_distance_m": {
+    "名称": "理想库仑停止距离",
+    "单位": "m"
+  },
+  "configured_friction_coefficient": {
+    "名称": "设定摩擦系数",
+    "单位": "1"
+  },
+  "friction_measurement_samples": {
+    "名称": "滑动段测量步数",
+    "单位": "步"
+  },
+  "friction_contact_samples": {
+    "名称": "滑动窗口内有接触步数",
+    "单位": "步"
+  },
+  "mean_friction_force_n": {
+    "名称": "滑动段平均摩擦力",
+    "单位": "N"
+  },
+  "mean_normal_force_n": {
+    "名称": "滑动段平均法向力",
+    "单位": "N"
+  },
+  "effective_friction_coefficient": {
+    "名称": "实测等效摩擦系数",
+    "单位": "1"
+  },
+  "mean_deceleration_m_s2": {
+    "名称": "滑动段平均X减速度",
+    "单位": "m/s²"
+  },
+  "friction_opposes_motion": {
+    "名称": "滑动段摩擦力反向",
+    "单位": "布尔"
+  },
+  "total_contact_jx_ns": {
+    "名称": "全程X接触冲量",
+    "单位": "N·s"
+  },
+  "max_displacement_error_m": {
+    "名称": "相对理想轨迹最大X位移误差",
+    "单位": "m"
+  },
+  "rms_displacement_error_m": {
+    "名称": "相对理想轨迹X位移均方根误差",
+    "单位": "m"
+  },
+  "max_slide_velocity_error_m_s": {
+    "名称": "相对理想轨迹最大X速度误差",
+    "单位": "m/s"
+  },
+  "max_lateral_displacement_m": {
+    "名称": "最大侧向偏移",
+    "单位": "m"
+  },
+  "ideal_coulomb_stop_time_s": {
+    "名称": "理想库仑停止时间",
+    "单位": "s"
+  },
+  "stop_distance_error_percent": {
+    "名称": "停止距离相对理想值偏差",
+    "单位": "%"
+  }
+}

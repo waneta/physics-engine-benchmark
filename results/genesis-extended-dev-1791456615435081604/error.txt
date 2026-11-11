@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/src/physics_benchmark/extended/rigid.py", line 172, in run
+    sim={'mujoco':CPU,'mujoco-warp':Warp,'genesis':Genesis}[engine](scene)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/src/physics_benchmark/extended/rigid.py", line 88, in __init__
+    self.entity=self.sim.add_entity(gs.morphs.MJCF(file=ET.fromstring(scene.xml),merge_fixed_links=False))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/.venv-genesis/lib/python3.11/site-packages/genesis/options/morphs.py", line 668, in __init__
+    super().__init__(**kwargs)
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/.venv-genesis/lib/python3.11/site-packages/genesis/utils/misc.py", line 125, in new_init
+    original_init(self, *args, **kwargs)
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/.venv-genesis/lib/python3.11/site-packages/genesis/options/options.py", line 35, in __init__
+    self._validation_error(e)
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/.venv-genesis/lib/python3.11/site-packages/genesis/options/options.py", line 110, in _validation_error
+    gs.raise_exception_from(trace_msg, None)
+  File "/home/datamesh/github_waneta/physics-engine-benchmark/.venv-genesis/lib/python3.11/site-packages/genesis/utils/misc.py", line 43, in raise_exception_from
+    raise gs.GenesisException(msg) from cause
+genesis.GenesisException: Validation error for <gs.morphs.MJCF>: Unrecognized attribute 'merge_fixed_links'.

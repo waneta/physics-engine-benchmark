@@ -1,0 +1,11 @@
+{
+  "id": "speed-2-2",
+  "family": "push",
+  "dt": 0.001,
+  "repeat": 0,
+  "phase": "speed",
+  "push_duration": 2,
+  "width": 0.09,
+  "rear_y": 0.002,
+  "duration": 4.0
+}

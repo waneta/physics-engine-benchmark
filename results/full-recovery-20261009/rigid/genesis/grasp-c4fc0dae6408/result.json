@@ -1,0 +1,79 @@
+{
+  "numerically_valid": true,
+  "task_success": true,
+  "simulated_seconds": 3.5,
+  "max_fk_error_m": 9.82222272933387e-16,
+  "peak_contact_force_n": 57234.94932995832,
+  "joint_rmse_rad": 0.0028303208084332985,
+  "normalized_squared_arm_effort": 0.014773442160228713,
+  "joint_limit_excess_rad": 0.0,
+  "max_momentum_residual_ns": {
+    "cube": 57.23015009323345
+  },
+  "contact_force_validated": false,
+  "maximum_lift_m": 0.07367928814247754,
+  "minimum_hold_lift_m": 0.07304916948393697,
+  "engine": "genesis",
+  "case": {
+    "family": "grasp",
+    "dt": 0.001,
+    "repeat": 2,
+    "offset": 0,
+    "id": "grasp-c4fc0dae6408",
+    "duration": 3.5
+  },
+  "status": "completed",
+  "error": null,
+  "wall_seconds": 10.127024882000114,
+  "reference_sha256": "0e1f06c7d55e852eb1780bd49de5bb95728084616b78b6ac06b574817b29eae5",
+  "samples": 3501,
+  "audit": {
+    "engine": "genesis",
+    "version": "1.4.1",
+    "precision": "float64",
+    "device": "cuda:0",
+    "import_errors": {
+      "link0": 0.0,
+      "link1": 0.0,
+      "link2": 0.0,
+      "link3": 0.0,
+      "link4": 0.0,
+      "link5": 0.0,
+      "link6": 0.0,
+      "link7": 0.0,
+      "hand": 0.0,
+      "left_finger": 0.0,
+      "right_finger": 0.0,
+      "table": 0.0,
+      "cube": 0.0
+    },
+    "five_pose_fk_checks": [
+      {
+        "position_error_m": 2.220446049250313e-16,
+        "rotation_frobenius_error": 1.744852445362456e-15,
+        "joint_error": 0.0
+      },
+      {
+        "position_error_m": 4.440892098500626e-16,
+        "rotation_frobenius_error": 2.7112878867305186e-15,
+        "joint_error": 0.0
+      },
+      {
+        "position_error_m": 2.220446049250313e-16,
+        "rotation_frobenius_error": 2.3747344311330636e-15,
+        "joint_error": 0.0
+      },
+      {
+        "position_error_m": 3.3306690738754696e-16,
+        "rotation_frobenius_error": 2.4948749367860014e-15,
+        "joint_error": 0.0
+      },
+      {
+        "position_error_m": 2.220446049250313e-16,
+        "rotation_frobenius_error": 2.469946533257708e-15,
+        "joint_error": 0.0
+      }
+    ],
+    "initial_fk_error_m": 2.220446049250313e-16
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "numerically_valid": true,
+  "task_success": true,
+  "simulated_seconds": 3.5,
+  "max_fk_error_m": 9.605372299952873e-16,
+  "peak_contact_force_n": 17.07781898760632,
+  "joint_rmse_rad": 0.002830320808433461,
+  "normalized_squared_arm_effort": 0.01477344216022868,
+  "joint_limit_excess_rad": 0.0,
+  "max_momentum_residual_ns": {
+    "cube": 4.377672244487142e-13
+  },
+  "contact_force_validated": true,
+  "maximum_lift_m": 0.07367928814247787,
+  "minimum_hold_lift_m": 0.07304916948393786,
+  "engine": "genesis",
+  "case": {
+    "family": "grasp",
+    "duration": 3.5,
+    "dt": 0.001
+  },
+  "status": "completed",
+  "error": null,
+  "wall_seconds": 54.91773718699915,
+  "reference_sha256": "0e1f06c7d55e852eb1780bd49de5bb95728084616b78b6ac06b574817b29eae5",
+  "samples": 3501,
+  "audit": {
+    "engine": "genesis",
+    "version": "1.4.3",
+    "precision": "float64",
+    "device": "cuda:0",
+    "import_errors": {
+      "link0": 0.0,
+      "link1": 0.0,
+      "link2": 0.0,
+      "link3": 0.0,
+      "link4": 0.0,
+      "link5": 0.0,
+      "link6": 0.0,
+      "link7": 0.0,
+      "hand": 0.0,
+      "left_finger": 0.0,
+      "right_finger": 0.0,
+      "table": 0.0,
+      "cube": 0.0
+    },
+    "initial_fk_error_m": 2.220446049250313e-16
+  }
+}

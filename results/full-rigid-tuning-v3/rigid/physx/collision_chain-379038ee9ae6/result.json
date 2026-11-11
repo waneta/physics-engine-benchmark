@@ -1,0 +1,40 @@
+{
+  "numerically_valid": true,
+  "task_success": true,
+  "simulated_seconds": 1.0,
+  "max_fk_error_m": 0.0,
+  "peak_contact_force_n": 165.5548251829165,
+  "max_momentum_residual_ns": {
+    "sphere": 2.4774173051085584e-07,
+    "cube": 1.9893610509647683e-07,
+    "prism": 1.4395215375933612e-07
+  },
+  "contact_force_validated": true,
+  "engine": "physx",
+  "case": {
+    "family": "collision_chain",
+    "dt": 0.0005,
+    "repeat": 2,
+    "id": "collision_chain-379038ee9ae6",
+    "duration": 1.0
+  },
+  "status": "completed",
+  "error": null,
+  "wall_seconds": 9.90094241800034,
+  "reference_sha256": null,
+  "samples": 2001,
+  "audit": {
+    "engine": "physx",
+    "precision": "float32",
+    "solver": "CPU TGS",
+    "import_errors": {
+      "sphere": 3.729015597556725e-12,
+      "cube": 5.153706298798456e-12,
+      "prism": 2.614688129095981e-12
+    },
+    "contact_force_source": "normal report + friction tensor impulses",
+    "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+    "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+    "initial_fk_error_m": 7.152557379708213e-09
+  }
+}

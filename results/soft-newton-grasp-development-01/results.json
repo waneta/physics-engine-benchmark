@@ -1,0 +1,38 @@
+[
+  {
+    "engine": "newton-vbd",
+    "case": {
+      "family": "soft_grasp",
+      "dt": 0.0005,
+      "refined": false,
+      "duration": 4.5,
+      "finger_force": 1,
+      "repeat": 0,
+      "id": "soft_grasp-04"
+    },
+    "status": "completed",
+    "error": null,
+    "numerically_valid": true,
+    "task_success": true,
+    "hold_lift_m": 0.07194312417068427,
+    "minimum_volume_ratio": 0.8160757708067401,
+    "force_n": null,
+    "force_validated": false,
+    "force_note": "Native deformable load accounting has not passed an independent momentum audit; no zero-load substitution.",
+    "audit": {
+      "engine": "newton-vbd",
+      "newton_version": "1.5.2",
+      "rigid_solver": "MuJoCo-Warp",
+      "soft_solver": "VBD",
+      "coupling": "lagged proxy feedback",
+      "shape_contact_damping": 0.2,
+      "material": "VBD tetrahedral elasticity",
+      "mass_kg": 0.10504912346763821,
+      "vertex_count": 125,
+      "element_count": 384,
+      "force_validated": false
+    },
+    "samples": 901,
+    "wall_seconds": 235.75185677599984
+  }
+]

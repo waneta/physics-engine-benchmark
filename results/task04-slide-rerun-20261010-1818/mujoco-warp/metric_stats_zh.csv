@@ -1,0 +1,67 @@
+﻿引擎,场景,步长(ms),记录次数,通过次数,有效数值次数,指标名称,Metric name,指标字段,单位,单位说明 / Unit description,平均值,标准差,最小值,最大值
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,3,3,仿真步长,Simulation timestep,dt_s,s,秒 / second,0.002,0.0,0.002,0.002
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,3,3,物理步数,Physics steps,steps,步,步 / step,300.0,0.0,300,300
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,3,3,峰值接触合力,Peak resultant contact force,peak_contact_force_n,N,牛顿 / newton,10.531676526147095,1.887263621991361e-05,10.531657518178543,10.531702256266014
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,3,3,峰值法向接触力,Peak normal contact force,peak_contact_fz_n,N,牛顿 / newton,9.778416156768799,1.7494140937656537e-05,9.778398513793945,9.778439998626709
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,3,3,最大穿透深度,Maximum penetration depth,max_penetration_m,m,米 / metre,0.00021601466468803196,5.124834942217042e-09,0.00021600816981701826,0.00021602069751178177
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,3,3,首次接触时间,First contact time,first_contact_s,s,秒 / second,0.002,0.0,0.002,0.002
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,3,3,质心静置时间,COM settling time,settled_time_s,s,秒 / second,0.262,0.0,0.262,0.262
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,3,3,最大动量平衡残差,Maximum momentum balance residual,max_momentum_residual_ns,N·s,牛顿秒 / newton second,1.056863985689173e-07,3.562635629353461e-08,7.011896495611066e-08,1.543743892509475e-07
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,3,3,最大接触力核算误差,Maximum contact force accounting error,max_constraint_force_error_n,N,牛顿 / newton,3.405262097902054e-07,1.196163394716711e-07,2.457562461863554e-07,5.092623081992585e-07
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,3,3,窗口接触冲量X,Window contact impulse X,window_contact_jx_ns,N·s,牛顿秒 / newton second,-0.017737406969070443,1.5133790287966834e-08,-0.017737427234649668,-0.017737390875816356
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,3,3,窗口接触冲量Y,Window contact impulse Y,window_contact_jy_ns,N·s,牛顿秒 / newton second,1.760409595874537e-11,6.216866938114036e-11,-4.183152135794901e-11,1.034286842838129e-10
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,3,3,窗口接触冲量Z,Window contact impulse Z,window_contact_jz_ns,N·s,牛顿秒 / newton second,0.0443435163497925,3.7467386780147233e-08,0.04434347629547122,0.044343566417694116
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,3,0,接触冲量窗口完整,Contact impulse window complete,impulse_window_complete,布尔,布尔值 / boolean,,,,
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,3,3,停止时间,Stopping time,stop_time_s,s,秒 / second,0.26,0.0,0.26,0.26
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,3,3,停止距离,Stopping distance,stop_distance_m,m,米 / metre,0.12645929555098215,7.916181013241027e-08,0.12645919620990753,0.12645938992500305
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,3,3,最终X位移,Final X displacement,final_displacement_m,m,米 / metre,0.12644869089126587,7.978269658589865e-08,0.1264485865831375,0.12644878029823303
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,3,3,最大质心抬升,Maximum COM lift,max_com_lift_m,m,米 / metre,0.0008920687437057491,0.0,0.0008920687437057491,0.0008920687437057491
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,3,3,理想库仑停止距离,Ideal Coulomb stopping distance,ideal_coulomb_distance_m,m,米 / metre,0.127420998980632,0.0,0.127420998980632,0.127420998980632
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,3,3,设定摩擦系数,Configured friction coefficient,configured_friction_coefficient,1,无量纲 / dimensionless,0.4000000000000001,5.551115123125783e-17,0.4,0.4
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,3,3,滑动段测量步数,Sliding measurement steps,friction_measurement_samples,步,步 / step,106.0,0.0,106,106
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,3,3,滑动窗口内有接触步数,Contact steps in sliding window,friction_contact_samples,步,步 / step,52.0,0.0,52,52
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,3,3,滑动段平均摩擦力,Mean sliding friction force,mean_friction_force_n,N,牛顿 / newton,0.3850455833424016,1.204376370044287e-07,0.3850454835328065,0.38504575277280373
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,3,3,滑动段平均法向力,Mean sliding normal force,mean_normal_force_n,N,牛顿 / newton,0.96672245803869,2.186785558596353e-07,0.9667221688718166,0.966722697581885
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,3,3,实测等效摩擦系数,Measured effective friction coefficient,effective_friction_coefficient,1,无量纲 / dimensionless,0.39830002927997515,1.4940830989019485e-07,0.39829982734029246,0.39830018409717494
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,3,3,滑动段平均X减速度,Mean sliding X deceleration,mean_deceleration_m_s2,m/s²,米每二次方秒 / metre per second squared,3.850455672638315,6.844980470223443e-07,3.8504550027010858,3.8504566127469517
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,3,0,滑动段摩擦力反向,Sliding friction opposes motion,friction_opposes_motion,布尔,布尔值 / boolean,,,,
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,3,3,全程X接触冲量,Total contact impulse X,total_contact_jx_ns,N·s,牛顿秒 / newton second,-0.10000006558639328,5.3240639165862485e-08,-0.10000013997415848,-0.10000001830817731
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,3,3,相对理想轨迹最大X位移误差,Maximum X displacement error vs ideal trajectory,max_displacement_error_m,m,米 / metre,0.0009727698197758891,7.916181013241027e-08,0.0009726754457549946,0.0009728691608505147
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,3,3,相对理想轨迹X位移均方根误差,RMS X displacement error vs ideal trajectory,rms_displacement_error_m,m,米 / metre,0.0008478872591195598,6.41941609439247e-08,0.0008478128403278337,0.0008479694987056008
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,3,3,相对理想轨迹最大X速度误差,Maximum X velocity error vs ideal trajectory,max_slide_velocity_error_m_s,m/s,米每秒 / metre per second,0.051871113033294725,0.0,0.051871113033294725,0.051871113033294725
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,3,3,最大侧向偏移,Maximum lateral displacement,max_lateral_displacement_m,m,米 / metre,1.405979362563888e-08,8.766094327739096e-10,1.2820784434097732e-08,1.4715468843462531e-08
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,3,3,理想库仑停止时间,Ideal Coulomb stopping time,ideal_coulomb_stop_time_s,s,秒 / second,0.254841997961264,0.0,0.254841997961264,0.254841997961264
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,3,3,停止距离相对理想值偏差,Stopping distance deviation from ideal,stop_distance_error_percent,%,百分比 / percent,-0.7547448515891962,6.212618859190722e-05,-0.7548228144645626,-0.7546707868575985
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,3,3,仿真步长,Simulation timestep,dt_s,s,秒 / second,0.001,0.0,0.001,0.001
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,3,3,物理步数,Physics steps,steps,步,步 / step,600.0,0.0,600,600
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,3,3,峰值接触合力,Peak resultant contact force,peak_contact_force_n,N,牛顿 / newton,9.532971265047395,1.154143927534646e-05,9.53296310401742,9.532987587107348
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,3,3,峰值法向接触力,Peak normal contact force,peak_contact_fz_n,N,牛顿 / newton,8.851141611735025,1.0677201622759822e-05,8.851134061813354,8.85115671157837
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,3,3,最大穿透深度,Maximum penetration depth,max_penetration_m,m,米 / metre,0.00011839498153781366,8.686776526718748e-10,0.00011839375803869914,0.00011839568914525506
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,3,3,首次接触时间,First contact time,first_contact_s,s,秒 / second,0.001,0.0,0.001,0.001
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,3,3,质心静置时间,COM settling time,settled_time_s,s,秒 / second,0.262,0.0,0.262,0.262
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,3,3,最大动量平衡残差,Maximum momentum balance residual,max_momentum_residual_ns,N·s,牛顿秒 / newton second,1.5106525367498208e-07,1.3137551315552909e-09,1.492239820897604e-07,1.5220087325912902e-07
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,3,3,最大接触力核算误差,Maximum contact force accounting error,max_constraint_force_error_n,N,牛顿 / newton,3.5321887644381846e-07,9.859736832201583e-08,2.686345037418598e-07,4.915124923727108e-07
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,3,3,窗口接触冲量X,Window contact impulse X,window_contact_jx_ns,N·s,牛顿秒 / newton second,-0.01833699202537538,4.9738638611694695e-09,-0.018336999058723463,-0.01833698841929437
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,3,3,窗口接触冲量Y,Window contact impulse Y,window_contact_jy_ns,N·s,牛顿秒 / newton second,-1.80003082957588e-10,7.039406962180277e-10,-6.777738378316306e-10,8.155193966796767e-10
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,3,3,窗口接触冲量Z,Window contact impulse Z,window_contact_jz_ns,N·s,牛顿秒 / newton second,0.04584247938791914,1.2194876613409122e-08,0.045842470645904576,0.0458424966335297
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,3,0,接触冲量窗口完整,Contact impulse window complete,impulse_window_complete,布尔,布尔值 / boolean,,,,
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,3,3,停止时间,Stopping time,stop_time_s,s,秒 / second,0.262,0.0,0.262,0.262
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,3,3,停止距离,Stopping distance,stop_distance_m,m,米 / metre,0.1269604613383611,1.4048949503631344e-08,0.12696044147014618,0.12696047127246857
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,3,3,最终X位移,Final X displacement,final_displacement_m,m,米 / metre,0.12696207066377005,1.4048949503631344e-08,0.12696205079555511,0.1269620805978775
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,3,3,最大质心抬升,Maximum COM lift,max_com_lift_m,m,米 / metre,0.0003742161393165584,0.0,0.0003742161393165584,0.0003742161393165584
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,3,3,理想库仑停止距离,Ideal Coulomb stopping distance,ideal_coulomb_distance_m,m,米 / metre,0.127420998980632,0.0,0.127420998980632,0.127420998980632
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,3,3,设定摩擦系数,Configured friction coefficient,configured_friction_coefficient,1,无量纲 / dimensionless,0.4000000000000001,5.551115123125783e-17,0.4,0.4
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,3,3,滑动段测量步数,Sliding measurement steps,friction_measurement_samples,步,步 / step,212.0,0.0,212,212
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,3,3,滑动窗口内有接触步数,Contact steps in sliding window,friction_contact_samples,步,步 / step,98.0,0.0,98,98
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,3,3,滑动段平均摩擦力,Mean sliding friction force,mean_friction_force_n,N,牛顿 / newton,0.38086041012706273,2.1666438440227803e-09,0.38086040836392854,0.3808604131788917
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,3,3,滑动段平均法向力,Mean sliding normal force,mean_normal_force_n,N,牛顿 / newton,0.9538708470949212,9.177456974482439e-08,0.9538707554621516,0.9538709725130279
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,3,3,实测等效摩擦系数,Measured effective friction coefficient,effective_friction_coefficient,1,无量纲 / dimensionless,0.39927880308639513,3.6179387571421195e-08,0.3992787537873104,0.3992788395943654
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,3,3,滑动段平均X减速度,Mean sliding X deceleration,mean_deceleration_m_s2,m/s²,米每二次方秒 / metre per second squared,3.8085925457237653,1.183090004938435e-06,3.8085909656969443,3.8085938123810403
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,3,0,滑动段摩擦力反向,Sliding friction opposes motion,friction_opposes_motion,布尔,布尔值 / boolean,,,,
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,3,3,全程X接触冲量,Total contact impulse X,total_contact_jx_ns,N·s,牛顿秒 / newton second,-0.10000020362165525,2.6839376609976444e-08,-0.10000022553017109,-0.10000016582450431
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,3,3,相对理想轨迹最大X位移误差,Maximum X displacement error vs ideal trajectory,max_displacement_error_m,m,米 / metre,0.0004820925762354193,1.4048949503631344e-08,0.0004820826421279567,0.0004821124444503444
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,3,3,相对理想轨迹X位移均方根误差,RMS X displacement error vs ideal trajectory,rms_displacement_error_m,m,米 / metre,0.00040125388705604365,1.0590697298996185e-08,0.0004012456883034636,0.00040126884136881515
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,3,3,相对理想轨迹最大X速度误差,Maximum X velocity error vs ideal trajectory,max_slide_velocity_error_m_s,m/s,米每秒 / metre per second,0.029664048060099295,2.8097899007262688e-08,0.029664008323669444,0.02966406792831422
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,3,3,最大侧向偏移,Maximum lateral displacement,max_lateral_displacement_m,m,米 / metre,1.0520149418269398e-08,6.566266519115124e-09,2.929446685229209e-09,1.894796319845682e-08
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,3,3,理想库仑停止时间,Ideal Coulomb stopping time,ideal_coulomb_stop_time_s,s,秒 / second,0.254841997961264,0.0,0.254841997961264,0.254841997961264
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,3,3,停止距离相对理想值偏差,Stopping distance deviation from ideal,stop_distance_error_percent,%,百分比 / percent,-0.36142994165419884,1.1025615570460345e-05,-0.36144553422927206,-0.3614221453666622

@@ -1,0 +1,226 @@
+{
+  "dt_s": {
+    "名称": "仿真步长",
+    "name_en": "Simulation timestep",
+    "单位": "s",
+    "unit_name_zh": "秒",
+    "unit_name_en": "second"
+  },
+  "steps": {
+    "名称": "物理步数",
+    "name_en": "Physics steps",
+    "单位": "步",
+    "unit_name_zh": "步",
+    "unit_name_en": "step"
+  },
+  "peak_contact_force_n": {
+    "名称": "峰值接触合力",
+    "name_en": "Peak resultant contact force",
+    "单位": "N",
+    "unit_name_zh": "牛顿",
+    "unit_name_en": "newton"
+  },
+  "peak_contact_fz_n": {
+    "名称": "峰值法向接触力",
+    "name_en": "Peak normal contact force",
+    "单位": "N",
+    "unit_name_zh": "牛顿",
+    "unit_name_en": "newton"
+  },
+  "max_penetration_m": {
+    "名称": "最大穿透深度",
+    "name_en": "Maximum penetration depth",
+    "单位": "m",
+    "unit_name_zh": "米",
+    "unit_name_en": "metre"
+  },
+  "first_contact_s": {
+    "名称": "首次接触时间",
+    "name_en": "First contact time",
+    "单位": "s",
+    "unit_name_zh": "秒",
+    "unit_name_en": "second"
+  },
+  "settled_time_s": {
+    "名称": "质心静置时间",
+    "name_en": "COM settling time",
+    "单位": "s",
+    "unit_name_zh": "秒",
+    "unit_name_en": "second"
+  },
+  "max_momentum_residual_ns": {
+    "名称": "最大动量平衡残差",
+    "name_en": "Maximum momentum balance residual",
+    "单位": "N·s",
+    "unit_name_zh": "牛顿秒",
+    "unit_name_en": "newton second"
+  },
+  "max_constraint_force_error_n": {
+    "名称": "最大接触力核算误差",
+    "name_en": "Maximum contact force accounting error",
+    "单位": "N",
+    "unit_name_zh": "牛顿",
+    "unit_name_en": "newton"
+  },
+  "window_contact_jx_ns": {
+    "名称": "窗口接触冲量X",
+    "name_en": "Window contact impulse X",
+    "单位": "N·s",
+    "unit_name_zh": "牛顿秒",
+    "unit_name_en": "newton second"
+  },
+  "window_contact_jy_ns": {
+    "名称": "窗口接触冲量Y",
+    "name_en": "Window contact impulse Y",
+    "单位": "N·s",
+    "unit_name_zh": "牛顿秒",
+    "unit_name_en": "newton second"
+  },
+  "window_contact_jz_ns": {
+    "名称": "窗口接触冲量Z",
+    "name_en": "Window contact impulse Z",
+    "单位": "N·s",
+    "unit_name_zh": "牛顿秒",
+    "unit_name_en": "newton second"
+  },
+  "impulse_window_complete": {
+    "名称": "接触冲量窗口完整",
+    "name_en": "Contact impulse window complete",
+    "单位": "布尔",
+    "unit_name_zh": "布尔值",
+    "unit_name_en": "boolean"
+  },
+  "minimum_com_height_m": {
+    "名称": "最低质心高度",
+    "name_en": "Minimum COM height",
+    "单位": "m",
+    "unit_name_zh": "米",
+    "unit_name_en": "metre"
+  },
+  "ideal_first_contact_s": {
+    "名称": "理想首次接触时间",
+    "name_en": "Ideal first contact time",
+    "单位": "s",
+    "unit_name_zh": "秒",
+    "unit_name_en": "second"
+  },
+  "first_contact_time_error_s": {
+    "名称": "首次接触时间相对理想值偏差",
+    "name_en": "First contact time deviation from ideal",
+    "单位": "s",
+    "unit_name_zh": "秒",
+    "unit_name_en": "second"
+  },
+  "preimpact_vertical_velocity_m_s": {
+    "名称": "首次接触步初竖直速度",
+    "name_en": "Vertical velocity at start of first contact step",
+    "单位": "m/s",
+    "unit_name_zh": "米每秒",
+    "unit_name_en": "metre per second"
+  },
+  "ideal_impact_vertical_velocity_m_s": {
+    "名称": "理想碰撞前竖直速度",
+    "name_en": "Ideal preimpact vertical velocity",
+    "单位": "m/s",
+    "unit_name_zh": "米每秒",
+    "unit_name_en": "metre per second"
+  },
+  "peak_rebound_vertical_velocity_m_s": {
+    "名称": "接触后最大向上速度",
+    "name_en": "Peak upward velocity after contact",
+    "单位": "m/s",
+    "unit_name_zh": "米每秒",
+    "unit_name_en": "metre per second"
+  },
+  "max_free_fall_height_error_m": {
+    "名称": "自由落体段最大高度误差",
+    "name_en": "Maximum free-fall height error",
+    "单位": "m",
+    "unit_name_zh": "米",
+    "unit_name_en": "metre"
+  },
+  "max_free_fall_velocity_error_m_s": {
+    "名称": "自由落体段最大竖直速度误差",
+    "name_en": "Maximum free-fall vertical velocity error",
+    "单位": "m/s",
+    "unit_name_zh": "米每秒",
+    "unit_name_en": "metre per second"
+  },
+  "final_com_height_m": {
+    "名称": "最终质心高度",
+    "name_en": "Final COM height",
+    "单位": "m",
+    "unit_name_zh": "米",
+    "unit_name_en": "metre"
+  },
+  "final_linear_speed_m_s": {
+    "名称": "最终质心线速度模长",
+    "name_en": "Final COM linear speed",
+    "单位": "m/s",
+    "unit_name_zh": "米每秒",
+    "unit_name_en": "metre per second"
+  },
+  "final_angular_speed_rad_s": {
+    "名称": "最终角速度模长",
+    "name_en": "Final angular speed",
+    "单位": "rad/s",
+    "unit_name_zh": "弧度每秒",
+    "unit_name_en": "radian per second"
+  },
+  "rigid_settled_time_s": {
+    "名称": "刚体静置时间",
+    "name_en": "Rigid-body settling time",
+    "单位": "s",
+    "unit_name_zh": "秒",
+    "unit_name_en": "second"
+  },
+  "rest_observation_duration_s": {
+    "名称": "静置后观察时长",
+    "name_en": "Observation duration after settling",
+    "单位": "s",
+    "unit_name_zh": "秒",
+    "unit_name_en": "second"
+  },
+  "settled_within_duration": {
+    "名称": "记录时长内刚体已静置",
+    "name_en": "Rigid body settled within recorded duration",
+    "单位": "布尔",
+    "unit_name_zh": "布尔值",
+    "unit_name_en": "boolean"
+  },
+  "settling_angular_speed_threshold_rad_s": {
+    "名称": "静置角速度阈值",
+    "name_en": "Settling angular speed threshold",
+    "单位": "rad/s",
+    "unit_name_zh": "弧度每秒",
+    "unit_name_en": "radian per second"
+  },
+  "mean_tail_normal_force_n": {
+    "名称": "末段平均法向接触力",
+    "name_en": "Mean normal contact force in final window",
+    "单位": "N",
+    "unit_name_zh": "牛顿",
+    "unit_name_en": "newton"
+  },
+  "tail_support_weight_ratio": {
+    "名称": "末段平均支撑力与重力比",
+    "name_en": "Final-window mean support force to weight ratio",
+    "单位": "1",
+    "unit_name_zh": "无量纲",
+    "unit_name_en": "dimensionless"
+  },
+  "max_horizontal_displacement_m": {
+    "名称": "最大水平偏移",
+    "name_en": "Maximum horizontal displacement",
+    "单位": "m",
+    "unit_name_zh": "米",
+    "unit_name_en": "metre"
+  },
+  "total_contact_jz_ns": {
+    "名称": "全程Z接触冲量",
+    "name_en": "Total contact impulse Z",
+    "单位": "N·s",
+    "unit_name_zh": "牛顿秒",
+    "unit_name_en": "newton second"
+  }
+}

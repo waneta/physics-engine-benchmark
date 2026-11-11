@@ -1,0 +1,25 @@
+[
+  {
+    "engine": "newton-vbd",
+    "case": {
+      "family": "soft_compression",
+      "dt": 0.0005,
+      "refined": false,
+      "duration": 1.5,
+      "repeat": 0,
+      "id": "soft_compression-00"
+    },
+    "status": "error",
+    "error": "Couldn't find a function 'mul' compatible with the arguments 'float, int'",
+    "numerically_valid": false,
+    "task_success": false,
+    "hold_lift_m": null,
+    "minimum_volume_ratio": null,
+    "force_n": null,
+    "force_validated": false,
+    "force_note": "Native deformable load accounting has not passed an independent momentum audit; no zero-load substitution.",
+    "audit": {},
+    "samples": 0,
+    "wall_seconds": 1.6309736780003732
+  }
+]

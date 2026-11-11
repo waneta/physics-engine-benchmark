@@ -1,0 +1,92 @@
+WARNING: flex 'ball' is not rigid and has no equality constraints or passive forces
+Element name 'ball', id 0, line 1
+
+Warp UserWarning: Kernel cache artifacts from a previous Warp version were found in '/home/datamesh/github_waneta/physics-engine-benchmark/.cache/warp'. These will be ignored. You can safely delete them.
+Warp 1.16.0 initialized:
+   CUDA Toolkit 12.9, Driver 12.8
+   Devices:
+     "cpu"      : "x86_64"
+     "cuda:0"   : "NVIDIA GeForce RTX 4090 D" (24 GiB, sm_89, mempool enabled)
+   Kernel cache:
+     /home/datamesh/github_waneta/physics-engine-benchmark/.cache/warp/1.16.0
+Module mujoco_warp._src.smooth ca013d6 load on device 'cuda:0' took 8.48 ms  (cached)
+Module _primitive_narrowphase__locals__primitive_narrowphase_fcab5251 fcab525 load on device 'cuda:0' took 1.59 ms  (cached)
+Module mujoco_warp._src.collision_flex 5544d43 load on device 'cuda:0' took 1.63 ms  (cached)
+Module _flex_narrowphase_elem_detect__locals__kernel_b70316b4 b70316b load on device 'cuda:0' took 2.45 ms  (cached)
+Module _write_filtered_contacts__locals__kernel_73c6c180 73c6c18 load on device 'cuda:0' took 1.28 ms  (cached)
+Module mujoco_warp._src.constraint 5b5fe2d load on device 'cuda:0' took 1.16 ms  (cached)
+Module _friction_dof__locals__kernel_aae08a76 aae08a7 load on device 'cuda:0' took 1.26 ms  (cached)
+Module _efc_contact_init_flex__locals__kernel_feb8c8e0 feb8c8e load on device 'cuda:0' took 1.59 ms  (cached)
+Module _efc_contact_jac_sparse_flex__locals__kernel_f85d052c f85d052 load on device 'cuda:0' took 1.52 ms  (cached)
+Module _efc_contact_update_flex__locals__kernel_5e5dc460 5e5dc46 load on device 'cuda:0' took 1.53 ms  (cached)
+Module mujoco_warp._src.passive 5924789 load on device 'cuda:0' took 2.31 ms  (cached)
+Module mujoco_warp._src.support 46f46ca load on device 'cuda:0' took 1.16 ms  (cached)
+Module _qfrc_passive_kernel__locals__kernel_a386b29e a386b29 load on device 'cuda:0' took 1.08 ms  (cached)
+Module _qfrc_smooth__locals__kernel_b98573a2 b98573a load on device 'cuda:0' took 1.22 ms  (cached)
+Module _small_cholesky_factorize_solve_block__locals__kernel_55e8ce11 e245052 load on device 'cuda:0' took 1.06 ms  (cached)
+Module _solve_init_dof__locals__kernel_14b514c8 14b514c load on device 'cuda:0' took 0.97 ms  (cached)
+Module mujoco_warp._src.solver 9c75e2a load on device 'cuda:0' took 2.17 ms  (cached)
+Module _solve_init_jaref_kernel__locals__kernel_4aa1824a 4aa1824 load on device 'cuda:0' took 1.10 ms  (cached)
+Module mul_m_kernel__locals___mul_m_8efe01a0 8efe01a load on device 'cuda:0' took 1.04 ms  (cached)
+Module _update_constraint_efc__locals__kernel_fc20741b fc20741 load on device 'cuda:0' took 1.10 ms  (cached)
+Module _update_constraint_init_qfrc_constraint_sparse__locals__kernel_75c6b7f4 75c6b7f load on device 'cuda:0' took 0.98 ms  (cached)
+Module _update_gradient_zero_grad_dot__locals__kernel_52bae6b7 52bae6b load on device 'cuda:0' took 0.87 ms  (cached)
+Module _update_gradient_grad__locals__kernel_769b869e 769b869 load on device 'cuda:0' took 0.96 ms  (cached)
+Module _update_gradient_init_h_sparse__locals__kernel_89238011 8923801 load on device 'cuda:0' took 0.87 ms  (cached)
+Module _JTDACJ_sparse__locals__kernel_e6109cec e6109ce load on device 'cuda:0' took 1.26 ms  (cached)
+Module _JTDACJ_sparse__locals__kernel_bdfe1c4a 97a5435 load on device 'cuda:0' took 2.27 ms  (cached)
+Module _update_gradient_cholesky_blocked__locals__kernel_5bafeba4 2312e1f load on device 'cuda:0' took 53.02 ms  (cached)
+Module _linesearch_jv_fused_kernel__locals__kernel_1afbe919 1afbe91 load on device 'cuda:0' took 1.58 ms  (cached)
+Module _linesearch_iterative_kernel__locals__kernel_e1440bdd bfe3938 load on device 'cuda:0' took 2.10 ms  (cached)
+Module _solve_done__locals__kernel_9b35ebf5 9b35ebf load on device 'cuda:0' took 1.41 ms  (cached)
+Module mujoco_warp._src.forward 15f20a6 load on device 'cuda:0' took 2.03 ms  (cached)
+Module _next_time_builder__locals___next_time_56ba631e 56ba631 load on device 'cuda:0' took 0.93 ms  (cached)
+soft_compression-00 completed None
+WARNING: flex 'ball' is not rigid and has no equality constraints or passive forces
+Element name 'ball', id 0, line 1
+
+soft_compression-01 completed None
+WARNING: flex 'ball' is not rigid and has no equality constraints or passive forces
+Element name 'ball', id 0, line 1
+
+soft_compression-02 completed None
+WARNING: flex 'ball' is not rigid and has no equality constraints or passive forces
+Element name 'ball', id 0, line 1
+
+soft_compression-03 completed None
+WARNING: flex 'ball' is not rigid and has no equality constraints or passive forces
+Element name 'ball', id 0, line 43
+
+Module _limit_slide_hinge__locals__kernel_7d5a8061 7d5a806 load on device 'cuda:0' took 0.57 ms  (cached)
+Module _tile_cholesky_factorize_solve_block__locals__kernel_8d2c83d3 bb4c15e load on device 'cuda:0' took 24.61 ms  (cached)
+Module _solve_init_jaref_kernel__locals__kernel_8140fa96 8140fa9 load on device 'cuda:0' took 213.15 ms  (compiled)
+Module _update_gradient_cholesky_blocked__locals__kernel_a6b133ab 3b4d6d2 load on device 'cuda:0' took 1785.12 ms  (compiled)
+Module _linesearch_jv_fused_kernel__locals__kernel_4a741609 4a74160 load on device 'cuda:0' took 38.34 ms  (compiled)
+soft_grasp-04 inverted None
+WARNING: flex 'ball' is not rigid and has no equality constraints or passive forces
+Element name 'ball', id 0, line 43
+
+soft_grasp-05 inverted None
+WARNING: flex 'ball' is not rigid and has no equality constraints or passive forces
+Element name 'ball', id 0, line 43
+
+soft_grasp-06 completed None
+WARNING: flex 'ball' is not rigid and has no equality constraints or passive forces
+Element name 'ball', id 0, line 43
+
+soft_grasp-07 completed None
+WARNING: flex 'ball' is not rigid and has no equality constraints or passive forces
+Element name 'ball', id 0, line 43
+
+soft_grasp-08 completed None
+WARNING: flex 'ball' is not rigid and has no equality constraints or passive forces
+Element name 'ball', id 0, line 43
+
+soft_grasp-09 completed None
+WARNING: flex 'ball' is not rigid and has no equality constraints or passive forces
+Element name 'ball', id 0, line 43
+
+Module _solve_init_jaref_kernel__locals__kernel_62e5b74b 62e5b74 load on device 'cuda:0' took 100.14 ms  (compiled)
+Module _update_gradient_cholesky_blocked__locals__kernel_17150c19 9dd03d9 load on device 'cuda:0' took 2201.42 ms  (compiled)
+Module _linesearch_jv_fused_kernel__locals__kernel_ed36927b ed36927 load on device 'cuda:0' took 76.93 ms  (compiled)
+Module _linesearch_iterative_kernel__locals__kernel_e1440bdd e1440bd load on device 'cuda:0' took 1032.62 ms  (compiled)

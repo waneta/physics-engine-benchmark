@@ -1,0 +1,214 @@
+[
+  {
+    "id": "collision_chain-5e2bf9ae0a40",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-rigid-tuning-v3/rigid/physx/collision_chain-5e2bf9ae0a40/result.json"
+  },
+  {
+    "id": "collision_chain-230c318d0e18",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-rigid-tuning-v3/rigid/physx/collision_chain-230c318d0e18/result.json"
+  },
+  {
+    "id": "collision_chain-ee4fddc70acd",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-rigid-tuning-v3/rigid/physx/collision_chain-ee4fddc70acd/result.json"
+  },
+  {
+    "id": "collision_chain-4f07ee297f6e",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-rigid-tuning-v3/rigid/physx/collision_chain-4f07ee297f6e/result.json"
+  },
+  {
+    "id": "collision_chain-053dd2f40471",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-rigid-tuning-v3/rigid/physx/collision_chain-053dd2f40471/result.json"
+  },
+  {
+    "id": "collision_chain-379038ee9ae6",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-rigid-tuning-v3/rigid/physx/collision_chain-379038ee9ae6/result.json"
+  },
+  {
+    "id": "panda_open_loop-ac09844de5d0",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-rigid-tuning-v3/rigid/physx/panda_open_loop-ac09844de5d0/result.json"
+  },
+  {
+    "id": "panda_open_loop-fe41c13a05d4",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-rigid-tuning-v3/rigid/physx/panda_open_loop-fe41c13a05d4/result.json"
+  },
+  {
+    "id": "panda_open_loop-3f052300a7e3",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-rigid-tuning-v3/rigid/physx/panda_open_loop-3f052300a7e3/result.json"
+  },
+  {
+    "id": "panda_open_loop-a2aaed8cdc92",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-rigid-tuning-v3/rigid/physx/panda_open_loop-a2aaed8cdc92/result.json"
+  },
+  {
+    "id": "panda_open_loop-2aa116cd1223",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-rigid-tuning-v3/rigid/physx/panda_open_loop-2aa116cd1223/result.json"
+  },
+  {
+    "id": "panda_open_loop-d095db4bd44a",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-rigid-tuning-v3/rigid/physx/panda_open_loop-d095db4bd44a/result.json"
+  },
+  {
+    "id": "panda_tracking-69d7d876490b",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-rigid-tuning-v3/rigid/physx/panda_tracking-69d7d876490b/result.json"
+  },
+  {
+    "id": "panda_tracking-85aeee04e952",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-rigid-tuning-v3/rigid/physx/panda_tracking-85aeee04e952/result.json"
+  },
+  {
+    "id": "panda_tracking-472d8ccf2172",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-rigid-tuning-v3/rigid/physx/panda_tracking-472d8ccf2172/result.json"
+  },
+  {
+    "id": "panda_tracking-f13cdec2cd43",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-rigid-tuning-v3/rigid/physx/panda_tracking-f13cdec2cd43/result.json"
+  },
+  {
+    "id": "panda_tracking-f65fd9ac6047",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-rigid-tuning-v3/rigid/physx/panda_tracking-f65fd9ac6047/result.json"
+  },
+  {
+    "id": "panda_tracking-1d0246daf05e",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-rigid-tuning-v3/rigid/physx/panda_tracking-1d0246daf05e/result.json"
+  },
+  {
+    "id": "grasp-955a4de2a3af",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-rigid-tuning-v3/rigid/physx/grasp-955a4de2a3af/result.json"
+  },
+  {
+    "id": "grasp-2b8f6b82dc36",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-rigid-tuning-v3/rigid/physx/grasp-2b8f6b82dc36/result.json"
+  },
+  {
+    "id": "grasp-c4fc0dae6408",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-rigid-tuning-v3/rigid/physx/grasp-c4fc0dae6408/result.json"
+  },
+  {
+    "id": "grasp-617d9d80d621",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-rigid-tuning-v3/rigid/physx/grasp-617d9d80d621/result.json"
+  },
+  {
+    "id": "grasp-018904402100",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-rigid-tuning-v3/rigid/physx/grasp-018904402100/result.json"
+  },
+  {
+    "id": "grasp-4174c8da86c5",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-rigid-tuning-v3/rigid/physx/grasp-4174c8da86c5/result.json"
+  },
+  {
+    "id": "stack-3c705b8adaef",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-rigid-tuning-v3/rigid/physx/stack-3c705b8adaef/result.json"
+  },
+  {
+    "id": "stack-5a6fa2926149",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-rigid-tuning-v3/rigid/physx/stack-5a6fa2926149/result.json"
+  },
+  {
+    "id": "stack-ee19fab0d88e",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-rigid-tuning-v3/rigid/physx/stack-ee19fab0d88e/result.json"
+  },
+  {
+    "id": "stack-42ac132e472b",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-rigid-tuning-v3/rigid/physx/stack-42ac132e472b/result.json"
+  },
+  {
+    "id": "stack-27e089c26bc1",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-rigid-tuning-v3/rigid/physx/stack-27e089c26bc1/result.json"
+  },
+  {
+    "id": "stack-d78fcd4c4395",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-rigid-tuning-v3/rigid/physx/stack-d78fcd4c4395/result.json"
+  },
+  {
+    "id": "stack-c8077b104aaa",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-rigid-tuning-v3/rigid/physx/stack-c8077b104aaa/result.json"
+  },
+  {
+    "id": "stack-6e24332feb2e",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-rigid-tuning-v3/rigid/physx/stack-6e24332feb2e/result.json"
+  },
+  {
+    "id": "stack-233ed0e80ec3",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-rigid-tuning-v3/rigid/physx/stack-233ed0e80ec3/result.json"
+  },
+  {
+    "id": "stack-e560817ab22a",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-rigid-tuning-v3/rigid/physx/stack-e560817ab22a/result.json"
+  },
+  {
+    "id": "stack-e67af218c667",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-rigid-tuning-v3/rigid/physx/stack-e67af218c667/attempt-0001/result.json"
+  },
+  {
+    "id": "stack-fc47448b3bcc",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-rigid-tuning-v3/rigid/physx/stack-fc47448b3bcc/result.json"
+  },
+  {
+    "id": "stack-fce39091a5fb",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-rigid-tuning-v3/rigid/physx/stack-fce39091a5fb/result.json"
+  },
+  {
+    "id": "stack-ac5d281f8117",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-rigid-tuning-v3/rigid/physx/stack-ac5d281f8117/result.json"
+  },
+  {
+    "id": "stack-076f63ccb27e",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-rigid-tuning-v3/rigid/physx/stack-076f63ccb27e/result.json"
+  },
+  {
+    "id": "stack-7527ab912540",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-rigid-tuning-v3/rigid/physx/stack-7527ab912540/result.json"
+  },
+  {
+    "id": "stack-057d4aedacad",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-rigid-tuning-v3/rigid/physx/stack-057d4aedacad/result.json"
+  },
+  {
+    "id": "push-040b6acb5ce8",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/recovery-20261009-physx-push-full/push-040b6acb5ce8/result.json"
+  },
+  {
+    "id": "push-bf866ada1b95",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/recovery-20261009-physx-push-full/push-bf866ada1b95/result.json"
+  },
+  {
+    "id": "push-05b606e18966",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/recovery-20261009-physx-push-full/push-05b606e18966/result.json"
+  },
+  {
+    "id": "push-a715fd77a7d2",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/recovery-20261009-physx-push-full/push-a715fd77a7d2/result.json"
+  },
+  {
+    "id": "push-c8a50d929a26",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/recovery-20261009-physx-push-full/push-c8a50d929a26/result.json"
+  },
+  {
+    "id": "push-503d09560c12",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/recovery-20261009-physx-push-full/push-503d09560c12/result.json"
+  },
+  {
+    "id": "push-96caf5a40261",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/recovery-20261009-physx-push-full/push-96caf5a40261/result.json"
+  },
+  {
+    "id": "push-12255620c8d0",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/recovery-20261009-physx-push-full/push-12255620c8d0/result.json"
+  },
+  {
+    "id": "push-f956b06100d6",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/recovery-20261009-physx-push-full/push-f956b06100d6/result.json"
+  },
+  {
+    "id": "push-687378cb6ab8",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-rigid-tuning-v3/tuning/physx/heldout/heldout-baseline-2/result.json"
+  },
+  {
+    "id": "push-f9df6ca1c65a",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-rigid-tuning-v3/tuning/physx/heldout/heldout-baseline-4/result.json"
+  },
+  {
+    "id": "push-c40e9a866a39",
+    "source": "/home/datamesh/github_waneta/physics-engine-benchmark/results/full-rigid-tuning-v3/tuning/physx/heldout/heldout-baseline-5/result.json"
+  }
+]

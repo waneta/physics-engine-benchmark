@@ -1,0 +1,5 @@
+# Historical measurements and source fingerprints require byte-exact checkout on Windows.
+results/** -text
+.cache/diagnose_warp_force.py -text
+archives/2026-11-11/manifest.json -text
+scripts/verify_lightweight_archive.py text eol=lf

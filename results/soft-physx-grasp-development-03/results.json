@@ -1,0 +1,55 @@
+[
+  {
+    "engine": "physx",
+    "case": {
+      "family": "soft_grasp",
+      "dt": 0.001,
+      "refined": false,
+      "duration": 4.5,
+      "finger_force": 1,
+      "repeat": 0,
+      "id": "soft_grasp-04"
+    },
+    "status": "inverted",
+    "error": null,
+    "numerically_valid": false,
+    "task_success": false,
+    "hold_lift_m": null,
+    "hold_com_lift_m": null,
+    "hold_window_covered": false,
+    "minimum_volume_ratio": -0.023230606319164838,
+    "force_n": null,
+    "force_validated": false,
+    "force_note": "Native deformable load accounting has not passed an independent momentum audit; no zero-load substitution.",
+    "audit": {
+      "engine": "physx",
+      "precision": "float32",
+      "solver": "GPU PhysX deformable + TGS articulation",
+      "import_errors": {
+        "link0": 1.7812252020577013e-09,
+        "link1": 3.46946704699036e-08,
+        "link2": 2.1725296953795104e-08,
+        "link3": 2.384185791015625e-07,
+        "link4": 9.610176050778296e-09,
+        "link5": 3.630876543869732e-09,
+        "link6": 9.050369273455594e-10,
+        "link7": 8.075237284410619e-10,
+        "hand": 6.705522526129215e-10,
+        "left_finger": 9.313225746154785e-10,
+        "right_finger": 9.313225746154785e-10
+      },
+      "contact_force_source": "normal report + friction tensor impulses",
+      "container_image": "nvcr.io/nvidia/isaac-sim:6.0.1",
+      "container_image_id": "sha256:783444c706538aa76cf5126e911ddc5e618779e6105305ad4af4260362a30aa9",
+      "force_validated": false,
+      "vertex_count": 125,
+      "element_count": 384,
+      "mass_kg": 0.10504912346763821,
+      "rest_mesh_validation": "passed",
+      "reference_sha256": "d67d60793c2fb46bb459c5b6385779d83f2fa70b7364a42a6b8b9d84a13d6274",
+      "rigid_contact_probe_peak_n": 0.0
+    },
+    "samples": 15,
+    "wall_seconds": 82.80917709000005
+  }
+]

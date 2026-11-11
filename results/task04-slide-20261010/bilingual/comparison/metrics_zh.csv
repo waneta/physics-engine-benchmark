@@ -1,0 +1,793 @@
+﻿引擎,场景,步长(ms),重复编号,状态,指标名称,Metric name,指标字段,单位,单位说明 / Unit description,数值,数值显示 / Display value
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,仿真步长,Simulation timestep,dt_s,s,秒 / second,0.002,0.002
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,物理步数,Physics steps,steps,步,步 / step,300,300
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,峰值接触合力,Peak resultant contact force,peak_contact_force_n,N,牛顿 / newton,1.0565707841639878,1.05657078
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,峰值法向接触力,Peak normal contact force,peak_contact_fz_n,N,牛顿 / newton,0.9810940828746254,0.981094083
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,最大穿透深度,Maximum penetration depth,max_penetration_m,m,米 / metre,3.212529579160739e-08,3.21252958e-08
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,首次接触时间,First contact time,first_contact_s,s,秒 / second,0.0,0
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,质心静置时间,COM settling time,settled_time_s,s,秒 / second,0.256,0.256
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,最大动量平衡残差,Maximum momentum balance residual,max_momentum_residual_ns,N·s,牛顿秒 / newton second,5.107051802370862e-08,5.1070518e-08
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,最大接触力核算误差,Maximum contact force accounting error,max_constraint_force_error_n,N,牛顿 / newton,,未测得 / Not measured
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,窗口接触冲量X,Window contact impulse X,window_contact_jx_ns,N·s,牛顿秒 / newton second,-0.015695991497283606,-0.0156959915
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,窗口接触冲量Y,Window contact impulse Y,window_contact_jy_ns,N·s,牛顿秒 / newton second,8.86919514914153e-09,8.86919515e-09
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,窗口接触冲量Z,Window contact impulse Z,window_contact_jz_ns,N·s,牛顿秒 / newton second,0.03923999230149557,0.0392399923
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,接触冲量窗口完整,Contact impulse window complete,impulse_window_complete,布尔,布尔值 / boolean,True,是 / Yes
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,停止时间,Stopping time,stop_time_s,s,秒 / second,0.256,0.256
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,停止距离,Stopping distance,stop_distance_m,m,米 / metre,0.12642449140548706,0.126424491
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,最终X位移,Final X displacement,final_displacement_m,m,米 / metre,0.12642449140548706,0.126424491
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,最大质心抬升,Maximum COM lift,max_com_lift_m,m,米 / metre,3.2782554622301507e-09,3.27825546e-09
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,理想库仑停止距离,Ideal Coulomb stopping distance,ideal_coulomb_distance_m,m,米 / metre,0.127420998980632,0.127420999
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,设定摩擦系数,Configured friction coefficient,configured_friction_coefficient,1,无量纲 / dimensionless,0.4,0.4
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,滑动段测量步数,Sliding measurement steps,friction_measurement_samples,步,步 / step,107,107
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,滑动窗口内有接触步数,Contact steps in sliding window,friction_contact_samples,步,步 / step,107,107
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,滑动段平均摩擦力,Mean sliding friction force,mean_friction_force_n,N,牛顿 / newton,0.392399914502503,0.392399915
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,滑动段平均法向力,Mean sliding normal force,mean_normal_force_n,N,牛顿 / newton,0.9810001126459055,0.981000113
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,实测等效摩擦系数,Measured effective friction coefficient,effective_friction_coefficient,1,无量纲 / dimensionless,0.3999998669155513,0.399999867
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,滑动段平均X减速度,Mean sliding X deceleration,mean_deceleration_m_s2,m/s²,米每二次方秒 / metre per second squared,3.9240035879051436,3.92400359
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,滑动段摩擦力反向,Sliding friction opposes motion,friction_opposes_motion,布尔,布尔值 / boolean,True,是 / Yes
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,全程X接触冲量,Total contact impulse X,total_contact_jx_ns,N·s,牛顿秒 / newton second,-0.10000003350612513,-0.100000034
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,相对理想轨迹最大X位移误差,Maximum X displacement error vs ideal trajectory,max_displacement_error_m,m,米 / metre,0.0009965075751449393,0.000996507575
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,相对理想轨迹X位移均方根误差,RMS X displacement error vs ideal trajectory,rms_displacement_error_m,m,米 / metre,0.0008438603930533708,0.000843860393
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,相对理想轨迹最大X速度误差,Maximum X velocity error vs ideal trajectory,max_slide_velocity_error_m_s,m/s,米每秒 / metre per second,9.466340998187661e-06,9.466341e-06
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,最大侧向偏移,Maximum lateral displacement,max_lateral_displacement_m,m,米 / metre,2.1874987510273058e-07,2.18749875e-07
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,理想库仑停止时间,Ideal Coulomb stopping time,ideal_coulomb_stop_time_s,s,秒 / second,0.254841997961264,0.254841998
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,停止距离相对理想值偏差,Stopping distance deviation from ideal,stop_distance_error_percent,%,百分比 / percent,-0.7820591449737484,-0.782059145
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,仿真步长,Simulation timestep,dt_s,s,秒 / second,0.002,0.002
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,物理步数,Physics steps,steps,步,步 / step,300,300
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,峰值接触合力,Peak resultant contact force,peak_contact_force_n,N,牛顿 / newton,1.0565707841639878,1.05657078
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,峰值法向接触力,Peak normal contact force,peak_contact_fz_n,N,牛顿 / newton,0.9810940828746254,0.981094083
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,最大穿透深度,Maximum penetration depth,max_penetration_m,m,米 / metre,3.212529579160739e-08,3.21252958e-08
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,首次接触时间,First contact time,first_contact_s,s,秒 / second,0.0,0
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,质心静置时间,COM settling time,settled_time_s,s,秒 / second,0.256,0.256
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,最大动量平衡残差,Maximum momentum balance residual,max_momentum_residual_ns,N·s,牛顿秒 / newton second,5.107051802370862e-08,5.1070518e-08
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,最大接触力核算误差,Maximum contact force accounting error,max_constraint_force_error_n,N,牛顿 / newton,,未测得 / Not measured
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,窗口接触冲量X,Window contact impulse X,window_contact_jx_ns,N·s,牛顿秒 / newton second,-0.015695991497283606,-0.0156959915
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,窗口接触冲量Y,Window contact impulse Y,window_contact_jy_ns,N·s,牛顿秒 / newton second,8.86919514914153e-09,8.86919515e-09
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,窗口接触冲量Z,Window contact impulse Z,window_contact_jz_ns,N·s,牛顿秒 / newton second,0.03923999230149557,0.0392399923
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,接触冲量窗口完整,Contact impulse window complete,impulse_window_complete,布尔,布尔值 / boolean,True,是 / Yes
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,停止时间,Stopping time,stop_time_s,s,秒 / second,0.256,0.256
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,停止距离,Stopping distance,stop_distance_m,m,米 / metre,0.12642449140548706,0.126424491
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,最终X位移,Final X displacement,final_displacement_m,m,米 / metre,0.12642449140548706,0.126424491
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,最大质心抬升,Maximum COM lift,max_com_lift_m,m,米 / metre,3.2782554622301507e-09,3.27825546e-09
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,理想库仑停止距离,Ideal Coulomb stopping distance,ideal_coulomb_distance_m,m,米 / metre,0.127420998980632,0.127420999
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,设定摩擦系数,Configured friction coefficient,configured_friction_coefficient,1,无量纲 / dimensionless,0.4,0.4
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,滑动段测量步数,Sliding measurement steps,friction_measurement_samples,步,步 / step,107,107
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,滑动窗口内有接触步数,Contact steps in sliding window,friction_contact_samples,步,步 / step,107,107
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,滑动段平均摩擦力,Mean sliding friction force,mean_friction_force_n,N,牛顿 / newton,0.392399914502503,0.392399915
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,滑动段平均法向力,Mean sliding normal force,mean_normal_force_n,N,牛顿 / newton,0.9810001126459055,0.981000113
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,实测等效摩擦系数,Measured effective friction coefficient,effective_friction_coefficient,1,无量纲 / dimensionless,0.3999998669155513,0.399999867
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,滑动段平均X减速度,Mean sliding X deceleration,mean_deceleration_m_s2,m/s²,米每二次方秒 / metre per second squared,3.9240035879051436,3.92400359
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,滑动段摩擦力反向,Sliding friction opposes motion,friction_opposes_motion,布尔,布尔值 / boolean,True,是 / Yes
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,全程X接触冲量,Total contact impulse X,total_contact_jx_ns,N·s,牛顿秒 / newton second,-0.10000003350612513,-0.100000034
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,相对理想轨迹最大X位移误差,Maximum X displacement error vs ideal trajectory,max_displacement_error_m,m,米 / metre,0.0009965075751449393,0.000996507575
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,相对理想轨迹X位移均方根误差,RMS X displacement error vs ideal trajectory,rms_displacement_error_m,m,米 / metre,0.0008438603930533708,0.000843860393
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,相对理想轨迹最大X速度误差,Maximum X velocity error vs ideal trajectory,max_slide_velocity_error_m_s,m/s,米每秒 / metre per second,9.466340998187661e-06,9.466341e-06
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,最大侧向偏移,Maximum lateral displacement,max_lateral_displacement_m,m,米 / metre,2.1874987510273058e-07,2.18749875e-07
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,理想库仑停止时间,Ideal Coulomb stopping time,ideal_coulomb_stop_time_s,s,秒 / second,0.254841997961264,0.254841998
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,停止距离相对理想值偏差,Stopping distance deviation from ideal,stop_distance_error_percent,%,百分比 / percent,-0.7820591449737484,-0.782059145
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,仿真步长,Simulation timestep,dt_s,s,秒 / second,0.002,0.002
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,物理步数,Physics steps,steps,步,步 / step,300,300
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,峰值接触合力,Peak resultant contact force,peak_contact_force_n,N,牛顿 / newton,1.0565707841639878,1.05657078
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,峰值法向接触力,Peak normal contact force,peak_contact_fz_n,N,牛顿 / newton,0.9810940828746254,0.981094083
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,最大穿透深度,Maximum penetration depth,max_penetration_m,m,米 / metre,3.212529579160739e-08,3.21252958e-08
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,首次接触时间,First contact time,first_contact_s,s,秒 / second,0.0,0
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,质心静置时间,COM settling time,settled_time_s,s,秒 / second,0.256,0.256
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,最大动量平衡残差,Maximum momentum balance residual,max_momentum_residual_ns,N·s,牛顿秒 / newton second,5.107051802370862e-08,5.1070518e-08
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,最大接触力核算误差,Maximum contact force accounting error,max_constraint_force_error_n,N,牛顿 / newton,,未测得 / Not measured
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,窗口接触冲量X,Window contact impulse X,window_contact_jx_ns,N·s,牛顿秒 / newton second,-0.015695991497283606,-0.0156959915
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,窗口接触冲量Y,Window contact impulse Y,window_contact_jy_ns,N·s,牛顿秒 / newton second,8.86919514914153e-09,8.86919515e-09
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,窗口接触冲量Z,Window contact impulse Z,window_contact_jz_ns,N·s,牛顿秒 / newton second,0.03923999230149557,0.0392399923
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,接触冲量窗口完整,Contact impulse window complete,impulse_window_complete,布尔,布尔值 / boolean,True,是 / Yes
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,停止时间,Stopping time,stop_time_s,s,秒 / second,0.256,0.256
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,停止距离,Stopping distance,stop_distance_m,m,米 / metre,0.12642449140548706,0.126424491
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,最终X位移,Final X displacement,final_displacement_m,m,米 / metre,0.12642449140548706,0.126424491
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,最大质心抬升,Maximum COM lift,max_com_lift_m,m,米 / metre,3.2782554622301507e-09,3.27825546e-09
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,理想库仑停止距离,Ideal Coulomb stopping distance,ideal_coulomb_distance_m,m,米 / metre,0.127420998980632,0.127420999
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,设定摩擦系数,Configured friction coefficient,configured_friction_coefficient,1,无量纲 / dimensionless,0.4,0.4
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,滑动段测量步数,Sliding measurement steps,friction_measurement_samples,步,步 / step,107,107
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,滑动窗口内有接触步数,Contact steps in sliding window,friction_contact_samples,步,步 / step,107,107
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,滑动段平均摩擦力,Mean sliding friction force,mean_friction_force_n,N,牛顿 / newton,0.392399914502503,0.392399915
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,滑动段平均法向力,Mean sliding normal force,mean_normal_force_n,N,牛顿 / newton,0.9810001126459055,0.981000113
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,实测等效摩擦系数,Measured effective friction coefficient,effective_friction_coefficient,1,无量纲 / dimensionless,0.3999998669155513,0.399999867
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,滑动段平均X减速度,Mean sliding X deceleration,mean_deceleration_m_s2,m/s²,米每二次方秒 / metre per second squared,3.9240035879051436,3.92400359
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,滑动段摩擦力反向,Sliding friction opposes motion,friction_opposes_motion,布尔,布尔值 / boolean,True,是 / Yes
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,全程X接触冲量,Total contact impulse X,total_contact_jx_ns,N·s,牛顿秒 / newton second,-0.10000003350612513,-0.100000034
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,相对理想轨迹最大X位移误差,Maximum X displacement error vs ideal trajectory,max_displacement_error_m,m,米 / metre,0.0009965075751449393,0.000996507575
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,相对理想轨迹X位移均方根误差,RMS X displacement error vs ideal trajectory,rms_displacement_error_m,m,米 / metre,0.0008438603930533708,0.000843860393
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,相对理想轨迹最大X速度误差,Maximum X velocity error vs ideal trajectory,max_slide_velocity_error_m_s,m/s,米每秒 / metre per second,9.466340998187661e-06,9.466341e-06
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,最大侧向偏移,Maximum lateral displacement,max_lateral_displacement_m,m,米 / metre,2.1874987510273058e-07,2.18749875e-07
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,理想库仑停止时间,Ideal Coulomb stopping time,ideal_coulomb_stop_time_s,s,秒 / second,0.254841997961264,0.254841998
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,停止距离相对理想值偏差,Stopping distance deviation from ideal,stop_distance_error_percent,%,百分比 / percent,-0.7820591449737484,-0.782059145
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,仿真步长,Simulation timestep,dt_s,s,秒 / second,0.001,0.001
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,物理步数,Physics steps,steps,步,步 / step,600,600
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,峰值接触合力,Peak resultant contact force,peak_contact_force_n,N,牛顿 / newton,1.0565703820806485,1.05657038
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,峰值法向接触力,Peak normal contact force,peak_contact_fz_n,N,牛顿 / newton,0.9812148199367888,0.98121482
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,最大穿透深度,Maximum penetration depth,max_penetration_m,m,米 / metre,3.211209258571768e-08,3.21120926e-08
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,首次接触时间,First contact time,first_contact_s,s,秒 / second,0.0,0
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,质心静置时间,COM settling time,settled_time_s,s,秒 / second,0.255,0.255
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,最大动量平衡残差,Maximum momentum balance residual,max_momentum_residual_ns,N·s,牛顿秒 / newton second,5.828864854130199e-08,5.82886485e-08
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,最大接触力核算误差,Maximum contact force accounting error,max_constraint_force_error_n,N,牛顿 / newton,,未测得 / Not measured
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,窗口接触冲量X,Window contact impulse X,window_contact_jx_ns,N·s,牛顿秒 / newton second,-0.015695991701010333,-0.0156959917
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,窗口接触冲量Y,Window contact impulse Y,window_contact_jy_ns,N·s,牛顿秒 / newton second,3.576736807772708e-09,3.57673681e-09
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,窗口接触冲量Z,Window contact impulse Z,window_contact_jz_ns,N·s,牛顿秒 / newton second,0.039239992894846254,0.0392399929
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,接触冲量窗口完整,Contact impulse window complete,impulse_window_complete,布尔,布尔值 / boolean,True,是 / Yes
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,停止时间,Stopping time,stop_time_s,s,秒 / second,0.255,0.255
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,停止距离,Stopping distance,stop_distance_m,m,米 / metre,0.1269179731607437,0.126917973
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,最终X位移,Final X displacement,final_displacement_m,m,米 / metre,0.12691786885261536,0.126917869
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,最大质心抬升,Maximum COM lift,max_com_lift_m,m,米 / metre,3.2782554622301507e-09,3.27825546e-09
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,理想库仑停止距离,Ideal Coulomb stopping distance,ideal_coulomb_distance_m,m,米 / metre,0.127420998980632,0.127420999
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,设定摩擦系数,Configured friction coefficient,configured_friction_coefficient,1,无量纲 / dimensionless,0.4,0.4
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,滑动段测量步数,Sliding measurement steps,friction_measurement_samples,步,步 / step,213,213
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,滑动窗口内有接触步数,Contact steps in sliding window,friction_contact_samples,步,步 / step,213,213
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,滑动段平均摩擦力,Mean sliding friction force,mean_friction_force_n,N,牛顿 / newton,0.39239991034188165,0.39239991
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,滑动段平均法向力,Mean sliding normal force,mean_normal_force_n,N,牛顿 / newton,0.981000102183942,0.981000102
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,实测等效摩擦系数,Measured effective friction coefficient,effective_friction_coefficient,1,无量纲 / dimensionless,0.3999998669401819,0.399999867
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,滑动段平均X减速度,Mean sliding X deceleration,mean_deceleration_m_s2,m/s²,米每二次方秒 / metre per second squared,3.924048667502515,3.92404867
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,滑动段摩擦力反向,Sliding friction opposes motion,friction_opposes_motion,布尔,布尔值 / boolean,True,是 / Yes
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,全程X接触冲量,Total contact impulse X,total_contact_jx_ns,N·s,牛顿秒 / newton second,-0.09999879836250639,-0.0999987984
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,相对理想轨迹最大X位移误差,Maximum X displacement error vs ideal trajectory,max_displacement_error_m,m,米 / metre,0.0005031301280166434,0.000503130128
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,相对理想轨迹X位移均方根误差,RMS X displacement error vs ideal trajectory,rms_displacement_error_m,m,米 / metre,0.00042580912548500946,0.000425809125
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,相对理想轨迹最大X速度误差,Maximum X velocity error vs ideal trajectory,max_slide_velocity_error_m_s,m/s,米每秒 / metre per second,1.1809935092865764e-05,1.18099351e-05
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,最大侧向偏移,Maximum lateral displacement,max_lateral_displacement_m,m,米 / metre,5.67842803889107e-08,5.67842804e-08
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,理想库仑停止时间,Ideal Coulomb stopping time,ideal_coulomb_stop_time_s,s,秒 / second,0.254841997961264,0.254841998
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,停止距离相对理想值偏差,Stopping distance deviation from ideal,stop_distance_error_percent,%,百分比 / percent,-0.39477466344832723,-0.394774663
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,仿真步长,Simulation timestep,dt_s,s,秒 / second,0.001,0.001
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,物理步数,Physics steps,steps,步,步 / step,600,600
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,峰值接触合力,Peak resultant contact force,peak_contact_force_n,N,牛顿 / newton,1.0565703820806485,1.05657038
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,峰值法向接触力,Peak normal contact force,peak_contact_fz_n,N,牛顿 / newton,0.9812148199367888,0.98121482
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,最大穿透深度,Maximum penetration depth,max_penetration_m,m,米 / metre,3.211209258571768e-08,3.21120926e-08
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,首次接触时间,First contact time,first_contact_s,s,秒 / second,0.0,0
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,质心静置时间,COM settling time,settled_time_s,s,秒 / second,0.255,0.255
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,最大动量平衡残差,Maximum momentum balance residual,max_momentum_residual_ns,N·s,牛顿秒 / newton second,5.828864854130199e-08,5.82886485e-08
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,最大接触力核算误差,Maximum contact force accounting error,max_constraint_force_error_n,N,牛顿 / newton,,未测得 / Not measured
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,窗口接触冲量X,Window contact impulse X,window_contact_jx_ns,N·s,牛顿秒 / newton second,-0.015695991701010333,-0.0156959917
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,窗口接触冲量Y,Window contact impulse Y,window_contact_jy_ns,N·s,牛顿秒 / newton second,3.576736807772708e-09,3.57673681e-09
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,窗口接触冲量Z,Window contact impulse Z,window_contact_jz_ns,N·s,牛顿秒 / newton second,0.039239992894846254,0.0392399929
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,接触冲量窗口完整,Contact impulse window complete,impulse_window_complete,布尔,布尔值 / boolean,True,是 / Yes
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,停止时间,Stopping time,stop_time_s,s,秒 / second,0.255,0.255
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,停止距离,Stopping distance,stop_distance_m,m,米 / metre,0.1269179731607437,0.126917973
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,最终X位移,Final X displacement,final_displacement_m,m,米 / metre,0.12691786885261536,0.126917869
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,最大质心抬升,Maximum COM lift,max_com_lift_m,m,米 / metre,3.2782554622301507e-09,3.27825546e-09
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,理想库仑停止距离,Ideal Coulomb stopping distance,ideal_coulomb_distance_m,m,米 / metre,0.127420998980632,0.127420999
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,设定摩擦系数,Configured friction coefficient,configured_friction_coefficient,1,无量纲 / dimensionless,0.4,0.4
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,滑动段测量步数,Sliding measurement steps,friction_measurement_samples,步,步 / step,213,213
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,滑动窗口内有接触步数,Contact steps in sliding window,friction_contact_samples,步,步 / step,213,213
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,滑动段平均摩擦力,Mean sliding friction force,mean_friction_force_n,N,牛顿 / newton,0.39239991034188165,0.39239991
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,滑动段平均法向力,Mean sliding normal force,mean_normal_force_n,N,牛顿 / newton,0.981000102183942,0.981000102
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,实测等效摩擦系数,Measured effective friction coefficient,effective_friction_coefficient,1,无量纲 / dimensionless,0.3999998669401819,0.399999867
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,滑动段平均X减速度,Mean sliding X deceleration,mean_deceleration_m_s2,m/s²,米每二次方秒 / metre per second squared,3.924048667502515,3.92404867
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,滑动段摩擦力反向,Sliding friction opposes motion,friction_opposes_motion,布尔,布尔值 / boolean,True,是 / Yes
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,全程X接触冲量,Total contact impulse X,total_contact_jx_ns,N·s,牛顿秒 / newton second,-0.09999879836250639,-0.0999987984
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,相对理想轨迹最大X位移误差,Maximum X displacement error vs ideal trajectory,max_displacement_error_m,m,米 / metre,0.0005031301280166434,0.000503130128
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,相对理想轨迹X位移均方根误差,RMS X displacement error vs ideal trajectory,rms_displacement_error_m,m,米 / metre,0.00042580912548500946,0.000425809125
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,相对理想轨迹最大X速度误差,Maximum X velocity error vs ideal trajectory,max_slide_velocity_error_m_s,m/s,米每秒 / metre per second,1.1809935092865764e-05,1.18099351e-05
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,最大侧向偏移,Maximum lateral displacement,max_lateral_displacement_m,m,米 / metre,5.67842803889107e-08,5.67842804e-08
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,理想库仑停止时间,Ideal Coulomb stopping time,ideal_coulomb_stop_time_s,s,秒 / second,0.254841997961264,0.254841998
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,停止距离相对理想值偏差,Stopping distance deviation from ideal,stop_distance_error_percent,%,百分比 / percent,-0.39477466344832723,-0.394774663
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,仿真步长,Simulation timestep,dt_s,s,秒 / second,0.001,0.001
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,物理步数,Physics steps,steps,步,步 / step,600,600
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,峰值接触合力,Peak resultant contact force,peak_contact_force_n,N,牛顿 / newton,1.0565703820806485,1.05657038
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,峰值法向接触力,Peak normal contact force,peak_contact_fz_n,N,牛顿 / newton,0.9812148199367888,0.98121482
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,最大穿透深度,Maximum penetration depth,max_penetration_m,m,米 / metre,3.211209258571768e-08,3.21120926e-08
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,首次接触时间,First contact time,first_contact_s,s,秒 / second,0.0,0
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,质心静置时间,COM settling time,settled_time_s,s,秒 / second,0.255,0.255
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,最大动量平衡残差,Maximum momentum balance residual,max_momentum_residual_ns,N·s,牛顿秒 / newton second,5.828864854130199e-08,5.82886485e-08
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,最大接触力核算误差,Maximum contact force accounting error,max_constraint_force_error_n,N,牛顿 / newton,,未测得 / Not measured
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,窗口接触冲量X,Window contact impulse X,window_contact_jx_ns,N·s,牛顿秒 / newton second,-0.015695991701010333,-0.0156959917
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,窗口接触冲量Y,Window contact impulse Y,window_contact_jy_ns,N·s,牛顿秒 / newton second,3.576736807772708e-09,3.57673681e-09
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,窗口接触冲量Z,Window contact impulse Z,window_contact_jz_ns,N·s,牛顿秒 / newton second,0.039239992894846254,0.0392399929
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,接触冲量窗口完整,Contact impulse window complete,impulse_window_complete,布尔,布尔值 / boolean,True,是 / Yes
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,停止时间,Stopping time,stop_time_s,s,秒 / second,0.255,0.255
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,停止距离,Stopping distance,stop_distance_m,m,米 / metre,0.1269179731607437,0.126917973
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,最终X位移,Final X displacement,final_displacement_m,m,米 / metre,0.12691786885261536,0.126917869
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,最大质心抬升,Maximum COM lift,max_com_lift_m,m,米 / metre,3.2782554622301507e-09,3.27825546e-09
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,理想库仑停止距离,Ideal Coulomb stopping distance,ideal_coulomb_distance_m,m,米 / metre,0.127420998980632,0.127420999
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,设定摩擦系数,Configured friction coefficient,configured_friction_coefficient,1,无量纲 / dimensionless,0.4,0.4
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,滑动段测量步数,Sliding measurement steps,friction_measurement_samples,步,步 / step,213,213
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,滑动窗口内有接触步数,Contact steps in sliding window,friction_contact_samples,步,步 / step,213,213
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,滑动段平均摩擦力,Mean sliding friction force,mean_friction_force_n,N,牛顿 / newton,0.39239991034188165,0.39239991
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,滑动段平均法向力,Mean sliding normal force,mean_normal_force_n,N,牛顿 / newton,0.981000102183942,0.981000102
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,实测等效摩擦系数,Measured effective friction coefficient,effective_friction_coefficient,1,无量纲 / dimensionless,0.3999998669401819,0.399999867
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,滑动段平均X减速度,Mean sliding X deceleration,mean_deceleration_m_s2,m/s²,米每二次方秒 / metre per second squared,3.924048667502515,3.92404867
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,滑动段摩擦力反向,Sliding friction opposes motion,friction_opposes_motion,布尔,布尔值 / boolean,True,是 / Yes
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,全程X接触冲量,Total contact impulse X,total_contact_jx_ns,N·s,牛顿秒 / newton second,-0.09999879836250639,-0.0999987984
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,相对理想轨迹最大X位移误差,Maximum X displacement error vs ideal trajectory,max_displacement_error_m,m,米 / metre,0.0005031301280166434,0.000503130128
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,相对理想轨迹X位移均方根误差,RMS X displacement error vs ideal trajectory,rms_displacement_error_m,m,米 / metre,0.00042580912548500946,0.000425809125
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,相对理想轨迹最大X速度误差,Maximum X velocity error vs ideal trajectory,max_slide_velocity_error_m_s,m/s,米每秒 / metre per second,1.1809935092865764e-05,1.18099351e-05
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,最大侧向偏移,Maximum lateral displacement,max_lateral_displacement_m,m,米 / metre,5.67842803889107e-08,5.67842804e-08
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,理想库仑停止时间,Ideal Coulomb stopping time,ideal_coulomb_stop_time_s,s,秒 / second,0.254841997961264,0.254841998
+PhysX（Isaac Sim CPU TGS）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,停止距离相对理想值偏差,Stopping distance deviation from ideal,stop_distance_error_percent,%,百分比 / percent,-0.39477466344832723,-0.394774663
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,仿真步长,Simulation timestep,dt_s,s,秒 / second,0.002,0.002
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,物理步数,Physics steps,steps,步,步 / step,300,300
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,峰值接触合力,Peak resultant contact force,peak_contact_force_n,N,牛顿 / newton,10.531669803996724,10.5316698
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,峰值法向接触力,Peak normal contact force,peak_contact_fz_n,N,牛顿 / newton,9.778409957885742,9.77840996
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,最大穿透深度,Maximum penetration depth,max_penetration_m,m,米 / metre,0.0002160206894119658,0.000216020689
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,首次接触时间,First contact time,first_contact_s,s,秒 / second,0.002,0.002
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,质心静置时间,COM settling time,settled_time_s,s,秒 / second,0.262,0.262
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,最大动量平衡残差,Maximum momentum balance residual,max_momentum_residual_ns,N·s,牛顿秒 / newton second,9.256584149969378e-08,9.25658415e-08
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,最大接触力核算误差,Maximum contact force accounting error,max_constraint_force_error_n,N,牛顿 / newton,2.665600749850083e-07,2.66560075e-07
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,窗口接触冲量X,Window contact impulse X,window_contact_jx_ns,N·s,牛顿秒 / newton second,-0.01773740279674531,-0.0177374028
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,窗口接触冲量Y,Window contact impulse Y,window_contact_jy_ns,N·s,牛顿秒 / newton second,-8.784875049627771e-12,-8.78487505e-12
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,窗口接触冲量Z,Window contact impulse Z,window_contact_jz_ns,N·s,牛顿秒 / newton second,0.04434350633621219,0.0443435063
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,接触冲量窗口完整,Contact impulse window complete,impulse_window_complete,布尔,布尔值 / boolean,True,是 / Yes
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,停止时间,Stopping time,stop_time_s,s,秒 / second,0.26,0.26
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,停止距离,Stopping distance,stop_distance_m,m,米 / metre,0.12645919620990753,0.126459196
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,最终X位移,Final X displacement,final_displacement_m,m,米 / metre,0.1264485865831375,0.126448587
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,最大质心抬升,Maximum COM lift,max_com_lift_m,m,米 / metre,0.0008920687437057491,0.000892068744
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,理想库仑停止距离,Ideal Coulomb stopping distance,ideal_coulomb_distance_m,m,米 / metre,0.127420998980632,0.127420999
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,设定摩擦系数,Configured friction coefficient,configured_friction_coefficient,1,无量纲 / dimensionless,0.4,0.4
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,滑动段测量步数,Sliding measurement steps,friction_measurement_samples,步,步 / step,106,106
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,滑动窗口内有接触步数,Contact steps in sliding window,friction_contact_samples,步,步 / step,52,52
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,滑动段平均摩擦力,Mean sliding friction force,mean_friction_force_n,N,牛顿 / newton,0.3850451677617438,0.385045168
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,滑动段平均法向力,Mean sliding normal force,mean_normal_force_n,N,牛顿 / newton,0.9667221117975577,0.966722112
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,实测等效摩擦系数,Measured effective friction coefficient,effective_friction_coefficient,1,无量纲 / dimensionless,0.3982997420487021,0.398299742
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,滑动段平均X减速度,Mean sliding X deceleration,mean_deceleration_m_s2,m/s²,米每二次方秒 / metre per second squared,3.8504569158660917,3.85045692
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,滑动段摩擦力反向,Sliding friction opposes motion,friction_opposes_motion,布尔,布尔值 / boolean,True,是 / Yes
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,全程X接触冲量,Total contact impulse X,total_contact_jx_ns,N·s,牛顿秒 / newton second,-0.09999994486391373,-0.0999999449
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,相对理想轨迹最大X位移误差,Maximum X displacement error vs ideal trajectory,max_displacement_error_m,m,米 / metre,0.0009728691608505147,0.000972869161
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,相对理想轨迹X位移均方根误差,RMS X displacement error vs ideal trajectory,rms_displacement_error_m,m,米 / metre,0.0008479694987056008,0.000847969499
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,相对理想轨迹最大X速度误差,Maximum X velocity error vs ideal trajectory,max_slide_velocity_error_m_s,m/s,米每秒 / metre per second,0.051871113033294725,0.051871113
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,最大侧向偏移,Maximum lateral displacement,max_lateral_displacement_m,m,米 / metre,1.2876355981461529e-08,1.2876356e-08
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,理想库仑停止时间,Ideal Coulomb stopping time,ideal_coulomb_stop_time_s,s,秒 / second,0.254841997961264,0.254841998
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,1,通过 / Passed,停止距离相对理想值偏差,Stopping distance deviation from ideal,stop_distance_error_percent,%,百分比 / percent,-0.7548228144645626,-0.754822814
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,仿真步长,Simulation timestep,dt_s,s,秒 / second,0.002,0.002
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,物理步数,Physics steps,steps,步,步 / step,300,300
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,峰值接触合力,Peak resultant contact force,peak_contact_force_n,N,牛顿 / newton,10.531669803996724,10.5316698
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,峰值法向接触力,Peak normal contact force,peak_contact_fz_n,N,牛顿 / newton,9.778409957885742,9.77840996
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,最大穿透深度,Maximum penetration depth,max_penetration_m,m,米 / metre,0.0002160206894119658,0.000216020689
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,首次接触时间,First contact time,first_contact_s,s,秒 / second,0.002,0.002
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,质心静置时间,COM settling time,settled_time_s,s,秒 / second,0.262,0.262
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,最大动量平衡残差,Maximum momentum balance residual,max_momentum_residual_ns,N·s,牛顿秒 / newton second,9.256584149969378e-08,9.25658415e-08
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,最大接触力核算误差,Maximum contact force accounting error,max_constraint_force_error_n,N,牛顿 / newton,2.665600749850083e-07,2.66560075e-07
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,窗口接触冲量X,Window contact impulse X,window_contact_jx_ns,N·s,牛顿秒 / newton second,-0.01773740279674531,-0.0177374028
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,窗口接触冲量Y,Window contact impulse Y,window_contact_jy_ns,N·s,牛顿秒 / newton second,-8.784875049627771e-12,-8.78487505e-12
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,窗口接触冲量Z,Window contact impulse Z,window_contact_jz_ns,N·s,牛顿秒 / newton second,0.04434350633621219,0.0443435063
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,接触冲量窗口完整,Contact impulse window complete,impulse_window_complete,布尔,布尔值 / boolean,True,是 / Yes
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,停止时间,Stopping time,stop_time_s,s,秒 / second,0.26,0.26
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,停止距离,Stopping distance,stop_distance_m,m,米 / metre,0.12645919620990753,0.126459196
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,最终X位移,Final X displacement,final_displacement_m,m,米 / metre,0.1264485865831375,0.126448587
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,最大质心抬升,Maximum COM lift,max_com_lift_m,m,米 / metre,0.0008920687437057491,0.000892068744
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,理想库仑停止距离,Ideal Coulomb stopping distance,ideal_coulomb_distance_m,m,米 / metre,0.127420998980632,0.127420999
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,设定摩擦系数,Configured friction coefficient,configured_friction_coefficient,1,无量纲 / dimensionless,0.4,0.4
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,滑动段测量步数,Sliding measurement steps,friction_measurement_samples,步,步 / step,106,106
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,滑动窗口内有接触步数,Contact steps in sliding window,friction_contact_samples,步,步 / step,52,52
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,滑动段平均摩擦力,Mean sliding friction force,mean_friction_force_n,N,牛顿 / newton,0.3850451677617438,0.385045168
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,滑动段平均法向力,Mean sliding normal force,mean_normal_force_n,N,牛顿 / newton,0.9667221117975577,0.966722112
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,实测等效摩擦系数,Measured effective friction coefficient,effective_friction_coefficient,1,无量纲 / dimensionless,0.3982997420487021,0.398299742
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,滑动段平均X减速度,Mean sliding X deceleration,mean_deceleration_m_s2,m/s²,米每二次方秒 / metre per second squared,3.8504569158660917,3.85045692
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,滑动段摩擦力反向,Sliding friction opposes motion,friction_opposes_motion,布尔,布尔值 / boolean,True,是 / Yes
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,全程X接触冲量,Total contact impulse X,total_contact_jx_ns,N·s,牛顿秒 / newton second,-0.09999994486391373,-0.0999999449
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,相对理想轨迹最大X位移误差,Maximum X displacement error vs ideal trajectory,max_displacement_error_m,m,米 / metre,0.0009728691608505147,0.000972869161
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,相对理想轨迹X位移均方根误差,RMS X displacement error vs ideal trajectory,rms_displacement_error_m,m,米 / metre,0.0008479694987056008,0.000847969499
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,相对理想轨迹最大X速度误差,Maximum X velocity error vs ideal trajectory,max_slide_velocity_error_m_s,m/s,米每秒 / metre per second,0.051871113033294725,0.051871113
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,最大侧向偏移,Maximum lateral displacement,max_lateral_displacement_m,m,米 / metre,1.2876355981461529e-08,1.2876356e-08
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,理想库仑停止时间,Ideal Coulomb stopping time,ideal_coulomb_stop_time_s,s,秒 / second,0.254841997961264,0.254841998
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,2,通过 / Passed,停止距离相对理想值偏差,Stopping distance deviation from ideal,stop_distance_error_percent,%,百分比 / percent,-0.7548228144645626,-0.754822814
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,仿真步长,Simulation timestep,dt_s,s,秒 / second,0.002,0.002
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,物理步数,Physics steps,steps,步,步 / step,300,300
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,峰值接触合力,Peak resultant contact force,peak_contact_force_n,N,牛顿 / newton,10.531669803996724,10.5316698
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,峰值法向接触力,Peak normal contact force,peak_contact_fz_n,N,牛顿 / newton,9.778409957885742,9.77840996
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,最大穿透深度,Maximum penetration depth,max_penetration_m,m,米 / metre,0.0002160206894119658,0.000216020689
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,首次接触时间,First contact time,first_contact_s,s,秒 / second,0.002,0.002
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,质心静置时间,COM settling time,settled_time_s,s,秒 / second,0.262,0.262
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,最大动量平衡残差,Maximum momentum balance residual,max_momentum_residual_ns,N·s,牛顿秒 / newton second,9.256584149969378e-08,9.25658415e-08
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,最大接触力核算误差,Maximum contact force accounting error,max_constraint_force_error_n,N,牛顿 / newton,2.665600749850083e-07,2.66560075e-07
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,窗口接触冲量X,Window contact impulse X,window_contact_jx_ns,N·s,牛顿秒 / newton second,-0.01773740279674531,-0.0177374028
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,窗口接触冲量Y,Window contact impulse Y,window_contact_jy_ns,N·s,牛顿秒 / newton second,-8.784875049627771e-12,-8.78487505e-12
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,窗口接触冲量Z,Window contact impulse Z,window_contact_jz_ns,N·s,牛顿秒 / newton second,0.04434350633621219,0.0443435063
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,接触冲量窗口完整,Contact impulse window complete,impulse_window_complete,布尔,布尔值 / boolean,True,是 / Yes
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,停止时间,Stopping time,stop_time_s,s,秒 / second,0.26,0.26
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,停止距离,Stopping distance,stop_distance_m,m,米 / metre,0.12645919620990753,0.126459196
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,最终X位移,Final X displacement,final_displacement_m,m,米 / metre,0.1264485865831375,0.126448587
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,最大质心抬升,Maximum COM lift,max_com_lift_m,m,米 / metre,0.0008920687437057491,0.000892068744
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,理想库仑停止距离,Ideal Coulomb stopping distance,ideal_coulomb_distance_m,m,米 / metre,0.127420998980632,0.127420999
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,设定摩擦系数,Configured friction coefficient,configured_friction_coefficient,1,无量纲 / dimensionless,0.4,0.4
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,滑动段测量步数,Sliding measurement steps,friction_measurement_samples,步,步 / step,106,106
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,滑动窗口内有接触步数,Contact steps in sliding window,friction_contact_samples,步,步 / step,52,52
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,滑动段平均摩擦力,Mean sliding friction force,mean_friction_force_n,N,牛顿 / newton,0.3850451677617438,0.385045168
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,滑动段平均法向力,Mean sliding normal force,mean_normal_force_n,N,牛顿 / newton,0.9667221117975577,0.966722112
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,实测等效摩擦系数,Measured effective friction coefficient,effective_friction_coefficient,1,无量纲 / dimensionless,0.3982997420487021,0.398299742
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,滑动段平均X减速度,Mean sliding X deceleration,mean_deceleration_m_s2,m/s²,米每二次方秒 / metre per second squared,3.8504569158660917,3.85045692
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,滑动段摩擦力反向,Sliding friction opposes motion,friction_opposes_motion,布尔,布尔值 / boolean,True,是 / Yes
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,全程X接触冲量,Total contact impulse X,total_contact_jx_ns,N·s,牛顿秒 / newton second,-0.0999999449625991,-0.099999945
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,相对理想轨迹最大X位移误差,Maximum X displacement error vs ideal trajectory,max_displacement_error_m,m,米 / metre,0.0009728691608505147,0.000972869161
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,相对理想轨迹X位移均方根误差,RMS X displacement error vs ideal trajectory,rms_displacement_error_m,m,米 / metre,0.0008479694987056008,0.000847969499
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,相对理想轨迹最大X速度误差,Maximum X velocity error vs ideal trajectory,max_slide_velocity_error_m_s,m/s,米每秒 / metre per second,0.051871113033294725,0.051871113
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,最大侧向偏移,Maximum lateral displacement,max_lateral_displacement_m,m,米 / metre,1.2876355981461529e-08,1.2876356e-08
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,理想库仑停止时间,Ideal Coulomb stopping time,ideal_coulomb_stop_time_s,s,秒 / second,0.254841997961264,0.254841998
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,2.0,3,通过 / Passed,停止距离相对理想值偏差,Stopping distance deviation from ideal,stop_distance_error_percent,%,百分比 / percent,-0.7548228144645626,-0.754822814
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,仿真步长,Simulation timestep,dt_s,s,秒 / second,0.001,0.001
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,物理步数,Physics steps,steps,步,步 / step,600,600
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,峰值接触合力,Peak resultant contact force,peak_contact_force_n,N,牛顿 / newton,9.532979617927985,9.53297962
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,峰值法向接触力,Peak normal contact force,peak_contact_fz_n,N,牛顿 / newton,8.851149320602417,8.85114932
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,最大穿透深度,Maximum penetration depth,max_penetration_m,m,米 / metre,0.00011839363484263815,0.000118393635
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,首次接触时间,First contact time,first_contact_s,s,秒 / second,0.001,0.001
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,质心静置时间,COM settling time,settled_time_s,s,秒 / second,0.262,0.262
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,最大动量平衡残差,Maximum momentum balance residual,max_momentum_residual_ns,N·s,牛顿秒 / newton second,1.5185623092238653e-07,1.51856231e-07
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,最大接触力核算误差,Maximum contact force accounting error,max_constraint_force_error_n,N,牛顿 / newton,2.6822090148926385e-07,2.68220901e-07
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,窗口接触冲量X,Window contact impulse X,window_contact_jx_ns,N·s,牛顿秒 / newton second,-0.01833700352907182,-0.0183370035
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,窗口接触冲量Y,Window contact impulse Y,window_contact_jy_ns,N·s,牛顿秒 / newton second,-4.874439032409587e-10,-4.87443903e-10
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,窗口接触冲量Z,Window contact impulse Z,window_contact_jz_ns,N·s,牛顿秒 / newton second,0.04584250777959827,0.0458425078
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,接触冲量窗口完整,Contact impulse window complete,impulse_window_complete,布尔,布尔值 / boolean,True,是 / Yes
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,停止时间,Stopping time,stop_time_s,s,秒 / second,0.262,0.262
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,停止距离,Stopping distance,stop_distance_m,m,米 / metre,0.12696047127246857,0.126960471
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,最终X位移,Final X displacement,final_displacement_m,m,米 / metre,0.1269620805978775,0.126962081
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,最大质心抬升,Maximum COM lift,max_com_lift_m,m,米 / metre,0.00037421241402625996,0.000374212414
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,理想库仑停止距离,Ideal Coulomb stopping distance,ideal_coulomb_distance_m,m,米 / metre,0.127420998980632,0.127420999
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,设定摩擦系数,Configured friction coefficient,configured_friction_coefficient,1,无量纲 / dimensionless,0.4,0.4
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,滑动段测量步数,Sliding measurement steps,friction_measurement_samples,步,步 / step,212,212
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,滑动窗口内有接触步数,Contact steps in sliding window,friction_contact_samples,步,步 / step,98,98
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,滑动段平均摩擦力,Mean sliding friction force,mean_friction_force_n,N,牛顿 / newton,0.3808602826354407,0.380860283
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,滑动段平均法向力,Mean sliding normal force,mean_normal_force_n,N,牛顿 / newton,0.9538705720794651,0.953870572
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,实测等效摩擦系数,Measured effective friction coefficient,effective_friction_coefficient,1,无量纲 / dimensionless,0.39927878454741966,0.399278785
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,滑动段平均X减速度,Mean sliding X deceleration,mean_deceleration_m_s2,m/s²,米每二次方秒 / metre per second squared,3.80859250765083,3.80859251
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,滑动段摩擦力反向,Sliding friction opposes motion,friction_opposes_motion,布尔,布尔值 / boolean,True,是 / Yes
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,全程X接触冲量,Total contact impulse X,total_contact_jx_ns,N·s,牛顿秒 / newton second,-0.10000017500689726,-0.100000175
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,相对理想轨迹最大X位移误差,Maximum X displacement error vs ideal trajectory,max_displacement_error_m,m,米 / metre,0.0004820826421279567,0.000482082642
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,相对理想轨迹X位移均方根误差,RMS X displacement error vs ideal trajectory,rms_displacement_error_m,m,米 / metre,0.0004012471314958522,0.000401247131
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,相对理想轨迹最大X速度误差,Maximum X velocity error vs ideal trajectory,max_slide_velocity_error_m_s,m/s,米每秒 / metre per second,0.029664008323669444,0.0296640083
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,最大侧向偏移,Maximum lateral displacement,max_lateral_displacement_m,m,米 / metre,2.0200420891569593e-08,2.02004209e-08
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,理想库仑停止时间,Ideal Coulomb stopping time,ideal_coulomb_stop_time_s,s,秒 / second,0.254841997961264,0.254841998
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,1,通过 / Passed,停止距离相对理想值偏差,Stopping distance deviation from ideal,stop_distance_error_percent,%,百分比 / percent,-0.3614221453666622,-0.361422145
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,仿真步长,Simulation timestep,dt_s,s,秒 / second,0.001,0.001
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,物理步数,Physics steps,steps,步,步 / step,600,600
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,峰值接触合力,Peak resultant contact force,peak_contact_force_n,N,牛顿 / newton,9.532979617927985,9.53297962
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,峰值法向接触力,Peak normal contact force,peak_contact_fz_n,N,牛顿 / newton,8.851149320602417,8.85114932
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,最大穿透深度,Maximum penetration depth,max_penetration_m,m,米 / metre,0.00011839681471519092,0.000118396815
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,首次接触时间,First contact time,first_contact_s,s,秒 / second,0.001,0.001
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,质心静置时间,COM settling time,settled_time_s,s,秒 / second,0.262,0.262
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,最大动量平衡残差,Maximum momentum balance residual,max_momentum_residual_ns,N·s,牛顿秒 / newton second,1.5701986621860237e-07,1.57019866e-07
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,最大接触力核算误差,Maximum contact force accounting error,max_constraint_force_error_n,N,牛顿 / newton,2.6656007498500226e-07,2.66560075e-07
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,窗口接触冲量X,Window contact impulse X,window_contact_jx_ns,N·s,牛顿秒 / newton second,-0.01833700352907182,-0.0183370035
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,窗口接触冲量Y,Window contact impulse Y,window_contact_jy_ns,N·s,牛顿秒 / newton second,-4.874439032409587e-10,-4.87443903e-10
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,窗口接触冲量Z,Window contact impulse Z,window_contact_jz_ns,N·s,牛顿秒 / newton second,0.04584250777959827,0.0458425078
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,接触冲量窗口完整,Contact impulse window complete,impulse_window_complete,布尔,布尔值 / boolean,True,是 / Yes
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,停止时间,Stopping time,stop_time_s,s,秒 / second,0.262,0.262
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,停止距离,Stopping distance,stop_distance_m,m,米 / metre,0.12696045637130737,0.126960456
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,最终X位移,Final X displacement,final_displacement_m,m,米 / metre,0.1269620656967163,0.126962066
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,最大质心抬升,Maximum COM lift,max_com_lift_m,m,米 / metre,0.00037421241402625996,0.000374212414
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,理想库仑停止距离,Ideal Coulomb stopping distance,ideal_coulomb_distance_m,m,米 / metre,0.127420998980632,0.127420999
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,设定摩擦系数,Configured friction coefficient,configured_friction_coefficient,1,无量纲 / dimensionless,0.4,0.4
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,滑动段测量步数,Sliding measurement steps,friction_measurement_samples,步,步 / step,212,212
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,滑动窗口内有接触步数,Contact steps in sliding window,friction_contact_samples,步,步 / step,98,98
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,滑动段平均摩擦力,Mean sliding friction force,mean_friction_force_n,N,牛顿 / newton,0.38086035116733447,0.380860351
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,滑动段平均法向力,Mean sliding normal force,mean_normal_force_n,N,牛顿 / newton,0.9538707776733164,0.953870778
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,实测等效摩擦系数,Measured effective friction coefficient,effective_friction_coefficient,1,无量纲 / dimensionless,0.3992787703344155,0.39927877
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,滑动段平均X减速度,Mean sliding X deceleration,mean_deceleration_m_s2,m/s²,米每二次方秒 / metre per second squared,3.808593214928823,3.80859321
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,滑动段摩擦力反向,Sliding friction opposes motion,friction_opposes_motion,布尔,布尔值 / boolean,True,是 / Yes
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,全程X接触冲量,Total contact impulse X,total_contact_jx_ns,N·s,牛顿秒 / newton second,-0.10000017455072759,-0.100000175
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,相对理想轨迹最大X位移误差,Maximum X displacement error vs ideal trajectory,max_displacement_error_m,m,米 / metre,0.00048209754328915055,0.000482097543
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,相对理想轨迹X位移均方根误差,RMS X displacement error vs ideal trajectory,rms_displacement_error_m,m,米 / metre,0.00040125830978598564,0.00040125831
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,相对理想轨迹最大X速度误差,Maximum X velocity error vs ideal trajectory,max_slide_velocity_error_m_s,m/s,米每秒 / metre per second,0.029664008323669444,0.0296640083
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,最大侧向偏移,Maximum lateral displacement,max_lateral_displacement_m,m,米 / metre,1.4476327692136692e-08,1.44763277e-08
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,理想库仑停止时间,Ideal Coulomb stopping time,ideal_coulomb_stop_time_s,s,秒 / second,0.254841997961264,0.254841998
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,2,通过 / Passed,停止距离相对理想值偏差,Stopping distance deviation from ideal,stop_distance_error_percent,%,百分比 / percent,-0.3614338397979671,-0.36143384
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,仿真步长,Simulation timestep,dt_s,s,秒 / second,0.001,0.001
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,物理步数,Physics steps,steps,步,步 / step,600,600
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,峰值接触合力,Peak resultant contact force,peak_contact_force_n,N,牛顿 / newton,9.532979617927985,9.53297962
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,峰值法向接触力,Peak normal contact force,peak_contact_fz_n,N,牛顿 / newton,8.851149320602417,8.85114932
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,最大穿透深度,Maximum penetration depth,max_penetration_m,m,米 / metre,0.00011839646373572321,0.000118396464
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,首次接触时间,First contact time,first_contact_s,s,秒 / second,0.001,0.001
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,质心静置时间,COM settling time,settled_time_s,s,秒 / second,0.262,0.262
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,最大动量平衡残差,Maximum momentum balance residual,max_momentum_residual_ns,N·s,牛顿秒 / newton second,1.5557522124730135e-07,1.55575221e-07
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,最大接触力核算误差,Maximum contact force accounting error,max_constraint_force_error_n,N,牛顿 / newton,4.5393545066499187e-07,4.53935451e-07
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,窗口接触冲量X,Window contact impulse X,window_contact_jx_ns,N·s,牛顿秒 / newton second,-0.018337015330791486,-0.0183370153
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,窗口接触冲量Y,Window contact impulse Y,window_contact_jy_ns,N·s,牛顿秒 / newton second,-4.874457506520716e-10,-4.87445751e-10
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,窗口接触冲量Z,Window contact impulse Z,window_contact_jz_ns,N·s,牛顿秒 / newton second,0.04584253734350208,0.0458425373
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,接触冲量窗口完整,Contact impulse window complete,impulse_window_complete,布尔,布尔值 / boolean,True,是 / Yes
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,停止时间,Stopping time,stop_time_s,s,秒 / second,0.262,0.262
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,停止距离,Stopping distance,stop_distance_m,m,米 / metre,0.12696044147014618,0.126960441
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,最终X位移,Final X displacement,final_displacement_m,m,米 / metre,0.12696205079555511,0.126962051
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,最大质心抬升,Maximum COM lift,max_com_lift_m,m,米 / metre,0.00037421241402625996,0.000374212414
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,理想库仑停止距离,Ideal Coulomb stopping distance,ideal_coulomb_distance_m,m,米 / metre,0.127420998980632,0.127420999
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,设定摩擦系数,Configured friction coefficient,configured_friction_coefficient,1,无量纲 / dimensionless,0.4,0.4
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,滑动段测量步数,Sliding measurement steps,friction_measurement_samples,步,步 / step,212,212
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,滑动窗口内有接触步数,Contact steps in sliding window,friction_contact_samples,步,步 / step,98,98
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,滑动段平均摩擦力,Mean sliding friction force,mean_friction_force_n,N,牛顿 / newton,0.3808604311561113,0.380860431
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,滑动段平均法向力,Mean sliding normal force,mean_normal_force_n,N,牛顿 / newton,0.9538709845323607,0.953870985
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,实测等效摩擦系数,Measured effective friction coefficient,effective_friction_coefficient,1,无量纲 / dimensionless,0.39927876760275904,0.399278768
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,滑动段平均X减速度,Mean sliding X deceleration,mean_deceleration_m_s2,m/s²,米每二次方秒 / metre per second squared,3.80859324568004,3.80859325
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,滑动段摩擦力反向,Sliding friction opposes motion,friction_opposes_motion,布尔,布尔值 / boolean,True,是 / Yes
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,全程X接触冲量,Total contact impulse X,total_contact_jx_ns,N·s,牛顿秒 / newton second,-0.10000020316448517,-0.100000203
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,相对理想轨迹最大X位移误差,Maximum X displacement error vs ideal trajectory,max_displacement_error_m,m,米 / metre,0.0004821124444503444,0.000482112444
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,相对理想轨迹X位移均方根误差,RMS X displacement error vs ideal trajectory,rms_displacement_error_m,m,米 / metre,0.00040126884136881515,0.000401268841
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,相对理想轨迹最大X速度误差,Maximum X velocity error vs ideal trajectory,max_slide_velocity_error_m_s,m/s,米每秒 / metre per second,0.029664008323669444,0.0296640083
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,最大侧向偏移,Maximum lateral displacement,max_lateral_displacement_m,m,米 / metre,2.0753706309051267e-08,2.07537063e-08
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,理想库仑停止时间,Ideal Coulomb stopping time,ideal_coulomb_stop_time_s,s,秒 / second,0.254841997961264,0.254841998
+MuJoCo-Warp（直接 CUDA）,滑动方块 / Sliding cube,1.0,3,通过 / Passed,停止距离相对理想值偏差,Stopping distance deviation from ideal,stop_distance_error_percent,%,百分比 / percent,-0.36144553422927206,-0.361445534
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,1,通过 / Passed,仿真步长,Simulation timestep,dt_s,s,秒 / second,0.002,0.002
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,1,通过 / Passed,物理步数,Physics steps,steps,步,步 / step,300,300
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,1,通过 / Passed,峰值接触合力,Peak resultant contact force,peak_contact_force_n,N,牛顿 / newton,10.531624598370474,10.5316246
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,1,通过 / Passed,峰值法向接触力,Peak normal contact force,peak_contact_fz_n,N,牛顿 / newton,9.778367956740816,9.77836796
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,1,通过 / Passed,最大穿透深度,Maximum penetration depth,max_penetration_m,m,米 / metre,0.00021601578998109092,0.00021601579
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,1,通过 / Passed,首次接触时间,First contact time,first_contact_s,s,秒 / second,0.002,0.002
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,1,通过 / Passed,质心静置时间,COM settling time,settled_time_s,s,秒 / second,0.262,0.262
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,1,通过 / Passed,最大动量平衡残差,Maximum momentum balance residual,max_momentum_residual_ns,N·s,牛顿秒 / newton second,5.695670524942575e-14,5.69567052e-14
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,1,通过 / Passed,最大接触力核算误差,Maximum contact force accounting error,max_constraint_force_error_n,N,牛顿 / newton,0.0,0
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,1,通过 / Passed,窗口接触冲量X,Window contact impulse X,window_contact_jx_ns,N·s,牛顿秒 / newton second,-0.017737376366421895,-0.0177373764
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,1,通过 / Passed,窗口接触冲量Y,Window contact impulse Y,window_contact_jy_ns,N·s,牛顿秒 / newton second,4.345318714721813e-19,4.34531871e-19
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,1,通过 / Passed,窗口接触冲量Z,Window contact impulse Z,window_contact_jz_ns,N·s,牛顿秒 / newton second,0.044343440916054744,0.0443434409
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,1,通过 / Passed,接触冲量窗口完整,Contact impulse window complete,impulse_window_complete,布尔,布尔值 / boolean,True,是 / Yes
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,1,通过 / Passed,停止时间,Stopping time,stop_time_s,s,秒 / second,0.26,0.26
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,1,通过 / Passed,停止距离,Stopping distance,stop_distance_m,m,米 / metre,0.12645922694621928,0.126459227
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,1,通过 / Passed,最终X位移,Final X displacement,final_displacement_m,m,米 / metre,0.1264485898562587,0.12644859
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,1,通过 / Passed,最大质心抬升,Maximum COM lift,max_com_lift_m,m,米 / metre,0.0008920689441493969,0.000892068944
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,1,通过 / Passed,理想库仑停止距离,Ideal Coulomb stopping distance,ideal_coulomb_distance_m,m,米 / metre,0.127420998980632,0.127420999
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,1,通过 / Passed,设定摩擦系数,Configured friction coefficient,configured_friction_coefficient,1,无量纲 / dimensionless,0.4,0.4
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,1,通过 / Passed,滑动段测量步数,Sliding measurement steps,friction_measurement_samples,步,步 / step,106,106
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,1,通过 / Passed,滑动窗口内有接触步数,Contact steps in sliding window,friction_contact_samples,步,步 / step,52,52
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,1,通过 / Passed,滑动段平均摩擦力,Mean sliding friction force,mean_friction_force_n,N,牛顿 / newton,0.3850455051695518,0.385045505
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,1,通过 / Passed,滑动段平均法向力,Mean sliding normal force,mean_normal_force_n,N,牛顿 / newton,0.9667227375989155,0.966722738
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,1,通过 / Passed,实测等效摩擦系数,Measured effective friction coefficient,effective_friction_coefficient,1,无量纲 / dimensionless,0.39829983323440116,0.398299833
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,1,通过 / Passed,滑动段平均X减速度,Mean sliding X deceleration,mean_deceleration_m_s2,m/s²,米每二次方秒 / metre per second squared,3.850455051695478,3.85045505
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,1,通过 / Passed,滑动段摩擦力反向,Sliding friction opposes motion,friction_opposes_motion,布尔,布尔值 / boolean,True,是 / Yes
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,1,通过 / Passed,全程X接触冲量,Total contact impulse X,total_contact_jx_ns,N·s,牛顿秒 / newton second,-0.10000000000007542,-0.1
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,1,通过 / Passed,相对理想轨迹最大X位移误差,Maximum X displacement error vs ideal trajectory,max_displacement_error_m,m,米 / metre,0.0009728394087618053,0.000972839409
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,1,通过 / Passed,相对理想轨迹X位移均方根误差,RMS X displacement error vs ideal trajectory,rms_displacement_error_m,m,米 / metre,0.0008479538989326305,0.000847953899
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,1,通过 / Passed,相对理想轨迹最大X速度误差,Maximum X velocity error vs ideal trajectory,max_slide_velocity_error_m_s,m/s,米每秒 / metre per second,0.05187117302430566,0.051871173
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,1,通过 / Passed,最大侧向偏移,Maximum lateral displacement,max_lateral_displacement_m,m,米 / metre,1.9863731538731665e-17,1.98637315e-17
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,1,通过 / Passed,理想库仑停止时间,Ideal Coulomb stopping time,ideal_coulomb_stop_time_s,s,秒 / second,0.254841997961264,0.254841998
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,1,通过 / Passed,停止距离相对理想值偏差,Stopping distance deviation from ideal,stop_distance_error_percent,%,百分比 / percent,-0.7547986926071045,-0.754798693
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,2,通过 / Passed,仿真步长,Simulation timestep,dt_s,s,秒 / second,0.002,0.002
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,2,通过 / Passed,物理步数,Physics steps,steps,步,步 / step,300,300
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,2,通过 / Passed,峰值接触合力,Peak resultant contact force,peak_contact_force_n,N,牛顿 / newton,10.531624598370474,10.5316246
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,2,通过 / Passed,峰值法向接触力,Peak normal contact force,peak_contact_fz_n,N,牛顿 / newton,9.778367956740816,9.77836796
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,2,通过 / Passed,最大穿透深度,Maximum penetration depth,max_penetration_m,m,米 / metre,0.00021601578998109092,0.00021601579
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,2,通过 / Passed,首次接触时间,First contact time,first_contact_s,s,秒 / second,0.002,0.002
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,2,通过 / Passed,质心静置时间,COM settling time,settled_time_s,s,秒 / second,0.262,0.262
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,2,通过 / Passed,最大动量平衡残差,Maximum momentum balance residual,max_momentum_residual_ns,N·s,牛顿秒 / newton second,5.695670524942575e-14,5.69567052e-14
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,2,通过 / Passed,最大接触力核算误差,Maximum contact force accounting error,max_constraint_force_error_n,N,牛顿 / newton,0.0,0
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,2,通过 / Passed,窗口接触冲量X,Window contact impulse X,window_contact_jx_ns,N·s,牛顿秒 / newton second,-0.017737376366421895,-0.0177373764
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,2,通过 / Passed,窗口接触冲量Y,Window contact impulse Y,window_contact_jy_ns,N·s,牛顿秒 / newton second,4.345318714721813e-19,4.34531871e-19
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,2,通过 / Passed,窗口接触冲量Z,Window contact impulse Z,window_contact_jz_ns,N·s,牛顿秒 / newton second,0.044343440916054744,0.0443434409
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,2,通过 / Passed,接触冲量窗口完整,Contact impulse window complete,impulse_window_complete,布尔,布尔值 / boolean,True,是 / Yes
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,2,通过 / Passed,停止时间,Stopping time,stop_time_s,s,秒 / second,0.26,0.26
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,2,通过 / Passed,停止距离,Stopping distance,stop_distance_m,m,米 / metre,0.12645922694621928,0.126459227
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,2,通过 / Passed,最终X位移,Final X displacement,final_displacement_m,m,米 / metre,0.1264485898562587,0.12644859
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,2,通过 / Passed,最大质心抬升,Maximum COM lift,max_com_lift_m,m,米 / metre,0.0008920689441493969,0.000892068944
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,2,通过 / Passed,理想库仑停止距离,Ideal Coulomb stopping distance,ideal_coulomb_distance_m,m,米 / metre,0.127420998980632,0.127420999
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,2,通过 / Passed,设定摩擦系数,Configured friction coefficient,configured_friction_coefficient,1,无量纲 / dimensionless,0.4,0.4
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,2,通过 / Passed,滑动段测量步数,Sliding measurement steps,friction_measurement_samples,步,步 / step,106,106
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,2,通过 / Passed,滑动窗口内有接触步数,Contact steps in sliding window,friction_contact_samples,步,步 / step,52,52
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,2,通过 / Passed,滑动段平均摩擦力,Mean sliding friction force,mean_friction_force_n,N,牛顿 / newton,0.3850455051695518,0.385045505
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,2,通过 / Passed,滑动段平均法向力,Mean sliding normal force,mean_normal_force_n,N,牛顿 / newton,0.9667227375989155,0.966722738
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,2,通过 / Passed,实测等效摩擦系数,Measured effective friction coefficient,effective_friction_coefficient,1,无量纲 / dimensionless,0.39829983323440116,0.398299833
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,2,通过 / Passed,滑动段平均X减速度,Mean sliding X deceleration,mean_deceleration_m_s2,m/s²,米每二次方秒 / metre per second squared,3.850455051695478,3.85045505
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,2,通过 / Passed,滑动段摩擦力反向,Sliding friction opposes motion,friction_opposes_motion,布尔,布尔值 / boolean,True,是 / Yes
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,2,通过 / Passed,全程X接触冲量,Total contact impulse X,total_contact_jx_ns,N·s,牛顿秒 / newton second,-0.10000000000007542,-0.1
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,2,通过 / Passed,相对理想轨迹最大X位移误差,Maximum X displacement error vs ideal trajectory,max_displacement_error_m,m,米 / metre,0.0009728394087618053,0.000972839409
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,2,通过 / Passed,相对理想轨迹X位移均方根误差,RMS X displacement error vs ideal trajectory,rms_displacement_error_m,m,米 / metre,0.0008479538989326305,0.000847953899
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,2,通过 / Passed,相对理想轨迹最大X速度误差,Maximum X velocity error vs ideal trajectory,max_slide_velocity_error_m_s,m/s,米每秒 / metre per second,0.05187117302430566,0.051871173
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,2,通过 / Passed,最大侧向偏移,Maximum lateral displacement,max_lateral_displacement_m,m,米 / metre,1.9863731538731665e-17,1.98637315e-17
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,2,通过 / Passed,理想库仑停止时间,Ideal Coulomb stopping time,ideal_coulomb_stop_time_s,s,秒 / second,0.254841997961264,0.254841998
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,2,通过 / Passed,停止距离相对理想值偏差,Stopping distance deviation from ideal,stop_distance_error_percent,%,百分比 / percent,-0.7547986926071045,-0.754798693
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,3,通过 / Passed,仿真步长,Simulation timestep,dt_s,s,秒 / second,0.002,0.002
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,3,通过 / Passed,物理步数,Physics steps,steps,步,步 / step,300,300
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,3,通过 / Passed,峰值接触合力,Peak resultant contact force,peak_contact_force_n,N,牛顿 / newton,10.531624598370474,10.5316246
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,3,通过 / Passed,峰值法向接触力,Peak normal contact force,peak_contact_fz_n,N,牛顿 / newton,9.778367956740816,9.77836796
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,3,通过 / Passed,最大穿透深度,Maximum penetration depth,max_penetration_m,m,米 / metre,0.00021601578998109092,0.00021601579
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,3,通过 / Passed,首次接触时间,First contact time,first_contact_s,s,秒 / second,0.002,0.002
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,3,通过 / Passed,质心静置时间,COM settling time,settled_time_s,s,秒 / second,0.262,0.262
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,3,通过 / Passed,最大动量平衡残差,Maximum momentum balance residual,max_momentum_residual_ns,N·s,牛顿秒 / newton second,5.695670524942575e-14,5.69567052e-14
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,3,通过 / Passed,最大接触力核算误差,Maximum contact force accounting error,max_constraint_force_error_n,N,牛顿 / newton,0.0,0
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,3,通过 / Passed,窗口接触冲量X,Window contact impulse X,window_contact_jx_ns,N·s,牛顿秒 / newton second,-0.017737376366421895,-0.0177373764
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,3,通过 / Passed,窗口接触冲量Y,Window contact impulse Y,window_contact_jy_ns,N·s,牛顿秒 / newton second,4.345318714721813e-19,4.34531871e-19
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,3,通过 / Passed,窗口接触冲量Z,Window contact impulse Z,window_contact_jz_ns,N·s,牛顿秒 / newton second,0.044343440916054744,0.0443434409
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,3,通过 / Passed,接触冲量窗口完整,Contact impulse window complete,impulse_window_complete,布尔,布尔值 / boolean,True,是 / Yes
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,3,通过 / Passed,停止时间,Stopping time,stop_time_s,s,秒 / second,0.26,0.26
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,3,通过 / Passed,停止距离,Stopping distance,stop_distance_m,m,米 / metre,0.12645922694621928,0.126459227
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,3,通过 / Passed,最终X位移,Final X displacement,final_displacement_m,m,米 / metre,0.1264485898562587,0.12644859
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,3,通过 / Passed,最大质心抬升,Maximum COM lift,max_com_lift_m,m,米 / metre,0.0008920689441493969,0.000892068944
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,3,通过 / Passed,理想库仑停止距离,Ideal Coulomb stopping distance,ideal_coulomb_distance_m,m,米 / metre,0.127420998980632,0.127420999
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,3,通过 / Passed,设定摩擦系数,Configured friction coefficient,configured_friction_coefficient,1,无量纲 / dimensionless,0.4,0.4
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,3,通过 / Passed,滑动段测量步数,Sliding measurement steps,friction_measurement_samples,步,步 / step,106,106
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,3,通过 / Passed,滑动窗口内有接触步数,Contact steps in sliding window,friction_contact_samples,步,步 / step,52,52
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,3,通过 / Passed,滑动段平均摩擦力,Mean sliding friction force,mean_friction_force_n,N,牛顿 / newton,0.3850455051695518,0.385045505
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,3,通过 / Passed,滑动段平均法向力,Mean sliding normal force,mean_normal_force_n,N,牛顿 / newton,0.9667227375989155,0.966722738
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,3,通过 / Passed,实测等效摩擦系数,Measured effective friction coefficient,effective_friction_coefficient,1,无量纲 / dimensionless,0.39829983323440116,0.398299833
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,3,通过 / Passed,滑动段平均X减速度,Mean sliding X deceleration,mean_deceleration_m_s2,m/s²,米每二次方秒 / metre per second squared,3.850455051695478,3.85045505
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,3,通过 / Passed,滑动段摩擦力反向,Sliding friction opposes motion,friction_opposes_motion,布尔,布尔值 / boolean,True,是 / Yes
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,3,通过 / Passed,全程X接触冲量,Total contact impulse X,total_contact_jx_ns,N·s,牛顿秒 / newton second,-0.10000000000007542,-0.1
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,3,通过 / Passed,相对理想轨迹最大X位移误差,Maximum X displacement error vs ideal trajectory,max_displacement_error_m,m,米 / metre,0.0009728394087618053,0.000972839409
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,3,通过 / Passed,相对理想轨迹X位移均方根误差,RMS X displacement error vs ideal trajectory,rms_displacement_error_m,m,米 / metre,0.0008479538989326305,0.000847953899
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,3,通过 / Passed,相对理想轨迹最大X速度误差,Maximum X velocity error vs ideal trajectory,max_slide_velocity_error_m_s,m/s,米每秒 / metre per second,0.05187117302430566,0.051871173
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,3,通过 / Passed,最大侧向偏移,Maximum lateral displacement,max_lateral_displacement_m,m,米 / metre,1.9863731538731665e-17,1.98637315e-17
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,3,通过 / Passed,理想库仑停止时间,Ideal Coulomb stopping time,ideal_coulomb_stop_time_s,s,秒 / second,0.254841997961264,0.254841998
+MuJoCo CPU,滑动方块 / Sliding cube,2.0,3,通过 / Passed,停止距离相对理想值偏差,Stopping distance deviation from ideal,stop_distance_error_percent,%,百分比 / percent,-0.7547986926071045,-0.754798693
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,1,通过 / Passed,仿真步长,Simulation timestep,dt_s,s,秒 / second,0.001,0.001
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,1,通过 / Passed,物理步数,Physics steps,steps,步,步 / step,600,600
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,1,通过 / Passed,峰值接触合力,Peak resultant contact force,peak_contact_force_n,N,牛顿 / newton,9.532952807959946,9.53295281
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,1,通过 / Passed,峰值法向接触力,Peak normal contact force,peak_contact_fz_n,N,牛顿 / newton,8.85112447749999,8.85112448
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,1,通过 / Passed,最大穿透深度,Maximum penetration depth,max_penetration_m,m,米 / metre,0.0001183831420842954,0.000118383142
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,1,通过 / Passed,首次接触时间,First contact time,first_contact_s,s,秒 / second,0.001,0.001
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,1,通过 / Passed,质心静置时间,COM settling time,settled_time_s,s,秒 / second,0.262,0.262
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,1,通过 / Passed,最大动量平衡残差,Maximum momentum balance residual,max_momentum_residual_ns,N·s,牛顿秒 / newton second,1.461702990427549e-09,1.46170299e-09
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,1,通过 / Passed,最大接触力核算误差,Maximum contact force accounting error,max_constraint_force_error_n,N,牛顿 / newton,0.0,0
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,1,通过 / Passed,窗口接触冲量X,Window contact impulse X,window_contact_jx_ns,N·s,牛顿秒 / newton second,-0.018337021322102215,-0.0183370213
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,1,通过 / Passed,窗口接触冲量Y,Window contact impulse Y,window_contact_jy_ns,N·s,牛顿秒 / newton second,4.0200839132082935e-20,4.02008391e-20
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,1,通过 / Passed,窗口接触冲量Z,Window contact impulse Z,window_contact_jz_ns,N·s,牛顿秒 / newton second,0.04584255330525554,0.0458425533
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,1,通过 / Passed,接触冲量窗口完整,Contact impulse window complete,impulse_window_complete,布尔,布尔值 / boolean,True,是 / Yes
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,1,通过 / Passed,停止时间,Stopping time,stop_time_s,s,秒 / second,0.262,0.262
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,1,通过 / Passed,停止距离,Stopping distance,stop_distance_m,m,米 / metre,0.12696041146313003,0.126960411
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,1,通过 / Passed,最终X位移,Final X displacement,final_displacement_m,m,米 / metre,0.12696196502502752,0.126961965
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,1,通过 / Passed,最大质心抬升,Maximum COM lift,max_com_lift_m,m,米 / metre,0.000374209016696235,0.000374209017
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,1,通过 / Passed,理想库仑停止距离,Ideal Coulomb stopping distance,ideal_coulomb_distance_m,m,米 / metre,0.127420998980632,0.127420999
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,1,通过 / Passed,设定摩擦系数,Configured friction coefficient,configured_friction_coefficient,1,无量纲 / dimensionless,0.4,0.4
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,1,通过 / Passed,滑动段测量步数,Sliding measurement steps,friction_measurement_samples,步,步 / step,212,212
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,1,通过 / Passed,滑动窗口内有接触步数,Contact steps in sliding window,friction_contact_samples,步,步 / step,98,98
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,1,通过 / Passed,滑动段平均摩擦力,Mean sliding friction force,mean_friction_force_n,N,牛顿 / newton,0.3808592759915261,0.380859276
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,1,通过 / Passed,滑动段平均法向力,Mean sliding normal force,mean_normal_force_n,N,牛顿 / newton,0.9538681929557867,0.953868193
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,1,通过 / Passed,实测等效摩擦系数,Measured effective friction coefficient,effective_friction_coefficient,1,无量纲 / dimensionless,0.39927872509444234,0.399278725
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,1,通过 / Passed,滑动段平均X减速度,Mean sliding X deceleration,mean_deceleration_m_s2,m/s²,米每二次方秒 / metre per second squared,3.8085927130252064,3.80859271
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,1,通过 / Passed,滑动段摩擦力反向,Sliding friction opposes motion,friction_opposes_motion,布尔,布尔值 / boolean,True,是 / Yes
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,1,通过 / Passed,全程X接触冲量,Total contact impulse X,total_contact_jx_ns,N·s,牛顿秒 / newton second,-0.1000000009940708,-0.100000001
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,1,通过 / Passed,相对理想轨迹最大X位移误差,Maximum X displacement error vs ideal trajectory,max_displacement_error_m,m,米 / metre,0.0004821441489462619,0.000482144149
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,1,通过 / Passed,相对理想轨迹X位移均方根误差,RMS X displacement error vs ideal trajectory,rms_displacement_error_m,m,米 / metre,0.00040131435994300926,0.00040131436
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,1,通过 / Passed,相对理想轨迹最大X速度误差,Maximum X velocity error vs ideal trajectory,max_slide_velocity_error_m_s,m/s,米每秒 / metre per second,0.029663991457594796,0.0296639915
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,1,通过 / Passed,最大侧向偏移,Maximum lateral displacement,max_lateral_displacement_m,m,米 / metre,1.827672742044934e-17,1.82767274e-17
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,1,通过 / Passed,理想库仑停止时间,Ideal Coulomb stopping time,ideal_coulomb_stop_time_s,s,秒 / second,0.254841997961264,0.254841998
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,1,通过 / Passed,停止距离相对理想值偏差,Stopping distance deviation from ideal,stop_distance_error_percent,%,百分比 / percent,-0.36146908373554626,-0.361469084
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,2,通过 / Passed,仿真步长,Simulation timestep,dt_s,s,秒 / second,0.001,0.001
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,2,通过 / Passed,物理步数,Physics steps,steps,步,步 / step,600,600
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,2,通过 / Passed,峰值接触合力,Peak resultant contact force,peak_contact_force_n,N,牛顿 / newton,9.532952807959946,9.53295281
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,2,通过 / Passed,峰值法向接触力,Peak normal contact force,peak_contact_fz_n,N,牛顿 / newton,8.85112447749999,8.85112448
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,2,通过 / Passed,最大穿透深度,Maximum penetration depth,max_penetration_m,m,米 / metre,0.0001183831420842954,0.000118383142
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,2,通过 / Passed,首次接触时间,First contact time,first_contact_s,s,秒 / second,0.001,0.001
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,2,通过 / Passed,质心静置时间,COM settling time,settled_time_s,s,秒 / second,0.262,0.262
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,2,通过 / Passed,最大动量平衡残差,Maximum momentum balance residual,max_momentum_residual_ns,N·s,牛顿秒 / newton second,1.461702990427549e-09,1.46170299e-09
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,2,通过 / Passed,最大接触力核算误差,Maximum contact force accounting error,max_constraint_force_error_n,N,牛顿 / newton,0.0,0
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,2,通过 / Passed,窗口接触冲量X,Window contact impulse X,window_contact_jx_ns,N·s,牛顿秒 / newton second,-0.018337021322102215,-0.0183370213
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,2,通过 / Passed,窗口接触冲量Y,Window contact impulse Y,window_contact_jy_ns,N·s,牛顿秒 / newton second,4.0200839132082935e-20,4.02008391e-20
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,2,通过 / Passed,窗口接触冲量Z,Window contact impulse Z,window_contact_jz_ns,N·s,牛顿秒 / newton second,0.04584255330525554,0.0458425533
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,2,通过 / Passed,接触冲量窗口完整,Contact impulse window complete,impulse_window_complete,布尔,布尔值 / boolean,True,是 / Yes
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,2,通过 / Passed,停止时间,Stopping time,stop_time_s,s,秒 / second,0.262,0.262
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,2,通过 / Passed,停止距离,Stopping distance,stop_distance_m,m,米 / metre,0.12696041146313003,0.126960411
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,2,通过 / Passed,最终X位移,Final X displacement,final_displacement_m,m,米 / metre,0.12696196502502752,0.126961965
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,2,通过 / Passed,最大质心抬升,Maximum COM lift,max_com_lift_m,m,米 / metre,0.000374209016696235,0.000374209017
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,2,通过 / Passed,理想库仑停止距离,Ideal Coulomb stopping distance,ideal_coulomb_distance_m,m,米 / metre,0.127420998980632,0.127420999
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,2,通过 / Passed,设定摩擦系数,Configured friction coefficient,configured_friction_coefficient,1,无量纲 / dimensionless,0.4,0.4
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,2,通过 / Passed,滑动段测量步数,Sliding measurement steps,friction_measurement_samples,步,步 / step,212,212
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,2,通过 / Passed,滑动窗口内有接触步数,Contact steps in sliding window,friction_contact_samples,步,步 / step,98,98
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,2,通过 / Passed,滑动段平均摩擦力,Mean sliding friction force,mean_friction_force_n,N,牛顿 / newton,0.3808592759915261,0.380859276
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,2,通过 / Passed,滑动段平均法向力,Mean sliding normal force,mean_normal_force_n,N,牛顿 / newton,0.9538681929557867,0.953868193
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,2,通过 / Passed,实测等效摩擦系数,Measured effective friction coefficient,effective_friction_coefficient,1,无量纲 / dimensionless,0.39927872509444234,0.399278725
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,2,通过 / Passed,滑动段平均X减速度,Mean sliding X deceleration,mean_deceleration_m_s2,m/s²,米每二次方秒 / metre per second squared,3.8085927130252064,3.80859271
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,2,通过 / Passed,滑动段摩擦力反向,Sliding friction opposes motion,friction_opposes_motion,布尔,布尔值 / boolean,True,是 / Yes
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,2,通过 / Passed,全程X接触冲量,Total contact impulse X,total_contact_jx_ns,N·s,牛顿秒 / newton second,-0.1000000009940708,-0.100000001
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,2,通过 / Passed,相对理想轨迹最大X位移误差,Maximum X displacement error vs ideal trajectory,max_displacement_error_m,m,米 / metre,0.0004821441489462619,0.000482144149
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,2,通过 / Passed,相对理想轨迹X位移均方根误差,RMS X displacement error vs ideal trajectory,rms_displacement_error_m,m,米 / metre,0.00040131435994300926,0.00040131436
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,2,通过 / Passed,相对理想轨迹最大X速度误差,Maximum X velocity error vs ideal trajectory,max_slide_velocity_error_m_s,m/s,米每秒 / metre per second,0.029663991457594796,0.0296639915
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,2,通过 / Passed,最大侧向偏移,Maximum lateral displacement,max_lateral_displacement_m,m,米 / metre,1.827672742044934e-17,1.82767274e-17
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,2,通过 / Passed,理想库仑停止时间,Ideal Coulomb stopping time,ideal_coulomb_stop_time_s,s,秒 / second,0.254841997961264,0.254841998
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,2,通过 / Passed,停止距离相对理想值偏差,Stopping distance deviation from ideal,stop_distance_error_percent,%,百分比 / percent,-0.36146908373554626,-0.361469084
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,3,通过 / Passed,仿真步长,Simulation timestep,dt_s,s,秒 / second,0.001,0.001
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,3,通过 / Passed,物理步数,Physics steps,steps,步,步 / step,600,600
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,3,通过 / Passed,峰值接触合力,Peak resultant contact force,peak_contact_force_n,N,牛顿 / newton,9.532952807959946,9.53295281
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,3,通过 / Passed,峰值法向接触力,Peak normal contact force,peak_contact_fz_n,N,牛顿 / newton,8.85112447749999,8.85112448
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,3,通过 / Passed,最大穿透深度,Maximum penetration depth,max_penetration_m,m,米 / metre,0.0001183831420842954,0.000118383142
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,3,通过 / Passed,首次接触时间,First contact time,first_contact_s,s,秒 / second,0.001,0.001
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,3,通过 / Passed,质心静置时间,COM settling time,settled_time_s,s,秒 / second,0.262,0.262
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,3,通过 / Passed,最大动量平衡残差,Maximum momentum balance residual,max_momentum_residual_ns,N·s,牛顿秒 / newton second,1.461702990427549e-09,1.46170299e-09
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,3,通过 / Passed,最大接触力核算误差,Maximum contact force accounting error,max_constraint_force_error_n,N,牛顿 / newton,0.0,0
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,3,通过 / Passed,窗口接触冲量X,Window contact impulse X,window_contact_jx_ns,N·s,牛顿秒 / newton second,-0.018337021322102215,-0.0183370213
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,3,通过 / Passed,窗口接触冲量Y,Window contact impulse Y,window_contact_jy_ns,N·s,牛顿秒 / newton second,4.0200839132082935e-20,4.02008391e-20
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,3,通过 / Passed,窗口接触冲量Z,Window contact impulse Z,window_contact_jz_ns,N·s,牛顿秒 / newton second,0.04584255330525554,0.0458425533
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,3,通过 / Passed,接触冲量窗口完整,Contact impulse window complete,impulse_window_complete,布尔,布尔值 / boolean,True,是 / Yes
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,3,通过 / Passed,停止时间,Stopping time,stop_time_s,s,秒 / second,0.262,0.262
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,3,通过 / Passed,停止距离,Stopping distance,stop_distance_m,m,米 / metre,0.12696041146313003,0.126960411
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,3,通过 / Passed,最终X位移,Final X displacement,final_displacement_m,m,米 / metre,0.12696196502502752,0.126961965
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,3,通过 / Passed,最大质心抬升,Maximum COM lift,max_com_lift_m,m,米 / metre,0.000374209016696235,0.000374209017
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,3,通过 / Passed,理想库仑停止距离,Ideal Coulomb stopping distance,ideal_coulomb_distance_m,m,米 / metre,0.127420998980632,0.127420999
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,3,通过 / Passed,设定摩擦系数,Configured friction coefficient,configured_friction_coefficient,1,无量纲 / dimensionless,0.4,0.4
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,3,通过 / Passed,滑动段测量步数,Sliding measurement steps,friction_measurement_samples,步,步 / step,212,212
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,3,通过 / Passed,滑动窗口内有接触步数,Contact steps in sliding window,friction_contact_samples,步,步 / step,98,98
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,3,通过 / Passed,滑动段平均摩擦力,Mean sliding friction force,mean_friction_force_n,N,牛顿 / newton,0.3808592759915261,0.380859276
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,3,通过 / Passed,滑动段平均法向力,Mean sliding normal force,mean_normal_force_n,N,牛顿 / newton,0.9538681929557867,0.953868193
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,3,通过 / Passed,实测等效摩擦系数,Measured effective friction coefficient,effective_friction_coefficient,1,无量纲 / dimensionless,0.39927872509444234,0.399278725
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,3,通过 / Passed,滑动段平均X减速度,Mean sliding X deceleration,mean_deceleration_m_s2,m/s²,米每二次方秒 / metre per second squared,3.8085927130252064,3.80859271
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,3,通过 / Passed,滑动段摩擦力反向,Sliding friction opposes motion,friction_opposes_motion,布尔,布尔值 / boolean,True,是 / Yes
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,3,通过 / Passed,全程X接触冲量,Total contact impulse X,total_contact_jx_ns,N·s,牛顿秒 / newton second,-0.1000000009940708,-0.100000001
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,3,通过 / Passed,相对理想轨迹最大X位移误差,Maximum X displacement error vs ideal trajectory,max_displacement_error_m,m,米 / metre,0.0004821441489462619,0.000482144149
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,3,通过 / Passed,相对理想轨迹X位移均方根误差,RMS X displacement error vs ideal trajectory,rms_displacement_error_m,m,米 / metre,0.00040131435994300926,0.00040131436
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,3,通过 / Passed,相对理想轨迹最大X速度误差,Maximum X velocity error vs ideal trajectory,max_slide_velocity_error_m_s,m/s,米每秒 / metre per second,0.029663991457594796,0.0296639915
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,3,通过 / Passed,最大侧向偏移,Maximum lateral displacement,max_lateral_displacement_m,m,米 / metre,1.827672742044934e-17,1.82767274e-17
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,3,通过 / Passed,理想库仑停止时间,Ideal Coulomb stopping time,ideal_coulomb_stop_time_s,s,秒 / second,0.254841997961264,0.254841998
+MuJoCo CPU,滑动方块 / Sliding cube,1.0,3,通过 / Passed,停止距离相对理想值偏差,Stopping distance deviation from ideal,stop_distance_error_percent,%,百分比 / percent,-0.36146908373554626,-0.361469084
+Genesis CUDA,滑动方块 / Sliding cube,2.0,1,通过 / Passed,仿真步长,Simulation timestep,dt_s,s,秒 / second,0.002,0.002
+Genesis CUDA,滑动方块 / Sliding cube,2.0,1,通过 / Passed,物理步数,Physics steps,steps,步,步 / step,300,300
+Genesis CUDA,滑动方块 / Sliding cube,2.0,1,通过 / Passed,峰值接触合力,Peak resultant contact force,peak_contact_force_n,N,牛顿 / newton,1.5019442396085825,1.50194424
+Genesis CUDA,滑动方块 / Sliding cube,2.0,1,通过 / Passed,峰值法向接触力,Peak normal contact force,peak_contact_fz_n,N,牛顿 / newton,1.3945202174859537,1.39452022
+Genesis CUDA,滑动方块 / Sliding cube,2.0,1,通过 / Passed,最大穿透深度,Maximum penetration depth,max_penetration_m,m,米 / metre,8.374312368258571e-05,8.37431237e-05
+Genesis CUDA,滑动方块 / Sliding cube,2.0,1,通过 / Passed,首次接触时间,First contact time,first_contact_s,s,秒 / second,0.002,0.002
+Genesis CUDA,滑动方块 / Sliding cube,2.0,1,通过 / Passed,质心静置时间,COM settling time,settled_time_s,s,秒 / second,0.26,0.26
+Genesis CUDA,滑动方块 / Sliding cube,2.0,1,通过 / Passed,最大动量平衡残差,Maximum momentum balance residual,max_momentum_residual_ns,N·s,牛顿秒 / newton second,5.72049027063859e-14,5.72049027e-14
+Genesis CUDA,滑动方块 / Sliding cube,2.0,1,通过 / Passed,最大接触力核算误差,Maximum contact force accounting error,max_constraint_force_error_n,N,牛顿 / newton,0.0,0
+Genesis CUDA,滑动方块 / Sliding cube,2.0,1,通过 / Passed,窗口接触冲量X,Window contact impulse X,window_contact_jx_ns,N·s,牛顿秒 / newton second,-0.016507662486278468,-0.0165076625
+Genesis CUDA,滑动方块 / Sliding cube,2.0,1,通过 / Passed,窗口接触冲量Y,Window contact impulse Y,window_contact_jy_ns,N·s,牛顿秒 / newton second,9.375193674246028e-20,9.37519367e-20
+Genesis CUDA,滑动方块 / Sliding cube,2.0,1,通过 / Passed,窗口接触冲量Z,Window contact impulse Z,window_contact_jz_ns,N·s,牛顿秒 / newton second,0.04126915621569617,0.0412691562
+Genesis CUDA,滑动方块 / Sliding cube,2.0,1,通过 / Passed,接触冲量窗口完整,Contact impulse window complete,impulse_window_complete,布尔,布尔值 / boolean,True,是 / Yes
+Genesis CUDA,滑动方块 / Sliding cube,2.0,1,通过 / Passed,停止时间,Stopping time,stop_time_s,s,秒 / second,0.26,0.26
+Genesis CUDA,滑动方块 / Sliding cube,2.0,1,通过 / Passed,停止距离,Stopping distance,stop_distance_m,m,米 / metre,0.12645274718403343,0.126452747
+Genesis CUDA,滑动方块 / Sliding cube,2.0,1,通过 / Passed,最终X位移,Final X displacement,final_displacement_m,m,米 / metre,0.12644700340497408,0.126447003
+Genesis CUDA,滑动方块 / Sliding cube,2.0,1,通过 / Passed,最大质心抬升,Maximum COM lift,max_com_lift_m,m,米 / metre,0.0,0
+Genesis CUDA,滑动方块 / Sliding cube,2.0,1,通过 / Passed,理想库仑停止距离,Ideal Coulomb stopping distance,ideal_coulomb_distance_m,m,米 / metre,0.127420998980632,0.127420999
+Genesis CUDA,滑动方块 / Sliding cube,2.0,1,通过 / Passed,设定摩擦系数,Configured friction coefficient,configured_friction_coefficient,1,无量纲 / dimensionless,0.4,0.4
+Genesis CUDA,滑动方块 / Sliding cube,2.0,1,通过 / Passed,滑动段测量步数,Sliding measurement steps,friction_measurement_samples,步,步 / step,106,106
+Genesis CUDA,滑动方块 / Sliding cube,2.0,1,通过 / Passed,滑动窗口内有接触步数,Contact steps in sliding window,friction_contact_samples,步,步 / step,106,106
+Genesis CUDA,滑动方块 / Sliding cube,2.0,1,通过 / Passed,滑动段平均摩擦力,Mean sliding friction force,mean_friction_force_n,N,牛顿 / newton,0.39082508983718023,0.39082509
+Genesis CUDA,滑动方块 / Sliding cube,2.0,1,通过 / Passed,滑动段平均法向力,Mean sliding normal force,mean_normal_force_n,N,牛顿 / newton,0.9806832214914659,0.980683221
+Genesis CUDA,滑动方块 / Sliding cube,2.0,1,通过 / Passed,实测等效摩擦系数,Measured effective friction coefficient,effective_friction_coefficient,1,无量纲 / dimensionless,0.39852327568406476,0.398523276
+Genesis CUDA,滑动方块 / Sliding cube,2.0,1,通过 / Passed,滑动段平均X减速度,Mean sliding X deceleration,mean_deceleration_m_s2,m/s²,米每二次方秒 / metre per second squared,3.9082508983847175,3.9082509
+Genesis CUDA,滑动方块 / Sliding cube,2.0,1,通过 / Passed,滑动段摩擦力反向,Sliding friction opposes motion,friction_opposes_motion,布尔,布尔值 / boolean,True,是 / Yes
+Genesis CUDA,滑动方块 / Sliding cube,2.0,1,通过 / Passed,全程X接触冲量,Total contact impulse X,total_contact_jx_ns,N·s,牛顿秒 / newton second,-0.10000000000034545,-0.1
+Genesis CUDA,滑动方块 / Sliding cube,2.0,1,通过 / Passed,相对理想轨迹最大X位移误差,Maximum X displacement error vs ideal trajectory,max_displacement_error_m,m,米 / metre,0.0009796388722101423,0.000979638872
+Genesis CUDA,滑动方块 / Sliding cube,2.0,1,通过 / Passed,相对理想轨迹X位移均方根误差,RMS X displacement error vs ideal trajectory,rms_displacement_error_m,m,米 / metre,0.0008254221147657964,0.000825422115
+Genesis CUDA,滑动方块 / Sliding cube,2.0,1,通过 / Passed,相对理想轨迹最大X速度误差,Maximum X velocity error vs ideal trajectory,max_slide_velocity_error_m_s,m/s,米每秒 / metre per second,0.007847999999999966,0.007848
+Genesis CUDA,滑动方块 / Sliding cube,2.0,1,通过 / Passed,最大侧向偏移,Maximum lateral displacement,max_lateral_displacement_m,m,米 / metre,6.5080406263401225e-19,6.50804063e-19
+Genesis CUDA,滑动方块 / Sliding cube,2.0,1,通过 / Passed,理想库仑停止时间,Ideal Coulomb stopping time,ideal_coulomb_stop_time_s,s,秒 / second,0.254841997961264,0.254841998
+Genesis CUDA,滑动方块 / Sliding cube,2.0,1,通过 / Passed,停止距离相对理想值偏差,Stopping distance deviation from ideal,stop_distance_error_percent,%,百分比 / percent,-0.7598840099705564,-0.75988401
+Genesis CUDA,滑动方块 / Sliding cube,2.0,2,通过 / Passed,仿真步长,Simulation timestep,dt_s,s,秒 / second,0.002,0.002
+Genesis CUDA,滑动方块 / Sliding cube,2.0,2,通过 / Passed,物理步数,Physics steps,steps,步,步 / step,300,300
+Genesis CUDA,滑动方块 / Sliding cube,2.0,2,通过 / Passed,峰值接触合力,Peak resultant contact force,peak_contact_force_n,N,牛顿 / newton,1.5019442396085825,1.50194424
+Genesis CUDA,滑动方块 / Sliding cube,2.0,2,通过 / Passed,峰值法向接触力,Peak normal contact force,peak_contact_fz_n,N,牛顿 / newton,1.3945202174859537,1.39452022
+Genesis CUDA,滑动方块 / Sliding cube,2.0,2,通过 / Passed,最大穿透深度,Maximum penetration depth,max_penetration_m,m,米 / metre,8.374312368258571e-05,8.37431237e-05
+Genesis CUDA,滑动方块 / Sliding cube,2.0,2,通过 / Passed,首次接触时间,First contact time,first_contact_s,s,秒 / second,0.002,0.002
+Genesis CUDA,滑动方块 / Sliding cube,2.0,2,通过 / Passed,质心静置时间,COM settling time,settled_time_s,s,秒 / second,0.26,0.26
+Genesis CUDA,滑动方块 / Sliding cube,2.0,2,通过 / Passed,最大动量平衡残差,Maximum momentum balance residual,max_momentum_residual_ns,N·s,牛顿秒 / newton second,5.72049027063859e-14,5.72049027e-14
+Genesis CUDA,滑动方块 / Sliding cube,2.0,2,通过 / Passed,最大接触力核算误差,Maximum contact force accounting error,max_constraint_force_error_n,N,牛顿 / newton,0.0,0
+Genesis CUDA,滑动方块 / Sliding cube,2.0,2,通过 / Passed,窗口接触冲量X,Window contact impulse X,window_contact_jx_ns,N·s,牛顿秒 / newton second,-0.016507662486278468,-0.0165076625
+Genesis CUDA,滑动方块 / Sliding cube,2.0,2,通过 / Passed,窗口接触冲量Y,Window contact impulse Y,window_contact_jy_ns,N·s,牛顿秒 / newton second,9.375193674246028e-20,9.37519367e-20
+Genesis CUDA,滑动方块 / Sliding cube,2.0,2,通过 / Passed,窗口接触冲量Z,Window contact impulse Z,window_contact_jz_ns,N·s,牛顿秒 / newton second,0.04126915621569617,0.0412691562
+Genesis CUDA,滑动方块 / Sliding cube,2.0,2,通过 / Passed,接触冲量窗口完整,Contact impulse window complete,impulse_window_complete,布尔,布尔值 / boolean,True,是 / Yes
+Genesis CUDA,滑动方块 / Sliding cube,2.0,2,通过 / Passed,停止时间,Stopping time,stop_time_s,s,秒 / second,0.26,0.26
+Genesis CUDA,滑动方块 / Sliding cube,2.0,2,通过 / Passed,停止距离,Stopping distance,stop_distance_m,m,米 / metre,0.12645274718403343,0.126452747
+Genesis CUDA,滑动方块 / Sliding cube,2.0,2,通过 / Passed,最终X位移,Final X displacement,final_displacement_m,m,米 / metre,0.12644700340497408,0.126447003
+Genesis CUDA,滑动方块 / Sliding cube,2.0,2,通过 / Passed,最大质心抬升,Maximum COM lift,max_com_lift_m,m,米 / metre,0.0,0
+Genesis CUDA,滑动方块 / Sliding cube,2.0,2,通过 / Passed,理想库仑停止距离,Ideal Coulomb stopping distance,ideal_coulomb_distance_m,m,米 / metre,0.127420998980632,0.127420999
+Genesis CUDA,滑动方块 / Sliding cube,2.0,2,通过 / Passed,设定摩擦系数,Configured friction coefficient,configured_friction_coefficient,1,无量纲 / dimensionless,0.4,0.4
+Genesis CUDA,滑动方块 / Sliding cube,2.0,2,通过 / Passed,滑动段测量步数,Sliding measurement steps,friction_measurement_samples,步,步 / step,106,106
+Genesis CUDA,滑动方块 / Sliding cube,2.0,2,通过 / Passed,滑动窗口内有接触步数,Contact steps in sliding window,friction_contact_samples,步,步 / step,106,106
+Genesis CUDA,滑动方块 / Sliding cube,2.0,2,通过 / Passed,滑动段平均摩擦力,Mean sliding friction force,mean_friction_force_n,N,牛顿 / newton,0.39082508983718023,0.39082509
+Genesis CUDA,滑动方块 / Sliding cube,2.0,2,通过 / Passed,滑动段平均法向力,Mean sliding normal force,mean_normal_force_n,N,牛顿 / newton,0.9806832214914659,0.980683221
+Genesis CUDA,滑动方块 / Sliding cube,2.0,2,通过 / Passed,实测等效摩擦系数,Measured effective friction coefficient,effective_friction_coefficient,1,无量纲 / dimensionless,0.39852327568406476,0.398523276
+Genesis CUDA,滑动方块 / Sliding cube,2.0,2,通过 / Passed,滑动段平均X减速度,Mean sliding X deceleration,mean_deceleration_m_s2,m/s²,米每二次方秒 / metre per second squared,3.9082508983847175,3.9082509
+Genesis CUDA,滑动方块 / Sliding cube,2.0,2,通过 / Passed,滑动段摩擦力反向,Sliding friction opposes motion,friction_opposes_motion,布尔,布尔值 / boolean,True,是 / Yes
+Genesis CUDA,滑动方块 / Sliding cube,2.0,2,通过 / Passed,全程X接触冲量,Total contact impulse X,total_contact_jx_ns,N·s,牛顿秒 / newton second,-0.10000000000034545,-0.1
+Genesis CUDA,滑动方块 / Sliding cube,2.0,2,通过 / Passed,相对理想轨迹最大X位移误差,Maximum X displacement error vs ideal trajectory,max_displacement_error_m,m,米 / metre,0.0009796388722101423,0.000979638872
+Genesis CUDA,滑动方块 / Sliding cube,2.0,2,通过 / Passed,相对理想轨迹X位移均方根误差,RMS X displacement error vs ideal trajectory,rms_displacement_error_m,m,米 / metre,0.0008254221147657964,0.000825422115
+Genesis CUDA,滑动方块 / Sliding cube,2.0,2,通过 / Passed,相对理想轨迹最大X速度误差,Maximum X velocity error vs ideal trajectory,max_slide_velocity_error_m_s,m/s,米每秒 / metre per second,0.007847999999999966,0.007848
+Genesis CUDA,滑动方块 / Sliding cube,2.0,2,通过 / Passed,最大侧向偏移,Maximum lateral displacement,max_lateral_displacement_m,m,米 / metre,6.5080406263401225e-19,6.50804063e-19
+Genesis CUDA,滑动方块 / Sliding cube,2.0,2,通过 / Passed,理想库仑停止时间,Ideal Coulomb stopping time,ideal_coulomb_stop_time_s,s,秒 / second,0.254841997961264,0.254841998
+Genesis CUDA,滑动方块 / Sliding cube,2.0,2,通过 / Passed,停止距离相对理想值偏差,Stopping distance deviation from ideal,stop_distance_error_percent,%,百分比 / percent,-0.7598840099705564,-0.75988401
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,通过 / Passed,仿真步长,Simulation timestep,dt_s,s,秒 / second,0.002,0.002
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,通过 / Passed,物理步数,Physics steps,steps,步,步 / step,300,300
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,通过 / Passed,峰值接触合力,Peak resultant contact force,peak_contact_force_n,N,牛顿 / newton,1.5019442396085825,1.50194424
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,通过 / Passed,峰值法向接触力,Peak normal contact force,peak_contact_fz_n,N,牛顿 / newton,1.3945202174859537,1.39452022
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,通过 / Passed,最大穿透深度,Maximum penetration depth,max_penetration_m,m,米 / metre,8.374312368258571e-05,8.37431237e-05
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,通过 / Passed,首次接触时间,First contact time,first_contact_s,s,秒 / second,0.002,0.002
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,通过 / Passed,质心静置时间,COM settling time,settled_time_s,s,秒 / second,0.26,0.26
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,通过 / Passed,最大动量平衡残差,Maximum momentum balance residual,max_momentum_residual_ns,N·s,牛顿秒 / newton second,5.72049027063859e-14,5.72049027e-14
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,通过 / Passed,最大接触力核算误差,Maximum contact force accounting error,max_constraint_force_error_n,N,牛顿 / newton,0.0,0
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,通过 / Passed,窗口接触冲量X,Window contact impulse X,window_contact_jx_ns,N·s,牛顿秒 / newton second,-0.016507662486278468,-0.0165076625
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,通过 / Passed,窗口接触冲量Y,Window contact impulse Y,window_contact_jy_ns,N·s,牛顿秒 / newton second,9.375193674246028e-20,9.37519367e-20
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,通过 / Passed,窗口接触冲量Z,Window contact impulse Z,window_contact_jz_ns,N·s,牛顿秒 / newton second,0.04126915621569617,0.0412691562
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,通过 / Passed,接触冲量窗口完整,Contact impulse window complete,impulse_window_complete,布尔,布尔值 / boolean,True,是 / Yes
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,通过 / Passed,停止时间,Stopping time,stop_time_s,s,秒 / second,0.26,0.26
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,通过 / Passed,停止距离,Stopping distance,stop_distance_m,m,米 / metre,0.12645274718403343,0.126452747
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,通过 / Passed,最终X位移,Final X displacement,final_displacement_m,m,米 / metre,0.12644700340497408,0.126447003
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,通过 / Passed,最大质心抬升,Maximum COM lift,max_com_lift_m,m,米 / metre,0.0,0
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,通过 / Passed,理想库仑停止距离,Ideal Coulomb stopping distance,ideal_coulomb_distance_m,m,米 / metre,0.127420998980632,0.127420999
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,通过 / Passed,设定摩擦系数,Configured friction coefficient,configured_friction_coefficient,1,无量纲 / dimensionless,0.4,0.4
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,通过 / Passed,滑动段测量步数,Sliding measurement steps,friction_measurement_samples,步,步 / step,106,106
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,通过 / Passed,滑动窗口内有接触步数,Contact steps in sliding window,friction_contact_samples,步,步 / step,106,106
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,通过 / Passed,滑动段平均摩擦力,Mean sliding friction force,mean_friction_force_n,N,牛顿 / newton,0.39082508983718023,0.39082509
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,通过 / Passed,滑动段平均法向力,Mean sliding normal force,mean_normal_force_n,N,牛顿 / newton,0.9806832214914659,0.980683221
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,通过 / Passed,实测等效摩擦系数,Measured effective friction coefficient,effective_friction_coefficient,1,无量纲 / dimensionless,0.39852327568406476,0.398523276
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,通过 / Passed,滑动段平均X减速度,Mean sliding X deceleration,mean_deceleration_m_s2,m/s²,米每二次方秒 / metre per second squared,3.9082508983847175,3.9082509
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,通过 / Passed,滑动段摩擦力反向,Sliding friction opposes motion,friction_opposes_motion,布尔,布尔值 / boolean,True,是 / Yes
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,通过 / Passed,全程X接触冲量,Total contact impulse X,total_contact_jx_ns,N·s,牛顿秒 / newton second,-0.10000000000034545,-0.1
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,通过 / Passed,相对理想轨迹最大X位移误差,Maximum X displacement error vs ideal trajectory,max_displacement_error_m,m,米 / metre,0.0009796388722101423,0.000979638872
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,通过 / Passed,相对理想轨迹X位移均方根误差,RMS X displacement error vs ideal trajectory,rms_displacement_error_m,m,米 / metre,0.0008254221147657964,0.000825422115
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,通过 / Passed,相对理想轨迹最大X速度误差,Maximum X velocity error vs ideal trajectory,max_slide_velocity_error_m_s,m/s,米每秒 / metre per second,0.007847999999999966,0.007848
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,通过 / Passed,最大侧向偏移,Maximum lateral displacement,max_lateral_displacement_m,m,米 / metre,6.5080406263401225e-19,6.50804063e-19
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,通过 / Passed,理想库仑停止时间,Ideal Coulomb stopping time,ideal_coulomb_stop_time_s,s,秒 / second,0.254841997961264,0.254841998
+Genesis CUDA,滑动方块 / Sliding cube,2.0,3,通过 / Passed,停止距离相对理想值偏差,Stopping distance deviation from ideal,stop_distance_error_percent,%,百分比 / percent,-0.7598840099705564,-0.75988401
+Genesis CUDA,滑动方块 / Sliding cube,1.0,1,通过 / Passed,仿真步长,Simulation timestep,dt_s,s,秒 / second,0.001,0.001
+Genesis CUDA,滑动方块 / Sliding cube,1.0,1,通过 / Passed,物理步数,Physics steps,steps,步,步 / step,600,600
+Genesis CUDA,滑动方块 / Sliding cube,1.0,1,通过 / Passed,峰值接触合力,Peak resultant contact force,peak_contact_force_n,N,牛顿 / newton,1.254692675234048,1.25469268
+Genesis CUDA,滑动方块 / Sliding cube,1.0,1,通过 / Passed,峰值法向接触力,Peak normal contact force,peak_contact_fz_n,N,牛顿 / newton,1.1649529031792822,1.1649529
+Genesis CUDA,滑动方块 / Sliding cube,1.0,1,通过 / Passed,最大穿透深度,Maximum penetration depth,max_penetration_m,m,米 / metre,4.862578591516287e-05,4.86257859e-05
+Genesis CUDA,滑动方块 / Sliding cube,1.0,1,通过 / Passed,首次接触时间,First contact time,first_contact_s,s,秒 / second,0.001,0.001
+Genesis CUDA,滑动方块 / Sliding cube,1.0,1,通过 / Passed,质心静置时间,COM settling time,settled_time_s,s,秒 / second,0.262,0.262
+Genesis CUDA,滑动方块 / Sliding cube,1.0,1,通过 / Passed,最大动量平衡残差,Maximum momentum balance residual,max_momentum_residual_ns,N·s,牛顿秒 / newton second,2.872138483511957e-14,2.87213848e-14
+Genesis CUDA,滑动方块 / Sliding cube,1.0,1,通过 / Passed,最大接触力核算误差,Maximum contact force accounting error,max_constraint_force_error_n,N,牛顿 / newton,0.0,0
+Genesis CUDA,滑动方块 / Sliding cube,1.0,1,通过 / Passed,窗口接触冲量X,Window contact impulse X,window_contact_jx_ns,N·s,牛顿秒 / newton second,-0.016099500276672136,-0.0160995003
+Genesis CUDA,滑动方块 / Sliding cube,1.0,1,通过 / Passed,窗口接触冲量Y,Window contact impulse Y,window_contact_jy_ns,N·s,牛顿秒 / newton second,-2.6185676132514164e-21,-2.61856761e-21
+Genesis CUDA,滑动方块 / Sliding cube,1.0,1,通过 / Passed,窗口接触冲量Z,Window contact impulse Z,window_contact_jz_ns,N·s,牛顿秒 / newton second,0.04024875069168034,0.0402487507
+Genesis CUDA,滑动方块 / Sliding cube,1.0,1,通过 / Passed,接触冲量窗口完整,Contact impulse window complete,impulse_window_complete,布尔,布尔值 / boolean,True,是 / Yes
+Genesis CUDA,滑动方块 / Sliding cube,1.0,1,通过 / Passed,停止时间,Stopping time,stop_time_s,s,秒 / second,0.262,0.262
+Genesis CUDA,滑动方块 / Sliding cube,1.0,1,通过 / Passed,停止距离,Stopping distance,stop_distance_m,m,米 / metre,0.12696067064951433,0.126960671
+Genesis CUDA,滑动方块 / Sliding cube,1.0,1,通过 / Passed,最终X位移,Final X displacement,final_displacement_m,m,米 / metre,0.1269561482682044,0.126956148
+Genesis CUDA,滑动方块 / Sliding cube,1.0,1,通过 / Passed,最大质心抬升,Maximum COM lift,max_com_lift_m,m,米 / metre,0.0,0
+Genesis CUDA,滑动方块 / Sliding cube,1.0,1,通过 / Passed,理想库仑停止距离,Ideal Coulomb stopping distance,ideal_coulomb_distance_m,m,米 / metre,0.127420998980632,0.127420999
+Genesis CUDA,滑动方块 / Sliding cube,1.0,1,通过 / Passed,设定摩擦系数,Configured friction coefficient,configured_friction_coefficient,1,无量纲 / dimensionless,0.4,0.4
+Genesis CUDA,滑动方块 / Sliding cube,1.0,1,通过 / Passed,滑动段测量步数,Sliding measurement steps,friction_measurement_samples,步,步 / step,212,212
+Genesis CUDA,滑动方块 / Sliding cube,1.0,1,通过 / Passed,滑动窗口内有接触步数,Contact steps in sliding window,friction_contact_samples,步,步 / step,212,212
+Genesis CUDA,滑动方块 / Sliding cube,1.0,1,通过 / Passed,滑动段平均摩擦力,Mean sliding friction force,mean_friction_force_n,N,牛顿 / newton,0.3913492361634149,0.391349236
+Genesis CUDA,滑动方块 / Sliding cube,1.0,1,通过 / Passed,滑动段平均法向力,Mean sliding normal force,mean_normal_force_n,N,牛顿 / newton,0.9808690976074267,0.980869098
+Genesis CUDA,滑动方块 / Sliding cube,1.0,1,通过 / Passed,实测等效摩擦系数,Measured effective friction coefficient,effective_friction_coefficient,1,无量纲 / dimensionless,0.3989821242386052,0.398982124
+Genesis CUDA,滑动方块 / Sliding cube,1.0,1,通过 / Passed,滑动段平均X减速度,Mean sliding X deceleration,mean_deceleration_m_s2,m/s²,米每二次方秒 / metre per second squared,3.9134923616451154,3.91349236
+Genesis CUDA,滑动方块 / Sliding cube,1.0,1,通过 / Passed,滑动段摩擦力反向,Sliding friction opposes motion,friction_opposes_motion,布尔,布尔值 / boolean,True,是 / Yes
+Genesis CUDA,滑动方块 / Sliding cube,1.0,1,通过 / Passed,全程X接触冲量,Total contact impulse X,total_contact_jx_ns,N·s,牛顿秒 / newton second,-0.10000000000044484,-0.1
+Genesis CUDA,滑动方块 / Sliding cube,1.0,1,通过 / Passed,相对理想轨迹最大X位移误差,Maximum X displacement error vs ideal trajectory,max_displacement_error_m,m,米 / metre,0.00048277601428819983,0.000482776014
+Genesis CUDA,滑动方块 / Sliding cube,1.0,1,通过 / Passed,相对理想轨迹X位移均方根误差,RMS X displacement error vs ideal trajectory,rms_displacement_error_m,m,米 / metre,0.0003963691602515813,0.00039636916
+Genesis CUDA,滑动方块 / Sliding cube,1.0,1,通过 / Passed,相对理想轨迹最大X速度误差,Maximum X velocity error vs ideal trajectory,max_slide_velocity_error_m_s,m/s,米每秒 / metre per second,0.005722682053090559,0.00572268205
+Genesis CUDA,滑动方块 / Sliding cube,1.0,1,通过 / Passed,最大侧向偏移,Maximum lateral displacement,max_lateral_displacement_m,m,米 / metre,5.3930192584812504e-20,5.39301926e-20
+Genesis CUDA,滑动方块 / Sliding cube,1.0,1,通过 / Passed,理想库仑停止时间,Ideal Coulomb stopping time,ideal_coulomb_stop_time_s,s,秒 / second,0.254841997961264,0.254841998
+Genesis CUDA,滑动方块 / Sliding cube,1.0,1,通过 / Passed,停止距离相对理想值偏差,Stopping distance deviation from ideal,stop_distance_error_percent,%,百分比 / percent,-0.36126567426114814,-0.361265674
+Genesis CUDA,滑动方块 / Sliding cube,1.0,2,通过 / Passed,仿真步长,Simulation timestep,dt_s,s,秒 / second,0.001,0.001
+Genesis CUDA,滑动方块 / Sliding cube,1.0,2,通过 / Passed,物理步数,Physics steps,steps,步,步 / step,600,600
+Genesis CUDA,滑动方块 / Sliding cube,1.0,2,通过 / Passed,峰值接触合力,Peak resultant contact force,peak_contact_force_n,N,牛顿 / newton,1.254692675234048,1.25469268
+Genesis CUDA,滑动方块 / Sliding cube,1.0,2,通过 / Passed,峰值法向接触力,Peak normal contact force,peak_contact_fz_n,N,牛顿 / newton,1.1649529031792822,1.1649529
+Genesis CUDA,滑动方块 / Sliding cube,1.0,2,通过 / Passed,最大穿透深度,Maximum penetration depth,max_penetration_m,m,米 / metre,4.862578591516287e-05,4.86257859e-05
+Genesis CUDA,滑动方块 / Sliding cube,1.0,2,通过 / Passed,首次接触时间,First contact time,first_contact_s,s,秒 / second,0.001,0.001
+Genesis CUDA,滑动方块 / Sliding cube,1.0,2,通过 / Passed,质心静置时间,COM settling time,settled_time_s,s,秒 / second,0.262,0.262
+Genesis CUDA,滑动方块 / Sliding cube,1.0,2,通过 / Passed,最大动量平衡残差,Maximum momentum balance residual,max_momentum_residual_ns,N·s,牛顿秒 / newton second,2.872138483511957e-14,2.87213848e-14
+Genesis CUDA,滑动方块 / Sliding cube,1.0,2,通过 / Passed,最大接触力核算误差,Maximum contact force accounting error,max_constraint_force_error_n,N,牛顿 / newton,0.0,0
+Genesis CUDA,滑动方块 / Sliding cube,1.0,2,通过 / Passed,窗口接触冲量X,Window contact impulse X,window_contact_jx_ns,N·s,牛顿秒 / newton second,-0.016099500276672136,-0.0160995003
+Genesis CUDA,滑动方块 / Sliding cube,1.0,2,通过 / Passed,窗口接触冲量Y,Window contact impulse Y,window_contact_jy_ns,N·s,牛顿秒 / newton second,-2.6185676132514164e-21,-2.61856761e-21
+Genesis CUDA,滑动方块 / Sliding cube,1.0,2,通过 / Passed,窗口接触冲量Z,Window contact impulse Z,window_contact_jz_ns,N·s,牛顿秒 / newton second,0.04024875069168034,0.0402487507
+Genesis CUDA,滑动方块 / Sliding cube,1.0,2,通过 / Passed,接触冲量窗口完整,Contact impulse window complete,impulse_window_complete,布尔,布尔值 / boolean,True,是 / Yes
+Genesis CUDA,滑动方块 / Sliding cube,1.0,2,通过 / Passed,停止时间,Stopping time,stop_time_s,s,秒 / second,0.262,0.262
+Genesis CUDA,滑动方块 / Sliding cube,1.0,2,通过 / Passed,停止距离,Stopping distance,stop_distance_m,m,米 / metre,0.12696067064951433,0.126960671
+Genesis CUDA,滑动方块 / Sliding cube,1.0,2,通过 / Passed,最终X位移,Final X displacement,final_displacement_m,m,米 / metre,0.1269561482682044,0.126956148
+Genesis CUDA,滑动方块 / Sliding cube,1.0,2,通过 / Passed,最大质心抬升,Maximum COM lift,max_com_lift_m,m,米 / metre,0.0,0
+Genesis CUDA,滑动方块 / Sliding cube,1.0,2,通过 / Passed,理想库仑停止距离,Ideal Coulomb stopping distance,ideal_coulomb_distance_m,m,米 / metre,0.127420998980632,0.127420999
+Genesis CUDA,滑动方块 / Sliding cube,1.0,2,通过 / Passed,设定摩擦系数,Configured friction coefficient,configured_friction_coefficient,1,无量纲 / dimensionless,0.4,0.4
+Genesis CUDA,滑动方块 / Sliding cube,1.0,2,通过 / Passed,滑动段测量步数,Sliding measurement steps,friction_measurement_samples,步,步 / step,212,212
+Genesis CUDA,滑动方块 / Sliding cube,1.0,2,通过 / Passed,滑动窗口内有接触步数,Contact steps in sliding window,friction_contact_samples,步,步 / step,212,212
+Genesis CUDA,滑动方块 / Sliding cube,1.0,2,通过 / Passed,滑动段平均摩擦力,Mean sliding friction force,mean_friction_force_n,N,牛顿 / newton,0.3913492361634149,0.391349236
+Genesis CUDA,滑动方块 / Sliding cube,1.0,2,通过 / Passed,滑动段平均法向力,Mean sliding normal force,mean_normal_force_n,N,牛顿 / newton,0.9808690976074267,0.980869098
+Genesis CUDA,滑动方块 / Sliding cube,1.0,2,通过 / Passed,实测等效摩擦系数,Measured effective friction coefficient,effective_friction_coefficient,1,无量纲 / dimensionless,0.3989821242386052,0.398982124
+Genesis CUDA,滑动方块 / Sliding cube,1.0,2,通过 / Passed,滑动段平均X减速度,Mean sliding X deceleration,mean_deceleration_m_s2,m/s²,米每二次方秒 / metre per second squared,3.9134923616451154,3.91349236
+Genesis CUDA,滑动方块 / Sliding cube,1.0,2,通过 / Passed,滑动段摩擦力反向,Sliding friction opposes motion,friction_opposes_motion,布尔,布尔值 / boolean,True,是 / Yes
+Genesis CUDA,滑动方块 / Sliding cube,1.0,2,通过 / Passed,全程X接触冲量,Total contact impulse X,total_contact_jx_ns,N·s,牛顿秒 / newton second,-0.10000000000044484,-0.1
+Genesis CUDA,滑动方块 / Sliding cube,1.0,2,通过 / Passed,相对理想轨迹最大X位移误差,Maximum X displacement error vs ideal trajectory,max_displacement_error_m,m,米 / metre,0.00048277601428819983,0.000482776014
+Genesis CUDA,滑动方块 / Sliding cube,1.0,2,通过 / Passed,相对理想轨迹X位移均方根误差,RMS X displacement error vs ideal trajectory,rms_displacement_error_m,m,米 / metre,0.0003963691602515813,0.00039636916
+Genesis CUDA,滑动方块 / Sliding cube,1.0,2,通过 / Passed,相对理想轨迹最大X速度误差,Maximum X velocity error vs ideal trajectory,max_slide_velocity_error_m_s,m/s,米每秒 / metre per second,0.005722682053090559,0.00572268205
+Genesis CUDA,滑动方块 / Sliding cube,1.0,2,通过 / Passed,最大侧向偏移,Maximum lateral displacement,max_lateral_displacement_m,m,米 / metre,5.3930192584812504e-20,5.39301926e-20
+Genesis CUDA,滑动方块 / Sliding cube,1.0,2,通过 / Passed,理想库仑停止时间,Ideal Coulomb stopping time,ideal_coulomb_stop_time_s,s,秒 / second,0.254841997961264,0.254841998
+Genesis CUDA,滑动方块 / Sliding cube,1.0,2,通过 / Passed,停止距离相对理想值偏差,Stopping distance deviation from ideal,stop_distance_error_percent,%,百分比 / percent,-0.36126567426114814,-0.361265674
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,通过 / Passed,仿真步长,Simulation timestep,dt_s,s,秒 / second,0.001,0.001
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,通过 / Passed,物理步数,Physics steps,steps,步,步 / step,600,600
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,通过 / Passed,峰值接触合力,Peak resultant contact force,peak_contact_force_n,N,牛顿 / newton,1.254692675234048,1.25469268
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,通过 / Passed,峰值法向接触力,Peak normal contact force,peak_contact_fz_n,N,牛顿 / newton,1.1649529031792822,1.1649529
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,通过 / Passed,最大穿透深度,Maximum penetration depth,max_penetration_m,m,米 / metre,4.862578591516287e-05,4.86257859e-05
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,通过 / Passed,首次接触时间,First contact time,first_contact_s,s,秒 / second,0.001,0.001
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,通过 / Passed,质心静置时间,COM settling time,settled_time_s,s,秒 / second,0.262,0.262
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,通过 / Passed,最大动量平衡残差,Maximum momentum balance residual,max_momentum_residual_ns,N·s,牛顿秒 / newton second,2.872138483511957e-14,2.87213848e-14
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,通过 / Passed,最大接触力核算误差,Maximum contact force accounting error,max_constraint_force_error_n,N,牛顿 / newton,0.0,0
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,通过 / Passed,窗口接触冲量X,Window contact impulse X,window_contact_jx_ns,N·s,牛顿秒 / newton second,-0.016099500276672136,-0.0160995003
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,通过 / Passed,窗口接触冲量Y,Window contact impulse Y,window_contact_jy_ns,N·s,牛顿秒 / newton second,-2.6185676132514164e-21,-2.61856761e-21
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,通过 / Passed,窗口接触冲量Z,Window contact impulse Z,window_contact_jz_ns,N·s,牛顿秒 / newton second,0.04024875069168034,0.0402487507
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,通过 / Passed,接触冲量窗口完整,Contact impulse window complete,impulse_window_complete,布尔,布尔值 / boolean,True,是 / Yes
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,通过 / Passed,停止时间,Stopping time,stop_time_s,s,秒 / second,0.262,0.262
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,通过 / Passed,停止距离,Stopping distance,stop_distance_m,m,米 / metre,0.12696067064951433,0.126960671
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,通过 / Passed,最终X位移,Final X displacement,final_displacement_m,m,米 / metre,0.1269561482682044,0.126956148
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,通过 / Passed,最大质心抬升,Maximum COM lift,max_com_lift_m,m,米 / metre,0.0,0
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,通过 / Passed,理想库仑停止距离,Ideal Coulomb stopping distance,ideal_coulomb_distance_m,m,米 / metre,0.127420998980632,0.127420999
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,通过 / Passed,设定摩擦系数,Configured friction coefficient,configured_friction_coefficient,1,无量纲 / dimensionless,0.4,0.4
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,通过 / Passed,滑动段测量步数,Sliding measurement steps,friction_measurement_samples,步,步 / step,212,212
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,通过 / Passed,滑动窗口内有接触步数,Contact steps in sliding window,friction_contact_samples,步,步 / step,212,212
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,通过 / Passed,滑动段平均摩擦力,Mean sliding friction force,mean_friction_force_n,N,牛顿 / newton,0.3913492361634149,0.391349236
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,通过 / Passed,滑动段平均法向力,Mean sliding normal force,mean_normal_force_n,N,牛顿 / newton,0.9808690976074267,0.980869098
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,通过 / Passed,实测等效摩擦系数,Measured effective friction coefficient,effective_friction_coefficient,1,无量纲 / dimensionless,0.3989821242386052,0.398982124
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,通过 / Passed,滑动段平均X减速度,Mean sliding X deceleration,mean_deceleration_m_s2,m/s²,米每二次方秒 / metre per second squared,3.9134923616451154,3.91349236
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,通过 / Passed,滑动段摩擦力反向,Sliding friction opposes motion,friction_opposes_motion,布尔,布尔值 / boolean,True,是 / Yes
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,通过 / Passed,全程X接触冲量,Total contact impulse X,total_contact_jx_ns,N·s,牛顿秒 / newton second,-0.10000000000044484,-0.1
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,通过 / Passed,相对理想轨迹最大X位移误差,Maximum X displacement error vs ideal trajectory,max_displacement_error_m,m,米 / metre,0.00048277601428819983,0.000482776014
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,通过 / Passed,相对理想轨迹X位移均方根误差,RMS X displacement error vs ideal trajectory,rms_displacement_error_m,m,米 / metre,0.0003963691602515813,0.00039636916
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,通过 / Passed,相对理想轨迹最大X速度误差,Maximum X velocity error vs ideal trajectory,max_slide_velocity_error_m_s,m/s,米每秒 / metre per second,0.005722682053090559,0.00572268205
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,通过 / Passed,最大侧向偏移,Maximum lateral displacement,max_lateral_displacement_m,m,米 / metre,5.3930192584812504e-20,5.39301926e-20
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,通过 / Passed,理想库仑停止时间,Ideal Coulomb stopping time,ideal_coulomb_stop_time_s,s,秒 / second,0.254841997961264,0.254841998
+Genesis CUDA,滑动方块 / Sliding cube,1.0,3,通过 / Passed,停止距离相对理想值偏差,Stopping distance deviation from ideal,stop_distance_error_percent,%,百分比 / percent,-0.36126567426114814,-0.361265674

@@ -1,0 +1,41 @@
+Output: /home/datamesh/github_waneta/physics-engine-benchmark/results/task04-slide-rerun-20261010-1818/viewer-mujoco-warp
+Running mujoco-warp: slide dt=0.002 repeat=1
+Warp UserWarning: Kernel cache artifacts from a previous Warp version were found in '/home/datamesh/github_waneta/physics-engine-benchmark/.cache/warp'. These will be ignored. You can safely delete them.
+Warp 1.16.0 initialized:
+   CUDA Toolkit 12.9, Driver 12.8
+   Devices:
+     "cpu"      : "x86_64"
+     "cuda:0"   : "NVIDIA GeForce RTX 4090 D" (24 GiB, sm_89, mempool enabled)
+   Kernel cache:
+     /home/datamesh/github_waneta/physics-engine-benchmark/.cache/warp/1.16.0
+Module mujoco_warp._src.smooth ca013d6 load on device 'cuda:0' took 7.48 ms  (cached)
+Module _nxn_broadphase__locals__kernel_1be37570 1be3757 load on device 'cuda:0' took 0.85 ms  (cached)
+Module _primitive_narrowphase__locals__primitive_narrowphase_be37f471 be37f47 load on device 'cuda:0' took 1.58 ms  (cached)
+Module mujoco_warp._src.constraint 5b5fe2d load on device 'cuda:0' took 0.84 ms  (cached)
+Module _friction_dof__locals__kernel_b1bda76d b1bda76 load on device 'cuda:0' took 1.00 ms  (cached)
+Module _efc_contact_init__locals__kernel_9f8465c5 9f8465c load on device 'cuda:0' took 0.94 ms  (cached)
+Module _efc_contact_jac_dense__locals__kernel_d7c0e5ee db8e6f1 load on device 'cuda:0' took 1.05 ms  (cached)
+Module _efc_contact_update__locals__kernel_edb30c24 edb30c2 load on device 'cuda:0' took 0.82 ms  (cached)
+Module mujoco_warp._src.passive 5924789 load on device 'cuda:0' took 2.38 ms  (cached)
+Module _qfrc_passive_kernel__locals__kernel_a386b29e a386b29 load on device 'cuda:0' took 0.94 ms  (cached)
+Module _qfrc_smooth__locals__kernel_b98573a2 b98573a load on device 'cuda:0' took 0.67 ms  (cached)
+Module mujoco_warp._src.support 46f46ca load on device 'cuda:0' took 0.62 ms  (cached)
+Module _small_cholesky_factorize_solve_block__locals__kernel_2b75aeaa 964bbb9 load on device 'cuda:0' took 0.75 ms  (cached)
+Module _solve_init_dof__locals__kernel_66e3dc49 66e3dc4 load on device 'cuda:0' took 0.67 ms  (cached)
+Module mujoco_warp._src.solver 9c75e2a load on device 'cuda:0' took 1.54 ms  (cached)
+Module _solve_init_jaref_kernel__locals__kernel_11ee5eee 11ee5ee load on device 'cuda:0' took 0.84 ms  (cached)
+Module mul_m_kernel__locals___mul_m_8efe01a0 8efe01a load on device 'cuda:0' took 0.72 ms  (cached)
+Module _update_constraint_efc__locals__kernel_fc20741b fc20741 load on device 'cuda:0' took 0.74 ms  (cached)
+Module _update_constraint_init_qfrc_constraint_dense__locals__kernel_44c8eda8 44c8eda load on device 'cuda:0' took 0.76 ms  (cached)
+Module _update_gradient_zero_grad_dot__locals__kernel_52bae6b7 52bae6b load on device 'cuda:0' took 0.71 ms  (cached)
+Module _update_gradient_grad__locals__kernel_769b869e 769b869 load on device 'cuda:0' took 0.68 ms  (cached)
+Module _update_gradient_JTDAJ_dense_tiled__locals__kernel_476da334 8cb0f5f load on device 'cuda:0' took 1.32 ms  (cached)
+Module _update_gradient_cholesky__locals__kernel_3c925cbf dc4130a load on device 'cuda:0' took 24.60 ms  (cached)
+Module _linesearch_iterative_kernel__locals__kernel_2d235f8c 9d4a882 load on device 'cuda:0' took 1.38 ms  (cached)
+Module _solve_done__locals__kernel_9b35ebf5 9b35ebf load on device 'cuda:0' took 0.89 ms  (cached)
+Module mujoco_warp._src.forward 15f20a6 load on device 'cuda:0' took 1.48 ms  (cached)
+Module _next_time_builder__locals___next_time_56ba631e 56ba631 load on device 'cuda:0' took 0.82 ms  (cached)
+slide dt=0.002 repeat=1: passed
+Running mujoco-warp: slide dt=0.001 repeat=1
+slide dt=0.001 repeat=1: passed
+Report: /home/datamesh/github_waneta/physics-engine-benchmark/results/task04-slide-rerun-20261010-1818/viewer-mujoco-warp/report.md

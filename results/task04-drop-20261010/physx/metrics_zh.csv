@@ -1,0 +1,193 @@
+﻿引擎,场景,步长(ms),重复编号,状态,指标名称,Metric name,指标字段,单位,单位说明 / Unit description,数值,数值显示 / Display value
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,1,通过 / Passed,仿真步长,Simulation timestep,dt_s,s,秒 / second,0.002,0.002
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,1,通过 / Passed,物理步数,Physics steps,steps,步,步 / step,500,500
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,1,通过 / Passed,峰值接触合力,Peak resultant contact force,peak_contact_force_n,N,牛顿 / newton,127.52790025552433,127.5279
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,1,通过 / Passed,峰值法向接触力,Peak normal contact force,peak_contact_fz_n,N,牛顿 / newton,127.52789258629493,127.527893
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,1,通过 / Passed,最大穿透深度,Maximum penetration depth,max_penetration_m,m,米 / metre,1.2082333883389751e-08,1.20823339e-08
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,1,通过 / Passed,首次接触时间,First contact time,first_contact_s,s,秒 / second,0.258,0.258
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,1,通过 / Passed,质心静置时间,COM settling time,settled_time_s,s,秒 / second,0.26,0.26
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,1,通过 / Passed,最大动量平衡残差,Maximum momentum balance residual,max_momentum_residual_ns,N·s,牛顿秒 / newton second,1.4016455537232661e-08,1.40164555e-08
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,1,通过 / Passed,最大接触力核算误差,Maximum contact force accounting error,max_constraint_force_error_n,N,牛顿 / newton,,未测得 / Not measured
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,1,通过 / Passed,窗口接触冲量X,Window contact impulse X,window_contact_jx_ns,N·s,牛顿秒 / newton second,1.662691306580853e-07,1.66269131e-07
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,1,通过 / Passed,窗口接触冲量Y,Window contact impulse Y,window_contact_jy_ns,N·s,牛顿秒 / newton second,-2.0097937536434071e-07,-2.00979375e-07
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,1,通过 / Passed,窗口接触冲量Z,Window contact impulse Z,window_contact_jz_ns,N·s,牛顿秒 / newton second,0.29233751655554713,0.292337517
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,1,通过 / Passed,接触冲量窗口完整,Contact impulse window complete,impulse_window_complete,布尔,布尔值 / boolean,True,是 / Yes
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,1,通过 / Passed,最低质心高度,Minimum COM height,minimum_com_height_m,m,米 / metre,0.019999992102384567,0.0199999921
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,1,通过 / Passed,理想首次接触时间,Ideal first contact time,ideal_first_contact_s,s,秒 / second,0.2593805842035477,0.259380584
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,1,通过 / Passed,首次接触时间相对理想值偏差,First contact time deviation from ideal,first_contact_time_error_s,s,秒 / second,-0.0013805842035476967,-0.0013805842
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,1,通过 / Passed,首次接触步初竖直速度,Vertical velocity at start of first contact step,preimpact_vertical_velocity_m_s,m/s,米每秒 / metre per second,-2.530975580215454,-2.53097558
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,1,通过 / Passed,理想碰撞前竖直速度,Ideal preimpact vertical velocity,ideal_impact_vertical_velocity_m_s,m/s,米每秒 / metre per second,-2.5445235310368033,-2.54452353
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,1,通过 / Passed,接触后最大向上速度,Peak upward velocity after contact,peak_rebound_vertical_velocity_m_s,m/s,米每秒 / metre per second,4.583101453903282e-09,4.58310145e-09
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,1,通过 / Passed,自由落体段最大高度误差,Maximum free-fall height error,max_free_fall_height_error_m,m,米 / metre,0.002530694808559386,0.00253069481
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,1,通过 / Passed,自由落体段最大竖直速度误差,Maximum free-fall vertical velocity error,max_free_fall_velocity_error_m_s,m/s,米每秒 / metre per second,4.419784545905969e-06,4.41978455e-06
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,1,通过 / Passed,最终质心高度,Final COM height,final_com_height_m,m,米 / metre,0.020000005140900612,0.0200000051
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,1,通过 / Passed,最终质心线速度模长,Final COM linear speed,final_linear_speed_m_s,m/s,米每秒 / metre per second,8.607136275963577e-07,8.60713628e-07
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,1,通过 / Passed,最终角速度模长,Final angular speed,final_angular_speed_rad_s,rad/s,弧度每秒 / radian per second,5.9745457677337286e-06,5.97454577e-06
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,1,通过 / Passed,刚体静置时间,Rigid-body settling time,rigid_settled_time_s,s,秒 / second,0.26,0.26
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,1,通过 / Passed,静置后观察时长,Observation duration after settling,rest_observation_duration_s,s,秒 / second,0.74,0.74
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,1,通过 / Passed,记录时长内刚体已静置,Rigid body settled within recorded duration,settled_within_duration,布尔,布尔值 / boolean,True,是 / Yes
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,1,通过 / Passed,静置角速度阈值,Settling angular speed threshold,settling_angular_speed_threshold_rad_s,rad/s,弧度每秒 / radian per second,0.028867513459481287,0.0288675135
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,1,通过 / Passed,末段平均法向接触力,Mean normal contact force in final window,mean_tail_normal_force_n,N,牛顿 / newton,0.9810000985453519,0.981000099
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,1,通过 / Passed,末段平均支撑力与重力比,Final-window mean support force to weight ratio,tail_support_weight_ratio,1,无量纲 / dimensionless,1.0000001004539774,1.0000001
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,1,通过 / Passed,最大水平偏移,Maximum horizontal displacement,max_horizontal_displacement_m,m,米 / metre,1.4100008646706087e-08,1.41000086e-08
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,1,通过 / Passed,全程Z接触冲量,Total contact impulse Z,total_contact_jz_ns,N·s,牛顿秒 / newton second,0.98099956478111,0.980999565
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,2,通过 / Passed,仿真步长,Simulation timestep,dt_s,s,秒 / second,0.002,0.002
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,2,通过 / Passed,物理步数,Physics steps,steps,步,步 / step,500,500
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,2,通过 / Passed,峰值接触合力,Peak resultant contact force,peak_contact_force_n,N,牛顿 / newton,127.52790025552433,127.5279
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,2,通过 / Passed,峰值法向接触力,Peak normal contact force,peak_contact_fz_n,N,牛顿 / newton,127.52789258629493,127.527893
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,2,通过 / Passed,最大穿透深度,Maximum penetration depth,max_penetration_m,m,米 / metre,1.2082333883389751e-08,1.20823339e-08
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,2,通过 / Passed,首次接触时间,First contact time,first_contact_s,s,秒 / second,0.258,0.258
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,2,通过 / Passed,质心静置时间,COM settling time,settled_time_s,s,秒 / second,0.26,0.26
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,2,通过 / Passed,最大动量平衡残差,Maximum momentum balance residual,max_momentum_residual_ns,N·s,牛顿秒 / newton second,1.4016455537232661e-08,1.40164555e-08
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,2,通过 / Passed,最大接触力核算误差,Maximum contact force accounting error,max_constraint_force_error_n,N,牛顿 / newton,,未测得 / Not measured
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,2,通过 / Passed,窗口接触冲量X,Window contact impulse X,window_contact_jx_ns,N·s,牛顿秒 / newton second,1.662691306580853e-07,1.66269131e-07
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,2,通过 / Passed,窗口接触冲量Y,Window contact impulse Y,window_contact_jy_ns,N·s,牛顿秒 / newton second,-2.0097937536434071e-07,-2.00979375e-07
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,2,通过 / Passed,窗口接触冲量Z,Window contact impulse Z,window_contact_jz_ns,N·s,牛顿秒 / newton second,0.29233751655554713,0.292337517
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,2,通过 / Passed,接触冲量窗口完整,Contact impulse window complete,impulse_window_complete,布尔,布尔值 / boolean,True,是 / Yes
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,2,通过 / Passed,最低质心高度,Minimum COM height,minimum_com_height_m,m,米 / metre,0.019999992102384567,0.0199999921
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,2,通过 / Passed,理想首次接触时间,Ideal first contact time,ideal_first_contact_s,s,秒 / second,0.2593805842035477,0.259380584
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,2,通过 / Passed,首次接触时间相对理想值偏差,First contact time deviation from ideal,first_contact_time_error_s,s,秒 / second,-0.0013805842035476967,-0.0013805842
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,2,通过 / Passed,首次接触步初竖直速度,Vertical velocity at start of first contact step,preimpact_vertical_velocity_m_s,m/s,米每秒 / metre per second,-2.530975580215454,-2.53097558
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,2,通过 / Passed,理想碰撞前竖直速度,Ideal preimpact vertical velocity,ideal_impact_vertical_velocity_m_s,m/s,米每秒 / metre per second,-2.5445235310368033,-2.54452353
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,2,通过 / Passed,接触后最大向上速度,Peak upward velocity after contact,peak_rebound_vertical_velocity_m_s,m/s,米每秒 / metre per second,4.583101453903282e-09,4.58310145e-09
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,2,通过 / Passed,自由落体段最大高度误差,Maximum free-fall height error,max_free_fall_height_error_m,m,米 / metre,0.002530694808559386,0.00253069481
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,2,通过 / Passed,自由落体段最大竖直速度误差,Maximum free-fall vertical velocity error,max_free_fall_velocity_error_m_s,m/s,米每秒 / metre per second,4.419784545905969e-06,4.41978455e-06
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,2,通过 / Passed,最终质心高度,Final COM height,final_com_height_m,m,米 / metre,0.020000005140900612,0.0200000051
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,2,通过 / Passed,最终质心线速度模长,Final COM linear speed,final_linear_speed_m_s,m/s,米每秒 / metre per second,8.607136275963577e-07,8.60713628e-07
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,2,通过 / Passed,最终角速度模长,Final angular speed,final_angular_speed_rad_s,rad/s,弧度每秒 / radian per second,5.9745457677337286e-06,5.97454577e-06
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,2,通过 / Passed,刚体静置时间,Rigid-body settling time,rigid_settled_time_s,s,秒 / second,0.26,0.26
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,2,通过 / Passed,静置后观察时长,Observation duration after settling,rest_observation_duration_s,s,秒 / second,0.74,0.74
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,2,通过 / Passed,记录时长内刚体已静置,Rigid body settled within recorded duration,settled_within_duration,布尔,布尔值 / boolean,True,是 / Yes
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,2,通过 / Passed,静置角速度阈值,Settling angular speed threshold,settling_angular_speed_threshold_rad_s,rad/s,弧度每秒 / radian per second,0.028867513459481287,0.0288675135
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,2,通过 / Passed,末段平均法向接触力,Mean normal contact force in final window,mean_tail_normal_force_n,N,牛顿 / newton,0.9810000985453519,0.981000099
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,2,通过 / Passed,末段平均支撑力与重力比,Final-window mean support force to weight ratio,tail_support_weight_ratio,1,无量纲 / dimensionless,1.0000001004539774,1.0000001
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,2,通过 / Passed,最大水平偏移,Maximum horizontal displacement,max_horizontal_displacement_m,m,米 / metre,1.4100008646706087e-08,1.41000086e-08
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,2,通过 / Passed,全程Z接触冲量,Total contact impulse Z,total_contact_jz_ns,N·s,牛顿秒 / newton second,0.98099956478111,0.980999565
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,3,通过 / Passed,仿真步长,Simulation timestep,dt_s,s,秒 / second,0.002,0.002
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,3,通过 / Passed,物理步数,Physics steps,steps,步,步 / step,500,500
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,3,通过 / Passed,峰值接触合力,Peak resultant contact force,peak_contact_force_n,N,牛顿 / newton,127.52790025552433,127.5279
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,3,通过 / Passed,峰值法向接触力,Peak normal contact force,peak_contact_fz_n,N,牛顿 / newton,127.52789258629493,127.527893
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,3,通过 / Passed,最大穿透深度,Maximum penetration depth,max_penetration_m,m,米 / metre,1.2082333883389751e-08,1.20823339e-08
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,3,通过 / Passed,首次接触时间,First contact time,first_contact_s,s,秒 / second,0.258,0.258
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,3,通过 / Passed,质心静置时间,COM settling time,settled_time_s,s,秒 / second,0.26,0.26
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,3,通过 / Passed,最大动量平衡残差,Maximum momentum balance residual,max_momentum_residual_ns,N·s,牛顿秒 / newton second,1.4016455537232661e-08,1.40164555e-08
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,3,通过 / Passed,最大接触力核算误差,Maximum contact force accounting error,max_constraint_force_error_n,N,牛顿 / newton,,未测得 / Not measured
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,3,通过 / Passed,窗口接触冲量X,Window contact impulse X,window_contact_jx_ns,N·s,牛顿秒 / newton second,1.662691306580853e-07,1.66269131e-07
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,3,通过 / Passed,窗口接触冲量Y,Window contact impulse Y,window_contact_jy_ns,N·s,牛顿秒 / newton second,-2.0097937536434071e-07,-2.00979375e-07
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,3,通过 / Passed,窗口接触冲量Z,Window contact impulse Z,window_contact_jz_ns,N·s,牛顿秒 / newton second,0.29233751655554713,0.292337517
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,3,通过 / Passed,接触冲量窗口完整,Contact impulse window complete,impulse_window_complete,布尔,布尔值 / boolean,True,是 / Yes
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,3,通过 / Passed,最低质心高度,Minimum COM height,minimum_com_height_m,m,米 / metre,0.019999992102384567,0.0199999921
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,3,通过 / Passed,理想首次接触时间,Ideal first contact time,ideal_first_contact_s,s,秒 / second,0.2593805842035477,0.259380584
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,3,通过 / Passed,首次接触时间相对理想值偏差,First contact time deviation from ideal,first_contact_time_error_s,s,秒 / second,-0.0013805842035476967,-0.0013805842
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,3,通过 / Passed,首次接触步初竖直速度,Vertical velocity at start of first contact step,preimpact_vertical_velocity_m_s,m/s,米每秒 / metre per second,-2.530975580215454,-2.53097558
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,3,通过 / Passed,理想碰撞前竖直速度,Ideal preimpact vertical velocity,ideal_impact_vertical_velocity_m_s,m/s,米每秒 / metre per second,-2.5445235310368033,-2.54452353
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,3,通过 / Passed,接触后最大向上速度,Peak upward velocity after contact,peak_rebound_vertical_velocity_m_s,m/s,米每秒 / metre per second,4.583101453903282e-09,4.58310145e-09
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,3,通过 / Passed,自由落体段最大高度误差,Maximum free-fall height error,max_free_fall_height_error_m,m,米 / metre,0.002530694808559386,0.00253069481
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,3,通过 / Passed,自由落体段最大竖直速度误差,Maximum free-fall vertical velocity error,max_free_fall_velocity_error_m_s,m/s,米每秒 / metre per second,4.419784545905969e-06,4.41978455e-06
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,3,通过 / Passed,最终质心高度,Final COM height,final_com_height_m,m,米 / metre,0.020000005140900612,0.0200000051
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,3,通过 / Passed,最终质心线速度模长,Final COM linear speed,final_linear_speed_m_s,m/s,米每秒 / metre per second,8.607136275963577e-07,8.60713628e-07
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,3,通过 / Passed,最终角速度模长,Final angular speed,final_angular_speed_rad_s,rad/s,弧度每秒 / radian per second,5.9745457677337286e-06,5.97454577e-06
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,3,通过 / Passed,刚体静置时间,Rigid-body settling time,rigid_settled_time_s,s,秒 / second,0.26,0.26
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,3,通过 / Passed,静置后观察时长,Observation duration after settling,rest_observation_duration_s,s,秒 / second,0.74,0.74
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,3,通过 / Passed,记录时长内刚体已静置,Rigid body settled within recorded duration,settled_within_duration,布尔,布尔值 / boolean,True,是 / Yes
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,3,通过 / Passed,静置角速度阈值,Settling angular speed threshold,settling_angular_speed_threshold_rad_s,rad/s,弧度每秒 / radian per second,0.028867513459481287,0.0288675135
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,3,通过 / Passed,末段平均法向接触力,Mean normal contact force in final window,mean_tail_normal_force_n,N,牛顿 / newton,0.9810000985453519,0.981000099
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,3,通过 / Passed,末段平均支撑力与重力比,Final-window mean support force to weight ratio,tail_support_weight_ratio,1,无量纲 / dimensionless,1.0000001004539774,1.0000001
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,3,通过 / Passed,最大水平偏移,Maximum horizontal displacement,max_horizontal_displacement_m,m,米 / metre,1.4100008646706087e-08,1.41000086e-08
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,2.0,3,通过 / Passed,全程Z接触冲量,Total contact impulse Z,total_contact_jz_ns,N·s,牛顿秒 / newton second,0.98099956478111,0.980999565
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,1,通过 / Passed,仿真步长,Simulation timestep,dt_s,s,秒 / second,0.001,0.001
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,1,通过 / Passed,物理步数,Physics steps,steps,步,步 / step,1000,1000
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,1,通过 / Passed,峰值接触合力,Peak resultant contact force,peak_contact_force_n,N,牛顿 / newton,255.05820303077562,255.058203
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,1,通过 / Passed,峰值法向接触力,Peak normal contact force,peak_contact_fz_n,N,牛顿 / newton,255.0582028935427,255.058203
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,1,通过 / Passed,最大穿透深度,Maximum penetration depth,max_penetration_m,m,米 / metre,0.0003022276610136036,0.000302227661
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,1,通过 / Passed,首次接触时间,First contact time,first_contact_s,s,秒 / second,0.259,0.259
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,1,通过 / Passed,质心静置时间,COM settling time,settled_time_s,s,秒 / second,0.26,0.26
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,1,通过 / Passed,最大动量平衡残差,Maximum momentum balance residual,max_momentum_residual_ns,N·s,牛顿秒 / newton second,4.9606151702613306e-08,4.96061517e-08
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,1,通过 / Passed,最大接触力核算误差,Maximum contact force accounting error,max_constraint_force_error_n,N,牛顿 / newton,,未测得 / Not measured
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,1,通过 / Passed,窗口接触冲量X,Window contact impulse X,window_contact_jx_ns,N·s,牛顿秒 / newton second,-1.7228053051864285e-08,-1.72280531e-08
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,1,通过 / Passed,窗口接触冲量Y,Window contact impulse Y,window_contact_jy_ns,N·s,牛顿秒 / newton second,-3.049866470457062e-10,-3.04986647e-10
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,1,通过 / Passed,窗口接触冲量Z,Window contact impulse Z,window_contact_jz_ns,N·s,牛顿秒 / newton second,0.2933183649875054,0.293318365
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,1,通过 / Passed,接触冲量窗口完整,Contact impulse window complete,impulse_window_complete,布尔,布尔值 / boolean,True,是 / Yes
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,1,通过 / Passed,最低质心高度,Minimum COM height,minimum_com_height_m,m,米 / metre,0.019697772338986397,0.0196977723
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,1,通过 / Passed,理想首次接触时间,Ideal first contact time,ideal_first_contact_s,s,秒 / second,0.2593805842035477,0.259380584
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,1,通过 / Passed,首次接触时间相对理想值偏差,First contact time deviation from ideal,first_contact_time_error_s,s,秒 / second,-0.00038058420354769584,-0.000380584204
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,1,通过 / Passed,首次接触步初竖直速度,Vertical velocity at start of first contact step,preimpact_vertical_velocity_m_s,m/s,米每秒 / metre per second,-2.5407841205596924,-2.54078412
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,1,通过 / Passed,理想碰撞前竖直速度,Ideal preimpact vertical velocity,ideal_impact_vertical_velocity_m_s,m/s,米每秒 / metre per second,-2.5445235310368033,-2.54452353
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,1,通过 / Passed,接触后最大向上速度,Peak upward velocity after contact,peak_rebound_vertical_velocity_m_s,m/s,米每秒 / metre per second,0.0,0
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,1,通过 / Passed,自由落体段最大高度误差,Maximum free-fall height error,max_free_fall_height_error_m,m,米 / metre,0.0012699226610135561,0.00126992266
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,1,通过 / Passed,自由落体段最大竖直速度误差,Maximum free-fall vertical velocity error,max_free_fall_velocity_error_m_s,m/s,米每秒 / metre per second,5.8794403079431845e-06,5.87944031e-06
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,1,通过 / Passed,最终质心高度,Final COM height,final_com_height_m,m,米 / metre,0.019999995827674866,0.0199999958
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,1,通过 / Passed,最终质心线速度模长,Final COM linear speed,final_linear_speed_m_s,m/s,米每秒 / metre per second,4.7311418743969674e-07,4.73114187e-07
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,1,通过 / Passed,最终角速度模长,Final angular speed,final_angular_speed_rad_s,rad/s,弧度每秒 / radian per second,8.10296388234464e-06,8.10296388e-06
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,1,通过 / Passed,刚体静置时间,Rigid-body settling time,rigid_settled_time_s,s,秒 / second,0.26,0.26
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,1,通过 / Passed,静置后观察时长,Observation duration after settling,rest_observation_duration_s,s,秒 / second,0.74,0.74
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,1,通过 / Passed,记录时长内刚体已静置,Rigid body settled within recorded duration,settled_within_duration,布尔,布尔值 / boolean,True,是 / Yes
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,1,通过 / Passed,静置角速度阈值,Settling angular speed threshold,settling_angular_speed_threshold_rad_s,rad/s,弧度每秒 / radian per second,0.028867513459481287,0.0288675135
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,1,通过 / Passed,末段平均法向接触力,Mean normal contact force in final window,mean_tail_normal_force_n,N,牛顿 / newton,0.9810000508878295,0.981000051
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,1,通过 / Passed,末段平均支撑力与重力比,Final-window mean support force to weight ratio,tail_support_weight_ratio,1,无量纲 / dimensionless,1.0000000518734244,1.00000005
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,1,通过 / Passed,最大水平偏移,Maximum horizontal displacement,max_horizontal_displacement_m,m,米 / metre,6.582296086562171e-09,6.58229609e-09
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,1,通过 / Passed,全程Z接触冲量,Total contact impulse Z,total_contact_jz_ns,N·s,牛顿秒 / newton second,0.9809993988019536,0.980999399
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,2,通过 / Passed,仿真步长,Simulation timestep,dt_s,s,秒 / second,0.001,0.001
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,2,通过 / Passed,物理步数,Physics steps,steps,步,步 / step,1000,1000
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,2,通过 / Passed,峰值接触合力,Peak resultant contact force,peak_contact_force_n,N,牛顿 / newton,255.05820303077562,255.058203
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,2,通过 / Passed,峰值法向接触力,Peak normal contact force,peak_contact_fz_n,N,牛顿 / newton,255.0582028935427,255.058203
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,2,通过 / Passed,最大穿透深度,Maximum penetration depth,max_penetration_m,m,米 / metre,0.0003022276610136036,0.000302227661
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,2,通过 / Passed,首次接触时间,First contact time,first_contact_s,s,秒 / second,0.259,0.259
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,2,通过 / Passed,质心静置时间,COM settling time,settled_time_s,s,秒 / second,0.26,0.26
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,2,通过 / Passed,最大动量平衡残差,Maximum momentum balance residual,max_momentum_residual_ns,N·s,牛顿秒 / newton second,4.9606151702613306e-08,4.96061517e-08
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,2,通过 / Passed,最大接触力核算误差,Maximum contact force accounting error,max_constraint_force_error_n,N,牛顿 / newton,,未测得 / Not measured
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,2,通过 / Passed,窗口接触冲量X,Window contact impulse X,window_contact_jx_ns,N·s,牛顿秒 / newton second,-1.7228053051864285e-08,-1.72280531e-08
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,2,通过 / Passed,窗口接触冲量Y,Window contact impulse Y,window_contact_jy_ns,N·s,牛顿秒 / newton second,-3.049866470457062e-10,-3.04986647e-10
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,2,通过 / Passed,窗口接触冲量Z,Window contact impulse Z,window_contact_jz_ns,N·s,牛顿秒 / newton second,0.2933183649875054,0.293318365
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,2,通过 / Passed,接触冲量窗口完整,Contact impulse window complete,impulse_window_complete,布尔,布尔值 / boolean,True,是 / Yes
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,2,通过 / Passed,最低质心高度,Minimum COM height,minimum_com_height_m,m,米 / metre,0.019697772338986397,0.0196977723
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,2,通过 / Passed,理想首次接触时间,Ideal first contact time,ideal_first_contact_s,s,秒 / second,0.2593805842035477,0.259380584
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,2,通过 / Passed,首次接触时间相对理想值偏差,First contact time deviation from ideal,first_contact_time_error_s,s,秒 / second,-0.00038058420354769584,-0.000380584204
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,2,通过 / Passed,首次接触步初竖直速度,Vertical velocity at start of first contact step,preimpact_vertical_velocity_m_s,m/s,米每秒 / metre per second,-2.5407841205596924,-2.54078412
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,2,通过 / Passed,理想碰撞前竖直速度,Ideal preimpact vertical velocity,ideal_impact_vertical_velocity_m_s,m/s,米每秒 / metre per second,-2.5445235310368033,-2.54452353
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,2,通过 / Passed,接触后最大向上速度,Peak upward velocity after contact,peak_rebound_vertical_velocity_m_s,m/s,米每秒 / metre per second,0.0,0
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,2,通过 / Passed,自由落体段最大高度误差,Maximum free-fall height error,max_free_fall_height_error_m,m,米 / metre,0.0012699226610135561,0.00126992266
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,2,通过 / Passed,自由落体段最大竖直速度误差,Maximum free-fall vertical velocity error,max_free_fall_velocity_error_m_s,m/s,米每秒 / metre per second,5.8794403079431845e-06,5.87944031e-06
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,2,通过 / Passed,最终质心高度,Final COM height,final_com_height_m,m,米 / metre,0.019999995827674866,0.0199999958
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,2,通过 / Passed,最终质心线速度模长,Final COM linear speed,final_linear_speed_m_s,m/s,米每秒 / metre per second,4.7311418743969674e-07,4.73114187e-07
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,2,通过 / Passed,最终角速度模长,Final angular speed,final_angular_speed_rad_s,rad/s,弧度每秒 / radian per second,8.10296388234464e-06,8.10296388e-06
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,2,通过 / Passed,刚体静置时间,Rigid-body settling time,rigid_settled_time_s,s,秒 / second,0.26,0.26
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,2,通过 / Passed,静置后观察时长,Observation duration after settling,rest_observation_duration_s,s,秒 / second,0.74,0.74
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,2,通过 / Passed,记录时长内刚体已静置,Rigid body settled within recorded duration,settled_within_duration,布尔,布尔值 / boolean,True,是 / Yes
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,2,通过 / Passed,静置角速度阈值,Settling angular speed threshold,settling_angular_speed_threshold_rad_s,rad/s,弧度每秒 / radian per second,0.028867513459481287,0.0288675135
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,2,通过 / Passed,末段平均法向接触力,Mean normal contact force in final window,mean_tail_normal_force_n,N,牛顿 / newton,0.9810000508878295,0.981000051
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,2,通过 / Passed,末段平均支撑力与重力比,Final-window mean support force to weight ratio,tail_support_weight_ratio,1,无量纲 / dimensionless,1.0000000518734244,1.00000005
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,2,通过 / Passed,最大水平偏移,Maximum horizontal displacement,max_horizontal_displacement_m,m,米 / metre,6.582296086562171e-09,6.58229609e-09
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,2,通过 / Passed,全程Z接触冲量,Total contact impulse Z,total_contact_jz_ns,N·s,牛顿秒 / newton second,0.9809993988019536,0.980999399
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,3,通过 / Passed,仿真步长,Simulation timestep,dt_s,s,秒 / second,0.001,0.001
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,3,通过 / Passed,物理步数,Physics steps,steps,步,步 / step,1000,1000
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,3,通过 / Passed,峰值接触合力,Peak resultant contact force,peak_contact_force_n,N,牛顿 / newton,255.05820303077562,255.058203
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,3,通过 / Passed,峰值法向接触力,Peak normal contact force,peak_contact_fz_n,N,牛顿 / newton,255.0582028935427,255.058203
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,3,通过 / Passed,最大穿透深度,Maximum penetration depth,max_penetration_m,m,米 / metre,0.0003022276610136036,0.000302227661
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,3,通过 / Passed,首次接触时间,First contact time,first_contact_s,s,秒 / second,0.259,0.259
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,3,通过 / Passed,质心静置时间,COM settling time,settled_time_s,s,秒 / second,0.26,0.26
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,3,通过 / Passed,最大动量平衡残差,Maximum momentum balance residual,max_momentum_residual_ns,N·s,牛顿秒 / newton second,4.9606151702613306e-08,4.96061517e-08
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,3,通过 / Passed,最大接触力核算误差,Maximum contact force accounting error,max_constraint_force_error_n,N,牛顿 / newton,,未测得 / Not measured
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,3,通过 / Passed,窗口接触冲量X,Window contact impulse X,window_contact_jx_ns,N·s,牛顿秒 / newton second,-1.7228053051864285e-08,-1.72280531e-08
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,3,通过 / Passed,窗口接触冲量Y,Window contact impulse Y,window_contact_jy_ns,N·s,牛顿秒 / newton second,-3.049866470457062e-10,-3.04986647e-10
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,3,通过 / Passed,窗口接触冲量Z,Window contact impulse Z,window_contact_jz_ns,N·s,牛顿秒 / newton second,0.2933183649875054,0.293318365
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,3,通过 / Passed,接触冲量窗口完整,Contact impulse window complete,impulse_window_complete,布尔,布尔值 / boolean,True,是 / Yes
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,3,通过 / Passed,最低质心高度,Minimum COM height,minimum_com_height_m,m,米 / metre,0.019697772338986397,0.0196977723
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,3,通过 / Passed,理想首次接触时间,Ideal first contact time,ideal_first_contact_s,s,秒 / second,0.2593805842035477,0.259380584
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,3,通过 / Passed,首次接触时间相对理想值偏差,First contact time deviation from ideal,first_contact_time_error_s,s,秒 / second,-0.00038058420354769584,-0.000380584204
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,3,通过 / Passed,首次接触步初竖直速度,Vertical velocity at start of first contact step,preimpact_vertical_velocity_m_s,m/s,米每秒 / metre per second,-2.5407841205596924,-2.54078412
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,3,通过 / Passed,理想碰撞前竖直速度,Ideal preimpact vertical velocity,ideal_impact_vertical_velocity_m_s,m/s,米每秒 / metre per second,-2.5445235310368033,-2.54452353
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,3,通过 / Passed,接触后最大向上速度,Peak upward velocity after contact,peak_rebound_vertical_velocity_m_s,m/s,米每秒 / metre per second,0.0,0
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,3,通过 / Passed,自由落体段最大高度误差,Maximum free-fall height error,max_free_fall_height_error_m,m,米 / metre,0.0012699226610135561,0.00126992266
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,3,通过 / Passed,自由落体段最大竖直速度误差,Maximum free-fall vertical velocity error,max_free_fall_velocity_error_m_s,m/s,米每秒 / metre per second,5.8794403079431845e-06,5.87944031e-06
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,3,通过 / Passed,最终质心高度,Final COM height,final_com_height_m,m,米 / metre,0.019999995827674866,0.0199999958
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,3,通过 / Passed,最终质心线速度模长,Final COM linear speed,final_linear_speed_m_s,m/s,米每秒 / metre per second,4.7311418743969674e-07,4.73114187e-07
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,3,通过 / Passed,最终角速度模长,Final angular speed,final_angular_speed_rad_s,rad/s,弧度每秒 / radian per second,8.10296388234464e-06,8.10296388e-06
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,3,通过 / Passed,刚体静置时间,Rigid-body settling time,rigid_settled_time_s,s,秒 / second,0.26,0.26
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,3,通过 / Passed,静置后观察时长,Observation duration after settling,rest_observation_duration_s,s,秒 / second,0.74,0.74
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,3,通过 / Passed,记录时长内刚体已静置,Rigid body settled within recorded duration,settled_within_duration,布尔,布尔值 / boolean,True,是 / Yes
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,3,通过 / Passed,静置角速度阈值,Settling angular speed threshold,settling_angular_speed_threshold_rad_s,rad/s,弧度每秒 / radian per second,0.028867513459481287,0.0288675135
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,3,通过 / Passed,末段平均法向接触力,Mean normal contact force in final window,mean_tail_normal_force_n,N,牛顿 / newton,0.9810000508878295,0.981000051
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,3,通过 / Passed,末段平均支撑力与重力比,Final-window mean support force to weight ratio,tail_support_weight_ratio,1,无量纲 / dimensionless,1.0000000518734244,1.00000005
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,3,通过 / Passed,最大水平偏移,Maximum horizontal displacement,max_horizontal_displacement_m,m,米 / metre,6.582296086562171e-09,6.58229609e-09
+PhysX（Isaac Sim CPU TGS）,方块下落 / Cube drop,1.0,3,通过 / Passed,全程Z接触冲量,Total contact impulse Z,total_contact_jz_ns,N·s,牛顿秒 / newton second,0.9809993988019536,0.980999399

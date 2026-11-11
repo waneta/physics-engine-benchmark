@@ -1,0 +1,31 @@
+{
+  "engine": "mujoco-warp",
+  "case": {
+    "family": "soft_compression",
+    "dt": 5e-05,
+    "refined": false,
+    "duration": 1.5,
+    "repeat": 0,
+    "id": "soft_compression-00"
+  },
+  "status": "completed",
+  "error": null,
+  "numerically_valid": true,
+  "task_success": true,
+  "hold_lift_m": null,
+  "minimum_volume_ratio": 0.8272773134258115,
+  "force_n": 2.2768289864063265,
+  "force_validated": true,
+  "force_note": "Sum of native flex contact loads passed nodal momentum balance.",
+  "audit": {
+    "engine": "mujoco-warp",
+    "material": "MuJoCo flex elasticity",
+    "force_validated": true,
+    "vertex_count": 125,
+    "element_count": 384,
+    "mass_kg": 0.10504912346763821,
+    "max_momentum_residual_ns": 1.3145814743329583e-08
+  },
+  "samples": 301,
+  "wall_seconds": 317.7788093140007
+}

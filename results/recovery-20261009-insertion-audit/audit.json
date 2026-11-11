@@ -1,0 +1,38 @@
+[
+  {
+    "clearance_m": 0.0001,
+    "contact_enabled": true,
+    "status": "overload",
+    "task_success": false,
+    "final_depth_m": 0.019930728118213503,
+    "max_lateral_tracking_error_m": 0.0017572187250995052,
+    "max_orientation_matrix_error": 0.018750270934330075
+  },
+  {
+    "clearance_m": 0.0001,
+    "contact_enabled": false,
+    "status": "completed",
+    "task_success": false,
+    "final_depth_m": -0.21629901207771418,
+    "max_lateral_tracking_error_m": 0.9063793265647893,
+    "max_orientation_matrix_error": 2.8284192313766603
+  },
+  {
+    "clearance_m": 0.0005,
+    "contact_enabled": true,
+    "status": "overload",
+    "task_success": false,
+    "final_depth_m": 0.01919240441142145,
+    "max_lateral_tracking_error_m": 0.007066930641176724,
+    "max_orientation_matrix_error": 0.07631083240837215
+  },
+  {
+    "clearance_m": 0.0005,
+    "contact_enabled": false,
+    "status": "completed",
+    "task_success": false,
+    "final_depth_m": -0.21629901207771418,
+    "max_lateral_tracking_error_m": 0.9063793265647893,
+    "max_orientation_matrix_error": 2.8284192313766603
+  }
+]
